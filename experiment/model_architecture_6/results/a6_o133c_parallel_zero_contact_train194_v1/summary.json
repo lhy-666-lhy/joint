@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o133c_parallel_zero_contact_train194_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "A5_TRAIN 194-target/1552-anchor zero-contact matched training",
+  "configuration": {
+    "seed": 20260805,
+    "steps": 6000,
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-06,
+    "dropout": 0.1,
+    "parameter_count": 761409,
+    "normalizer": "A6-D021C"
+  },
+  "metrics": {
+    "train_normalized_delta_mae": 0.07888763136424924,
+    "train_raw_delta_mae": 0.0018325926241899578,
+    "wall_seconds": 62.59799756947905
+  },
+  "checks": {
+    "train_rows_1552": true,
+    "zero_contact": true,
+    "steps_6000": true,
+    "finite": true
+  },
+  "decision": "TRAIN194 fit valid; evaluate frozen A5_CAL"
+}

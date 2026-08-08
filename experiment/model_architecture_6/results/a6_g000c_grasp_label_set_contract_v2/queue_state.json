@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g000c_grasp_label_set_contract_v2",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "clean TRAIN/CAL grasp K4 label-set materialization",
+  "implementation_revision": "v2 uses <=1e-6 float roundtrip parity; labels and selection unchanged from failed v1",
+  "selection_policy": "first K collection-index teachers; no outcome ranking",
+  "metrics": {
+    "group_counts": {
+      "A5_TRAIN": 557,
+      "A5_CAL": 102
+    },
+    "source_trajectory_counts": {
+      "A5_TRAIN": 26597,
+      "A5_CAL": 4919
+    },
+    "selected_teacher_counts": {
+      "A5_TRAIN": 2099,
+      "A5_CAL": 387
+    },
+    "selected_teacher_count": 2486,
+    "groups_with_fewer_than_k": 67,
+    "available_candidate_count": {
+      "min": 1.0,
+      "median": 27.0,
+      "mean": 47.82397572078907,
+      "max": 267.0
+    },
+    "raw_qpath_length": {
+      "min": 65.0,
+      "median": 207.0,
+      "mean": 189.5768302493966,
+      "max": 226.0
+    },
+    "raw_qpath_arc_length": {
+      "min": 0.8489961624145508,
+      "median": 2.806100845336914,
+      "mean": 2.875586276344973,
+      "max": 8.902886390686035
+    },
+    "open_closed_l2": {
+      "min": 0.006170045118778944,
+      "median": 0.018431912176311016,
+      "mean": 0.02042563718051312,
+      "max": 0.07266798615455627
+    },
+    "initial_qpos_max_abs_error": 0.0,
+    "base_pose_max_abs_error": 0.0,
+    "initial_object_qpos_max_abs_error": 0.0,
+    "relative_path_roundtrip_max_abs": 1.1920928955078125e-07,
+    "relative_qpose_roundtrip_max_abs": 1.1920928955078125e-07
+  },
+  "checks": {
+    "parent_a5_label_contract_passed": true,
+    "clean_split_contract_passed": true,
+    "allowed_group_counts_exact": true,
+    "allowed_source_trajectory_counts_exact": true,
+    "selected_teacher_count_exact": true,
+    "group_count_exact": true,
+    "one_group_per_clean_sample": true,
+    "candidate_slots_not_duplicated": true,
+    "missing_slots_not_label_copies": true,
+    "resampled_start_exact": true,
+    "terminal_qpose_exact": true,
+    "relative_path_roundtrip_le_1e_6": true,
+    "relative_qpose_roundtrip_le_1e_6": true,
+    "open_terminal_distinct_from_closed": true,
+    "same_initial_state_for_group_candidates": true,
+    "all_arrays_finite": true,
+    "all_raw_paths_positive_arc": true,
+    "traj_reload_exact": true,
+    "qpose_reload_exact": true,
+    "qpose_npz_physically_excludes_paths": true,
+    "qpose_manifest_excludes_trajectory_paths": true,
+    "train_cal_only": true
+  },
+  "sources": {
+    "clean_split_contract_sha256": "56d871eecbf5b067fa929f5783daf94b3e3ac4bd1ba6edd9ad39c3bd7186f55f",
+    "clean_accepted_samples_sha256": "bfdb1a5e05f4ab65ccbb4980ba5f3eeb1e6ed4f7e4a20c76ac5fd107541b51d9",
+    "parent_label_summary_sha256": "aac1e9aca3b68187112a7440fdb2dad52da958f1f6d1ca2ae9957444cce03035",
+    "parent_label_report_sha256": "eb016f8b8ae7acaa5c09c898a78a72c9817b868da72c317dab245428740c381f"
+  },
+  "artifacts": {
+    "traj_labels.npz": "4a0b1e913ff2944945fbf09ee4a08920e0921119454db3b45c49be1f0ad97661",
+    "qpose_labels.npz": "e02e64b14129c954bf727c2a42cf18d1098122b8b3346e32c51f3aa6811a6e73",
+    "closed_operation_labels.npz": "ca3c23acc1d251521d9604ac6f3db5025c59bd416040c4731458ea68453daa43",
+    "traj_teacher_manifest.json": "bfef2e8cf89c7716493dda1108876c050f728951afa0c993332a790de64259d8",
+    "qpose_teacher_manifest.json": "d8ad52240fe8792b4ad202986660456d867fe15ba0672b0ae9a2da5c0682da8f",
+    "forbidden_feature_audit.json": "fcaa303edbdf4602c65fa9246a8c4e12e7de8b77c0d3d5b5aad0ff8464edc247"
+  },
+  "decision": "authorize A6-G005C exact-paired GT-TRAJ versus GT-QPOSE interface test",
+  "next_run_ids": [
+    "A6-G005C"
+  ],
+  "started_at": "2026-08-06T18:25:15+00:00",
+  "completed_at": "2026-08-06T18:25:20+00:00",
+  "jobs": [
+    {
+      "id": "A6-G000C",
+      "status": "passed"
+    }
+  ]
+}

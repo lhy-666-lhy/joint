@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-A032C-MIX060-SANITY",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "condition": "mix060",
+  "seed": 20260806,
+  "optimizer_steps": 50,
+  "start_step": 0,
+  "loss_first": 2.68955135345459,
+  "loss_last": 2.4087198972702026,
+  "elapsed_seconds": 51.4822154045105,
+  "checkpoint_sha256": "e2577aeacfcf5c4ad8f88c73b5a78335e22f52bff13228fc72c1a0ecd964bb22",
+  "reload_max_abs": 0.0,
+  "point_metrics_diagnostic": {
+    "iou": 0.010231245315640316,
+    "precision": 0.01071349414645523,
+    "recall": 0.2452651515151515,
+    "f1": 0.019987927272021484,
+    "auprc": 0.034715095169953074,
+    "mae": 0.037434329569805413,
+    "rmse": 0.05701880413107574,
+    "foreground_mae": 0.17322133388370275,
+    "spearman": -0.10035974734698336,
+    "n_replays": 8,
+    "n_valid_iou_replays": 8,
+    "threshold": 0.05,
+    "iou_curve": {
+      "0.03": 0.01600562111090427,
+      "0.05": 0.010231245315640316,
+      "0.1": 0.01443516800659658,
+      "0.2": 0.0
+    },
+    "legacy_batch_mean_iou": 0.010231245315640316,
+    "per_object_macro_iou": 0.00968861734533447,
+    "per_object_iou": {
+      "102418/link_0": 0.00946969696969697,
+      "10751/link_1": 0.014248561483418737,
+      "10751/link_2": 0.0053475935828877
+    }
+  },
+  "contact_metrics": null,
+  "contact_audit": null,
+  "checks": {
+    "a031_terminal": true,
+    "matched_seed_budget": true,
+    "membership_counts": true,
+    "finite": true,
+    "loss_decreased": true,
+    "deterministic_eval": true,
+    "reload_exact": true,
+    "cal_primary_only": true,
+    "contact_labels_382": true,
+    "point_frame_alignment": true,
+    "no_outcome_read": true
+  },
+  "claim_supported": "sanity_only",
+  "decision": "run matched full condition"
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o139c_additive_train194_cal_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "unchanged A5_CAL zero-contact screen for D044C additive TRAIN194",
+  "baseline": {
+    "repeat_last_raw_mae": 0.012379659339785576
+  },
+  "metrics": {
+    "mlp": {
+      "raw_mae": 0.0024102020543068647,
+      "endpoint_raw_mae": 0.004809108097106218,
+      "relative_to_repeat": 0.19469049899951538,
+      "target_delta_vs_repeat": {
+        "mean": -0.008772149682044983,
+        "ci95": [
+          -0.009724534722045064,
+          -0.007791897654533387
+        ]
+      }
+    },
+    "parallel": {
+      "raw_mae": 0.002907313872128725,
+      "endpoint_raw_mae": 0.005683812312781811,
+      "relative_to_repeat": 0.23484603189243183,
+      "target_delta_vs_repeat": {
+        "mean": -0.008216215297579765,
+        "ci95": [
+          -0.009181366255506872,
+          -0.007215772499330342
+        ]
+      }
+    },
+    "causal": {
+      "raw_mae": 0.012692111544311047,
+      "endpoint_raw_mae": 0.025793999433517456,
+      "relative_to_repeat": 1.0252391601375748,
+      "target_delta_vs_repeat": {
+        "mean": 0.0002912232303060591,
+        "ci95": [
+          -0.0009176450417726301,
+          0.0014940803957870226
+        ]
+      },
+      "teacher_raw_mae": 0.0012685945257544518
+    }
+  },
+  "pairwise": {
+    "parallel_minus_mlp": {
+      "mean": 0.0005559335113503039,
+      "ci95": [
+        0.0003593621884647291,
+        0.0007532432398875242
+      ]
+    },
+    "parallel_minus_causal": {
+      "mean": -0.008507438004016876,
+      "ci95": [
+        -0.010020469687879086,
+        -0.007010582077782602
+      ]
+    },
+    "mlp_minus_causal": {
+      "mean": -0.00906337145715952,
+      "ci95": [
+        -0.0105837672483176,
+        -0.0075409156619571155
+      ]
+    }
+  },
+  "checks": {
+    "rows_280": true,
+    "targets_35": true,
+    "zero_contact": true,
+    "finite": true,
+    "exact_paired": true
+  },
+  "decision": "valid CAL prioritization for live closed-loop probe",
+  "checkpoint_scope": {
+    "mlp": "A6-O137C additive TRAIN194",
+    "parallel": "A6-O138C additive TRAIN194",
+    "causal": "fixed64 diagnostic"
+  },
+  "checkpoint_pairwise": {
+    "mlp": {
+      "additive_minus_train1024": {
+        "mean": -0.0014158881967887282,
+        "ci95": [
+          -0.001825510771595873,
+          -0.0010379611630924046
+        ]
+      }
+    },
+    "parallel": {
+      "additive_minus_train1024": {
+        "mean": -0.000692800444085151,
+        "ci95": [
+          -0.000970419921213761,
+          -0.0004170134714513555
+        ]
+      }
+    }
+  }
+}

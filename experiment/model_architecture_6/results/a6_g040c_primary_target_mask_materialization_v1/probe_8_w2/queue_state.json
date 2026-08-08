@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G040C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "workers": 2,
+  "groups": 8,
+  "elapsed_seconds": 28.205582857131958,
+  "max_alignment_error": 0.0,
+  "target_points": {
+    "min": 260,
+    "median": 351.5,
+    "max": 711
+  },
+  "checks": {
+    "rows_exact": true,
+    "shape_binary": true,
+    "all_target_visible": true,
+    "exact_primary_alignment": true,
+    "finite": true
+  },
+  "rows": [
+    {
+      "group_index": 0,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 345,
+      "raw_object_points": 32963
+    },
+    {
+      "group_index": 1,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 260,
+      "raw_object_points": 32628
+    },
+    {
+      "group_index": 2,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 320,
+      "raw_object_points": 29626
+    },
+    {
+      "group_index": 3,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 711,
+      "raw_object_points": 23822
+    },
+    {
+      "group_index": 4,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 358,
+      "raw_object_points": 32443
+    },
+    {
+      "group_index": 5,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 570,
+      "raw_object_points": 25048
+    },
+    {
+      "group_index": 6,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 437,
+      "raw_object_points": 24652
+    },
+    {
+      "group_index": 7,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 301,
+      "raw_object_points": 28280
+    }
+  ],
+  "decision": "authorize target-mask conditioned grasp fit"
+}

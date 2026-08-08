@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "revision_id": "20260807T100633Z-grasp-realizability-v3",
+  "status": "completed",
+  "created_at": "2026-08-07T10:06:33Z",
+  "base_iteration_id": "A6-G066C",
+  "summary": "Close failed SE3 selector and affordance replacement gates, attribute the bottleneck to IK/planner realizability, and test a bounded direct-qpose set alternative",
+  "documents": [
+    "EXPERIMENT_PLAN.md",
+    "EXPERIMENT_TRACKER.md"
+  ],
+  "document_sha256": {
+    "EXPERIMENT_PLAN.md": "e4b4338a065c96e4475aa745ebe4b17b8eeda55364bc43a66216913d23741401",
+    "EXPERIMENT_TRACKER.md": "88dc2254c7baf5351edcbb441d06acb2406c21a18758e85fb6e46b9af73b865f"
+  },
+  "first_authorized_runs": [
+    "A6-G070C"
+  ],
+  "completed_runs": [
+    "A6-A031C",
+    "A6-G063C",
+    "A6-G064C",
+    "A6-G065C",
+    "A6-A032C",
+    "A6-G066C",
+    "A6-G070C-FIT",
+    "A6-G070C-PLANNER"
+  ],
+  "running_runs": [],
+  "blocked_runs": [
+    "A6-G067C",
+    "A6-A033C",
+    "A6-G068C"
+  ],
+  "execution_note": "Terminal scoped negative. A032 retained A030 updated; G066 closed selector/SE3 promotion; G070 direct-qpose achieved only 25.65 percent planner coverage with 0.595 rad oracle set error. G067, A033, G068 and physical remain blocked pending a new supervision/data revision."
+}

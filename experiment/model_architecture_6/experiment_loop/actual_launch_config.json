@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d021c_command_delta_normalizer_v1",
+  "resource_mode": "cpu",
+  "environment": "sapien",
+  "command": ["python", "run_a6_d021c_command_delta_normalizer.py", "--run-id", "a6_d021c_command_delta_normalizer_v1"],
+  "cwd": "jointTrain_new/experiment/model_architecture_6",
+  "split": "A5_TRAIN",
+  "horizon": 32,
+  "action_dimension": 9,
+  "training": false,
+  "workers": 1,
+  "planning_revision": "20260806T060210Z-c3831dc1"
+}

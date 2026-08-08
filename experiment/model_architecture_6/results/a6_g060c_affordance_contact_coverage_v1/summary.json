@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G060C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "metrics": {
+    "target_centroid": {
+      "train": {
+        "mean_m": 0.351021683725593,
+        "median_m": 0.34095768843039714,
+        "p90_m": 0.5188987136737798,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.7902191763910299
+      },
+      "cal": {
+        "mean_m": 0.35341840898076277,
+        "median_m": 0.3412028064619484,
+        "p90_m": 0.4834696893437737,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.6203479748825527
+      }
+    },
+    "affordance_top1": {
+      "train": {
+        "mean_m": 0.17135784615645688,
+        "median_m": 0.10980601881859048,
+        "p90_m": 0.41484047670728225,
+        "coverage_3cm": 0.18533400301356104,
+        "coverage_5cm": 0.2727272727272727,
+        "max_m": 1.2021763385819895
+      },
+      "cal": {
+        "mean_m": 0.14658428510643254,
+        "median_m": 0.09230194317910229,
+        "p90_m": 0.3469672107077283,
+        "coverage_3cm": 0.20157068062827224,
+        "coverage_5cm": 0.3507853403141361,
+        "max_m": 1.0138340199459015
+      }
+    },
+    "affordance_top4": {
+      "train": {
+        "mean_m": 0.07973426855568358,
+        "median_m": 0.03549905430737911,
+        "p90_m": 0.23435918444921183,
+        "coverage_3cm": 0.46760421898543447,
+        "coverage_5cm": 0.5911602209944752,
+        "max_m": 0.90305835182306
+      },
+      "cal": {
+        "mean_m": 0.05597920222911238,
+        "median_m": 0.027376561413141782,
+        "p90_m": 0.13710817522780389,
+        "coverage_3cm": 0.5235602094240838,
+        "coverage_5cm": 0.6413612565445026,
+        "max_m": 1.0101706592644044
+      }
+    },
+    "affordance_top4_nms3cm": {
+      "train": {
+        "mean_m": 0.05905660951176351,
+        "median_m": 0.023370276339077446,
+        "p90_m": 0.17251102011090624,
+        "coverage_3cm": 0.5534907081868408,
+        "coverage_5cm": 0.6760421898543445,
+        "max_m": 0.769481654796407
+      },
+      "cal": {
+        "mean_m": 0.04215032183202535,
+        "median_m": 0.024257416356630757,
+        "p90_m": 0.11608963088328464,
+        "coverage_3cm": 0.5785340314136126,
+        "coverage_5cm": 0.7068062827225131,
+        "max_m": 0.28310552114616266
+      }
+    },
+    "affordance_positive_oracle": {
+      "train": {
+        "mean_m": 0.0247336721966424,
+        "median_m": 0.0,
+        "p90_m": 0.07708599431565184,
+        "coverage_3cm": 0.805740645822655,
+        "coverage_5cm": 0.8580215274218349,
+        "max_m": 0.4705968428411402
+      },
+      "cal": {
+        "mean_m": 0.017703854412621525,
+        "median_m": 0.0,
+        "p90_m": 0.0372413211438087,
+        "coverage_3cm": 0.8571428571428571,
+        "coverage_5cm": 0.9259259259259259,
+        "max_m": 0.5720495111996611
+      }
+    }
+  },
+  "positive_groups": {
+    "train": 520,
+    "cal": 98
+  },
+  "checks": {
+    "contact_labels": true,
+    "finite": true,
+    "split_label_counts": true,
+    "affordance_join_exact": true,
+    "no_outcome_read": true
+  },
+  "decision": "use GT affordance coverage to decide contact proposal training"
+}

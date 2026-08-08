@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o201f_mlp_state_start_delta_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint_6000": "last.pt",
+    "checkpoint_6000_sha256": "e22cdefb09c3e8f8352f0e6010b470f8b14b8f14664f5324198a7b949cc9de49",
+    "history": "history.json",
+    "metrics": "offline_metrics.json",
+    "resource_pilot_ref": "resource_pilot_ref.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "metrics": {
+    "initial_normalized_mae": 34.7020378112793,
+    "zero_current_qpos_hold_max_error": 0.0,
+    "delta_absolute_l1_parity_max_error": 3.501772880554199e-07,
+    "final_normalized_mae": 1.5131860971450806,
+    "loss_decrease_ratio": 22.933094024658203,
+    "raw_mae": 0.013526713475584984,
+    "per_dim_raw_mae": [
+      0.013699597679078579,
+      0.014952355995774269,
+      0.012827320024371147,
+      0.015196384862065315,
+      0.022017326205968857,
+      0.015666503459215164,
+      0.026032015681266785,
+      0.0006995458388701081,
+      0.0006493788678199053
+    ],
+    "reload_max_error": 0.0,
+    "baselines": {
+      "repeat_last_command_normalized_mae": 0.010377982631325722,
+      "train_mean_chunk_normalized_mae": 0.5912346839904785
+    },
+    "wall_seconds": 32.48874003899982,
+    "optimizer_steps_per_second": 184.6793686919695,
+    "step_time_mean_seconds": 0.005401201575698603,
+    "step_time_p95_seconds": 0.005452712092665024,
+    "peak_gpu_memory_bytes": 619027456,
+    "parameter_count": 731928
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "scratch_seed_and_revision_exact": true,
+    "steps_exact_6000": true,
+    "zero_delta_reconstructs_current_qpos": true,
+    "delta_absolute_l1_parity_le_1e_6": true,
+    "normalized_mae_le_1e_3": false,
+    "loss_decrease_ge_100x": false,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "shared_input_revision": true,
+    "zero_affordance": true,
+    "zero_outcome_or_heldout_reads": true,
+    "resource_pilot_reused_exactly": true
+  },
+  "decision": "O201F remains a scoped state-start-delta training-fit failure; keep DYN64 revision-blocked.",
+  "remaining_work": [
+    "analyze O201F terminal evidence",
+    "keep DYN64 revision-blocked"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_o201f_mlp_state_start_delta_fixed64_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-O201F",
+      "status": "failed"
+    }
+  ]
+}

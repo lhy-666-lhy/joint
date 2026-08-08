@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G040C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "workers": 1,
+  "groups": 2,
+  "elapsed_seconds": 5.517451286315918,
+  "max_alignment_error": 0.0,
+  "target_points": {
+    "min": 260,
+    "median": 302.5,
+    "max": 345
+  },
+  "checks": {
+    "rows_exact": true,
+    "shape_binary": true,
+    "all_target_visible": true,
+    "exact_primary_alignment": true,
+    "finite": true
+  },
+  "rows": [
+    {
+      "group_index": 0,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 345,
+      "raw_object_points": 32963
+    },
+    {
+      "group_index": 1,
+      "max_alignment_error": 0.0,
+      "mean_alignment_error": 0.0,
+      "target_points": 260,
+      "raw_object_points": 32874
+    }
+  ],
+  "decision": "authorize target-mask conditioned grasp fit"
+}

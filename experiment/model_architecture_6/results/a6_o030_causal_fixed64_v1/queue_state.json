@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o030_causal_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint": "last.pt",
+    "history": "history.json",
+    "checkpoint_sha256": "0fc35b9d2662f2c1a02d2cb06b3a61f221a9e54168bcc9ee4e10174645be3578"
+  },
+  "metrics": {
+    "initial_teacher_loss": 1.6288819313049316,
+    "final_teacher_loss": 0.0007017184980213642,
+    "initial_teacher_mae": 1.045143723487854,
+    "final_teacher_mae": 0.019455796107649803,
+    "autoregressive_mae": 0.050646886229515076,
+    "teacher_loss_decrease_ratio": 2321.275390625,
+    "per_dim_autoregressive_mae": [
+      0.023262200877070427,
+      0.04450927674770355,
+      0.018519418314099312,
+      0.09835720807313919,
+      0.03288683295249939,
+      0.09038548916578293,
+      0.11678234487771988,
+      0.010933890007436275,
+      0.020185323432087898
+    ],
+    "reload_max_error": 0.0,
+    "wall_seconds": 33.6141440050269,
+    "peak_memory_bytes": 305947648
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "steps_exact_2000": true,
+    "autoregressive_normalized_mae_le_1e_3": false,
+    "teacher_loss_decrease_ge_100x": true,
+    "all_dimensions_finite": true,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "zero_affordance": true,
+    "zero_heldout_or_outcome_reads": true
+  },
+  "decision": "O030 deployable autoregressive memorization fails; do not enter DYN64.",
+  "remaining_work": [
+    "audit all three fixed-batch failures and repair shared fit contract only with evidence"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_o030_causal_fixed64_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-O030",
+      "status": "failed"
+    }
+  ]
+}

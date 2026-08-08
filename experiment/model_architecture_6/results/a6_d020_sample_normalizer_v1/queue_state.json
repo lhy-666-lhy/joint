@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d020_sample_normalizer_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "sample_index": "sample_index.jsonl",
+    "fixed_batch": "fixed_batch.npz",
+    "fixed_batch_manifest": "fixed_batch_manifest.json",
+    "normalizer": "normalizer.json"
+  },
+  "counts": {
+    "train_samples": 559,
+    "train_trajectories": 26605,
+    "operation_command_rows": 36714651,
+    "fixed_chunks": 64
+  },
+  "checks": {
+    "train_trajectory_count_exact": true,
+    "dyn8_target_count_exact": true,
+    "fixed_chunk_count_exact": true,
+    "all_chunks_h32x9_finite": true,
+    "valid_masks_exact": true,
+    "all_sample_splits_train": true,
+    "terminal_mask_consumed": true,
+    "source_hashes_persisted": true,
+    "zero_mech_dev_or_final_reads": true
+  },
+  "decision": "D020 sample/normalizer freeze passes.",
+  "remaining_work": [
+    "A6-D030 DYN64 materialization"
+  ],
+  "next_run_ids": [
+    "a6_d030_dyn64_materialization_v1"
+  ],
+  "event_id": "a6_d020_sample_normalizer_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-D020",
+      "status": "passed"
+    }
+  ]
+}

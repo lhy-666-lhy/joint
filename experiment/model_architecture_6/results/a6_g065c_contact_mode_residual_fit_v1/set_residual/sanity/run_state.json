@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G065C-set_residual-SANITY",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "variant": "set_residual",
+  "optimizer_steps": 50,
+  "train_loss_first": 1.4303417205810547,
+  "train_loss_last": 0.6508984565734863,
+  "elapsed_seconds": 1.3557946681976318,
+  "parameters": 462481,
+  "reload_max_abs": 0.0,
+  "checkpoint_sha256": "131c3b754a635f73d615203e40d1e806a877941185dfb6df9e9c231e358c98f2",
+  "metrics": {
+    "selected_top1": {
+      "translation_m": 0.23336616158485413,
+      "rotation_rad": 1.5797555446624756,
+      "pose_within_3cm_12deg": 0.015706806282722512
+    },
+    "best_of_candidates": {
+      "translation_m": 0.20329412817955017,
+      "rotation_rad": 0.5405091047286987,
+      "pose_within_3cm_12deg": 0.031413612565445025
+    },
+    "mode_accuracy": 0.28010472655296326,
+    "selected_minus_g062": {
+      "translation_m": {
+        "mean": 0.008692483983335279,
+        "ci95": [
+          -0.006938636687627826,
+          0.02389092461899299
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": -0.06792978319629979,
+        "ci95": [
+          -0.29982413757663223,
+          0.15440608767270314
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "g064_terminal": true,
+    "split_counts": true,
+    "finite": true,
+    "loss_decreased": true,
+    "reload_exact": true,
+    "same_seed_steps_batch": true,
+    "no_outcome_read": true
+  },
+  "claim_supported": "sanity_only",
+  "decision": "run full matched variant"
+}

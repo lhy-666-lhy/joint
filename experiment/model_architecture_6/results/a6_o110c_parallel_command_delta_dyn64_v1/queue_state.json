@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o110c_parallel_command_delta_dyn64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "metrics": {
+    "fixed_normalized_delta_mae": 0.030132412910461426,
+    "dyn_normalized_delta_mae": 0.354378879070282,
+    "dyn_raw_mae": 0.008267013356089592,
+    "repeat_last_raw_mae": 0.010510670952498913,
+    "relative_to_repeat_last": 0.7865352643471452,
+    "dyn_autoregressive_normalized_delta_mae": null,
+    "dyn_autoregressive_raw_mae": null,
+    "dyn_autoregressive_relative_to_repeat_last": null,
+    "wall_seconds": 30.304672207683325
+  },
+  "checks": {
+    "fixed_shape": true,
+    "dyn_shape": true,
+    "finite": true,
+    "steps_exact": true
+  },
+  "evidence": {
+    "checkpoint": "last.pt",
+    "history": "history.json",
+    "input": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_d040c_dyn64_command_delta_input_v1/full/dyn64_input.npz"
+  },
+  "decision": "matched decoder screen valid",
+  "jobs": [
+    {
+      "id": "o110c_parallel",
+      "status": "passed"
+    }
+  ]
+}

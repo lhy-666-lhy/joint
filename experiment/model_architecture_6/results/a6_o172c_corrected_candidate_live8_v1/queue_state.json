@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o172c_corrected_candidate_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "corrected live8 checkpoint intervention screen",
+  "metrics": {
+    "baseline_mlp": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.22941501518818197,
+        "ci95": [
+          0.13609077075367115,
+          0.32167160147820467
+        ]
+      },
+      "progress_median": 0.2209164671682302,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.82484882867324,
+        "ci95": [
+          0.6248273955355929,
+          0.990506329113924
+        ]
+      },
+      "per_target_progress": [
+        0.07805439414155571,
+        0.010033433775056833,
+        0.24140236681226354,
+        0.30422860794297857,
+        0.41312612437242896,
+        0.20043056752419688,
+        0.183459767720451,
+        0.4045848592165242
+      ],
+      "per_target_contact": [
+        0.27741935483870966,
+        0.9672131147540983,
+        1.0,
+        1.0,
+        1.0,
+        0.9240506329113924,
+        0.43010752688172044,
+        1.0
+      ]
+    },
+    "additive_mlp": {
+      "targets": 8,
+      "task_success": 1,
+      "progress": {
+        "mean": 0.1847813441001159,
+        "ci95": [
+          0.11653915711813034,
+          0.2630642450539945
+        ]
+      },
+      "progress_median": 0.1724797930756303,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6103453477421106,
+        "ci95": [
+          0.4155611344054268,
+          0.8064046292153113
+        ]
+      },
+      "per_target_progress": [
+        0.08704259102866002,
+        0.03922353652766094,
+        0.127660443985051,
+        0.18466848349693532,
+        0.23476135509431542,
+        0.16029110265432528,
+        0.23754835678934066,
+        0.40705488322463845
+      ],
+      "per_target_contact": [
+        0.25161290322580643,
+        0.6229508196721312,
+        1.0,
+        0.18153846153846154,
+        0.7213114754098361,
+        0.5569620253164557,
+        0.5483870967741935,
+        1.0
+      ]
+    },
+    "perturb_1x": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.2215313440529404,
+        "ci95": [
+          0.1360146145968257,
+          0.3120336601317885
+        ]
+      },
+      "progress_median": 0.2112101330406977,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.7338637927894667,
+        "ci95": [
+          0.5085463192721258,
+          0.9239599858981138
+        ]
+      },
+      "per_target_progress": [
+        0.08672730950739663,
+        0.026548631514719628,
+        0.2356017529300562,
+        0.22604609087414657,
+        0.4142383827023187,
+        0.1963741752072488,
+        0.18379349834310998,
+        0.4029209113445265
+      ],
+      "per_target_contact": [
+        0.27741935483870966,
+        0.9508196721311475,
+        1.0,
+        0.3030769230769231,
+        1.0,
+        0.8987341772151899,
+        0.44086021505376344,
+        1.0
+      ]
+    },
+    "perturb_3x": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.215788897935139,
+        "ci95": [
+          0.13409612449267824,
+          0.30602976197929765
+        ]
+      },
+      "progress_median": 0.198623830757024,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.7271584926875645,
+        "ci95": [
+          0.4918077307334439,
+          0.9358751871512181
+        ]
+      },
+      "per_target_progress": [
+        0.08905665762713928,
+        0.04670955645891129,
+        0.22551432271656346,
+        0.15237237127844822,
+        0.40884712481297614,
+        0.2003091419423312,
+        0.1969385195717168,
+        0.4065634890730257
+      ],
+      "per_target_contact": [
+        0.2645161290322581,
+        0.8934426229508197,
+        1.0,
+        0.1723076923076923,
+        1.0,
+        0.9493670886075949,
+        0.5376344086021505,
+        1.0
+      ]
+    },
+    "geometry_residual": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.23308426472218652,
+        "ci95": [
+          0.14365144393306198,
+          0.32048132074937413
+        ]
+      },
+      "progress_median": 0.2338238073067085,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.8245020271461307,
+        "ci95": [
+          0.6358320112815089,
+          0.9774590163934427
+        ]
+      },
+      "per_target_progress": [
+        0.09613484096549053,
+        0.015748916940728,
+        0.24289415597647226,
+        0.2975209829097288,
+        0.40120672363803184,
+        0.2247534586369447,
+        0.18049821675149383,
+        0.40591682195860224
+      ],
+      "per_target_contact": [
+        0.33548387096774196,
+        0.819672131147541,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.44086021505376344,
+        1.0
+      ]
+    },
+    "repeat_last": {
+      "targets": 8,
+      "task_success": 0,
+      "progress": {
+        "mean": 0.00033878662224665827,
+        "ci95": [
+          -0.001240516092883196,
+          0.0015051623418355265
+        ]
+      },
+      "progress_median": 0.0005191038488494357,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "per_target_progress": [
+        0.00045857888513050693,
+        -0.00459030439496099,
+        0.00048046584924482774,
+        2.4901730656051034e-05,
+        0.0014170080812519281,
+        0.002836596456118502,
+        0.0015253045220783963,
+        0.0005577418484540436
+      ],
+      "per_target_contact": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise_vs_baseline": {
+    "additive_mlp_minus_baseline_mlp": {
+      "progress": {
+        "mean": -0.044633671088066075,
+        "ci95": [
+          -0.09985957155040309,
+          0.006045424035226538
+        ]
+      },
+      "contact": {
+        "mean": -0.21450348093112956,
+        "ci95": [
+          -0.42248128401998497,
+          -0.03430661310404411
+        ]
+      },
+      "task_success_delta": -1
+    },
+    "perturb_1x_minus_baseline_mlp": {
+      "progress": {
+        "mean": -0.007883671135241582,
+        "ci95": [
+          -0.029334324235973788,
+          0.006097312270988514
+        ]
+      },
+      "contact": {
+        "mean": -0.09098503588377342,
+        "ci95": [
+          -0.26544451450189155,
+          0.0013440860215053752
+        ]
+      },
+      "task_success_delta": 0
+    },
+    "perturb_3x_minus_baseline_mlp": {
+      "progress": {
+        "mean": -0.013626117253042951,
+        "ci95": [
+          -0.055902323739521635,
+          0.014291229586609638
+        ]
+      },
+      "contact": {
+        "mean": -0.0976903359856757,
+        "ci95": [
+          -0.3153863781203813,
+          0.0326529229059703
+        ]
+      },
+      "task_success_delta": 0
+    },
+    "geometry_residual_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.003669249534004561,
+        "ci95": [
+          -0.0036973905518433324,
+          0.012027253048017172
+        ]
+      },
+      "contact": {
+        "mean": -0.00034680152710930834,
+        "ci95": [
+          -0.04806980433632996,
+          0.03619164284742071
+        ]
+      },
+      "task_success_delta": 0
+    }
+  },
+  "outcome_repeatability_diagnostic": {
+    "baseline_max_abs_progress_drift_vs_o171c": 0.0,
+    "repeat_last_max_abs_progress_drift_vs_o171c": 4.860817824061162e-05,
+    "validity_gate": false
+  },
+  "descriptive_task_then_progress_ranking": [
+    "geometry_residual",
+    "perturb_1x",
+    "perturb_3x",
+    "additive_mlp"
+  ],
+  "checks": {
+    "six_arms": true,
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "correct_start_command_lineage": true,
+    "calls_and_prefix_match": true,
+    "geometry_features_only_geometry_arm": true
+  },
+  "decision": "candidate screen complete; select next training intervention from paired task/progress/contact evidence",
+  "next_run_ids": [],
+  "jobs": [
+    {
+      "id": "A6-O172C",
+      "status": "passed"
+    }
+  ]
+}

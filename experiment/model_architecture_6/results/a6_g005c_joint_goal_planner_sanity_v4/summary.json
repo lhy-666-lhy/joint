@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g005c_joint_goal_planner_sanity_v4",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "failure_class": null,
+  "scientific_scope": "qpose-only current-state single-segment planner sanity",
+  "metrics": {
+    "targets": 8,
+    "planner_success": 8,
+    "planner_coverage": 1.0,
+    "planner_seconds": 12.820912206545472,
+    "successful_waypoints": [
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240
+    ],
+    "max_start_error": 0.0,
+    "max_terminal_error": 2.384185791015625e-07
+  },
+  "checks": {
+    "g000c_terminal_pass": true,
+    "eight_distinct_cal_targets": true,
+    "qpose_sidecar_only": true,
+    "all_attempts_terminal": true,
+    "successful_paths_finite_t_by_7": true,
+    "successful_terminal_contract": true,
+    "successful_l64_endpoint_exact": true,
+    "finite_metrics": true
+  },
+  "source_hashes": {
+    "g000_summary": "9d18fff5809b9b17d91af2f954541aed0ac9ecdbd297184bde79fa975fc49c03",
+    "qpose_labels": "87d17275f597ce2f92067389f283415bad04861b7d7f0144fa17299e13c3acab",
+    "qpose_manifest": "f5c4ad329fa92cecd5c2f283498cd47647eda5a31b1db3d52acff02a3e877bb2"
+  },
+  "decision": "authorize exact-paired GT-TRAJ/GT-QPOSE physical pilot",
+  "started_at": "2026-08-06T19:21:48+00:00",
+  "completed_at": "2026-08-06T19:22:01+00:00"
+}

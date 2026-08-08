@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G051C-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "elapsed_seconds": 0.6861245632171631,
+  "results": {},
+  "ik_roundtrip": {
+    "attempted": 8,
+    "success": 8,
+    "rate": 1.0,
+    "rows": [
+      {
+        "group_index": 0,
+        "success": true,
+        "position_error": 1.05106781914375e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.10672773903904853,
+        "fk_position_error": 1.05106781914375e-05
+      },
+      {
+        "group_index": 1,
+        "success": true,
+        "position_error": 8.733097708796961e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.058117881913192816,
+        "fk_position_error": 8.733097708796961e-06
+      },
+      {
+        "group_index": 2,
+        "success": true,
+        "position_error": 6.326154013628257e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.11157990986895222,
+        "fk_position_error": 6.326154013628257e-06
+      },
+      {
+        "group_index": 3,
+        "success": true,
+        "position_error": 1.7356648767246012e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.059449325521159,
+        "fk_position_error": 1.7356648767246012e-05
+      },
+      {
+        "group_index": 4,
+        "success": true,
+        "position_error": 1.766966298039737e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.272240483811491,
+        "fk_position_error": 1.766966298039737e-05
+      },
+      {
+        "group_index": 5,
+        "success": true,
+        "position_error": 1.796959146740224e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.241030200746124,
+        "fk_position_error": 1.796959146740224e-05
+      },
+      {
+        "group_index": 6,
+        "success": true,
+        "position_error": 3.322033008203201e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.7923260761835333,
+        "fk_position_error": 3.322033008203201e-05
+      },
+      {
+        "group_index": 7,
+        "success": true,
+        "position_error": 1.796292189453507e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.404973341102732,
+        "fk_position_error": 1.796292189453507e-05
+      }
+    ]
+  },
+  "checks": {
+    "finite_labels": true,
+    "one_pose_per_qpose": true,
+    "valid_rotation": true,
+    "no_outcome_read": true,
+    "full_group_count": true,
+    "full_split_counts": true
+  },
+  "decision": "analyze label-space transfer before authorizing learned SE3 route"
+}

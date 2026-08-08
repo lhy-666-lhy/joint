@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_a000_affordance_membership_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "data_contract_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "membership_manifest": "membership_manifest.json",
+    "source_split_contract_sha256": "4bb49c688e4b520831ba5d5df8fd933c3b8be704f7cb535016c15700e9c105d8",
+    "zarr_metadata_hash": "b9895577c3910d39d9b00fdd98e3811634dd3d50d1cec88d7c7194e1ee1eaf71",
+    "point_cloud_or_label_read": false,
+    "outcome_read": false
+  },
+  "counts": {
+    "A5_TRAIN": 539,
+    "A5_CAL": 100
+  },
+  "checks": {
+    "train_sample_count": false,
+    "cal_sample_count": false,
+    "train_cal_target_overlap": true,
+    "unjoined": 29,
+    "duplicate": 0,
+    "wrong_split": 0,
+    "mech_dev_target_test_not_read": true,
+    "old_replay_split_used": false
+  },
+  "decision": "A000 split-safe metadata join fails; do not train affordance.",
+  "remaining_work": [
+    "A6-D010 exact adapter roundtrip"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_a000_affordance_membership_v1_terminal"
+}

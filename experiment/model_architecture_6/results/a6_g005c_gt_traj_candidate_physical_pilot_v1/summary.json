@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g005c_gt_traj_candidate_physical_pilot_v1",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scientific_scope": "GT-TRAJ replay-pass K4 candidate physical ceiling",
+  "groups": 2,
+  "candidates": 8,
+  "candidate_strict_grasp_success": 8,
+  "candidate_task_success": 1,
+  "route_level_selection": "shortest joint-space path, slot tie-break; no outcome read",
+  "selected": {
+    "531": {
+      "candidate_index": 3,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.06403476784734223
+    },
+    "534": {
+      "candidate_index": 0,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.05485892054934451
+    }
+  },
+  "checks": {
+    "fresh_world_each": true,
+    "l64_each": true,
+    "fixed_stage_ticks": true,
+    "fixed_operation_budget": true
+  },
+  "completed_at": "2026-08-06T20:02:34+00:00"
+}

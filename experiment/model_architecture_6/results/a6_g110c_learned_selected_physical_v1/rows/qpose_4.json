@@ -1,0 +1,3963 @@
+{
+  "route": "learned_qpose_base",
+  "group_index": 543,
+  "group_id": "8f7d3ee44649a84a3c8d4ded45d393ed85267807bcd78c539aaab7f9086e16f7",
+  "sample_id": "41003/link_2/repeat_1/base_0000",
+  "target": "41003/link_2",
+  "fresh_world": true,
+  "qpath_shape": [
+    64,
+    7
+  ],
+  "grasp": {
+    "qpath_waypoints": 64,
+    "qpath_executed_waypoints": 64,
+    "qpath_skipped_waypoints": 0,
+    "qpath_sim_steps": 512,
+    "hold_open_steps": 30,
+    "close_steps": 80,
+    "settle_steps": 120,
+    "terminal_tracking_max_error": 0.18248844146728516,
+    "target_joint_abs_drift": 0.0,
+    "target_lock_qpos": 0.19773975014686584,
+    "strict_grasp_pass": false,
+    "strict_grasp_fail_reasons": [
+      "no_gripper_target_contact",
+      "not_two_finger_contact",
+      "low_contact_points"
+    ],
+    "two_finger_contact": false,
+    "finger_contact_count": 0,
+    "finger_contact_links": [],
+    "target_robot_links": [
+      "panda_link7"
+    ],
+    "contact_point_count": 1,
+    "contact_force_norm": 617.4684424664117,
+    "non_target_collision_count": 0,
+    "non_target_pairs": [],
+    "strict_grasp_thresholds": {
+      "require_two_finger": true,
+      "min_contact_points": 2,
+      "min_contact_force": 1.0,
+      "max_target_drift": 0.001,
+      "reject_non_target_contact": true
+    }
+  },
+  "operation": {
+    "calls": 650,
+    "physics_steps": 5200,
+    "termination": "max_calls",
+    "task_success": false,
+    "final_progress": -0.12588503122338424,
+    "contact_fraction": 0.0,
+    "gripper_contact_fraction": 0.0,
+    "inference_seconds": 0.8091049771755934,
+    "trace": [
+      {
+        "call": 1,
+        "progress": -0.09493437137027631,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 2,
+        "progress": -0.12588503122351855,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 3,
+        "progress": -0.12588503122344993,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 4,
+        "progress": -0.12588503122344982,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 5,
+        "progress": -0.12588503122344974,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 6,
+        "progress": -0.12588503122344963,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 7,
+        "progress": -0.12588503122344952,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 8,
+        "progress": -0.1258850312234494,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 9,
+        "progress": -0.12588503122344932,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 10,
+        "progress": -0.1258850312234492,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 11,
+        "progress": -0.1258850312234491,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 12,
+        "progress": -0.12588503122344902,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 13,
+        "progress": -0.1258850312234489,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 14,
+        "progress": -0.12588503122344882,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 15,
+        "progress": -0.1258850312234487,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 16,
+        "progress": -0.1258850312234486,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 17,
+        "progress": -0.12588503122344852,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 18,
+        "progress": -0.1258850312234484,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 19,
+        "progress": -0.1258850312234483,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 20,
+        "progress": -0.12588503122344818,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 21,
+        "progress": -0.1258850312234481,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 22,
+        "progress": -0.125885031223448,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 23,
+        "progress": -0.12588503122344788,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 24,
+        "progress": -0.1258850312234478,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 25,
+        "progress": -0.12588503122344769,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 26,
+        "progress": -0.1258850312234476,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 27,
+        "progress": -0.1258850312234475,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 28,
+        "progress": -0.12588503122344738,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 29,
+        "progress": -0.1258850312234473,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 30,
+        "progress": -0.12588503122344719,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 31,
+        "progress": -0.12588503122344707,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 32,
+        "progress": -0.12588503122344696,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 33,
+        "progress": -0.12588503122344688,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 34,
+        "progress": -0.12588503122344677,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 35,
+        "progress": -0.1258850312234467,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 36,
+        "progress": -0.12588503122344658,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 37,
+        "progress": -0.12588503122344646,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 38,
+        "progress": -0.12588503122344638,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 39,
+        "progress": -0.12588503122344627,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 40,
+        "progress": -0.1258850312234462,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 41,
+        "progress": -0.12588503122344608,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 42,
+        "progress": -0.12588503122344596,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 43,
+        "progress": -0.12588503122344585,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 44,
+        "progress": -0.12588503122344577,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 45,
+        "progress": -0.12588503122344566,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 46,
+        "progress": -0.12588503122344555,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 47,
+        "progress": -0.12588503122344546,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 48,
+        "progress": -0.12588503122344535,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 49,
+        "progress": -0.12588503122344527,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 50,
+        "progress": -0.12588503122344516,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 51,
+        "progress": -0.12588503122344505,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 52,
+        "progress": -0.12588503122344497,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 53,
+        "progress": -0.12588503122344485,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 54,
+        "progress": -0.12588503122344474,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 55,
+        "progress": -0.12588503122344463,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 56,
+        "progress": -0.12588503122344455,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 57,
+        "progress": -0.12588503122344444,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 58,
+        "progress": -0.12588503122344433,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 59,
+        "progress": -0.12588503122344424,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 60,
+        "progress": -0.12588503122344413,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 61,
+        "progress": -0.12588503122344405,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 62,
+        "progress": -0.12588503122344394,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 63,
+        "progress": -0.12588503122344383,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 64,
+        "progress": -0.12588503122344374,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 65,
+        "progress": -0.12588503122344363,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 66,
+        "progress": -0.12588503122344352,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 67,
+        "progress": -0.1258850312234434,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 68,
+        "progress": -0.12588503122344333,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 69,
+        "progress": -0.12588503122344322,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 70,
+        "progress": -0.12588503122344313,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 71,
+        "progress": -0.12588503122344302,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 72,
+        "progress": -0.12588503122344294,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 73,
+        "progress": -0.12588503122344283,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 74,
+        "progress": -0.12588503122344272,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 75,
+        "progress": -0.1258850312234426,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 76,
+        "progress": -0.12588503122344252,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 77,
+        "progress": -0.1258850312234424,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 78,
+        "progress": -0.1258850312234423,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 79,
+        "progress": -0.1258850312234422,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 80,
+        "progress": -0.1258850312234421,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 81,
+        "progress": -0.125885031223442,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 82,
+        "progress": -0.1258850312234419,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 83,
+        "progress": -0.1258850312234418,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 84,
+        "progress": -0.12588503122344172,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 85,
+        "progress": -0.1258850312234416,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 86,
+        "progress": -0.1258850312234415,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 87,
+        "progress": -0.12588503122344138,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 88,
+        "progress": -0.1258850312234413,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 89,
+        "progress": -0.1258850312234412,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 90,
+        "progress": -0.12588503122344108,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 91,
+        "progress": -0.125885031223441,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 92,
+        "progress": -0.12588503122344089,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 93,
+        "progress": -0.1258850312234408,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 94,
+        "progress": -0.1258850312234407,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 95,
+        "progress": -0.12588503122344058,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 96,
+        "progress": -0.1258850312234405,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 97,
+        "progress": -0.12588503122344039,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 98,
+        "progress": -0.12588503122344027,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 99,
+        "progress": -0.12588503122344016,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 100,
+        "progress": -0.12588503122344008,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 101,
+        "progress": -0.12588503122343997,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 102,
+        "progress": -0.12588503122343986,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 103,
+        "progress": -0.12588503122343978,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 104,
+        "progress": -0.12588503122343966,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 105,
+        "progress": -0.12588503122343958,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 106,
+        "progress": -0.12588503122343947,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 107,
+        "progress": -0.12588503122343936,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 108,
+        "progress": -0.12588503122343928,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 109,
+        "progress": -0.12588503122343916,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 110,
+        "progress": -0.12588503122343905,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 111,
+        "progress": -0.12588503122343894,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 112,
+        "progress": -0.12588503122343886,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 113,
+        "progress": -0.12588503122343875,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 114,
+        "progress": -0.12588503122343864,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 115,
+        "progress": -0.12588503122343855,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 116,
+        "progress": -0.12588503122343844,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 117,
+        "progress": -0.12588503122343836,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 118,
+        "progress": -0.12588503122343825,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 119,
+        "progress": -0.12588503122343814,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 120,
+        "progress": -0.12588503122343805,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 121,
+        "progress": -0.12588503122343794,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 122,
+        "progress": -0.12588503122343783,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 123,
+        "progress": -0.12588503122343772,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 124,
+        "progress": -0.12588503122343764,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 125,
+        "progress": -0.12588503122343753,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 126,
+        "progress": -0.12588503122343744,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 127,
+        "progress": -0.12588503122343733,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 128,
+        "progress": -0.12588503122343725,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 129,
+        "progress": -0.12588503122343714,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 130,
+        "progress": -0.12588503122343703,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 131,
+        "progress": -0.12588503122343694,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 132,
+        "progress": -0.12588503122343683,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 133,
+        "progress": -0.12588503122343672,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 134,
+        "progress": -0.1258850312234366,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 135,
+        "progress": -0.12588503122343653,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 136,
+        "progress": -0.12588503122343642,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 137,
+        "progress": -0.1258850312234363,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 138,
+        "progress": -0.12588503122343622,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 139,
+        "progress": -0.1258850312234361,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 140,
+        "progress": -0.12588503122343603,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 141,
+        "progress": -0.12588503122343592,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 142,
+        "progress": -0.1258850312234358,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 143,
+        "progress": -0.12588503122343572,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 144,
+        "progress": -0.1258850312234356,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 145,
+        "progress": -0.1258850312234355,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 146,
+        "progress": -0.1258850312234354,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 147,
+        "progress": -0.1258850312234353,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 148,
+        "progress": -0.1258850312234352,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 149,
+        "progress": -0.1258850312234351,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 150,
+        "progress": -0.125885031223435,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 151,
+        "progress": -0.12588503122343492,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 152,
+        "progress": -0.1258850312234348,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 153,
+        "progress": -0.1258850312234347,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 154,
+        "progress": -0.12588503122343458,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 155,
+        "progress": -0.1258850312234345,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 156,
+        "progress": -0.1258850312234344,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 157,
+        "progress": -0.12588503122343428,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 158,
+        "progress": -0.12588503122343417,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 159,
+        "progress": -0.12588503122343409,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 160,
+        "progress": -0.12588503122343397,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 161,
+        "progress": -0.1258850312234339,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 162,
+        "progress": -0.12588503122343378,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 163,
+        "progress": -0.1258850312234337,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 164,
+        "progress": -0.12588503122343359,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 165,
+        "progress": -0.12588503122343347,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 166,
+        "progress": -0.12588503122343336,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 167,
+        "progress": -0.12588503122343328,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 168,
+        "progress": -0.12588503122343317,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 169,
+        "progress": -0.12588503122343306,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 170,
+        "progress": -0.12588503122343295,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 171,
+        "progress": -0.12588503122343286,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 172,
+        "progress": -0.12588503122343275,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 173,
+        "progress": -0.12588503122343267,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 174,
+        "progress": -0.12588503122343256,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 175,
+        "progress": -0.12588503122343248,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 176,
+        "progress": -0.12588503122343236,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 177,
+        "progress": -0.12588503122343225,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 178,
+        "progress": -0.12588503122343214,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 179,
+        "progress": -0.12588503122343206,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 180,
+        "progress": -0.12588503122343195,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 181,
+        "progress": -0.12588503122343184,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 182,
+        "progress": -0.12588503122343175,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 183,
+        "progress": -0.12588503122343164,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 184,
+        "progress": -0.12588503122343156,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 185,
+        "progress": -0.12588503122343145,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 186,
+        "progress": -0.12588503122343134,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 187,
+        "progress": -0.12588503122343125,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 188,
+        "progress": -0.12588503122343114,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 189,
+        "progress": -0.12588503122343103,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 190,
+        "progress": -0.12588503122343092,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 191,
+        "progress": -0.12588503122343084,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 192,
+        "progress": -0.12588503122343073,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 193,
+        "progress": -0.12588503122343062,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 194,
+        "progress": -0.12588503122343053,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 195,
+        "progress": -0.12588503122343042,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 196,
+        "progress": -0.12588503122343034,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 197,
+        "progress": -0.12588503122343023,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 198,
+        "progress": -0.12588503122343014,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 199,
+        "progress": -0.12588503122343003,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 200,
+        "progress": -0.12588503122342992,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 201,
+        "progress": -0.1258850312234298,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 202,
+        "progress": -0.12588503122342973,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 203,
+        "progress": -0.12588503122342962,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 204,
+        "progress": -0.1258850312234295,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 205,
+        "progress": -0.12588503122342942,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 206,
+        "progress": -0.1258850312234293,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 207,
+        "progress": -0.12588503122342923,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 208,
+        "progress": -0.12588503122342912,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 209,
+        "progress": -0.125885031223429,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 210,
+        "progress": -0.12588503122342892,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 211,
+        "progress": -0.1258850312234288,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 212,
+        "progress": -0.1258850312234287,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 213,
+        "progress": -0.1258850312234286,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 214,
+        "progress": -0.1258850312234285,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 215,
+        "progress": -0.1258850312234284,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 216,
+        "progress": -0.12588503122342828,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 217,
+        "progress": -0.1258850312234282,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 218,
+        "progress": -0.1258850312234281,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 219,
+        "progress": -0.125885031223428,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 220,
+        "progress": -0.1258850312234279,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 221,
+        "progress": -0.12588503122342778,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 222,
+        "progress": -0.1258850312234277,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 223,
+        "progress": -0.1258850312234276,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 224,
+        "progress": -0.12588503122342748,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 225,
+        "progress": -0.12588503122342737,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 226,
+        "progress": -0.12588503122342729,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 227,
+        "progress": -0.12588503122342717,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 228,
+        "progress": -0.12588503122342706,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 229,
+        "progress": -0.12588503122342698,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 230,
+        "progress": -0.12588503122342687,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 231,
+        "progress": -0.12588503122342679,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 232,
+        "progress": -0.12588503122342667,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 233,
+        "progress": -0.12588503122342656,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 234,
+        "progress": -0.12588503122342648,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 235,
+        "progress": -0.12588503122342637,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 236,
+        "progress": -0.12588503122342626,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 237,
+        "progress": -0.12588503122342615,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 238,
+        "progress": -0.12588503122342606,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 239,
+        "progress": -0.12588503122342595,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 240,
+        "progress": -0.12588503122342587,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 241,
+        "progress": -0.12588503122342576,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 242,
+        "progress": -0.12588503122342568,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 243,
+        "progress": -0.12588503122342556,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 244,
+        "progress": -0.12588503122342545,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 245,
+        "progress": -0.12588503122342534,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 246,
+        "progress": -0.12588503122342526,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 247,
+        "progress": -0.12588503122342515,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 248,
+        "progress": -0.12588503122342504,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 249,
+        "progress": -0.12588503122342493,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 250,
+        "progress": -0.12588503122342484,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 251,
+        "progress": -0.12588503122342473,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 252,
+        "progress": -0.12588503122342465,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 253,
+        "progress": -0.12588503122342454,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 254,
+        "progress": -0.12588503122342445,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 255,
+        "progress": -0.12588503122342434,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 256,
+        "progress": -0.12588503122342423,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 257,
+        "progress": -0.12588503122342412,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 258,
+        "progress": -0.12588503122342404,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 259,
+        "progress": -0.12588503122342393,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 260,
+        "progress": -0.12588503122342382,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 261,
+        "progress": -0.12588503122342373,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 262,
+        "progress": -0.12588503122342362,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 263,
+        "progress": -0.12588503122342354,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 264,
+        "progress": -0.12588503122342343,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 265,
+        "progress": -0.12588503122342332,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 266,
+        "progress": -0.12588503122342323,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 267,
+        "progress": -0.12588503122342312,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 268,
+        "progress": -0.125885031223423,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 269,
+        "progress": -0.1258850312234229,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 270,
+        "progress": -0.12588503122342282,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 271,
+        "progress": -0.1258850312234227,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 272,
+        "progress": -0.1258850312234226,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 273,
+        "progress": -0.1258850312234225,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 274,
+        "progress": -0.1258850312234224,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 275,
+        "progress": -0.12588503122342232,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 276,
+        "progress": -0.1258850312234222,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 277,
+        "progress": -0.12588503122342212,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 278,
+        "progress": -0.125885031223422,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 279,
+        "progress": -0.1258850312234219,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 280,
+        "progress": -0.1258850312234218,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 281,
+        "progress": -0.1258850312234217,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 282,
+        "progress": -0.1258850312234216,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 283,
+        "progress": -0.12588503122342148,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 284,
+        "progress": -0.12588503122342137,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 285,
+        "progress": -0.1258850312234213,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 286,
+        "progress": -0.12588503122342118,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 287,
+        "progress": -0.1258850312234211,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 288,
+        "progress": -0.12588503122342098,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 289,
+        "progress": -0.1258850312234209,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 290,
+        "progress": -0.1258850312234208,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 291,
+        "progress": -0.12588503122342068,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 292,
+        "progress": -0.12588503122342057,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 293,
+        "progress": -0.12588503122342048,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 294,
+        "progress": -0.12588503122342037,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 295,
+        "progress": -0.12588503122342026,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 296,
+        "progress": -0.12588503122342018,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 297,
+        "progress": -0.12588503122342007,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 298,
+        "progress": -0.12588503122341999,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 299,
+        "progress": -0.12588503122341987,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 300,
+        "progress": -0.12588503122341976,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 301,
+        "progress": -0.12588503122341968,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 302,
+        "progress": -0.12588503122341957,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 303,
+        "progress": -0.12588503122341946,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 304,
+        "progress": -0.12588503122341935,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 305,
+        "progress": -0.12588503122341926,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 306,
+        "progress": -0.12588503122341915,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 307,
+        "progress": -0.12588503122341904,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 308,
+        "progress": -0.12588503122341896,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 309,
+        "progress": -0.12588503122341885,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 310,
+        "progress": -0.12588503122341876,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 311,
+        "progress": -0.12588503122341865,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 312,
+        "progress": -0.12588503122341854,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 313,
+        "progress": -0.12588503122341846,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 314,
+        "progress": -0.12588503122341835,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 315,
+        "progress": -0.12588503122341824,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 316,
+        "progress": -0.12588503122341813,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 317,
+        "progress": -0.12588503122341804,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 318,
+        "progress": -0.12588503122341793,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 319,
+        "progress": -0.12588503122341785,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 320,
+        "progress": -0.12588503122341774,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 321,
+        "progress": -0.12588503122341765,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 322,
+        "progress": -0.12588503122341754,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 323,
+        "progress": -0.12588503122341743,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 324,
+        "progress": -0.12588503122341732,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 325,
+        "progress": -0.12588503122341724,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 326,
+        "progress": -0.12588503122341713,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 327,
+        "progress": -0.12588503122341702,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 328,
+        "progress": -0.1258850312234169,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 329,
+        "progress": -0.12588503122341682,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 330,
+        "progress": -0.1258850312234167,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 331,
+        "progress": -0.12588503122341663,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 332,
+        "progress": -0.12588503122341652,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 333,
+        "progress": -0.12588503122341643,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 334,
+        "progress": -0.12588503122341632,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 335,
+        "progress": -0.1258850312234162,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 336,
+        "progress": -0.1258850312234161,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 337,
+        "progress": -0.12588503122341602,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 338,
+        "progress": -0.1258850312234159,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 339,
+        "progress": -0.1258850312234158,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 340,
+        "progress": -0.1258850312234157,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 341,
+        "progress": -0.1258850312234156,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 342,
+        "progress": -0.12588503122341552,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 343,
+        "progress": -0.1258850312234154,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 344,
+        "progress": -0.1258850312234153,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 345,
+        "progress": -0.1258850312234152,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 346,
+        "progress": -0.1258850312234151,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 347,
+        "progress": -0.125885031223415,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 348,
+        "progress": -0.12588503122341488,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 349,
+        "progress": -0.1258850312234148,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 350,
+        "progress": -0.12588503122341468,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 351,
+        "progress": -0.12588503122341457,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 352,
+        "progress": -0.1258850312234145,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 353,
+        "progress": -0.12588503122341438,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 354,
+        "progress": -0.1258850312234143,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 355,
+        "progress": -0.12588503122341418,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 356,
+        "progress": -0.12588503122341407,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 357,
+        "progress": -0.125885031223414,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 358,
+        "progress": -0.12588503122341388,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 359,
+        "progress": -0.12588503122341377,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 360,
+        "progress": -0.12588503122341366,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 361,
+        "progress": -0.12588503122341357,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 362,
+        "progress": -0.12588503122341346,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 363,
+        "progress": -0.12588503122341335,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 364,
+        "progress": -0.12588503122341327,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 365,
+        "progress": -0.12588503122341316,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 366,
+        "progress": -0.12588503122341307,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 367,
+        "progress": -0.12588503122341296,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 368,
+        "progress": -0.12588503122341288,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 369,
+        "progress": -0.12588503122341277,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 370,
+        "progress": -0.12588503122341266,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 371,
+        "progress": -0.12588503122341255,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 372,
+        "progress": -0.12588503122341246,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 373,
+        "progress": -0.12588503122341235,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 374,
+        "progress": -0.12588503122341224,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 375,
+        "progress": -0.12588503122341216,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 376,
+        "progress": -0.12588503122341205,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 377,
+        "progress": -0.12588503122341196,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 378,
+        "progress": -0.12588503122341185,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 379,
+        "progress": -0.12588503122341174,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 380,
+        "progress": -0.12588503122341166,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 381,
+        "progress": -0.12588503122341155,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 382,
+        "progress": -0.12588503122341144,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 383,
+        "progress": -0.12588503122341133,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 384,
+        "progress": -0.12588503122341124,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 385,
+        "progress": -0.12588503122341113,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 386,
+        "progress": -0.12588503122341102,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 387,
+        "progress": -0.12588503122341094,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 388,
+        "progress": -0.12588503122341083,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 389,
+        "progress": -0.12588503122341074,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 390,
+        "progress": -0.12588503122341063,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 391,
+        "progress": -0.12588503122341052,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 392,
+        "progress": -0.12588503122341044,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 393,
+        "progress": -0.12588503122341033,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 394,
+        "progress": -0.12588503122341022,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 395,
+        "progress": -0.1258850312234101,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 396,
+        "progress": -0.12588503122341002,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 397,
+        "progress": -0.1258850312234099,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 398,
+        "progress": -0.12588503122340983,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 399,
+        "progress": -0.12588503122340972,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 400,
+        "progress": -0.12588503122340963,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 401,
+        "progress": -0.12588503122340952,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 402,
+        "progress": -0.1258850312234094,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 403,
+        "progress": -0.1258850312234093,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 404,
+        "progress": -0.12588503122340922,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 405,
+        "progress": -0.1258850312234091,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 406,
+        "progress": -0.125885031223409,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 407,
+        "progress": -0.12588503122340888,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 408,
+        "progress": -0.1258850312234088,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 409,
+        "progress": -0.1258850312234087,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 410,
+        "progress": -0.1258850312234086,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 411,
+        "progress": -0.1258850312234085,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 412,
+        "progress": -0.1258850312234084,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 413,
+        "progress": -0.1258850312234083,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 414,
+        "progress": -0.1258850312234082,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 415,
+        "progress": -0.12588503122340808,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 416,
+        "progress": -0.125885031223408,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 417,
+        "progress": -0.12588503122340788,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 418,
+        "progress": -0.12588503122340777,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 419,
+        "progress": -0.12588503122340766,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 420,
+        "progress": -0.12588503122340758,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 421,
+        "progress": -0.12588503122340747,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 422,
+        "progress": -0.12588503122340738,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 423,
+        "progress": -0.12588503122340727,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 424,
+        "progress": -0.1258850312234072,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 425,
+        "progress": -0.12588503122340708,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 426,
+        "progress": -0.12588503122340697,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 427,
+        "progress": -0.12588503122340688,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 428,
+        "progress": -0.12588503122340677,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 429,
+        "progress": -0.12588503122340666,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 430,
+        "progress": -0.12588503122340655,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 431,
+        "progress": -0.12588503122340647,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 432,
+        "progress": -0.12588503122340636,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 433,
+        "progress": -0.12588503122340627,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 434,
+        "progress": -0.12588503122340616,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 435,
+        "progress": -0.12588503122340608,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 436,
+        "progress": -0.12588503122340597,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 437,
+        "progress": -0.12588503122340586,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 438,
+        "progress": -0.12588503122340575,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 439,
+        "progress": -0.12588503122340566,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 440,
+        "progress": -0.12588503122340555,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 441,
+        "progress": -0.12588503122340544,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 442,
+        "progress": -0.12588503122340533,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 443,
+        "progress": -0.12588503122340525,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 444,
+        "progress": -0.12588503122340514,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 445,
+        "progress": -0.12588503122340505,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 446,
+        "progress": -0.12588503122340494,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 447,
+        "progress": -0.12588503122340486,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 448,
+        "progress": -0.12588503122340475,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 449,
+        "progress": -0.12588503122340464,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 450,
+        "progress": -0.12588503122340453,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 451,
+        "progress": -0.12588503122340444,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 452,
+        "progress": -0.12588503122340433,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 453,
+        "progress": -0.12588503122340422,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 454,
+        "progress": -0.12588503122340414,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 455,
+        "progress": -0.12588503122340403,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 456,
+        "progress": -0.12588503122340394,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 457,
+        "progress": -0.12588503122340383,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 458,
+        "progress": -0.12588503122340372,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 459,
+        "progress": -0.12588503122340364,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 460,
+        "progress": -0.12588503122340353,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 461,
+        "progress": -0.12588503122340342,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 462,
+        "progress": -0.1258850312234033,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 463,
+        "progress": -0.12588503122340322,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 464,
+        "progress": -0.1258850312234031,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 465,
+        "progress": -0.125885031223403,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 466,
+        "progress": -0.12588503122340292,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 467,
+        "progress": -0.1258850312234028,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 468,
+        "progress": -0.12588503122340272,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 469,
+        "progress": -0.1258850312234026,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 470,
+        "progress": -0.1258850312234025,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 471,
+        "progress": -0.12588503122340242,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 472,
+        "progress": -0.1258850312234023,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 473,
+        "progress": -0.1258850312234022,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 474,
+        "progress": -0.12588503122340208,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 475,
+        "progress": -0.125885031223402,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 476,
+        "progress": -0.1258850312234019,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 477,
+        "progress": -0.12588503122340178,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 478,
+        "progress": -0.1258850312234017,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 479,
+        "progress": -0.12588503122340158,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 480,
+        "progress": -0.1258850312234015,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 481,
+        "progress": -0.1258850312234014,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 482,
+        "progress": -0.12588503122340128,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 483,
+        "progress": -0.1258850312234012,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 484,
+        "progress": -0.12588503122340108,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 485,
+        "progress": -0.12588503122340097,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 486,
+        "progress": -0.12588503122340086,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 487,
+        "progress": -0.12588503122340078,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 488,
+        "progress": -0.12588503122340067,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 489,
+        "progress": -0.12588503122340058,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 490,
+        "progress": -0.12588503122340047,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 491,
+        "progress": -0.1258850312234004,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 492,
+        "progress": -0.12588503122340028,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 493,
+        "progress": -0.12588503122340017,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 494,
+        "progress": -0.12588503122340008,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 495,
+        "progress": -0.12588503122339997,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 496,
+        "progress": -0.12588503122339986,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 497,
+        "progress": -0.12588503122339975,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 498,
+        "progress": -0.12588503122339967,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 499,
+        "progress": -0.12588503122339956,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 500,
+        "progress": -0.12588503122339945,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 501,
+        "progress": -0.12588503122339936,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 502,
+        "progress": -0.12588503122339925,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 503,
+        "progress": -0.12588503122339917,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 504,
+        "progress": -0.12588503122339906,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 505,
+        "progress": -0.12588503122339895,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 506,
+        "progress": -0.12588503122339886,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 507,
+        "progress": -0.12588503122339875,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 508,
+        "progress": -0.12588503122339864,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 509,
+        "progress": -0.12588503122339853,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 510,
+        "progress": -0.12588503122339845,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 511,
+        "progress": -0.12588503122339834,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 512,
+        "progress": -0.12588503122339825,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 513,
+        "progress": -0.12588503122339814,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 514,
+        "progress": -0.12588503122339806,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 515,
+        "progress": -0.12588503122339795,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 516,
+        "progress": -0.12588503122339784,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 517,
+        "progress": -0.12588503122339773,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 518,
+        "progress": -0.12588503122339764,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 519,
+        "progress": -0.12588503122339753,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 520,
+        "progress": -0.12588503122339742,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 521,
+        "progress": -0.1258850312233973,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 522,
+        "progress": -0.12588503122339723,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 523,
+        "progress": -0.12588503122339711,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 524,
+        "progress": -0.12588503122339703,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 525,
+        "progress": -0.12588503122339692,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 526,
+        "progress": -0.12588503122339684,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 527,
+        "progress": -0.12588503122339673,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 528,
+        "progress": -0.12588503122339662,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 529,
+        "progress": -0.1258850312233965,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 530,
+        "progress": -0.12588503122339642,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 531,
+        "progress": -0.1258850312233963,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 532,
+        "progress": -0.1258850312233962,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 533,
+        "progress": -0.1258850312233961,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 534,
+        "progress": -0.125885031223396,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 535,
+        "progress": -0.1258850312233959,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 536,
+        "progress": -0.1258850312233958,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 537,
+        "progress": -0.1258850312233957,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 538,
+        "progress": -0.12588503122339562,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 539,
+        "progress": -0.1258850312233955,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 540,
+        "progress": -0.1258850312233954,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 541,
+        "progress": -0.12588503122339528,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 542,
+        "progress": -0.1258850312233952,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 543,
+        "progress": -0.1258850312233951,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 544,
+        "progress": -0.12588503122339498,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 545,
+        "progress": -0.1258850312233949,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 546,
+        "progress": -0.12588503122339478,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 547,
+        "progress": -0.1258850312233947,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 548,
+        "progress": -0.1258850312233946,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 549,
+        "progress": -0.12588503122339448,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 550,
+        "progress": -0.1258850312233944,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 551,
+        "progress": -0.12588503122339428,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 552,
+        "progress": -0.12588503122339417,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 553,
+        "progress": -0.1258850312233941,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 554,
+        "progress": -0.12588503122339398,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 555,
+        "progress": -0.12588503122339387,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 556,
+        "progress": -0.12588503122339376,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 557,
+        "progress": -0.12588503122339367,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 558,
+        "progress": -0.12588503122339356,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 559,
+        "progress": -0.12588503122339348,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 560,
+        "progress": -0.12588503122339337,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 561,
+        "progress": -0.12588503122339328,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 562,
+        "progress": -0.12588503122339317,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 563,
+        "progress": -0.12588503122339306,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 564,
+        "progress": -0.12588503122339295,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 565,
+        "progress": -0.12588503122339287,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 566,
+        "progress": -0.12588503122339276,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 567,
+        "progress": -0.12588503122339265,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 568,
+        "progress": -0.12588503122339256,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 569,
+        "progress": -0.12588503122339245,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 570,
+        "progress": -0.12588503122339237,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 571,
+        "progress": -0.12588503122339226,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 572,
+        "progress": -0.12588503122339215,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 573,
+        "progress": -0.12588503122339206,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 574,
+        "progress": -0.12588503122339195,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 575,
+        "progress": -0.12588503122339184,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 576,
+        "progress": -0.12588503122339173,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 577,
+        "progress": -0.12588503122339165,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 578,
+        "progress": -0.12588503122339154,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 579,
+        "progress": -0.12588503122339142,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 580,
+        "progress": -0.12588503122339134,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 581,
+        "progress": -0.12588503122339123,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 582,
+        "progress": -0.12588503122339115,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 583,
+        "progress": -0.12588503122339104,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 584,
+        "progress": -0.12588503122339093,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 585,
+        "progress": -0.12588503122339084,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 586,
+        "progress": -0.12588503122339073,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 587,
+        "progress": -0.12588503122339062,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 588,
+        "progress": -0.1258850312233905,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 589,
+        "progress": -0.12588503122339043,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 590,
+        "progress": -0.12588503122339031,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 591,
+        "progress": -0.12588503122339023,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 592,
+        "progress": -0.12588503122339012,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 593,
+        "progress": -0.12588503122339,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 594,
+        "progress": -0.12588503122338993,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 595,
+        "progress": -0.12588503122338981,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 596,
+        "progress": -0.1258850312233897,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 597,
+        "progress": -0.12588503122338962,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 598,
+        "progress": -0.1258850312233895,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 599,
+        "progress": -0.1258850312233894,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 600,
+        "progress": -0.1258850312233893,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 601,
+        "progress": -0.1258850312233892,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 602,
+        "progress": -0.1258850312233891,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 603,
+        "progress": -0.125885031223389,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 604,
+        "progress": -0.1258850312233889,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 605,
+        "progress": -0.12588503122338882,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 606,
+        "progress": -0.1258850312233887,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 607,
+        "progress": -0.1258850312233886,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 608,
+        "progress": -0.12588503122338848,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 609,
+        "progress": -0.1258850312233884,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 610,
+        "progress": -0.1258850312233883,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 611,
+        "progress": -0.12588503122338818,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 612,
+        "progress": -0.12588503122338807,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 613,
+        "progress": -0.12588503122338798,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 614,
+        "progress": -0.12588503122338787,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 615,
+        "progress": -0.1258850312233878,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 616,
+        "progress": -0.12588503122338768,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 617,
+        "progress": -0.1258850312233876,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 618,
+        "progress": -0.12588503122338748,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 619,
+        "progress": -0.12588503122338737,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 620,
+        "progress": -0.1258850312233873,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 621,
+        "progress": -0.12588503122338718,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 622,
+        "progress": -0.12588503122338707,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 623,
+        "progress": -0.12588503122338696,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 624,
+        "progress": -0.12588503122338687,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 625,
+        "progress": -0.12588503122338676,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 626,
+        "progress": -0.12588503122338668,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 627,
+        "progress": -0.12588503122338657,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 628,
+        "progress": -0.12588503122338648,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 629,
+        "progress": -0.12588503122338637,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 630,
+        "progress": -0.12588503122338626,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 631,
+        "progress": -0.12588503122338615,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 632,
+        "progress": -0.12588503122338607,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 633,
+        "progress": -0.12588503122338596,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 634,
+        "progress": -0.12588503122338585,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 635,
+        "progress": -0.12588503122338573,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 636,
+        "progress": -0.12588503122338565,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 637,
+        "progress": -0.12588503122338554,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 638,
+        "progress": -0.12588503122338546,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 639,
+        "progress": -0.12588503122338535,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 640,
+        "progress": -0.12588503122338526,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 641,
+        "progress": -0.12588503122338515,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 642,
+        "progress": -0.12588503122338504,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 643,
+        "progress": -0.12588503122338493,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 644,
+        "progress": -0.12588503122338485,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 645,
+        "progress": -0.12588503122338474,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 646,
+        "progress": -0.12588503122338462,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 647,
+        "progress": -0.12588503122338454,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 648,
+        "progress": -0.12588503122338443,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 649,
+        "progress": -0.12588503122338435,
+        "target_contact": false,
+        "gripper_contact": false
+      },
+      {
+        "call": 650,
+        "progress": -0.12588503122338424,
+        "target_contact": false,
+        "gripper_contact": false
+      }
+    ]
+  },
+  "wall_seconds": 34.00935163535178,
+  "observation_source": "recorded_current_observation",
+  "selector": "predicted presence -> shortest path -> slot index",
+  "local_index": 4
+}

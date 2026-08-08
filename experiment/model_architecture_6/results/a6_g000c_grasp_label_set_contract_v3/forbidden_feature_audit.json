@@ -1,0 +1,50 @@
+{
+  "model_input_forbidden_fields": [],
+  "loaded_trajectory_fields": [
+    "grasp_plan_qpath",
+    "operation_start_robot_qpos",
+    "base_pose",
+    "initial_object_qpos"
+  ],
+  "result_json_read": false,
+  "replay_quality_gate_read_for_teacher_filter": true,
+  "task_progress_or_final_outcome_read": false,
+  "mech_dev_data_read": false,
+  "target_test_data_read": false,
+  "qpose_npz_fields": [
+    "initial_arm_qpos",
+    "qpose_absolute",
+    "qpose_relative",
+    "presence"
+  ],
+  "qpose_manifest_fields": [
+    "available_candidate_count",
+    "candidates",
+    "group_id",
+    "group_index",
+    "groups",
+    "k",
+    "label_sha256",
+    "observation_identity_source",
+    "raw_candidate_count",
+    "route",
+    "run_id",
+    "sample_id",
+    "schema_version",
+    "selected_candidate_count",
+    "slot",
+    "source_replay_id",
+    "split",
+    "target",
+    "teacher_id",
+    "terminal_semantics"
+  ],
+  "qpose_consumer_allowed_artifacts": [
+    "qpose_labels.npz",
+    "qpose_teacher_manifest.json"
+  ],
+  "traj_consumer_allowed_artifacts": [
+    "traj_labels.npz",
+    "traj_teacher_manifest.json"
+  ]
+}

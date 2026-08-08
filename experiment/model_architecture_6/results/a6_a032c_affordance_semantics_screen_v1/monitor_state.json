@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-07T07:37:36+00:00",
+  "config_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/a032c_supervisor_config.json",
+  "root": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6",
+  "read_only": true,
+  "allow_launch": false,
+  "next_check_at": "2026-08-07T08:37:36+00:00",
+  "rounds": [
+    {
+      "id": "a032c_initial_full",
+      "status": "running_or_pending",
+      "complete_count": 0,
+      "error_count": 0,
+      "total_count": 1,
+      "estimated_unit_seconds": 6800.0,
+      "estimated_remaining_seconds": 6800.0,
+      "process_lines": [
+        "root     1756727  425053  0 07:32 pts/6    00:00:00 bash -c conda run -n sapien python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume > results/a6_a032c_affordance_semantics_screen_v1/initial/full/run.log 2>&1",
+        "root     1756749 1756727  0 07:32 pts/6    00:00:00 /root/miniconda3/bin/python /root/miniconda3/condabin/conda run -n sapien python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume",
+        "root     1757612 1757065 99 07:32 pts/6    00:05:54 python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume",
+        "root     1759635 1757612  2 07:32 pts/6    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume",
+        "root     1759705 1757612  2 07:32 pts/6    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume",
+        "root     1759773 1757612  2 07:32 pts/6    00:00:06 python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume",
+        "root     1759842 1757612  2 07:32 pts/6    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition initial --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 0 --resume"
+      ],
+      "jobs": [
+        {
+          "id": "initial_seed20260806",
+          "status": "pending",
+          "summary_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a032c_affordance_semantics_screen_v1/initial/full/summary.json",
+          "log_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a032c_affordance_semantics_screen_v1/initial/full/run.log",
+          "latest_mtime": "2026-08-07T07:37:00+00:00",
+          "metrics": {}
+        }
+      ]
+    },
+    {
+      "id": "a032c_mix060_full",
+      "status": "running_or_pending",
+      "complete_count": 0,
+      "error_count": 0,
+      "total_count": 1,
+      "estimated_unit_seconds": 6800.0,
+      "estimated_remaining_seconds": 6800.0,
+      "process_lines": [
+        "root     1756708  425053  0 07:32 pts/4    00:00:00 bash -c conda run -n sapien python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume > results/a6_a032c_affordance_semantics_screen_v1/mix060/full/run.log 2>&1",
+        "root     1756757 1756708  0 07:32 pts/4    00:00:00 /root/miniconda3/bin/python /root/miniconda3/condabin/conda run -n sapien python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume",
+        "root     1757611 1757095 99 07:32 pts/4    00:05:59 python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume",
+        "root     1760009 1757611  2 07:32 pts/4    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume",
+        "root     1760087 1757611  2 07:32 pts/4    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume",
+        "root     1760154 1757611  2 07:32 pts/4    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume",
+        "root     1760223 1757611  2 07:32 pts/4    00:00:07 python run_a6_a032c_affordance_semantics_screen.py --condition mix060 --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --gpu 1 --resume"
+      ],
+      "jobs": [
+        {
+          "id": "mix060_seed20260806",
+          "status": "pending",
+          "summary_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a032c_affordance_semantics_screen_v1/mix060/full/summary.json",
+          "log_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a032c_affordance_semantics_screen_v1/mix060/full/run.log",
+          "latest_mtime": "2026-08-07T07:36:59+00:00",
+          "metrics": {}
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "launch_action": null
+}

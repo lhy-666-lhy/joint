@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G066C-REALIZE-SHARD",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 12,
+  "cal_row_start": 65,
+  "cal_row_end": 77,
+  "elapsed_seconds": 93.28216171264648,
+  "realization": {
+    "legal_ik": 160,
+    "planner_success": 30,
+    "selected_ik_coverage": 1.0,
+    "selected_planner_coverage": 0.5641025641025641
+  },
+  "metrics": {
+    "s0_mode_logit": {
+      "translation_m": 0.23460131883621216,
+      "rotation_rad": 1.856019377708435,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.23072005870441595,
+        "rotation_rad": 1.8886573215325673,
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "s1_calibrated_risk": {
+      "translation_m": 0.22370865941047668,
+      "rotation_rad": 1.7186108827590942,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.22829331581791243,
+        "rotation_rad": 1.738621569859485,
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "s2_ik_fk_planner": {
+      "translation_m": 0.2744145393371582,
+      "rotation_rad": 2.2610881328582764,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.2712552361190319,
+        "rotation_rad": 2.3186061084270477,
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "oracle_best_of_8": {
+      "translation_m": 0.2063562422990799,
+      "rotation_rad": 0.4382993280887604,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.1792072964211305,
+        "rotation_rad": 0.5855796818311015,
+        "pose_within_3cm_12deg": 0.0
+      }
+    }
+  },
+  "comparisons": {
+    "s2_minus_g062": {
+      "translation_m": {
+        "mean": 0.033558452189967114,
+        "ci95": [
+          -0.039849245700912146,
+          0.10369078153858395
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.8805053555837272,
+        "ci95": [
+          0.04731401174049168,
+          1.6365487689192877
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s2_minus_oracle": {
+      "translation_m": {
+        "mean": 0.09204793969790141,
+        "ci95": [
+          0.0015889059752225876,
+          0.16647621009809274
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.733026426595946,
+        "ci95": [
+          1.4058920317019026,
+          2.069398654873172
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_oracle": {
+      "translation_m": {
+        "mean": 0.04908601939678192,
+        "ci95": [
+          -0.013576886942610143,
+          0.12096027263129745
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.1530418880283833,
+        "ci95": [
+          0.6193171800735097,
+          1.749054830521345
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "score_terminal": true,
+    "cal_group_count": true,
+    "fixed_candidate_shape": true,
+    "ik_seed_count": true,
+    "no_teacher_qpose_seed": true,
+    "finite_legal_qpose": true,
+    "selection_indices_valid": true,
+    "outcome_mutation_invariance": true,
+    "evaluation_labels_loaded_after_selection": true,
+    "no_task_outcome_read": true
+  },
+  "claim_supported": "shard_only",
+  "decision": "aggregate all G066 shards",
+  "next_run_ids": []
+}

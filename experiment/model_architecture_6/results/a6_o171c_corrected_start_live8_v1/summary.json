@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o171c_corrected_start_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "corrected operation-start A5_CAL live8 model comparison",
+  "metrics": {
+    "mlp": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.22941501518818197,
+        "ci95": [
+          0.13609077075367115,
+          0.32167160147820467
+        ]
+      },
+      "progress_median": 0.2209164671682302,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.82484882867324,
+        "ci95": [
+          0.6248273955355929,
+          0.990506329113924
+        ]
+      },
+      "per_target_progress": [
+        0.07805439414155571,
+        0.010033433775056833,
+        0.24140236681226354,
+        0.30422860794297857,
+        0.41312612437242896,
+        0.20043056752419688,
+        0.183459767720451,
+        0.4045848592165242
+      ],
+      "per_target_contact": [
+        0.27741935483870966,
+        0.9672131147540983,
+        1.0,
+        1.0,
+        1.0,
+        0.9240506329113924,
+        0.43010752688172044,
+        1.0
+      ]
+    },
+    "parallel": {
+      "targets": 8,
+      "task_success": 0,
+      "progress": {
+        "mean": 0.17908546711306872,
+        "ci95": [
+          0.10184486909088204,
+          0.26289606502639323
+        ]
+      },
+      "progress_median": 0.1780055487696363,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6931055451301968,
+        "ci95": [
+          0.44789495450785777,
+          0.9034758689672417
+        ]
+      },
+      "per_target_progress": [
+        0.07137283011727708,
+        0.24856188473752533,
+        0.1817688406019825,
+        0.06487715715392096,
+        0.39482197681606185,
+        0.27317475531796614,
+        0.17424225693729015,
+        0.02386403522252566
+      ],
+      "per_target_contact": [
+        0.21935483870967742,
+        1.0,
+        1.0,
+        0.23692307692307693,
+        1.0,
+        0.8607594936708861,
+        0.34408602150537637,
+        0.8837209302325582
+      ]
+    },
+    "repeat_last": {
+      "targets": 8,
+      "task_success": 0,
+      "progress": {
+        "mean": 0.00033615771096878646,
+        "ci95": [
+          -0.0012521586895369759,
+          0.0015124315131259155
+        ]
+      },
+      "progress_median": 0.0005097834868038852,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "per_target_progress": [
+        0.0004568713378966281,
+        -0.004631930602244324,
+        0.0004618251251537267,
+        2.376336582606013e-05,
+        0.0014656162594925397,
+        0.002836596456118502,
+        0.001518777897053115,
+        0.0005577418484540436
+      ],
+      "per_target_contact": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise": {
+    "mlp_minus_repeat_last": {
+      "progress": {
+        "mean": 0.22907885747721318,
+        "ci95": [
+          0.13683758142513916,
+          0.3204623304820615
+        ]
+      },
+      "contact": {
+        "mean": -0.1751511713267599,
+        "ci95": [
+          -0.3751726044644072,
+          -0.009493670886075944
+        ]
+      },
+      "task_success_delta": 2
+    },
+    "parallel_minus_repeat_last": {
+      "progress": {
+        "mean": 0.17874930940209993,
+        "ci95": [
+          0.10141794582947421,
+          0.2621383051784879
+        ]
+      },
+      "contact": {
+        "mean": -0.30689445486980316,
+        "ci95": [
+          -0.5521050454921422,
+          -0.09652413103275818
+        ]
+      },
+      "task_success_delta": 0
+    },
+    "mlp_minus_parallel": {
+      "progress": {
+        "mean": 0.05032954807511325,
+        "ci95": [
+          -0.06797307548990479,
+          0.1756264445375374
+        ]
+      },
+      "task_success_delta": 2
+    }
+  },
+  "checks": {
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "correct_start_command_source": true,
+    "zero_start_finger_command": true,
+    "selected_matches_logged_raw_repaired": true
+  },
+  "decision": "corrected baseline complete; choose the next operation intervention from paired evidence",
+  "next_run_ids": []
+}

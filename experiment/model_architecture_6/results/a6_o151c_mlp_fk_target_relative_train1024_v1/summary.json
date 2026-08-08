@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o151c_mlp_fk_target_relative_train1024_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "matched TRAIN1024 MLP with deployable FK/visible-target relative state",
+  "metrics": {
+    "train_normalized_delta_mae": 0.03845255428691227,
+    "train_raw_delta_mae": 0.0008892298807979227,
+    "reload_max_abs": 0.0,
+    "wall_seconds": 34.050151428207755,
+    "parameter_count": 732448,
+    "peak_allocated_bytes": 618739712
+  },
+  "checks": {
+    "train_rows_1024": true,
+    "state_dim_85": true,
+    "zero_contact": true,
+    "steps_6000": true,
+    "batch_64": true,
+    "finite": true,
+    "reload_exact": true,
+    "matched_seed": true
+  },
+  "decision": "training valid; run exact-paired CAL and live8",
+  "next_run_ids": [
+    "A6-O152C",
+    "A6-O153C"
+  ]
+}

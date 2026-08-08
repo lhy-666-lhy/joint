@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g005c_gt_qpose_physical_pilot_v2",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scientific_scope": "GT qpose-only online-planner physical interface pilot",
+  "route": "gt_qpose",
+  "targets": 8,
+  "strict_grasp_success": 3,
+  "task_success": 2,
+  "mean_progress": 0.09857210383655703,
+  "checks": {
+    "fresh_world_each": true,
+    "l64_each": true,
+    "fixed_stage_ticks": true,
+    "fixed_operation_budget": true,
+    "qpose_consumer_forbidden_reads_absent": true
+  },
+  "file_read_string_literals": [],
+  "forbidden_read_hits": [],
+  "source_hashes": {
+    "qpose_manifest": "f5c4ad329fa92cecd5c2f283498cd47647eda5a31b1db3d52acff02a3e877bb2",
+    "planned_paths": "b9ee4835fc5a485c723dc7a172495ab1224071b8f42e357c8346bd636395bebf",
+    "operation_checkpoint": "7413005ab5aa22fdd88d4a708c95c416cf65e42d772106be2ef005802b140d14"
+  },
+  "completed_at": "2026-08-06T19:33:09+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o197c_recovery_residual_weight_average_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "single-model 50/50 recovery-head weight average",
+  "metrics": {
+    "output_mean_parity_max_abs": 5.066394805908203e-07,
+    "reload_max_abs": 0.0,
+    "source_head_l2_distance": 0.23385010659694672
+  },
+  "checks": {
+    "two_source_checkpoints_present": true,
+    "head_keys_exact": true,
+    "head_tensor_average_exact": true,
+    "all_non_head_tensors_equal_between_seeds": true,
+    "frozen_baseline_equals_o127c": true,
+    "output_equals_seed_mean": true,
+    "reload_exact": true,
+    "fixed_batch_zero_contact": true,
+    "finite": true
+  },
+  "decision": "weight average valid; run CAL/live",
+  "next_run_ids": [
+    "A6-O198C"
+  ]
+}

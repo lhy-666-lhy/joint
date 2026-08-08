@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o185c_recovery_residual_train_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "frozen O127C plus isolated time-recovery residual",
+  "metrics": {
+    "step0_output_parity_max_abs": 0.0,
+    "prefix_teacher_raw_mae": 0.001520845003768474,
+    "prefix_baseline_drift_raw_mae": 0.0011477025360981422,
+    "recovery_teacher_raw_mae": 0.04726246510830955,
+    "recovery_baseline_drift_raw_mae": 0.00293780943003211,
+    "residual_weight_norm": 4.377898693084717,
+    "reload_max_abs": 0.0,
+    "wall_seconds": 23.79136390425265
+  },
+  "checks": {
+    "d180c_passed": true,
+    "rows_1152": true,
+    "step0_output_parity": true,
+    "baseline_parameters_frozen": true,
+    "only_residual_optimized": true,
+    "balanced_batch_32_32": true,
+    "finite": true,
+    "reload_exact": true
+  },
+  "decision": "residual isolation valid; run CAL/live comparison",
+  "next_run_ids": [
+    "A6-O186C",
+    "A6-O187C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-O185C",
+      "status": "passed"
+    }
+  ]
+}

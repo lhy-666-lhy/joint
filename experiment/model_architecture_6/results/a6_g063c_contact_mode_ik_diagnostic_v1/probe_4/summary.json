@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G063C-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "elapsed_seconds": 1.6924448013305664,
+  "selected_contact_frame_mapping": "x",
+  "train_mapping_scores": {
+    "x": 3.021772198648727,
+    "y": 3.021772198648727
+  },
+  "fallback_frame_count": 0,
+  "mode_metrics": {
+    "1": {
+      "train": {
+        "labels": 13,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.06412707634934611,
+          "median": 0.05013880588566665,
+          "p90": 0.13289659662554107,
+          "max": 0.17294250958309845
+        },
+        "rotation_rad": {
+          "mean": 0.18518704055023114,
+          "median": 0.10230169310684169,
+          "p90": 0.16622519554156684,
+          "max": 1.2985021030282922
+        },
+        "pose_within_3cm_12deg": 0.23076923076923078
+      },
+      "cal": {
+        "labels": 16,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.34358368696798713,
+          "median": 0.27830434528762593,
+          "p90": 0.6504792065619234,
+          "max": 0.6722838048938451
+        },
+        "rotation_rad": {
+          "mean": 1.9161906706451435,
+          "median": 2.5145055923300217,
+          "p90": 3.129092824706031,
+          "max": 3.1411461628819213
+        },
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "2": {
+      "train": {
+        "labels": 13,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.05082380653419267,
+          "median": 0.041013871940407474,
+          "p90": 0.10208808760968703,
+          "max": 0.1400863277528592
+        },
+        "rotation_rad": {
+          "mean": 0.08531760401522828,
+          "median": 0.09928539519977805,
+          "p90": 0.12048799283385239,
+          "max": 0.17736536619798418
+        },
+        "pose_within_3cm_12deg": 0.3076923076923077
+      },
+      "cal": {
+        "labels": 16,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.3468361839007015,
+          "median": 0.26130548448542323,
+          "p90": 0.7047793777119897,
+          "max": 0.7483846313411727
+        },
+        "rotation_rad": {
+          "mean": 1.4189906152082385,
+          "median": 1.2188494676429333,
+          "p90": 3.07833672938286,
+          "max": 3.1061709373932485
+        },
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "4": {
+      "train": {
+        "labels": 13,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.03263092886443855,
+          "median": 0.036300503166060955,
+          "p90": 0.0692945921507027,
+          "max": 0.07440867643774587
+        },
+        "rotation_rad": {
+          "mean": 0.03933699792540527,
+          "median": 0.02535318202537642,
+          "p90": 0.11487003113855553,
+          "max": 0.15627309827875002
+        },
+        "pose_within_3cm_12deg": 0.46153846153846156
+      },
+      "cal": {
+        "labels": 16,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.33116213968910535,
+          "median": 0.22641146403252582,
+          "p90": 0.6587897562966558,
+          "max": 0.7483846313411727
+        },
+        "rotation_rad": {
+          "mean": 1.373252093454858,
+          "median": 1.2188494676429333,
+          "p90": 3.07833672938286,
+          "max": 3.1061709373932485
+        },
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "8": {
+      "train": {
+        "labels": 13,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.010878265681136713,
+          "median": 3.884769157431416e-09,
+          "p90": 0.027258997330606206,
+          "max": 0.06070492107023982
+        },
+        "rotation_rad": {
+          "mean": 0.013346800667181106,
+          "median": 0.00025009210878675477,
+          "p90": 0.03202208384471578,
+          "max": 0.07631100216379481
+        },
+        "pose_within_3cm_12deg": 0.9230769230769231
+      },
+      "cal": {
+        "labels": 16,
+        "groups": 4,
+        "translation_m": {
+          "mean": 0.3150341542319518,
+          "median": 0.21210032283232172,
+          "p90": 0.6587897562966558,
+          "max": 0.7483846313411727
+        },
+        "rotation_rad": {
+          "mean": 1.3818555522434217,
+          "median": 1.2188494676429333,
+          "p90": 3.07833672938286,
+          "max": 3.1414806797858597
+        },
+        "pose_within_3cm_12deg": 0.0
+      }
+    }
+  },
+  "paired_comparison": {
+    "m8_minus_m1_translation_m": {
+      "mean": -0.028549532736035402,
+      "ci95": [
+        -0.07314714927488333,
+        0.0451571221851992
+      ],
+      "unit": "CAL observation group",
+      "bootstrap_samples": 10000
+    },
+    "m8_minus_m1_rotation_rad": {
+      "mean": -0.5343351184017217,
+      "ci95": [
+        -1.0622246272688471,
+        -0.15774353700230453
+      ],
+      "unit": "CAL observation group",
+      "bootstrap_samples": 10000
+    }
+  },
+  "ik_metrics": {
+    "train": {
+      "labels": 13,
+      "coverage_at_least_one": 1.0,
+      "multi_solution_fraction": 0.6923076923076923,
+      "unique_solution_count": {
+        "mean": 1.6923076923076923,
+        "median": 2.0,
+        "p90": 2.0,
+        "max": 2.0
+      },
+      "nearest_legal_to_teacher_l2": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      }
+    },
+    "cal": {
+      "labels": 16,
+      "coverage_at_least_one": 1.0,
+      "multi_solution_fraction": 1.0,
+      "unique_solution_count": {
+        "mean": 2.6875,
+        "median": 3.0,
+        "p90": 3.0,
+        "max": 3.0
+      },
+      "nearest_legal_to_teacher_l2": {
+        "mean": 0.0,
+        "median": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "checks": {
+    "upstream_g061_terminal": true,
+    "all_present_labels_consumed": true,
+    "split_counts": true,
+    "mode_counts_nested": true,
+    "train_only_codebook": true,
+    "finite_mode_metrics": true,
+    "ik_seed_count": true,
+    "no_outcome_read": true,
+    "no_gt_link_pose_forward_input": true
+  },
+  "claim_supported": "probe_only",
+  "decision": "run full G063C",
+  "next_run_ids": [
+    "A6-G063C"
+  ]
+}

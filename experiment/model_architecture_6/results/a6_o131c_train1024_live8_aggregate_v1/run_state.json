@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o131c_train1024_live8_aggregate_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "8-target A5_CAL source-horizon live closed-loop screen",
+  "metrics": {
+    "mlp": {
+      "task_success": 2,
+      "targets": 8,
+      "progress": {
+        "mean": 0.16887852878011606,
+        "ci95": [
+          0.06802088353140419,
+          0.2837016601675521
+        ]
+      },
+      "progress_median": 0.12826481135966675,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.6124957114209065,
+      "full_contact_count": 2,
+      "per_target_progress": [
+        0.03552902311203235,
+        0.005471930010294612,
+        0.24064584749174592,
+        9.486373583257537e-09,
+        0.40889410133496046,
+        0.16632701654689172,
+        0.09020260617244179,
+        0.40395769608618787
+      ]
+    },
+    "parallel": {
+      "task_success": 1,
+      "targets": 8,
+      "progress": {
+        "mean": 0.16637008710845166,
+        "ci95": [
+          0.07135946732208709,
+          0.26731600419525386
+        ]
+      },
+      "progress_median": 0.12987942060265792,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.6409878199832333,
+      "full_contact_count": 3,
+      "per_target_progress": [
+        0.058713699399716164,
+        0.33583716677689834,
+        0.19193899199312123,
+        2.561320867479535e-07,
+        0.4002118686676085,
+        0.265395132124314,
+        0.06781984921219462,
+        0.01104373256167376
+      ]
+    },
+    "repeat_last": {
+      "task_success": 0,
+      "targets": 8,
+      "progress": {
+        "mean": -0.0007532485880010915,
+        "ci95": [
+          -0.001967854216683939,
+          4.787730473725624e-07
+        ]
+      },
+      "progress_median": 1.3755241695723428e-07,
+      "positive_progress_count": 4,
+      "wrong_way_count": 3,
+      "contact_fraction_mean": 1.0,
+      "full_contact_count": 8,
+      "per_target_progress": [
+        -0.00037454804639813695,
+        -0.00479633894281576,
+        2.442741197688816e-05,
+        0.0,
+        -0.0009828072759726473,
+        0.00010137138811069005,
+        1.6316562563202963e-06,
+        2.7510483391446855e-07
+      ]
+    }
+  },
+  "pairwise_progress": {
+    "mlp_minus_repeat_last": {
+      "mean": 0.16963177736811713,
+      "ci95": [
+        0.06934682081901865,
+        0.284035061524113
+      ]
+    },
+    "parallel_minus_repeat_last": {
+      "mean": 0.16712333569645277,
+      "ci95": [
+        0.0715130557988731,
+        0.2692083412544553
+      ]
+    },
+    "mlp_minus_parallel": {
+      "mean": 0.002508441671664363,
+      "ci95": [
+        -0.1245687636864655,
+        0.14203261797933253
+      ]
+    }
+  },
+  "checks": {
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "finite": true,
+    "zero_model_oracle_fields": true
+  },
+  "decision": "closed-loop learning signal supported; expand TRAIN target coverage and contact-retention robustness"
+}

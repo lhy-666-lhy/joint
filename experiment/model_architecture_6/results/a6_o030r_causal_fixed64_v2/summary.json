@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o030r_causal_fixed64_v2",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint": "last.pt",
+    "checkpoint_sha256": "447967ff61dbdebd9986d378ed4f1c1292fb6207d7c01d8788d9d05dea4cf535",
+    "history": "history.json",
+    "metrics": "offline_metrics.json",
+    "resource_pilot": "resource_pilot.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "metrics": {
+    "initial_normalized_mae": 0.8566828966140747,
+    "final_normalized_mae": 0.11744870245456696,
+    "loss_decrease_ratio": 7.294102668762207,
+    "raw_mae": 0.10373547673225403,
+    "per_dim_raw_mae": [
+      0.129930317401886,
+      0.09122411161661148,
+      0.12711258232593536,
+      0.17166975140571594,
+      0.15267859399318695,
+      0.10118063539266586,
+      0.1598229706287384,
+      1.9260646411112248e-07,
+      1.415258452652779e-07
+    ],
+    "reload_max_error": 0.0,
+    "baselines": {
+      "repeat_last_command_normalized_mae": 0.010377982631325722,
+      "train_mean_chunk_normalized_mae": 0.5912346839904785
+    },
+    "wall_seconds": 19.252726782026002,
+    "optimizer_steps_per_second": 103.88138899198236,
+    "step_time_mean_seconds": 0.009322840322449337,
+    "step_time_p95_seconds": 0.00943164003547281,
+    "peak_gpu_memory_bytes": 619396096,
+    "parameter_count": 763978,
+    "decoder_parameter_count": 574034
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "steps_exact_2000": true,
+    "normalized_mae_le_1e_3": false,
+    "loss_decrease_ge_100x": false,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "shared_input_revision": true,
+    "zero_affordance": true,
+    "zero_outcome_or_heldout_reads": true,
+    "parameter_parity_within_20_percent": true,
+    "resource_pilot_contract": true
+  },
+  "decision": "Corrected O030R is a scoped training-fit failure; all three M1 arms require attribution review.",
+  "remaining_work": [
+    "analyze O030R terminal evidence",
+    "audit all M1 training-fit failures before changing budget or entering DYN64"
+  ],
+  "next_run_ids": [
+    "a6_o000c_m1_fit_attribution_v1"
+  ],
+  "event_id": "a6_o030r_causal_fixed64_v2_terminal"
+}

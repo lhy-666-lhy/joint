@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G058C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "metrics": {
+    "labels": 2373,
+    "target_surface_distance_m": {
+      "mean": 0.08769720700549186,
+      "median": 0.08254385890666295,
+      "p90": 0.10911890104709729,
+      "max": 0.25132379434999824
+    },
+    "affordance_positive_distance_m": {
+      "mean": 0.10184881956877039,
+      "median": 0.08558213054730943,
+      "p90": 0.1326148535736723,
+      "max": 0.5721098186438703
+    },
+    "affordance_positive_groups": 618,
+    "affordance_positive_label_coverage": 0.9814580699536452,
+    "hand_frame_offset_mean_xyz": [
+      -0.005126164266828201,
+      0.000210339727349858,
+      -0.07979838287812907
+    ],
+    "hand_frame_offset_std_xyz": [
+      0.034867904649478594,
+      0.013478721368620616,
+      0.016132601718811777
+    ],
+    "approach_axis_counts": {
+      "axis_0": 114,
+      "axis_1": 7,
+      "axis_2": 2252
+    },
+    "dominant_axis": 2,
+    "dominant_axis_offset_m": {
+      "mean": 0.07992894314056909,
+      "median": 0.0777245687600422,
+      "p90": 0.09505519682166778,
+      "max": 0.18226922146810096
+    },
+    "orthogonal_offset_norm_m": {
+      "mean": 0.02933105643559228,
+      "median": 0.022825564076745748,
+      "p90": 0.058365822297662226,
+      "max": 0.24211459103995858
+    }
+  },
+  "checks": {
+    "labels_exact": true,
+    "finite_target_geometry": true,
+    "split_labels_exact": true,
+    "affordance_join_exact": true,
+    "no_outcome_read": true
+  },
+  "decision": "use geometry statistics to decide oracle contact-frame ceiling"
+}

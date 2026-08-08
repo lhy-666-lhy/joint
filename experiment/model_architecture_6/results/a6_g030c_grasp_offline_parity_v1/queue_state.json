@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G030C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "results": {
+    "traj": {
+      "model": {
+        "waypoint_mae": 0.40080384386352974,
+        "endpoint_mae": 0.6877481698399723,
+        "start_abs": 0.0038763488490724625,
+        "first_difference_mae": 0.021583463369619728
+      },
+      "zero_relative_baseline": {
+        "waypoint_mae": 0.375092354151282,
+        "endpoint_mae": 0.6515031279903827,
+        "start_abs": 0.0,
+        "first_difference_mae": 0.01233406778941355
+      },
+      "train_slot_mean_baseline": {
+        "waypoint_mae": 0.36593524669066513,
+        "endpoint_mae": 0.595705551823767,
+        "start_abs": 0.04732559492239858,
+        "first_difference_mae": 0.011676187995858121
+      },
+      "presence_probability_mean": 0.9213339686393738,
+      "groups_with_any_presence_gt_0_5": 101,
+      "groups": 101
+    },
+    "qpose": {
+      "model": {
+        "endpoint_mae": 0.6627925861589979
+      },
+      "zero_relative_baseline": {
+        "endpoint_mae": 0.6515031279903827
+      },
+      "train_slot_mean_baseline": {
+        "endpoint_mae": 0.595165009103199
+      },
+      "presence_probability_mean": 0.9129831790924072,
+      "groups_with_any_presence_gt_0_5": 98,
+      "groups": 101
+    },
+    "qpose_gt_affordance_oracle": {
+      "model": {
+        "endpoint_mae": 0.6470386440506076
+      },
+      "deployable": false,
+      "groups": 101
+    },
+    "qpose_base_frame": {
+      "model": {
+        "endpoint_mae": 0.6133781050396437
+      },
+      "deployable": true,
+      "groups": 101
+    },
+    "traj_base_frame": {
+      "model": {
+        "waypoint_mae": 0.3818830799790892,
+        "endpoint_mae": 0.6479156601547015,
+        "start_abs": 0.003129723138351104,
+        "first_difference_mae": 0.02146655728690105
+      },
+      "deployable": true,
+      "groups": 101
+    },
+    "qpose_base_frame_per_joint_normalized": {
+      "model": {
+        "endpoint_mae": 0.6230356277215598
+      },
+      "deployable": true,
+      "groups": 101
+    },
+    "qpose_base_frame_gt_affordance_oracle": {
+      "model": {
+        "endpoint_mae": 0.6212395078474933
+      },
+      "deployable": false,
+      "groups": 101
+    },
+    "qpose_base_frame_gt_affordance_concat_oracle": {
+      "model": {
+        "endpoint_mae": 0.6146887807857873
+      },
+      "deployable": false,
+      "groups": 101
+    }
+  },
+  "checks": {
+    "cal_groups_101": true,
+    "finite": true,
+    "same_cal_groups": true,
+    "no_outcome_read": true,
+    "raw_joint_units": true
+  },
+  "decision": "use physical planner/rollout to compare routes; offline losses are not cross-route comparable"
+}

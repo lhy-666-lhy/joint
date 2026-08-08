@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-A032C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "baseline": {
+    "condition": "updated",
+    "seed": 20260806,
+    "contact_metrics": {
+      "count": 382,
+      "mean_m": 0.12203039896281616,
+      "median_m": 0.048271996377984405,
+      "p90_m": 0.2775750890603794,
+      "coverage_3cm": 0.45549738219895286,
+      "coverage_5cm": 0.5104712041884817,
+      "max_m": 1.0847158734496987
+    }
+  },
+  "variants": {
+    "initial": {
+      "target_centroid": {
+        "count": 382,
+        "mean_m": 0.35341840898076277,
+        "median_m": 0.3412028064619484,
+        "p90_m": 0.4834696893437737,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.6203479748825527
+      },
+      "gt_top4_nms3cm": {
+        "count": 382,
+        "mean_m": 0.04215032183202535,
+        "median_m": 0.024257416356630757,
+        "p90_m": 0.11608963088328464,
+        "coverage_3cm": 0.5785340314136126,
+        "coverage_5cm": 0.7068062827225131,
+        "max_m": 0.28310552114616266
+      },
+      "initial_top4_nms3cm": {
+        "count": 382,
+        "mean_m": 0.10606050380065447,
+        "median_m": 0.047681959962479856,
+        "p90_m": 0.29095418170859166,
+        "coverage_3cm": 0.4109947643979058,
+        "coverage_5cm": 0.5026178010471204,
+        "max_m": 0.9293717822332321
+      }
+    },
+    "mix060": {
+      "target_centroid": {
+        "count": 382,
+        "mean_m": 0.35341840898076277,
+        "median_m": 0.3412028064619484,
+        "p90_m": 0.4834696893437737,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.6203479748825527
+      },
+      "gt_top4_nms3cm": {
+        "count": 382,
+        "mean_m": 0.04215032183202535,
+        "median_m": 0.024257416356630757,
+        "p90_m": 0.11608963088328464,
+        "coverage_3cm": 0.5785340314136126,
+        "coverage_5cm": 0.7068062827225131,
+        "max_m": 0.28310552114616266
+      },
+      "mix060_top4_nms3cm": {
+        "count": 382,
+        "mean_m": 0.13043916270011505,
+        "median_m": 0.06103327019169317,
+        "p90_m": 0.26783526919216294,
+        "coverage_3cm": 0.40575916230366493,
+        "coverage_5cm": 0.46596858638743455,
+        "max_m": 1.0847158734496987
+      }
+    }
+  },
+  "descriptive_comparison_to_updated": {
+    "initial": {
+      "mean_distance_minus_updated_m": -0.015969895162161685,
+      "coverage_3cm_minus_updated": -0.044502617801047084,
+      "coverage_5cm_minus_updated": -0.007853403141361293
+    },
+    "mix060": {
+      "mean_distance_minus_updated_m": 0.008408763737298888,
+      "coverage_3cm_minus_updated": -0.04973821989528793,
+      "coverage_5cm_minus_updated": -0.04450261780104714
+    }
+  },
+  "screen_candidates": [],
+  "claim_supported": "screen_only",
+  "producer_replacement_authorized": false,
+  "decision": "retain A030 updated producer; G065 selector gate blocks A033 downstream utility",
+  "next_run_ids": []
+}

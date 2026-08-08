@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G042C-FIT-target",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "kind": "qpose",
+  "affordance_condition": "zero",
+  "affordance_encoding": "weight",
+  "coordinate_frame": "base",
+  "target_mask": true,
+  "target_mask_condition": "target",
+  "view_mode": "primary",
+  "target_normalization": "none",
+  "target_mean": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "target_std": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "deployable": true,
+  "seed": 20260806,
+  "optimizer_steps": 6000,
+  "effective_batch": 64,
+  "device": "cuda",
+  "trainable_parameters": 508744,
+  "train_loss_first": 0.8020663261413574,
+  "train_loss_last": 0.19366973638534546,
+  "cal_loss_last": 0.6751376986503601,
+  "reload_max_abs": 0.0,
+  "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g042c_qpose_base_target_mask_v1/target/qpose_zero_base_none_seed20260806.pth",
+  "checkpoint_sha256": "357bd67190b16d2713c517ea3cb03989f8162d03ce52fca7b05af181b396ec1c",
+  "source_input_sha256": "8c8e825afcef0c09c5d14fd13910915e7f7d4d9cd989437f0997e1ee8df84bbf",
+  "checks": {
+    "finite": true,
+    "reload": true,
+    "train_loss_decreased": true,
+    "split_counts": true,
+    "affordance_contract": true,
+    "target_mask_contract": true,
+    "no_future_or_outcome_input": true
+  },
+  "decision": "run raw-unit target-mask CAL comparison",
+  "jobs": [
+    {
+      "id": "A6-G042C-FIT-target",
+      "status": "passed"
+    }
+  ]
+}

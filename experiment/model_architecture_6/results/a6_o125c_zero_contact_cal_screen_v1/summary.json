@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o125c_zero_contact_cal_screen_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "A5_CAL recorded-current-observation with deployable zero-contact schema; live validation required",
+  "baseline": {
+    "repeat_last_raw_mae": 0.012379659339785576
+  },
+  "metrics": {
+    "mlp": {
+      "raw_mae": 0.011442117393016815,
+      "endpoint_raw_mae": 0.02304990217089653,
+      "relative_to_repeat": 0.9242675488043761,
+      "target_delta_vs_repeat": {
+        "mean": -0.0008095238590613008,
+        "ci95": [
+          -0.001832573048886843,
+          0.00017823867419792787
+        ]
+      }
+    },
+    "parallel": {
+      "raw_mae": 0.011346851475536823,
+      "endpoint_raw_mae": 0.022858144715428352,
+      "relative_to_repeat": 0.9165721902435935,
+      "target_delta_vs_repeat": {
+        "mean": -0.0008223662152886391,
+        "ci95": [
+          -0.0020651400089263918,
+          0.0004746234837512017
+        ]
+      }
+    },
+    "causal": {
+      "raw_mae": 0.012692111544311047,
+      "endpoint_raw_mae": 0.025793999433517456,
+      "relative_to_repeat": 1.0252391601375748,
+      "target_delta_vs_repeat": {
+        "mean": 0.0002912232303060591,
+        "ci95": [
+          -0.0009176450417726301,
+          0.0014940803957870226
+        ]
+      },
+      "teacher_raw_mae": 0.0012685945257544518
+    }
+  },
+  "pairwise": {
+    "parallel_minus_mlp": {
+      "mean": -1.2842259820899926e-05,
+      "ci95": [
+        -0.0005221205632551573,
+        0.0005517150435480289
+      ]
+    },
+    "parallel_minus_causal": {
+      "mean": -0.0011135892709717155,
+      "ci95": [
+        -0.001726215417147614,
+        -0.0004880791289906485
+      ]
+    },
+    "mlp_minus_causal": {
+      "mean": -0.001100747031159699,
+      "ci95": [
+        -0.0015606210654368624,
+        -0.0006411833222955468
+      ]
+    }
+  },
+  "checks": {
+    "rows_280": true,
+    "targets_35": true,
+    "zero_contact": true,
+    "finite": true,
+    "exact_paired": true
+  },
+  "decision": "valid CAL prioritization for live closed-loop probe"
+}

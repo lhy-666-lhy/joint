@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G070C-PLANNER",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 101,
+  "elapsed_seconds": 728.3937299251556,
+  "metrics": {
+    "any_candidate_planner_coverage": 0.25654450261780104,
+    "selected_planner_coverage": 0.25654450261780104,
+    "oracle_qpose_set_l1": 0.5953157544136047,
+    "planner_selected_qpose_set_l1": 0.6014158725738525
+  },
+  "checks": {
+    "g070_terminal": true,
+    "group_count": true,
+    "candidate_shape": true,
+    "finite_inputs": true,
+    "selection_indices_valid": true,
+    "evaluation_labels_loaded_after_selection": true,
+    "no_teacher_qpose_selector_input": true,
+    "no_outcome_read": true
+  },
+  "claim_supported": "diagnostic_only",
+  "decision": "stop direct-qpose branch unless planner coverage and qpose error both support"
+}

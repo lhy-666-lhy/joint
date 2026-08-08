@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r170c_operation_start_command_audit_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "A6 operation-start command-source audit",
+  "checks": {
+    "live_targets_8": true,
+    "recovery_targets_16": true,
+    "source_hashes_match": true,
+    "selected_logged_source": true,
+    "selected_matches_logged": true,
+    "selected_matches_raw": true,
+    "selected_matches_repaired": true,
+    "selected_finger_zero": true,
+    "deprecated_field_is_robot_qpos": true,
+    "deprecated_field_differs_from_command": true,
+    "no_outcome_or_progress_consumed": true
+  },
+  "counts": {
+    "rows": 24,
+    "live_cal": 8,
+    "recovery_train": 16
+  },
+  "decision": "authorize corrected O171C live8",
+  "next_run_ids": [
+    "A6-O171C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-R170C",
+      "status": "passed"
+    }
+  ]
+}

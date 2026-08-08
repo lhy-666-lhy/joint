@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r030_preflight_enforcement_v1",
+  "checks": {
+    "regression_suite_passed": true,
+    "enforcement_enabled": true,
+    "active_contract_path_frozen": true,
+    "preflight_audit_path_frozen": true
+  },
+  "set_agent_state_sha256": "eea39bd731e4ba9e7e0ca9044f97aa644048db620072dd28d741139a44a6ef4a",
+  "preflight_sha256": "8831e3f5df1e0f9d64afaffaac7d930be0cf35ac06173beeec4d7e1fa0b99af7",
+  "contract_enforcement_sha256": "e751580ed761e4d3557e7916cfb7c082e5fbd1484cf5e2dd86a53626ff1e30f1",
+  "test_returncodes": [
+    0,
+    0
+  ],
+  "test_outputs": [
+    "{\"schema_version\": 1, \"run_id\": \"r1\", \"status\": \"passed\", \"contract_sha256\": \"0b77701d806d8361686d39b56c119d3dddade482d811661d196e542e244dca36\", \"actual_sha256\": \"7c899690e1beb485c34f51a758bb5dac0d961cbb671fa09e3fe0433dbb77fe64\", \"checks\": {\"run_id_exact\": true, \"resource_mode_exact\": true, \"required_config_exact\": true, \"splits_allowed\": true, \"forbidden_splits_absent\": true, \"input_artifacts_exact\": true, \"dependencies_exact\": true}, \"config_checks\": {\"config.learning_rate\": true}}\n.{\"schema_version\": 1, \"run_id\": \"r1\", \"status\": \"failed\", \"contract_sha256\": \"f8ce9e6aef10f0dda40a293884a26acf128ba75d3554ff7ce9ec61e9ca09213b\", \"actual_sha256\": \"716031c32cef3d93bb51a22634cb4d55d5b4a17c2fabe4328095b03f17d1959c\", \"checks\": {\"run_id_exact\": true, \"resource_mode_exact\": true, \"required_config_exact\": false, \"splits_allowed\": false, \"forbidden_splits_absent\": false, \"input_artifacts_exact\": true, \"dependencies_exact\": true}, \"config_checks\": {\"config.learning_rate\": false}}\n.\n----------------------------------------------------------------------\nRan 2 tests in 0.081s\n\nOK\n",
+    "...\n----------------------------------------------------------------------\nRan 3 tests in 0.141s\n\nOK\n"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 2,
+  "run_id": "a6_o196c_balanced_recovery_residual_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "fresh-world equal-exposure recovery residual stability comparison",
+  "execute_prefix": 8,
+  "world_reset_mode": "independent_world_per_arm",
+  "rows": [
+    {
+      "arm": "baseline_mlp",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 2.974059410778725e-05,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.14699686132371426,
+      "observation_seconds": 0.8276124969124794,
+      "execution_seconds": 0.027204258367419243,
+      "wall_seconds": 1.01300183031708,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00041573408567929505,
+          "target_qpos": 0.36303001642227173,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 2,
+          "progress": -0.000246325885252982,
+          "target_qpos": 0.3635474443435669,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": 2.974059410778725e-05,
+          "target_qpos": 0.36439064145088196,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0,
+      "world_reset_mode": "independent_world_per_arm",
+      "world_creation_index": 0,
+      "world_configured_for_arm": true,
+      "model_checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_o127c_mlp_zero_contact_train1024_v1/last.pt",
+      "world_closed_after_arm": true
+    },
+    {
+      "arm": "random_seed1",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 0.00048339198579195805,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0027723638340830803,
+      "observation_seconds": 0.08990912046283484,
+      "execution_seconds": 0.02983376570045948,
+      "wall_seconds": 0.12562485691159964,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.000384725027912055,
+          "target_qpos": 0.3631247282028198,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 2,
+          "progress": -8.652873640021566e-05,
+          "target_qpos": 0.3640355169773102,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": 0.00048339198579195805,
+          "target_qpos": 0.3657762408256531,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0,
+      "world_reset_mode": "independent_world_per_arm",
+      "world_creation_index": 1,
+      "world_configured_for_arm": true,
+      "model_checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_o185c_recovery_residual_train_v1/last.pt",
+      "world_closed_after_arm": true
+    },
+    {
+      "arm": "balanced_seed1",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 0.0004531635210459197,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0026307282969355583,
+      "observation_seconds": 0.09253185614943504,
+      "execution_seconds": 0.02970864064991474,
+      "wall_seconds": 0.12794446013867855,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00038702777732460016,
+          "target_qpos": 0.36311769485473633,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 2,
+          "progress": -9.69398958204942e-05,
+          "target_qpos": 0.3640037178993225,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": 0.0004531635210459197,
+          "target_qpos": 0.365683913230896,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0,
+      "world_reset_mode": "independent_world_per_arm",
+      "world_creation_index": 2,
+      "world_configured_for_arm": true,
+      "model_checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_o194c_balanced_recovery_residual_train_v1/seed1/last.pt",
+      "world_closed_after_arm": true
+    },
+    {
+      "arm": "balanced_seed2",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 0.00044088869578752196,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0026307059451937675,
+      "observation_seconds": 0.08921859599649906,
+      "execution_seconds": 0.029794348403811455,
+      "wall_seconds": 0.12469593342393637,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.0003888524135116593,
+          "target_qpos": 0.36311212182044983,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 2,
+          "progress": -0.00010452140553891634,
+          "target_qpos": 0.36398056149482727,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": 0.00044088869578752196,
+          "target_qpos": 0.3656464219093323,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0,
+      "world_reset_mode": "independent_world_per_arm",
+      "world_creation_index": 3,
+      "world_configured_for_arm": true,
+      "model_checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_o194c_balanced_recovery_residual_train_v1/seed2/last.pt",
+      "world_closed_after_arm": true
+    }
+  ],
+  "checks": {
+    "all_configured_arms": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "calls_bounded": true,
+    "prefix_exact": true,
+    "physics_budget_recorded": true,
+    "start_command_source_valid": true,
+    "start_command_finger_zero": true,
+    "start_command_matches_repaired": true,
+    "independent_world_per_arm": true,
+    "world_creation_indices_exact": true
+  },
+  "decision": "live adapter valid; expand exact-paired bounded screen"
+}

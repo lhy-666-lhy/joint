@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-07T10:29:15+00:00",
+  "config_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/g070c_supervisor_config.json",
+  "root": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6",
+  "read_only": true,
+  "allow_launch": false,
+  "next_check_at": "2026-08-07T10:39:15+00:00",
+  "rounds": [
+    {
+      "id": "g070c_planner_full",
+      "status": "running_or_pending",
+      "complete_count": 0,
+      "error_count": 0,
+      "total_count": 1,
+      "estimated_unit_seconds": 1020.0,
+      "estimated_remaining_seconds": 1020.0,
+      "process_lines": [
+        "root     2399673  425053  0 10:26 pts/7    00:00:00 bash -c CUDA_VISIBLE_DEVICES=0 conda run -n sapien python run_a6_g070c_qpose_planner.py --gpu 0 > results/a6_g070c_direct_qpose_set_fit_v1/planner/full/run.log 2>&1",
+        "root     2399694 2399673  0 10:26 pts/7    00:00:00 /root/miniconda3/bin/python /root/miniconda3/condabin/conda run -n sapien python run_a6_g070c_qpose_planner.py --gpu 0",
+        "root     2400775 2399695 99 10:26 pts/7    00:04:18 python run_a6_g070c_qpose_planner.py --gpu 0"
+      ],
+      "jobs": [
+        {
+          "id": "g070c_all_101_cal_groups",
+          "status": "pending",
+          "summary_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g070c_direct_qpose_set_fit_v1/planner/full/summary.json",
+          "log_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g070c_direct_qpose_set_fit_v1/planner/full/run.log",
+          "latest_mtime": "2026-08-07T10:29:14+00:00",
+          "metrics": {}
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "launch_action": null
+}

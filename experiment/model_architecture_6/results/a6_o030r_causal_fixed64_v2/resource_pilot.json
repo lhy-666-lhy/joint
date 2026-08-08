@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o030r_causal_fixed64_v2-RP",
+  "workload_signature": {
+    "family": "A6-O030R fixed64 memorization",
+    "model": "PointCloudContextEncoder256+CAUSAL-ABS",
+    "decoder": {
+      "hidden_dim": 256,
+      "heads": 8,
+      "layers": 1,
+      "feedforward_dim": 64,
+      "dropout": 0.1,
+      "teacher_forcing_train": true,
+      "autoregressive_eval": true
+    },
+    "input_shapes": {
+      "point_cloud": [
+        64,
+        1024,
+        3
+      ],
+      "target_mask": [
+        64,
+        1024
+      ],
+      "affordance": [
+        64,
+        1024
+      ],
+      "state": [
+        64,
+        81
+      ],
+      "context": [
+        64,
+        43
+      ],
+      "target": [
+        64,
+        32,
+        9
+      ],
+      "target_raw": [
+        64,
+        32,
+        9
+      ],
+      "valid": [
+        64,
+        32
+      ]
+    },
+    "output_shape": [
+      64,
+      32,
+      9
+    ],
+    "precision": "float32",
+    "backend": "in-memory fixed TRAIN tensors",
+    "world_size": 1,
+    "hardware": "NVIDIA GeForce RTX 4090",
+    "software_environment_hash": "fa64908247b9aa03cd1536898c58a8a7ec93015c65faa157fb7749b541d0f053"
+  },
+  "workload_signature_sha256": "bf8a68df5fdf146ddb92cf63b86e3d564f5e2c2754b41083ebc54ba85c93489e",
+  "candidates": [
+    {
+      "workers": 0,
+      "microbatch": 16,
+      "world_size": 1,
+      "gradient_accumulation_steps": 4,
+      "effective_batch": 64,
+      "warmup_steps": 20,
+      "timed_steps": 2488,
+      "timed_seconds": 60.00180575798731,
+      "samples_per_second": 2653.786798388203,
+      "optimizer_steps_per_second": 41.46541872481567,
+      "step_time_mean_seconds": 0.024115002302198756,
+      "step_time_p95_seconds": 0.025507343439676335,
+      "peak_memory_bytes": 194579968,
+      "peak_memory_fraction": 0.003824598176618726,
+      "gradients_finite": true,
+      "oom_retries": 0,
+      "gpu_sm_mean": 21.547169811320753,
+      "gpu_sm_p95": 22.0,
+      "gpu_memory_peak_mib": 712.0,
+      "cpu_mean": 2.9532286828704195,
+      "cpu_p95": 6.193051941758027,
+      "io_wait_mean": 0.0009421490388123141,
+      "rss_peak_mib": 1098.3984375,
+      "samples": 53
+    },
+    {
+      "workers": 0,
+      "microbatch": 32,
+      "world_size": 1,
+      "gradient_accumulation_steps": 2,
+      "effective_batch": 64,
+      "warmup_steps": 20,
+      "timed_steps": 4310,
+      "timed_seconds": 60.00373976799892,
+      "samples_per_second": 4597.046801858014,
+      "optimizer_steps_per_second": 71.82885627903147,
+      "step_time_mean_seconds": 0.013920503846749721,
+      "step_time_p95_seconds": 0.014490278992161619,
+      "peak_memory_bytes": 358585856,
+      "peak_memory_fraction": 0.007048242556082983,
+      "gradients_finite": true,
+      "oom_retries": 0,
+      "gpu_sm_mean": 26.314814814814813,
+      "gpu_sm_p95": 27.0,
+      "gpu_memory_peak_mib": 924.0,
+      "cpu_mean": 3.0007410074742604,
+      "cpu_p95": 5.527964728351255,
+      "io_wait_mean": 0.00105237465452715,
+      "rss_peak_mib": 1104.234375,
+      "samples": 54,
+      "gain_vs_previous": 1.7322592774408496
+    },
+    {
+      "workers": 0,
+      "microbatch": 64,
+      "world_size": 1,
+      "gradient_accumulation_steps": 1,
+      "effective_batch": 64,
+      "warmup_steps": 20,
+      "timed_steps": 6399,
+      "timed_seconds": 60.00482267898042,
+      "samples_per_second": 6825.051416133252,
+      "optimizer_steps_per_second": 106.64142837708206,
+      "step_time_mean_seconds": 0.00937572884827312,
+      "step_time_p95_seconds": 0.009572432198910973,
+      "peak_memory_bytes": 619321344,
+      "peak_memory_fraction": 0.012173171305092715,
+      "gradients_finite": true,
+      "oom_retries": 0,
+      "gpu_sm_mean": 35.648148148148145,
+      "gpu_sm_p95": 36.0,
+      "gpu_memory_peak_mib": 1184.0,
+      "cpu_mean": 2.933201136685802,
+      "cpu_p95": 4.266338005641011,
+      "io_wait_mean": 0.0010592212317772976,
+      "rss_peak_mib": 1105.296875,
+      "samples": 54,
+      "gain_vs_previous": 1.484659980702118
+    }
+  ],
+  "selected": {
+    "workers": 0,
+    "microbatch": 64,
+    "world_size": 1,
+    "gradient_accumulation_steps": 1,
+    "effective_batch": 64
+  },
+  "stop_reason": "largest_candidate_reached",
+  "bottleneck_classification": "small-model/in-memory fixed-batch bound",
+  "effective_batch_parity": true,
+  "sample_exposure_parity": true,
+  "loader_worker_note": "Frozen fixed64 tensors are resident in memory; no DataLoader is used.",
+  "gpu_keepalive_stop_record": {
+    "real_workload_gpu": 0,
+    "gpu_memory_used_at_first_sample_mib": 712.0
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o148c_replan_prefix_k4_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "K8 versus K4 at equal per-target maximum physics-step budgets",
+  "metrics": {
+    "k8": {
+      "baseline_mlp": {
+        "task_success": 2,
+        "targets": 8,
+        "progress": {
+          "mean": 0.16887852878011606,
+          "ci95": [
+            0.06802088353140419,
+            0.2837016601675521
+          ]
+        },
+        "progress_median": 0.12826481135966675,
+        "positive_progress_count": 8,
+        "wrong_way_count": 0,
+        "contact_fraction_mean": 0.6124957114209065,
+        "full_contact_count": 2,
+        "policy_calls_total": 1314,
+        "physics_steps_total": 10512,
+        "per_target_progress": [
+          0.03552902311203235,
+          0.005471930010294612,
+          0.24064584749174592,
+          9.486373583257537e-09,
+          0.40889410133496046,
+          0.16632701654689172,
+          0.09020260617244179,
+          0.40395769608618787
+        ],
+        "per_target_contact_fraction": [
+          0.17419354838709677,
+          0.5327868852459017,
+          0.9611650485436893,
+          0.04153846153846154,
+          1.0,
+          0.8354430379746836,
+          0.3548387096774194,
+          1.0
+        ],
+        "timing_total_seconds": {
+          "inference_seconds": 2.9112363988533616,
+          "observation_seconds": 72.42656606901437,
+          "execution_seconds": 4.804767910391092,
+          "wall_seconds": 81.52464796323329
+        },
+        "timing_per_call_seconds": {
+          "inference_seconds": 0.002215552814956896,
+          "observation_seconds": 0.05511915225952387,
+          "execution_seconds": 0.0036565965832504508,
+          "wall_seconds": 0.06204311108313036
+        },
+        "timing_per_physics_step_seconds": {
+          "inference_seconds": 0.000276944101869612,
+          "observation_seconds": 0.006889894032440484,
+          "execution_seconds": 0.00045707457290630635,
+          "wall_seconds": 0.007755388885391295
+        }
+      },
+      "repeat_last": {
+        "task_success": 0,
+        "targets": 8,
+        "progress": {
+          "mean": -0.0007454982207835701,
+          "ci95": [
+            -0.0019446019292346768,
+            4.7643109889419526e-07
+          ]
+        },
+        "progress_median": 1.3755241695723428e-07,
+        "positive_progress_count": 4,
+        "wrong_way_count": 3,
+        "contact_fraction_mean": 1.0,
+        "full_contact_count": 8,
+        "policy_calls_total": 1349,
+        "physics_steps_total": 10792,
+        "per_target_progress": [
+          -0.00037454804639813695,
+          -0.004734326518702006,
+          2.442741197688816e-05,
+          0.0,
+          -0.0009828072759726473,
+          0.00010137138811069005,
+          1.6221698827370389e-06,
+          2.7510483391446855e-07
+        ],
+        "per_target_contact_fraction": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "timing_total_seconds": {
+          "inference_seconds": 0.0,
+          "observation_seconds": 52.57866406161338,
+          "execution_seconds": 6.316280879080296,
+          "wall_seconds": 61.234995966777205
+        },
+        "timing_per_call_seconds": {
+          "inference_seconds": 0.0,
+          "observation_seconds": 0.03897602969726715,
+          "execution_seconds": 0.00468219486959251,
+          "wall_seconds": 0.04539288062770734
+        },
+        "timing_per_physics_step_seconds": {
+          "inference_seconds": 0.0,
+          "observation_seconds": 0.004872003712158394,
+          "execution_seconds": 0.0005852743586990637,
+          "wall_seconds": 0.005674110078463418
+        }
+      }
+    },
+    "k4": {
+      "baseline_mlp": {
+        "task_success": 2,
+        "targets": 8,
+        "progress": {
+          "mean": 0.1701793278436027,
+          "ci95": [
+            0.07020201569182377,
+            0.28104769881446884
+          ]
+        },
+        "progress_median": 0.14770328255087828,
+        "positive_progress_count": 8,
+        "wrong_way_count": 0,
+        "contact_fraction_mean": 0.6995097532753501,
+        "full_contact_count": 3,
+        "policy_calls_total": 2628,
+        "physics_steps_total": 10512,
+        "per_target_progress": [
+          0.026591789191799744,
+          0.003999075647758047,
+          0.2316196009727707,
+          9.486373583257537e-09,
+          0.4010925456455838,
+          0.17337442450914659,
+          0.12203214059260996,
+          0.40272503670277937
+        ],
+        "per_target_contact_fraction": [
+          0.24516129032258063,
+          0.8934426229508197,
+          1.0,
+          0.05615384615384615,
+          1.0,
+          0.9873417721518988,
+          0.41397849462365593,
+          1.0
+        ],
+        "timing_total_seconds": {
+          "inference_seconds": 4.422170641832054,
+          "observation_seconds": 135.45728155970573,
+          "execution_seconds": 4.997716223821044,
+          "wall_seconds": 147.5751309338957
+        },
+        "timing_per_call_seconds": {
+          "inference_seconds": 0.0016827133340304619,
+          "observation_seconds": 0.051543866651333994,
+          "execution_seconds": 0.001901718502215009,
+          "wall_seconds": 0.056154920446687864
+        },
+        "timing_per_physics_step_seconds": {
+          "inference_seconds": 0.00042067833350761547,
+          "observation_seconds": 0.012885966662833499,
+          "execution_seconds": 0.0004754296255537523,
+          "wall_seconds": 0.014038730111671966
+        }
+      },
+      "repeat_last": {
+        "task_success": 0,
+        "targets": 8,
+        "progress": {
+          "mean": -0.0007548775338664271,
+          "ci95": [
+            -0.001974469437663974,
+            6.848865277936848e-07
+          ]
+        },
+        "progress_median": 1.3755241695723428e-07,
+        "positive_progress_count": 4,
+        "wrong_way_count": 3,
+        "contact_fraction_mean": 1.0,
+        "full_contact_count": 8,
+        "policy_calls_total": 2698,
+        "physics_steps_total": 10792,
+        "per_target_progress": [
+          -0.0003727429250366079,
+          -0.004814581239216365,
+          2.7946856576276705e-05,
+          0.0,
+          -0.0009828072759726473,
+          0.00010125755162769095,
+          1.6316562563202963e-06,
+          2.7510483391446855e-07
+        ],
+        "per_target_contact_fraction": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "timing_total_seconds": {
+          "inference_seconds": 0.0,
+          "observation_seconds": 120.11352404765785,
+          "execution_seconds": 5.982017721049488,
+          "wall_seconds": 130.0995480567217
+        },
+        "timing_per_call_seconds": {
+          "inference_seconds": 0.0,
+          "observation_seconds": 0.04451946777155591,
+          "execution_seconds": 0.002217204492605444,
+          "wall_seconds": 0.04822073686312887
+        },
+        "timing_per_physics_step_seconds": {
+          "inference_seconds": 0.0,
+          "observation_seconds": 0.011129866942888977,
+          "execution_seconds": 0.000554301123151361,
+          "wall_seconds": 0.012055184215782217
+        }
+      }
+    }
+  },
+  "pairwise": {
+    "baseline_mlp_k4_minus_k8": {
+      "progress": {
+        "mean": 0.0013007990634866843,
+        "ci95": [
+          -0.0058144091965644075,
+          0.010773205377331872
+        ]
+      },
+      "contact": {
+        "mean": 0.08701404185444361,
+        "ci95": [
+          0.023782502991319145,
+          0.17535105320375002
+        ]
+      },
+      "task_success_delta": 0
+    },
+    "repeat_last_k4_minus_k8": {
+      "progress": {
+        "mean": -9.379313082857069e-06,
+        "ci95": [
+          -2.9884109583068128e-05,
+          1.5323881312848595e-06
+        ]
+      },
+      "contact": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "task_success_delta": 0
+    }
+  },
+  "k8_repeatability_vs_o131c": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "checks": {
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "maximum_physics_budget_equal": true,
+    "prefix_exact": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "k8_reference_reproduces_o131c": true
+  },
+  "decision": "K4 contact-retention effect measured; progress/task not improved"
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o163c_recovery_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "A5_CAL source-horizon live8 exact-paired recovery-supervision screen",
+  "metrics": {
+    "baseline_mlp": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.16887852878011606,
+        "ci95": [
+          0.06802088353140419,
+          0.2837016601675521
+        ]
+      },
+      "progress_median": 0.12826481135966675,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6124957114209065,
+        "ci95": [
+          0.35648456250254246,
+          0.8547683185071043
+        ]
+      },
+      "full_contact_count": 2,
+      "wall_seconds": {
+        "mean": 5.906980176572688,
+        "ci95": [
+          3.145777090606862,
+          10.286246037043748
+        ]
+      },
+      "per_target_progress": [
+        0.03552902311203235,
+        0.005471930010294612,
+        0.24064584749174592,
+        9.486373583257537e-09,
+        0.40889410133496046,
+        0.16632701654689172,
+        0.09020260617244179,
+        0.40395769608618787
+      ],
+      "per_target_contact": [
+        0.17419354838709677,
+        0.5327868852459017,
+        0.9611650485436893,
+        0.04153846153846154,
+        1.0,
+        0.8354430379746836,
+        0.3548387096774194,
+        1.0
+      ]
+    },
+    "recovery_mlp": {
+      "targets": 8,
+      "task_success": 1,
+      "progress": {
+        "mean": 0.18790837365614713,
+        "ci95": [
+          0.10614624730454522,
+          0.2750001944706585
+        ]
+      },
+      "progress_median": 0.20036686652558533,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.7656450520397089,
+        "ci95": [
+          0.5155887879736925,
+          0.9575242718446602
+        ]
+      },
+      "full_contact_count": 5,
+      "wall_seconds": {
+        "mean": 5.1919287838973105,
+        "ci95": [
+          2.4549402378412197,
+          9.498958945623599
+        ]
+      },
+      "per_target_progress": [
+        0.027957875765966658,
+        0.038004518549465176,
+        0.25005860681599734,
+        0.278264669064063,
+        0.40971023302707527,
+        0.2454728748531035,
+        0.09853735297543902,
+        0.15526085819806712
+      ],
+      "per_target_contact": [
+        0.11612903225806452,
+        1.0,
+        0.6601941747572816,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.3488372093023256
+      ]
+    },
+    "repeat_last": {
+      "targets": 8,
+      "task_success": 0,
+      "progress": {
+        "mean": -0.0007450733667681306,
+        "ci95": [
+          -0.0019450557505723864,
+          6.812994927825159e-07
+        ]
+      },
+      "progress_median": 1.3755241695723428e-07,
+      "positive_progress_count": 4,
+      "wrong_way_count": 3,
+      "contact_fraction": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "full_contact_count": 8,
+      "wall_seconds": {
+        "mean": 5.25858965376392,
+        "ci95": [
+          2.448688877467066,
+          9.630147660151124
+        ]
+      },
+      "per_target_progress": [
+        -0.0003727429250366079,
+        -0.004736138416056408,
+        2.7833020093277613e-05,
+        0.0,
+        -0.0009828072759726473,
+        0.00010137138811069005,
+        1.6221698827370389e-06,
+        2.7510483391446855e-07
+      ],
+      "per_target_contact": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise": {
+    "baseline_mlp_minus_repeat_last": {
+      "progress": {
+        "mean": 0.16962360214688416,
+        "ci95": [
+          0.06933843484360043,
+          0.28403443705392695
+        ]
+      },
+      "contact": {
+        "mean": -0.3875042885790934,
+        "ci95": [
+          -0.6435154374974577,
+          -0.1452316814928957
+        ]
+      },
+      "task_success_delta": 2
+    },
+    "recovery_mlp_minus_repeat_last": {
+      "progress": {
+        "mean": 0.18865344702291528,
+        "ci95": [
+          0.10712816199262638,
+          0.2754684134116073
+        ]
+      },
+      "contact": {
+        "mean": -0.23435494796029105,
+        "ci95": [
+          -0.48441121202630755,
+          -0.0424757281553398
+        ]
+      },
+      "task_success_delta": 1
+    },
+    "recovery_mlp_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.019029844876031106,
+        "ci95": [
+          -0.07910404195874168,
+          0.11244514272551002
+        ]
+      },
+      "contact": {
+        "mean": 0.15314934061880242,
+        "ci95": [
+          -0.18502632527001656,
+          0.48520501766940927
+        ]
+      },
+      "task_success_delta": -1
+    }
+  },
+  "checks": {
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "baseline_reproduces_o131c": true,
+    "k8_exact": true
+  },
+  "claim_supported": "no",
+  "decision": "unweighted recovery supervision is a scoped closed-loop negative; retain O127C and start grasp comparison",
+  "next_run_ids": [
+    "A6-G000C"
+  ]
+}

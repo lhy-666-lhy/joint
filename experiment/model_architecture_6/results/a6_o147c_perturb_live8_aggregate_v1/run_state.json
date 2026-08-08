@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o147c_perturb_live8_aggregate_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "8-target exact-paired consistent perturbation live test",
+  "metrics": {
+    "baseline_mlp": {
+      "task_success": 2,
+      "targets": 8,
+      "progress": {
+        "mean": 0.16887852878011606,
+        "ci95": [
+          0.06802088353140419,
+          0.2837016601675521
+        ]
+      },
+      "progress_median": 0.12826481135966675,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.6124957114209065,
+      "full_contact_count": 2,
+      "per_target_progress": [
+        0.03552902311203235,
+        0.005471930010294612,
+        0.24064584749174592,
+        9.486373583257537e-09,
+        0.40889410133496046,
+        0.16632701654689172,
+        0.09020260617244179,
+        0.40395769608618787
+      ],
+      "per_target_contact_fraction": [
+        0.17419354838709677,
+        0.5327868852459017,
+        0.9611650485436893,
+        0.04153846153846154,
+        1.0,
+        0.8354430379746836,
+        0.3548387096774194,
+        1.0
+      ]
+    },
+    "perturb_1x": {
+      "task_success": 2,
+      "targets": 8,
+      "progress": {
+        "mean": 0.172640175744951,
+        "ci95": [
+          0.07588871655781583,
+          0.28247056357797007
+        ]
+      },
+      "progress_median": 0.12594379930779828,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.6344876270889113,
+      "full_contact_count": 1,
+      "per_target_progress": [
+        0.03318212140672542,
+        0.059626771912289746,
+        0.22647240850297815,
+        9.486373583257537e-09,
+        0.40940074957529504,
+        0.16919131321387332,
+        0.08269628540172326,
+        0.4005517464603494
+      ],
+      "per_target_contact_fraction": [
+        0.16129032258064516,
+        0.8278688524590164,
+        0.9223300970873787,
+        0.038461538461538464,
+        1.0,
+        0.7848101265822784,
+        0.3548387096774194,
+        0.9863013698630136
+      ]
+    },
+    "perturb_3x": {
+      "task_success": 2,
+      "targets": 8,
+      "progress": {
+        "mean": 0.15903443984772164,
+        "ci95": [
+          0.051624230863860254,
+          0.27704949243146426
+        ]
+      },
+      "progress_median": 0.11772402735263014,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction_mean": 0.576700082695822,
+      "full_contact_count": 3,
+      "per_target_progress": [
+        0.04326244598979312,
+        -0.04458488862428231,
+        0.22345304757340462,
+        3.7945494333030146e-08,
+        0.40656978802508503,
+        0.16672521656442255,
+        0.06872283814083774,
+        0.4081270331670182
+      ],
+      "per_target_contact_fraction": [
+        0.16774193548387098,
+        0.13114754098360656,
+        1.0,
+        0.04153846153846154,
+        1.0,
+        0.8860759493670886,
+        0.3870967741935484,
+        1.0
+      ]
+    },
+    "repeat_last": {
+      "task_success": 0,
+      "targets": 8,
+      "progress": {
+        "mean": -0.0007480204103600186,
+        "ci95": [
+          -0.001952134109859783,
+          4.778836998491447e-07
+        ]
+      },
+      "progress_median": 1.3755241695723428e-07,
+      "positive_progress_count": 4,
+      "wrong_way_count": 3,
+      "contact_fraction_mean": 1.0,
+      "full_contact_count": 8,
+      "per_target_progress": [
+        -0.00037454804639813695,
+        -0.004754418657951345,
+        2.4446384724054673e-05,
+        0.0,
+        -0.0009828072759726473,
+        0.00010125755162769095,
+        1.6316562563202963e-06,
+        2.7510483391446855e-07
+      ],
+      "per_target_contact_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise": {
+    "baseline_mlp_minus_repeat_last": {
+      "progress": {
+        "mean": 0.16962654919047607,
+        "ci95": [
+          0.06934146395279095,
+          0.28403492844807854
+        ]
+      },
+      "contact": {
+        "mean": -0.3875042885790934,
+        "ci95": [
+          -0.6435154374974577,
+          -0.1452316814928957
+        ]
+      }
+    },
+    "perturb_1x_minus_repeat_last": {
+      "progress": {
+        "mean": 0.173388196155311,
+        "ci95": [
+          0.07708753116423743,
+          0.2832156086229618
+        ]
+      },
+      "contact": {
+        "mean": -0.36551237291108873,
+        "ci95": [
+          -0.6237703174813146,
+          -0.13127488955898134
+        ]
+      }
+    },
+    "perturb_3x_minus_repeat_last": {
+      "progress": {
+        "mean": 0.1597824602580817,
+        "ci95": [
+          0.05331954310743081,
+          0.2778154781580517
+        ]
+      },
+      "contact": {
+        "mean": -0.42329991730417804,
+        "ci95": [
+          -0.7013505010409067,
+          -0.13708757003527705
+        ]
+      }
+    },
+    "perturb_1x_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.0037616469648349537,
+        "ci95": [
+          -0.006501459029452732,
+          0.019252460006397604
+        ]
+      },
+      "contact": {
+        "mean": 0.021991915668004736,
+        "ci95": [
+          -0.0265608540156563,
+          0.10370442462114052
+        ]
+      }
+    },
+    "perturb_3x_minus_baseline_mlp": {
+      "progress": {
+        "mean": -0.009844088932394376,
+        "ci95": [
+          -0.02338568582132264,
+          0.0009409798307768979
+        ]
+      },
+      "contact": {
+        "mean": -0.03579562872508453,
+        "ci95": [
+          -0.14509209178721327,
+          0.027497651111807065
+        ]
+      }
+    },
+    "perturb_3x_minus_perturb_1x": {
+      "progress": {
+        "mean": -0.013605735897229328,
+        "ci95": [
+          -0.04065117353969094,
+          0.0031591752892108156
+        ]
+      },
+      "contact": {
+        "mean": -0.057787544393089266,
+        "ci95": [
+          -0.24694829321157602,
+          0.05279844755339011
+        ]
+      }
+    }
+  },
+  "baseline_repeatability_vs_o131c": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "checks": {
+    "four_arms_each": true,
+    "same_target_order": true,
+    "source_horizon_exact": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "prior_baseline_valid": true
+  },
+  "decision": "perturbation effect measured; retain only variants supported by paired live evidence"
+}

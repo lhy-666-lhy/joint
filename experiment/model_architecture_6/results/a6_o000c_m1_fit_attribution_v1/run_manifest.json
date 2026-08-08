@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000c_m1_fit_attribution_v1",
+  "depends_on": [
+    "A6-O010R",
+    "A6-O020R",
+    "A6-O030R"
+  ],
+  "mode": "CPU-only checkpoint attribution; zero optimization",
+  "input_lineage": {
+    "revision": "A6-INPUT-v1.1",
+    "fixed_input_sha256": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+    "input_manifest_sha256": "82395eacb73644a355692d9d9a8fe17ce61880e867302a2624b12df5e18ea4bf",
+    "forbidden_feature_audit_sha256": "21f1a80adfdecd36d959ab954b2ec450f2d2e50ec6eae02374488a6ca60048de",
+    "normalizer_sha256": "1ec84f16eb71b351586254ac3c2682a5ad52296c4b17c5a997a0e239b99b0ce5",
+    "qvel_source": "240Hz causal backward finite difference",
+    "live_qvel_source": "SAPIEN actual qvel",
+    "affordance_channel": "ZERO",
+    "result_json_read": false,
+    "outcome_read": false,
+    "heldout_read": false
+  },
+  "checkpoint_hashes": {
+    "O-MLP-ABS": "98fd12875b9cbfede4626692ae3a3f9f44ba7417ab8f2d980e555a59f6d24cd2",
+    "O-PAR-ABS": "680259c2765504e5ae2916506240d1e3e8c59030109a8fb3480c43909b26ce76",
+    "O-CAUSAL-ABS": "447967ff61dbdebd9986d378ed4f1c1292fb6207d7c01d8788d9d05dea4cf535"
+  }
+}

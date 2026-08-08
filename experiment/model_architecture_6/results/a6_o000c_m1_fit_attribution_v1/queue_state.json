@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000c_m1_fit_attribution_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "attribution": "attribution.json",
+    "manifest": "run_manifest.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json",
+    "resource_pilot": "resource_pilot.json"
+  },
+  "checks": {
+    "all_three_checkpoints_step_2000_seed_match": true,
+    "all_revision_a6_input_v1_1": true,
+    "all_metrics_finite": true,
+    "all_encoders_separate_64_rows": true,
+    "all_models_worse_than_repeat_last": true,
+    "causal_teacher_forcing_gap_present": true,
+    "zero_training_replay_heldout_or_outcome": true
+  },
+  "metrics": {
+    "model_normalized_mae": {
+      "O-MLP-ABS": 0.02512071467936039,
+      "O-PAR-ABS": 0.03001614287495613,
+      "O-CAUSAL-ABS": 0.11734325438737869
+    },
+    "repeat_last_normalized_mae": 0.010377982631325722,
+    "causal_teacher_forcing_gap": {
+      "teacher_forced_normalized_mae": 0.007464231923222542,
+      "autoregressive_normalized_mae": 0.11734325438737869,
+      "autoregressive_over_teacher_ratio": 15.720740672902075,
+      "absolute_gap": 0.10987902246415615
+    },
+    "motion_structure": {
+      "valid_scalar_count": 16200,
+      "fraction_valid_scalars_with_normalized_delta_le_1e_3": 0.3367901146411896,
+      "fraction_valid_scalars_with_normalized_delta_le_1e_2": 0.6933950781822205,
+      "mean_normalized_abs_delta_from_last_command": 0.010377982631325722,
+      "p95_normalized_abs_delta_from_last_command": 0.042733293026685715,
+      "endpoint_rows": 56,
+      "fraction_endpoint_rows_mean_delta_gt_1e_2": 0.7142857313156128
+    }
+  },
+  "decision": "M1 failures are valid: inputs are separable, all models trail repeat-last, and causal teacher-forcing exposure gap is confirmed. A planning revision is required before any new fit or DYN64 run.",
+  "remaining_work": [
+    "prepare and acknowledge a planning revision for the M1 failure route",
+    "do not launch new training or DYN64 before revision"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_o000c_m1_fit_attribution_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-O000C",
+      "status": "passed"
+    }
+  ]
+}

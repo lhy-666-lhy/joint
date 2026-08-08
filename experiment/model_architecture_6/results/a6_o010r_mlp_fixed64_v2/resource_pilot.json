@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o010r_mlp_fixed64_v2-RP",
+  "workload_signature": {
+    "family": "A6-O010R fixed64 memorization",
+    "model": "PointCloudContextEncoder256+MLP-ABS",
+    "input_shapes": {
+      "point_cloud": [
+        64,
+        1024,
+        3
+      ],
+      "target_mask": [
+        64,
+        1024
+      ],
+      "affordance": [
+        64,
+        1024
+      ],
+      "state": [
+        64,
+        81
+      ],
+      "context": [
+        64,
+        43
+      ],
+      "target": [
+        64,
+        32,
+        9
+      ],
+      "target_raw": [
+        64,
+        32,
+        9
+      ],
+      "valid": [
+        64,
+        32
+      ]
+    },
+    "output_shape": [
+      64,
+      32,
+      9
+    ],
+    "precision": "float32",
+    "backend": "in-memory fixed TRAIN tensors",
+    "renderer": null,
+    "world_size": 1,
+    "hardware": "NVIDIA GeForce RTX 4090",
+    "software_environment_hash": "fa64908247b9aa03cd1536898c58a8a7ec93015c65faa157fb7749b541d0f053"
+  },
+  "workload_signature_sha256": "2ed834254bd2ff8a5b15bb8b586db4a99051fffce021be32797e6a179f444ada",
+  "candidates": [
+    {
+      "workers": 0,
+      "microbatch": 16,
+      "world_size": 1,
+      "gradient_accumulation_steps": 4,
+      "effective_batch": 64,
+      "warmup_steps": 20,
+      "timed_steps": 5190,
+      "timed_seconds": 60.00266628799727,
+      "samples_per_second": 5535.754001425836,
+      "optimizer_steps_per_second": 86.49615627227868,
+      "step_time_mean_seconds": 0.011559826909141169,
+      "step_time_p95_seconds": 0.012064180558081717,
+      "peak_memory_bytes": 194063872,
+      "peak_memory_fraction": 0.0038144539678348073,
+      "gradients_finite": true,
+      "oom_retries": 0,
+      "gpu_sm_mean": 27.037735849056602,
+      "gpu_sm_p95": 28.0,
+      "gpu_memory_peak_mib": 706.0,
+      "cpu_mean": 2.638237549930683,
+      "cpu_p95": 4.291973946317905,
+      "io_wait_mean": 0.0009167376600833033,
+      "rss_peak_mib": 1066.83203125,
+      "samples": 53
+    },
+    {
+      "workers": 0,
+      "microbatch": 32,
+      "world_size": 1,
+      "gradient_accumulation_steps": 2,
+      "effective_batch": 64,
+      "warmup_steps": 20,
+      "timed_steps": 8431,
+      "timed_seconds": 60.003964475006796,
+      "samples_per_second": 8992.47249279255,
+      "optimizer_steps_per_second": 140.5073826998836,
+      "step_time_mean_seconds": 0.0071156902877920055,
+      "step_time_p95_seconds": 0.007377558504231274,
+      "peak_memory_bytes": 358069760,
+      "peak_memory_fraction": 0.007038098347299064,
+      "gradients_finite": true,
+      "oom_retries": 0,
+      "gpu_sm_mean": 33.7962962962963,
+      "gpu_sm_p95": 34.0,
+      "gpu_memory_peak_mib": 910.0,
+      "cpu_mean": 2.8449913021861772,
+      "cpu_p95": 4.920664998312825,
+      "io_wait_mean": 0.000930710974662182,
+      "rss_peak_mib": 1070.50390625,
+      "samples": 54,
+      "gain_vs_previous": 1.6244349894298724
+    },
+    {
+      "workers": 0,
+      "microbatch": 64,
+      "world_size": 1,
+      "gradient_accumulation_steps": 1,
+      "effective_batch": 64,
+      "warmup_steps": 20,
+      "timed_steps": 11306,
+      "timed_seconds": 60.004351548996055,
+      "samples_per_second": 12058.858754754869,
+      "optimizer_steps_per_second": 188.41966804304482,
+      "step_time_mean_seconds": 0.0053059208697339814,
+      "step_time_p95_seconds": 0.005364581753383391,
+      "peak_memory_bytes": 618805248,
+      "peak_memory_fraction": 0.012163027096308796,
+      "gradients_finite": true,
+      "oom_retries": 0,
+      "gpu_sm_mean": 44.851851851851855,
+      "gpu_sm_p95": 45.0,
+      "gpu_memory_peak_mib": 1184.0,
+      "cpu_mean": 2.888926304753422,
+      "cpu_p95": 5.079115162930768,
+      "io_wait_mean": 0.0009290178079824783,
+      "rss_peak_mib": 1070.7265625,
+      "samples": 54,
+      "gain_vs_previous": 1.340994789188404
+    }
+  ],
+  "selected": {
+    "workers": 0,
+    "microbatch": 64,
+    "world_size": 1,
+    "gradient_accumulation_steps": 1,
+    "effective_batch": 64
+  },
+  "stop_reason": "largest_candidate_reached",
+  "bottleneck_classification": "small-model/in-memory fixed-batch bound",
+  "effective_batch_parity": true,
+  "sample_exposure_parity": true,
+  "loader_worker_note": "No DataLoader is used by the frozen in-memory fixed64 workload; workers=0 is the only applicable setting.",
+  "gpu_keepalive_stop_record": {
+    "state_resource_mode": "gpu",
+    "session_running_at_pilot_start": true,
+    "active_gpu_ids_at_pilot_start": [
+      1,
+      2
+    ],
+    "real_workload_gpu": 0
+  }
+}

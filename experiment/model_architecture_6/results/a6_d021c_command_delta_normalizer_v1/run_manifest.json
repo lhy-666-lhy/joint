@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d021c_command_delta_normalizer_v1",
+  "depends_on": [
+    "A6-D020C",
+    "A6-CLEAN-CMDDELTA-v2"
+  ],
+  "config": {
+    "schema_version": 1,
+    "planning_revision": "20260806T060210Z-c3831dc1",
+    "representation": "command_delta = future_absolute_command - last_executed_command",
+    "split": "A5_TRAIN",
+    "horizon": 32,
+    "action_dimension": 9,
+    "std_floor": 0.0001,
+    "training": false
+  },
+  "source_hashes": {
+    "sample_index": "bc9fab96fa8af4e0301348facdd11146c1ab7756fdffecc0b0efcc17a4af5f43",
+    "fixed_batch": "91f5a6a76659c729fddfb2035664041a5ed90c5cb2374ba7058bf25f343981b3",
+    "fixed_manifest": "13139854f51851e37d75f65d062b081855cc6c60b851507f844f4fcbaaefc0a2"
+  },
+  "normalizer_sha256": "ae69ab7441e52294e723d9fb5dea81d4630d54df08eb4898dcc347c19c51564b"
+}

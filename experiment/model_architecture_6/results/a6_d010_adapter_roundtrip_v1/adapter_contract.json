@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "action_source": "joint_command_qpos_repaired",
+  "action_dimension": 9,
+  "representation": "absolute",
+  "horizon": 32,
+  "execute_prefix": 8,
+  "normalizer_mean": [
+    -0.012086570262908936,
+    -0.7693928480148315,
+    0.20660673081874847,
+    -2.192380905151367,
+    -1.147913932800293,
+    2.572923183441162,
+    0.4056229293346405,
+    0.0,
+    0.0
+  ],
+  "normalizer_std": [
+    0.10786376148462296,
+    0.2585228383541107,
+    0.16680029034614563,
+    0.18015924096107483,
+    0.552802324295044,
+    0.36524152755737305,
+    0.5440163612365723,
+    9.999999747378752e-05,
+    9.999999747378752e-05
+  ],
+  "records": [
+    {
+      "trajectory": "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base/data/single/48413/link_1/repeat_2/base_0000/trajectory/base_0000_cluster_00035_candidate_000037.npz",
+      "historical_replay_success": true,
+      "operation_length": 657,
+      "source_sha256": "b7d4d466ddd4fa95c2b91084b648d3234fdeca0a9787881f2538ca2cf39a9d9a",
+      "decoded_sha256": "fb52c2eb7246f082e5f5df8e49323282fcd9b546fee2653121cd962fec7e8efe",
+      "max_abs_roundtrip_error": 1.1920928955078125e-07,
+      "source_operation_replay_success": true,
+      "decoded_replay_success": true,
+      "replay_parity": true,
+      "source_final_target_open_ratio": 0.4682828791067934,
+      "decoded_final_target_open_ratio": 0.4682836759621744
+    },
+    {
+      "trajectory": "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base/data/single/45448/link_0/repeat_2/base_0000/trajectory/base_0000_cluster_00208_candidate_000394.npz",
+      "historical_replay_success": true,
+      "operation_length": 476,
+      "source_sha256": "19c41d5568d47042e6516ca3ae927f1c181142ee71e7e3a7938e166f88b6f91d",
+      "decoded_sha256": "e7df2f903c8be922d7b96f2a0a910e8bd30f937a3876a6257c37e32d221f9790",
+      "max_abs_roundtrip_error": 1.1920928955078125e-07,
+      "source_operation_replay_success": true,
+      "decoded_replay_success": true,
+      "replay_parity": true,
+      "source_final_target_open_ratio": 0.4512667385970671,
+      "decoded_final_target_open_ratio": 0.45126717812018746
+    }
+  ]
+}

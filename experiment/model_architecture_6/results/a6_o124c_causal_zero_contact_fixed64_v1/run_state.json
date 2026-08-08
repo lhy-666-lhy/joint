@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o124c_causal_zero_contact_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "fixed64 implementation sanity only",
+  "metrics": {
+    "deploy_normalized_delta_mae": 0.2149849236011505,
+    "deploy_raw_delta_mae": 0.004842238500714302,
+    "teacher_forced_raw_delta_mae": 0.0001032426007441245,
+    "reload_error": 0.0,
+    "wall_seconds": 30.348973878659308
+  },
+  "checks": {
+    "fixed_rows_64": true,
+    "zero_contact_exact": true,
+    "finite": true,
+    "steps_6000": true,
+    "reload_le_1e_6": true
+  },
+  "decision": "zero-contact fixed fit valid; evaluate exact-paired CAL"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g005c_gt_traj_candidate_physical_pilot_v2",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scientific_scope": "GT-TRAJ replay-pass K4 candidate physical ceiling",
+  "groups": 8,
+  "candidates": 31,
+  "candidate_strict_grasp_success": 30,
+  "candidate_task_success": 8,
+  "route_level_selection": "shortest joint-space path, slot tie-break; no outcome read",
+  "selected": {
+    "531": {
+      "candidate_index": 3,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.06403476784734223
+    },
+    "534": {
+      "candidate_index": 0,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.05485892054934451
+    },
+    "537": {
+      "candidate_index": 3,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.24521554748328406
+    },
+    "540": {
+      "candidate_index": 1,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.025616747092141904
+    },
+    "543": {
+      "candidate_index": 2,
+      "strict_grasp_pass": true,
+      "task_success": true,
+      "progress": 0.40099172446714093
+    },
+    "546": {
+      "candidate_index": 3,
+      "strict_grasp_pass": true,
+      "task_success": true,
+      "progress": 0.4003913508558037
+    },
+    "549": {
+      "candidate_index": 0,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": -0.017414202391400943
+    },
+    "552": {
+      "candidate_index": 3,
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.10774150694459464
+    }
+  },
+  "checks": {
+    "fresh_world_each": true,
+    "l64_each": true,
+    "fixed_stage_ticks": true,
+    "fixed_operation_budget": true
+  },
+  "completed_at": "2026-08-06T20:37:18+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "planner_input_fields": [
+    "current_arm_qpos",
+    "open_terminal_qpose"
+  ],
+  "loaded_sidecars": [
+    "qpose_labels.npz",
+    "qpose_teacher_manifest.json"
+  ],
+  "file_read_string_literals": [
+    "qpose_labels.npz",
+    "qpose_teacher_manifest.json",
+    "summary.json"
+  ],
+  "forbidden_source_tokens": [
+    "grasp_plan_qpath",
+    "pregrasp",
+    "traj_labels",
+    "traj_teacher_manifest",
+    "trajectory_relative_path"
+  ],
+  "forbidden_source_hits": [],
+  "stored_path_or_pregrasp_read": false,
+  "outcome_read": false
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G010C-FIT",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "kind": "traj",
+  "seed": 20260806,
+  "optimizer_steps": 6000,
+  "effective_batch": 64,
+  "device": "cuda",
+  "trainable_parameters": 622017,
+  "train_loss_first": 1.2170257568359375,
+  "train_loss_last": 0.3431476056575775,
+  "cal_loss_last": 1.1140468120574951,
+  "reload_max_abs": 0.0,
+  "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g010c_direct_traj_fixed_batch_v1/traj_seed20260806.pth",
+  "checkpoint_sha256": "c3d0b63ff43710d00702bbe93e0dc06e6c9dd6383e0a6df1dd8ba78ed5c71c7c",
+  "source_input_sha256": "80ed3d97ba25cd973f7a3b21f76312b0dc443c5bc67b1d0f4b5fbadea8b1d81c",
+  "checks": {
+    "finite": true,
+    "reload": true,
+    "train_loss_decreased": true,
+    "split_counts": true,
+    "zero_affordance": true,
+    "no_oracle_input": true
+  },
+  "decision": "authorize DYN64/offline screen",
+  "jobs": [
+    {
+      "id": "A6-G010C-FIT",
+      "status": "passed"
+    }
+  ]
+}

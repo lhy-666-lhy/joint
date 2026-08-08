@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d041c_cal_recorded_observation_input_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "claim_supported": "no",
+  "scientific_scope": "heldout recorded-observation diagnostic only",
+  "checks": {
+    "target_count_exact": true,
+    "row_count_exact": true,
+    "cal_split_only": true,
+    "no_fixed_anchor_overlap": true,
+    "point_shape": true,
+    "state_context_shape": true,
+    "action_shape": true,
+    "finite": true,
+    "zero_affordance": true,
+    "recorded_source_labeled": true
+  },
+  "counts": {
+    "targets": 35,
+    "rows": 280
+  },
+  "decision": "A5_CAL recorded-observation input valid; proceed to matched offline diagnostic, not deployment"
+}

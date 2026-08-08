@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o010r_mlp_fixed64_v2",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint": "last.pt",
+    "checkpoint_sha256": "98fd12875b9cbfede4626692ae3a3f9f44ba7417ab8f2d980e555a59f6d24cd2",
+    "history": "history.json",
+    "metrics": "offline_metrics.json",
+    "resource_pilot": "resource_pilot.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "metrics": {
+    "initial_normalized_mae": 0.6765241026878357,
+    "final_normalized_mae": 0.025114433839917183,
+    "loss_decrease_ratio": 26.937660217285156,
+    "raw_mae": 0.02241520583629608,
+    "per_dim_raw_mae": [
+      0.027869101613759995,
+      0.026230521500110626,
+      0.027049755677580833,
+      0.02106352522969246,
+      0.03218995779752731,
+      0.02459806762635708,
+      0.042735155671834946,
+      3.944057311855431e-07,
+      3.6598086694539234e-07
+    ],
+    "reload_max_error": 0.0,
+    "baselines": {
+      "repeat_last_command_normalized_mae": 0.010377982631325722,
+      "train_mean_chunk_normalized_mae": 0.5912346839904785
+    },
+    "wall_seconds": 10.553274085978046,
+    "optimizer_steps_per_second": 189.51464575883287,
+    "step_time_mean_seconds": 0.005263475711457431,
+    "step_time_p95_seconds": 0.005321214861760381,
+    "peak_gpu_memory_bytes": 618953728,
+    "parameter_count": 731928
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "steps_exact_2000": true,
+    "normalized_mae_le_1e_3": false,
+    "loss_decrease_ge_100x": false,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "shared_input_revision": true,
+    "zero_affordance": true,
+    "zero_outcome_or_heldout_reads": true,
+    "resource_pilot_contract": true
+  },
+  "decision": "Corrected O010R is a scoped training-fit failure; do not block independent corrected architectures.",
+  "remaining_work": [
+    "analyze O010R terminal evidence",
+    "route O020R independently"
+  ],
+  "next_run_ids": [
+    "a6_o020r_par_fixed64_v2"
+  ],
+  "event_id": "a6_o010r_mlp_fixed64_v2_terminal"
+}

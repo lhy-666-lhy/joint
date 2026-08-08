@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d010_adapter_roundtrip_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "adapter_contract": "adapter_contract.json",
+    "trajectory_count": 2,
+    "new_full_replay": false,
+    "operation_only_replay_count": 4
+  },
+  "checks": {
+    "all_9d_finite": true,
+    "roundtrip_max_abs_le_1e_6": true,
+    "replay_parity_2_of_2": true,
+    "source_success_2_of_2": true,
+    "decoded_success_2_of_2": true
+  },
+  "decision": "D010 adapter roundtrip passes; authorize D020 and D030.",
+  "remaining_work": [
+    "A6-D020 sample/normalizer freeze",
+    "A6-D030 DYN64 materialization"
+  ],
+  "next_run_ids": [
+    "a6_d020_sample_normalizer_v1",
+    "a6_d030_dyn64_materialization_v1"
+  ],
+  "event_id": "a6_d010_adapter_roundtrip_v1_terminal"
+}

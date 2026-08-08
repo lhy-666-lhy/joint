@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G032C-FIT",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "kind": "qpose",
+  "affordance_condition": "zero",
+  "coordinate_frame": "base",
+  "deployable": true,
+  "seed": 20260806,
+  "optimizer_steps": 6000,
+  "effective_batch": 64,
+  "device": "cuda",
+  "trainable_parameters": 508680,
+  "train_loss_first": 0.7872031927108765,
+  "train_loss_last": 0.2020713835954666,
+  "cal_loss_last": 0.6372177004814148,
+  "reload_max_abs": 0.0,
+  "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g032c_qpose_base_frame_v1/qpose_zero_base_seed20260806.pth",
+  "checkpoint_sha256": "95ec076cc63d7767625790861ea0b541bdb89ef8ed15184e2ef70a3bb30fe76e",
+  "source_input_sha256": "7d0eab91f86f51fb992105c032a5801b031bc2d59b13f63a3468c639dbedc6ff",
+  "checks": {
+    "finite": true,
+    "reload": true,
+    "train_loss_decreased": true,
+    "split_counts": true,
+    "affordance_contract": true,
+    "no_future_or_outcome_input": true
+  },
+  "decision": "run raw-unit CAL coordinate comparison"
+}

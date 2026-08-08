@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d150c_fk_target_relative_inputs_v1",
+  "state_schema": "81D causal robot history/command + 4D robot-FK to visible target centroid",
+  "feature_names": [
+    "hand_minus_visible_target_centroid_x",
+    "hand_minus_visible_target_centroid_y",
+    "hand_minus_visible_target_centroid_z",
+    "visible_target_fraction"
+  ],
+  "observation_source": {
+    "train": "recorded_current_observation",
+    "cal": "recorded_current_observation",
+    "live": "live_sapiens_observation"
+  },
+  "source_hashes": {
+    "train_input": "f25d771ef856933184f8a0112e33b98ace71ca2038f9ae5be56987eef0017b5f",
+    "cal_input": "2968f771a5256fcb72967662508c61cd74eb845b031758e0c957f7c41e0be008"
+  },
+  "output_hashes": {
+    "train": "130e96cef5576d364cb80ab6a94846665fd35c6441db6f3da56b312fa8371435",
+    "cal": "440494245d676a218a7dabbbe78c8f72e59ff74347c00f0fe575c355c21731c3",
+    "normalizer": "83c3e5f20cb2faa48698d05df4a4b17df95f5d0aafa8f1eb85d6858cc44c2c1c"
+  },
+  "rows": {
+    "train": 1024,
+    "cal": 280
+  }
+}

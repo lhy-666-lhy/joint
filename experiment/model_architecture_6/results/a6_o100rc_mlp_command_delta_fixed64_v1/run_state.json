@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o100rc_mlp_command_delta_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "metrics": {
+    "fixed_normalized_delta_mae": 0.01265665516257286,
+    "fixed_raw_delta_mae": 0.00029230565996840596,
+    "repeat_last_raw_mae": 0.009067264385521412,
+    "relative_to_repeat_last": 0.03223746959834534,
+    "reload_error": 0.0,
+    "wall_seconds": 18.204687993973494
+  },
+  "checks": {
+    "fixed_batch_shape": true,
+    "steps_exact": true,
+    "finite": true,
+    "reload_error_le_1e_6": true,
+    "delta_normalizer": true
+  },
+  "evidence": {
+    "checkpoint": "last.pt",
+    "normalizer": "D021C/normalizer.json"
+  },
+  "decision": "corrected MLP fixed-fit contract passes; held-out CAL/live evaluation still required"
+}

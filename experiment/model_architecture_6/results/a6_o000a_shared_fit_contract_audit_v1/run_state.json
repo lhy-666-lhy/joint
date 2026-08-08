@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000a_shared_fit_contract_audit_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "implementation_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "audit": "audit.json"
+  },
+  "checks": {
+    "source_hash_exact": true,
+    "labels_exact_from_repaired_command": true,
+    "valid_masks_exact": true,
+    "normalizer_roundtrip_le_1e_6": true,
+    "fixed_inputs_unique_64_of_64": true,
+    "all_three_same_fixed_artifact_hashes": true,
+    "frozen_training_config_exact": false,
+    "shared_input_encoder_contract_exact": false,
+    "actual_qvel_contract_resolved": false
+  },
+  "decision": "Invalidate O010/O020/O030 v1 as implementation evidence; labels/masks/normalizer are exact, but shared training/input contracts drifted.",
+  "remaining_work": [
+    "resolve actual-qvel and missing contact/task metadata input contract",
+    "repair shared encoder/loss/lr/hidden/dropout",
+    "rerun corrected O010R/O020R/O030R only after contract ack"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_o000a_shared_fit_contract_audit_v1_terminal"
+}

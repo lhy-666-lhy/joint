@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o020_par_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint": "last.pt",
+    "history": "history.json",
+    "checkpoint_sha256": "b49117e5346ee0924df59a9f4ae671eb506647f30ff313960d7814018d3ac7df"
+  },
+  "metrics": {
+    "initial_loss": 1.609048843383789,
+    "final_loss": 0.0014751078560948372,
+    "initial_mae": 1.0244964361190796,
+    "final_mae": 0.028238408267498016,
+    "loss_decrease_ratio": 1090.80078125,
+    "per_dim_mae": [
+      0.06552323698997498,
+      0.07777736335992813,
+      0.03834804520010948,
+      0.010785484686493874,
+      0.01851598359644413,
+      0.006596657447516918,
+      0.02054562419652939,
+      0.009012505412101746,
+      0.007040768396109343
+    ],
+    "reload_max_error": 0.0,
+    "wall_seconds": 32.98497275297996,
+    "peak_memory_bytes": 305913856
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "steps_exact_2000": true,
+    "normalized_mae_le_1e_3": false,
+    "loss_decrease_ge_100x": true,
+    "all_dimensions_finite": true,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "zero_affordance": true,
+    "zero_heldout_or_outcome_reads": true
+  },
+  "decision": "O020 fixed-batch memorization fails; do not enter DYN64.",
+  "remaining_work": [
+    "A6-O030 CAUSAL fixed64"
+  ],
+  "next_run_ids": [
+    "a6_o030_causal_fixed64_v1"
+  ],
+  "event_id": "a6_o020_par_fixed64_v1_terminal"
+}

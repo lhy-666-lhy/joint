@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "data_checks": {
+    "source_hash_exact": true,
+    "labels_exact_from_repaired_command": true,
+    "valid_masks_exact": true,
+    "normalizer_roundtrip_le_1e_6": true,
+    "fixed_inputs_unique_64_of_64": true,
+    "all_three_same_fixed_artifact_hashes": true,
+    "frozen_training_config_exact": false,
+    "shared_input_encoder_contract_exact": false,
+    "actual_qvel_contract_resolved": false
+  },
+  "contract_drift": {
+    "learning_rate": {
+      "O010": 0.001,
+      "O020": 0.001,
+      "O030": 0.001
+    },
+    "expected_learning_rate": 0.0001,
+    "observed_loss": "masked MSE",
+    "expected_loss": "valid-mask normalized per-dimension L1",
+    "transformer_hidden_dim": {
+      "O020": 128,
+      "O030": 128
+    },
+    "expected_hidden_dim": 256,
+    "transformer_dropout": {
+      "O020": 0.0,
+      "O030": 0.0
+    },
+    "expected_dropout": 0.1,
+    "shared_point_cloud_context_encoder_used": false,
+    "target_link_mask_input_present": true,
+    "contact_feature_and_availability_mask_present": false,
+    "task_metadata_input_present": false,
+    "actual_qvel_source_fields": [],
+    "observed_qvel_adapter": "actual_joint_qpos finite difference per raw tick"
+  },
+  "normalizer_roundtrip_max_abs": 4.76837158203125e-07,
+  "fixed_input_unique_count": 64,
+  "source_hashes": {
+    "fixed_batch": "91f5a6a76659c729fddfb2035664041a5ed90c5cb2374ba7058bf25f343981b3",
+    "fixed_manifest": "909f088b951d07046d8259ada241154a215e2dbb0b45225b64584d82a6f503e4",
+    "normalizer": "1ec84f16eb71b351586254ac3c2682a5ad52296c4b17c5a997a0e239b99b0ce5",
+    "materialization": "6c2d0271c15ccfdfddcf7d246097f7518816ca09f69ad6923c7ab7fea99f495f"
+  }
+}

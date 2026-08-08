@@ -1,0 +1,65 @@
+{
+  "arrays": {
+    "group_index": [
+      632
+    ],
+    "path_relative": [
+      632,
+      4,
+      64,
+      7
+    ],
+    "point_cloud_xyz": [
+      632,
+      1024,
+      3
+    ],
+    "presence": [
+      632,
+      4
+    ],
+    "qpose_relative": [
+      632,
+      4,
+      7
+    ],
+    "source_replay_id": [
+      632
+    ],
+    "split": [
+      632
+    ],
+    "state_qpos": [
+      632,
+      7
+    ]
+  },
+  "checks": {
+    "group_count": true,
+    "labels_shape_finite": true,
+    "no_outcome_or_future_input": true,
+    "point_shape_finite": true,
+    "presence_not_copied": true,
+    "source_join_exact": true,
+    "state_shape_finite": true,
+    "train_cal_counts": true,
+    "zero_affordance_input": true
+  },
+  "complete": true,
+  "counts": {
+    "cal": 101,
+    "groups": 632,
+    "train": 531
+  },
+  "decision": "authorize matched G010/G020 fixed-batch fit",
+  "input_schema": "current primary XYZ point cloud + current initial 7D robot qpos; no affordance channel, no target mask, no future/outcome fields",
+  "run_id": "a6_g006c_grasp_observation_label_contract_v1",
+  "schema_version": 1,
+  "scientific_scope": "G010/G020 deployable ZERO-affordance grasp input join",
+  "source_hashes": {
+    "g000c": "9d18fff5809b9b17d91af2f954541aed0ac9ecdbd297184bde79fa975fc49c03",
+    "zarr_summary": "09ba11459982c65334bf106bb7e92adb4c7a6a97a3551c5a5e6a771fc56560cf"
+  },
+  "status": "passed",
+  "terminal": true
+}

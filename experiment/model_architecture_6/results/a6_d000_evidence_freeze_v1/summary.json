@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d000_evidence_freeze_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "partial",
+  "evidence": {
+    "review": "historical_evidence_review.md",
+    "lock": "evidence_lock.json",
+    "source_hashes": "source_hashes.sha256",
+    "path_config_updated": true,
+    "evidence_scope": "E1-E28",
+    "new_full_replay": false,
+    "new_training": false,
+    "new_gpu_validation": false
+  },
+  "decision": "D000 evidence/path freeze passes; authorize D010 and CPU-only A000 only.",
+  "remaining_work": ["A6-D010 exact adapter roundtrip", "A6-A000 split-safe affordance membership/provenance audit"],
+  "next_run_ids": ["a6_d010_adapter_roundtrip_v1", "a6_a000_affordance_membership_v1"],
+  "event_id": "a6_d000_evidence_freeze_v1_terminal",
+  "created_at": "2026-08-05T15:52:00Z"
+}

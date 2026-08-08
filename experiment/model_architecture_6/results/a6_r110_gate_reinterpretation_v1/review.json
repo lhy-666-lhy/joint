@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r110_gate_reinterpretation_v1",
+  "policy": {
+    "hard_invariants": [
+      "finite gradients/output",
+      "decode parity",
+      "reload parity",
+      "forbidden-field audit"
+    ],
+    "fit_decision": "compare reconstructed absolute action against repeat-last and train-mean on the same samples; report loss-decrease ratio only as a diagnostic",
+    "checkpoint_decision": "use predeclared train-only or CAL offline selection; do not require a fixed multiple relative to random initialization"
+  },
+  "absolute_models": [
+    {
+      "model": "O-MLP-ABS",
+      "final_normalized_mae": 0.014016245491802692,
+      "repeat_last_normalized_mae": 0.010377982631325722,
+      "better_than_repeat_last": false,
+      "scope": "absolute-action fixed64 only"
+    },
+    {
+      "model": "O-PAR-ABS",
+      "final_normalized_mae": 0.028085920959711075,
+      "repeat_last_normalized_mae": 0.010377982631325722,
+      "better_than_repeat_last": false,
+      "scope": "absolute-action fixed64 only"
+    },
+    {
+      "model": "O-CAUSAL-ABS",
+      "final_normalized_mae": 0.0566321462392807,
+      "repeat_last_normalized_mae": 0.010377982631325722,
+      "better_than_repeat_last": false,
+      "scope": "absolute-action fixed64 only"
+    }
+  ],
+  "command_delta": {
+    "final_reconstructed_normalized_mae": 0.0006511262035928667,
+    "repeat_last_normalized_mae": 0.010377982631325722,
+    "relative_improvement_vs_repeat_last": 0.9372588848214627,
+    "loss_decrease_ratio_diagnostic": 87.5466079711914,
+    "legacy_100x_gate_pass": false,
+    "baseline_relative_fit_pass": true,
+    "zero_repeat_max_error": 0.0,
+    "delta_absolute_l1_parity_max_error": 4.284083843231201e-07,
+    "reload_max_error": 0.0,
+    "invariants_pass": true,
+    "promote_to_dyn64": true
+  },
+  "state_start_delta": {
+    "final_reported_normalized_mae": 1.5131860971450806,
+    "raw_mae": 0.013526713475584984,
+    "absolute_action_std": [
+      0.8069790329835349,
+      0.7864956984257839,
+      0.7971477906906034,
+      0.6346127254963825,
+      1.4090036864355988,
+      0.775322753338351,
+      1.4816283844077072,
+      0.0001,
+      0.0001
+    ],
+    "finger_action_std": [
+      0.0001,
+      0.0001
+    ],
+    "normalizer_contract_valid": false,
+    "reason": "state delta was divided by the absolute-action normalizer; the two 1e-4 finger std values dominate the reported normalized loss",
+    "scientific_conclusion": "implementation/normalization diagnostic only; state-start delta remains untested with its own TRAIN-only normalizer"
+  },
+  "checks": {
+    "absolute_models_scoped_to_absolute_representation": true,
+    "command_delta_baseline_relative_fit_pass": true,
+    "command_delta_invariants_pass": true,
+    "state_delta_normalizer_mismatch_confirmed": true,
+    "legacy_loss_decrease_gate_retired": true
+  }
+}

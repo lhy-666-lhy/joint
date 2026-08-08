@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o192c_fresh_world_order_audit_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "fresh-world order invariance audit",
+  "world_reset_mode": "independent_world_per_arm",
+  "checks": {
+    "two_order_sensitive_targets": true,
+    "all_source_runs_pass": true,
+    "same_checkpoint_first_and_last": true,
+    "independent_world_lineage": true
+  },
+  "comparisons": [
+    {
+      "target": "10751/link_1",
+      "same_checkpoint": true,
+      "calls_first": 496,
+      "calls_last": 496,
+      "termination_first": "opening_stop",
+      "termination_last": "opening_stop",
+      "final_progress_abs_delta": 0.0,
+      "contact_fraction_abs_delta": 0.0,
+      "trace_overlap_calls": 496,
+      "trace_progress_max_abs_delta": 0.0,
+      "exact_outcome_match": true
+    },
+    {
+      "target": "10751/link_2",
+      "same_checkpoint": true,
+      "calls_first": 524,
+      "calls_last": 524,
+      "termination_first": "opening_stop",
+      "termination_last": "opening_stop",
+      "final_progress_abs_delta": 0.0,
+      "contact_fraction_abs_delta": 0.0,
+      "trace_overlap_calls": 524,
+      "trace_progress_max_abs_delta": 0.0,
+      "exact_outcome_match": true
+    }
+  ],
+  "diagnostics": {
+    "exact_outcome_matches": 2,
+    "targets": 2,
+    "max_final_progress_abs_delta": 0.0,
+    "max_trace_progress_abs_delta": 0.0
+  },
+  "decision": "independent-world lineage valid; inspect numerical diagnostics before O193C",
+  "next_run_ids": [
+    "A6-O193C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-O192C",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d030c_clean_dyn64_hash_audit_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "audit_rows": "audit_rows.json",
+    "manifest": "run_manifest.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "counts": {
+    "targets": 64,
+    "frames": 1024
+  },
+  "checks": {
+    "source_d030_terminal_pass": true,
+    "target_count_exact": true,
+    "all_excluded_paths_absent": true,
+    "all_sources_in_clean_d020c": true,
+    "all_source_hashes_match_clean_d020c": true,
+    "all_outputs_present_and_hash_exact": true,
+    "sixteen_anchors_each": true,
+    "frames_exact": true,
+    "all_finite": true,
+    "zero_dataset_or_heldout_reads": true
+  },
+  "decision": "Existing D030 DYN64 materialization is clean-contract compatible and may be reused.",
+  "remaining_work": [
+    "analyze D021C terminal artifact",
+    "launch matched command-delta DYN64 architecture screen"
+  ],
+  "next_run_ids": [
+    "a6_o100c_mlp_command_delta_dyn64_v1",
+    "a6_o110c_parallel_command_delta_dyn64_v1",
+    "a6_o120c_causal_command_delta_dyn64_v1"
+  ],
+  "event_id": "a6_d030c_clean_dyn64_hash_audit_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-D030C",
+      "status": "passed"
+    }
+  ]
+}

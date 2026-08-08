@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o141c_additive_coverage_decision_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "8-target A5_CAL source-horizon live test of additive target coverage",
+  "metrics": {
+    "mlp": {
+      "task_success": 1,
+      "targets": 8,
+      "progress": {
+        "mean": 0.13463187699114185,
+        "ci95": [
+          0.06388259850635049,
+          0.2258149881097793
+        ]
+      },
+      "progress_median": 0.09640237434899551,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.5310490925343592,
+      "full_contact_count": 2,
+      "per_target_progress": [
+        0.09943397833994873,
+        0.08238363350116626,
+        0.13175565454270177,
+        3.509958225805289e-07,
+        0.23200150340048548,
+        0.03411215511814519,
+        0.0933707703580423,
+        0.40399696967282256
+      ],
+      "per_target_contact_fraction": [
+        0.24516129032258063,
+        0.6311475409836066,
+        1.0,
+        0.033846153846153845,
+        0.7049180327868853,
+        0.27848101265822783,
+        0.3548387096774194,
+        1.0
+      ]
+    },
+    "parallel": {
+      "task_success": 0,
+      "targets": 8,
+      "progress": {
+        "mean": 0.1139824278590406,
+        "ci95": [
+          0.029636712228019047,
+          0.20921913900060665
+        ]
+      },
+      "progress_median": 0.09077130478238449,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction_mean": 0.5794743389703956,
+      "full_contact_count": 2,
+      "per_target_progress": [
+        -0.06341423054643151,
+        0.1014309056185514,
+        0.2277485534228923,
+        6.640461508280276e-08,
+        0.3813380074593253,
+        0.08011170394621757,
+        0.01804516007117057,
+        0.16659925649598403
+      ],
+      "per_target_contact_fraction": [
+        0.5870967741935483,
+        0.6967213114754098,
+        1.0,
+        0.038461538461538464,
+        1.0,
+        0.34177215189873417,
+        0.20430107526881722,
+        0.7674418604651163
+      ]
+    },
+    "repeat_last": {
+      "task_success": 0,
+      "targets": 8,
+      "progress": {
+        "mean": -0.0007531643964355401,
+        "ci95": [
+          -0.0019671866131430174,
+          6.812994927825159e-07
+        ]
+      },
+      "progress_median": 1.3755241695723428e-07,
+      "positive_progress_count": 4,
+      "wrong_way_count": 3,
+      "contact_fraction_mean": 1.0,
+      "full_contact_count": 8,
+      "per_target_progress": [
+        -0.00037454804639813695,
+        -0.0047922408294277935,
+        2.7946856576276705e-05,
+        0.0,
+        -0.0009897418150620087,
+        0.00010137138811069005,
+        1.6221698827370389e-06,
+        2.7510483391446855e-07
+      ],
+      "per_target_contact_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise_progress": {
+    "mlp_minus_repeat_last": {
+      "mean": 0.1353850413875774,
+      "ci95": [
+        0.06498968095997548,
+        0.226563844019401
+      ]
+    },
+    "parallel_minus_repeat_last": {
+      "mean": 0.11473559225547614,
+      "ci95": [
+        0.030265584130726757,
+        0.21065314337273403
+      ]
+    },
+    "mlp_minus_parallel": {
+      "mean": 0.02064944913210126,
+      "ci95": [
+        -0.06004746649317987,
+        0.10623719509586758
+      ]
+    }
+  },
+  "coverage_effect": {
+    "mlp": {
+      "progress_additive_minus_train1024": {
+        "mean": -0.03424665178897418,
+        "ci95": [
+          -0.09607188361244143,
+          0.024766260342208565
+        ]
+      },
+      "contact_additive_minus_train1024": {
+        "mean": -0.08144661888654735,
+        "ci95": [
+          -0.24198681475363493,
+          0.04316986954043937
+        ]
+      },
+      "task_success_delta": -1
+    },
+    "parallel": {
+      "progress_additive_minus_train1024": {
+        "mean": -0.05238765924941108,
+        "ci95": [
+          -0.13264634286795232,
+          0.029918277800581452
+        ]
+      },
+      "contact_additive_minus_train1024": {
+        "mean": -0.061513481012837865,
+        "ci95": [
+          -0.24317760627005286,
+          0.11203404052857456
+        ]
+      },
+      "task_success_delta": -1
+    }
+  },
+  "checks": {
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "source_horizon_exact": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "train1024_reference_valid": true
+  },
+  "decision": "additive target-coverage effect measured; choose next strategy from paired evidence"
+}

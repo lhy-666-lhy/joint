@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-A020C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "seeds": [
+    {
+      "seed": 20260806,
+      "status": "passed",
+      "terminal": true,
+      "steps": 7000,
+      "dataset_rows": 5456,
+      "loss_first": 3.039136290550232,
+      "loss_last": 0.29328256845474243,
+      "reload_max_abs": 0.0,
+      "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260806/last.pth",
+      "checkpoint_sha256": "b61b6b84ddaf943ddd11a44934d70b91dcedbe26b03e86d1fe37cc97e0e13532",
+      "summary_sha256": "66647515ecfdfccb51fad62c8e5ddd1d83b8154d31b2c5384b110dd313ad8ca9"
+    },
+    {
+      "seed": 20260807,
+      "status": "passed",
+      "terminal": true,
+      "steps": 7000,
+      "dataset_rows": 5456,
+      "loss_first": 3.831360101699829,
+      "loss_last": 0.32040759921073914,
+      "reload_max_abs": 0.0,
+      "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260807/last.pth",
+      "checkpoint_sha256": "541b3068952c932d3fd3d566750043c53b47a79d5cdc0e7c1dcf8d12839e37bf",
+      "summary_sha256": "44e812578f2fae172c4e9c8b0c5219f9dead4bf309238c19180db6e1b6227762"
+    },
+    {
+      "seed": 20260808,
+      "status": "passed",
+      "terminal": true,
+      "steps": 7000,
+      "dataset_rows": 5456,
+      "loss_first": 3.9395135641098022,
+      "loss_last": 0.2955533117055893,
+      "reload_max_abs": 0.0,
+      "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260808/last.pth",
+      "checkpoint_sha256": "908135c85690d09022618f4c29d246edf9c4b98ce5fbf45e72bb1c99cde53173",
+      "summary_sha256": "6b8f3d07b87c12a7648e96b5a406fff0e15abf24706a7def62b1d957bd1128e7"
+    }
+  ],
+  "checks": {
+    "three_fixed_seeds": true,
+    "all_terminal_passed": true,
+    "all_7000_steps": true,
+    "clean_membership_rows": true,
+    "loss_decreased": true,
+    "reload_exact": true,
+    "cal_content_unread": true
+  },
+  "decision": "authorize fixed-last A030C evaluation",
+  "next_run_ids": [
+    "A6-A030C"
+  ]
+}

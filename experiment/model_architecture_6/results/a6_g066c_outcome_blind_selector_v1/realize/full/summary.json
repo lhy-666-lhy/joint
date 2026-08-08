@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G066C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "shards": [
+    [
+      0,
+      13
+    ],
+    [
+      13,
+      26
+    ],
+    [
+      26,
+      39
+    ],
+    [
+      39,
+      52
+    ],
+    [
+      52,
+      65
+    ],
+    [
+      65,
+      77
+    ],
+    [
+      77,
+      89
+    ],
+    [
+      89,
+      101
+    ]
+  ],
+  "realization": {
+    "legal_ik": 1942,
+    "planner_success": 341,
+    "selected_ik_coverage": 0.9764397905759162,
+    "selected_planner_coverage": 0.693717277486911
+  },
+  "metrics": {
+    "s0_mode_logit": {
+      "translation_m": 0.26096558570861816,
+      "rotation_rad": 1.8285573720932007,
+      "pose_within_3cm_12deg": 0.013089005235602094,
+      "group_mean": {
+        "translation_m": 0.2566386796902902,
+        "rotation_rad": 1.811231143735718,
+        "pose_within_3cm_12deg": 0.01485148514851485
+      }
+    },
+    "s1_calibrated_risk": {
+      "translation_m": 0.24993908405303955,
+      "rotation_rad": 1.8017174005508423,
+      "pose_within_3cm_12deg": 0.020942408376963352,
+      "group_mean": {
+        "translation_m": 0.24700843105738116,
+        "rotation_rad": 1.7737273749074725,
+        "pose_within_3cm_12deg": 0.022277227722772276
+      }
+    },
+    "s2_ik_fk_planner": {
+      "translation_m": 0.2989937365055084,
+      "rotation_rad": 2.1655116081237793,
+      "pose_within_3cm_12deg": 0.005235602094240838,
+      "group_mean": {
+        "translation_m": 0.29378033632246575,
+        "rotation_rad": 2.163043572834813,
+        "pose_within_3cm_12deg": 0.007425742574257425
+      }
+    },
+    "oracle_best_of_8": {
+      "translation_m": 0.1765325665473938,
+      "rotation_rad": 0.5617828965187073,
+      "pose_within_3cm_12deg": 0.034031413612565446,
+      "group_mean": {
+        "translation_m": 0.17218126908018447,
+        "rotation_rad": 0.579535268505316,
+        "pose_within_3cm_12deg": 0.034653465346534656
+      }
+    }
+  },
+  "comparisons": {
+    "s0_minus_g062": {
+      "translation_m": {
+        "mean": 0.035468279101388646,
+        "ci95": [
+          0.014708354507877063,
+          0.05707377550942509
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.13797740599758268,
+        "ci95": [
+          -0.09364103378981208,
+          0.3589797180542205
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0024752475247524753,
+        "ci95": [
+          -0.01485148514851485,
+          0.019801980198019802
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_g062": {
+      "translation_m": {
+        "mean": 0.025838030468479597,
+        "ci95": [
+          0.007696902456007263,
+          0.04401038658966472
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.10047363716933701,
+        "ci95": [
+          -0.12324742966895723,
+          0.31664425560330933
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.009900990099009901,
+        "ci95": [
+          -0.009900990099009901,
+          0.034653465346534656
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s2_minus_g062": {
+      "translation_m": {
+        "mean": 0.07260993573356418,
+        "ci95": [
+          0.04807298173933401,
+          0.09670205070218606
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.48978983509667745,
+        "ci95": [
+          0.2840068690687447,
+          0.6942689074343806
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.0049504950495049506,
+        "ci95": [
+          -0.019801980198019802,
+          0.009900990099009901
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s0_minus_oracle": {
+      "translation_m": {
+        "mean": 0.08445741061010573,
+        "ci95": [
+          0.060782591761135964,
+          0.10895243981705591
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.2316958752304021,
+        "ci95": [
+          1.061006117780868,
+          1.4009925058166874
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.019801980198019802,
+        "ci95": [
+          -0.03712871287128713,
+          -0.0049504950495049506
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_oracle": {
+      "translation_m": {
+        "mean": 0.07482716197719669,
+        "ci95": [
+          0.053049411646800465,
+          0.09726423532287083
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.1941921064021563,
+        "ci95": [
+          1.0115273417471586,
+          1.3729480591141572
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.012376237623762377,
+        "ci95": [
+          -0.027227722772277228,
+          -0.0024752475247524753
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s2_minus_oracle": {
+      "translation_m": {
+        "mean": 0.12159906724228127,
+        "ci95": [
+          0.09962624986287169,
+          0.14368918761057722
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.5835083043294969,
+        "ci95": [
+          1.4512315981182278,
+          1.7074403397342428
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.027227722772277228,
+        "ci95": [
+          -0.05198019801980198,
+          -0.007425742574257425
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "score_terminal": true,
+    "all_shards_passed": true,
+    "shard_intervals_exact": true,
+    "group_count_101": true,
+    "group_order_exact": true,
+    "presence_exact": true,
+    "selection_indices_valid": true,
+    "outcome_mutation_invariance": true,
+    "no_task_outcome_read": true
+  },
+  "claim_supported": "no",
+  "decision": "stop before G067; selector gate failed",
+  "next_run_ids": []
+}

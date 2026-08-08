@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o154c_mlp_geometry_residual_train1024_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "corrected geometry residual with unchanged 81D baseline state encoder",
+  "metrics": {
+    "train_normalized_delta_mae": 0.03762835565396403,
+    "train_raw_delta_mae": 0.0008712140614844264,
+    "initial_output_max_abs_vs_baseline": 0.0,
+    "geometry_projection_weight_norm": 1.1992976665496826,
+    "reload_max_abs": 0.0,
+    "wall_seconds": 35.363887957297266,
+    "parameter_count": 733208
+  },
+  "checks": {
+    "d150c_passed": true,
+    "train_rows_1024": true,
+    "state_width_85": true,
+    "baseline_state_encoder_width_81": true,
+    "common_initial_weights_exact": true,
+    "zero_init_output_parity": true,
+    "geometry_branch_learned": true,
+    "zero_contact": true,
+    "finite": true,
+    "reload_exact": true
+  },
+  "decision": "corrected residual training valid; run CAL/live8",
+  "next_run_ids": [
+    "A6-O155C",
+    "A6-O156C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-O154C",
+      "status": "passed"
+    }
+  ]
+}

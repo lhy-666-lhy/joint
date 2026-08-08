@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-A031C-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scope": "A6 clean affordance lineage only; no producer or downstream utility claim",
+  "counts": {
+    "primary_train": 8,
+    "primary_cal": 8,
+    "augmentation_train": 8
+  },
+  "metrics": {
+    "initial": {
+      "mean": 0.01222138931143215,
+      "std": 0.08212751655689514,
+      "positive_fraction_005": 0.032267252604166664,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "updated": {
+      "mean": 0.01070074840656673,
+      "std": 0.0777494631088655,
+      "positive_fraction_005": 0.026407877604166668,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "mix060": {
+      "mean": 0.007464211696749497,
+      "std": 0.049832248053607704,
+      "positive_fraction_005": 0.029256184895833332,
+      "min": 0.0,
+      "max": 0.8156819343566895
+    }
+  },
+  "max_mix060_formula_error": 0.0,
+  "source_hashes": {
+    "membership_manifest": "3ddbf00e75a9973016434f30884067c3e55d96a1b048d137c4d21d709e81336e",
+    "second_round_build_summary": "fb61a311a50cff9d4e7ac05d9504884a5588fcf39ad788cd56b6b0cf8e50e083",
+    "fourth_round_build_summary": "c167dd790d70214a5ec6db724b3ded95be670f53662231050b3d60c3db88b09f"
+  },
+  "checks": {
+    "upstream_a000_terminal": true,
+    "primary_overlay_source_ids_exact": true,
+    "membership_source_ids_exact": true,
+    "mix060_formula_exact": true,
+    "finite": true,
+    "bounded_0_1": true,
+    "point_count_1024": true,
+    "full_counts": true,
+    "no_mechdev_or_test_content_read": true,
+    "source_zarr_immutable": true
+  },
+  "claim_supported": "probe_only",
+  "decision": "run full A031C",
+  "next_run_ids": [
+    "A6-A031C"
+  ]
+}

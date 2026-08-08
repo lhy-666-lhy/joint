@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d021c_command_delta_normalizer_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "normalizer": "normalizer.json",
+    "fixed_batch": "fixed_batch_command_delta.npz",
+    "manifest": "run_manifest.json",
+    "metrics": "offline_metrics.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json",
+    "resource_pilot_ref": "resource_pilot_ref.json"
+  },
+  "counts": {
+    "trajectories": 26597,
+    "delta_rows": 12774558,
+    "fixed_chunks": 64
+  },
+  "metrics": {
+    "delta_roundtrip_max_error": 1.3877787807814457e-17,
+    "absolute_reconstruction_max_error": 6.938893903907228e-18
+  },
+  "checks": {
+    "source_d020c_terminal_pass": true,
+    "trajectory_count_exact": true,
+    "delta_rows_positive": true,
+    "normalizer_finite_positive_std": true,
+    "fixed64_shape_exact": true,
+    "valid_mask_exact": true,
+    "delta_roundtrip_le_1e_6": true,
+    "absolute_reconstruction_le_1e_6": true,
+    "zero_cal_or_heldout_reads": true,
+    "source_hashes_persisted": true
+  },
+  "decision": "Clean TRAIN-only command-delta normalizer passes; D021C dependency is satisfied.",
+  "remaining_work": [
+    "analyze D021C terminal evidence",
+    "run independent D030C clean DYN64 hash audit"
+  ],
+  "next_run_ids": [
+    "a6_d030c_clean_dyn64_hash_audit_v1"
+  ],
+  "event_id": "a6_d021c_command_delta_normalizer_v1_terminal"
+}

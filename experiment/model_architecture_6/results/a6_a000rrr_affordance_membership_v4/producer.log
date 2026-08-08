@@ -1,0 +1,12 @@
+bestview_dual workers=2 physical_cores=64 fps_device=cpu cache_dir=/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a000rrr_affordance_membership_v4/recovery_cache
+bestview_dual[collect]:   0%|          | 0/2 [00:00<?, ?it/s]/root/miniconda3/envs/sapien/lib/python3.10/site-packages/sapien/__init__.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/miniconda3/envs/sapien/lib/python3.10/site-packages/sapien/__init__.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+bestview_dual[collect]:  50%|█████     | 1/2 [00:24<00:24, 24.35s/it]bestview_dual[collect]: 100%|██████████| 2/2 [00:24<00:00, 12.17s/it]
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/scripts/build_bestview_dual_affordance_zarr.py", line 546, in <module>
+    main()
+  File "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/scripts/build_bestview_dual_affordance_zarr.py", line 497, in main
+    raise RuntimeError(f"collect requires one best view for every retained replay; retained={len(selected)} accepted={len(primary)} failures={len(failures)}")
+RuntimeError: collect requires one best view for every retained replay; retained=2 accepted=0 failures=2

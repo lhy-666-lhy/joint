@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d000_evidence_freeze_v1",
+  "scope": "E1-E28",
+  "immutable": true,
+  "review_path": "historical_evidence_review.md",
+  "source_hashes_path": "source_hashes.sha256",
+  "path_config_symbols": [
+    "JOINTTRAIN_MODEL_ARCHITECTURE_6_ROOT",
+    "JOINTTRAIN_ARCH6_RESULT_ROOT",
+    "JOINTTRAIN_ARCH6_D000_RESULT_ROOT",
+    "JOINTTRAIN_ARCH6_HISTORICAL_EVIDENCE_REVIEW",
+    "JOINTTRAIN_ARCH6_EVIDENCE_LOCK",
+    "JOINTTRAIN_ARCH6_SOURCE_HASHES"
+  ],
+  "allowed_reuse": ["verified code symbols and contracts listed in historical_evidence_review.md"],
+  "forbidden_inference": ["new replay qualification", "oracle/controller reconstruction", "old-split formal affordance forward", "old online winner or negative conclusion", "Architecture 5 loop/queue recovery"],
+  "decision": "pass",
+  "remaining_work": ["A6-D010 adapter roundtrip", "A6-A000 membership/provenance audit"],
+  "created_at": "2026-08-05T15:50:00Z"
+}

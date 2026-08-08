@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d042c_zero_contact_deployable_inputs_v1",
+  "input_schema": "point/mask/zero-affordance + causal robot state + zero contact/availability + 9D task metadata",
+  "observation_sources": {
+    "fixed": "recorded_current_observation",
+    "train": "recorded_current_observation",
+    "cal": "recorded_current_observation",
+    "live_required": "live_sapiens_observation"
+  },
+  "source_hashes": {
+    "fixed": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+    "train": "880b25bfb0590bb991fe8778fbf0a071524efd7ba9d2df4d412382d7b4aec530",
+    "cal": "832d43abcdd036da8e79c71ba6da537d8f74131f25799b6f4b12c66976fb533f"
+  },
+  "output_hashes": {
+    "fixed": "a97e0a212f0415ed64543b170b8e4cc81b6352550633e01882e651016e0e58e0",
+    "train": "f25d771ef856933184f8a0112e33b98ace71ca2038f9ae5be56987eef0017b5f",
+    "cal": "2968f771a5256fcb72967662508c61cd74eb845b031758e0c957f7c41e0be008"
+  }
+}

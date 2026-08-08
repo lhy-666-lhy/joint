@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_a000r_affordance_membership_v2",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "data_contract_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "membership_manifest": "membership_manifest.json",
+    "source_split_contract_sha256": "4bb49c688e4b520831ba5d5df8fd933c3b8be704f7cb535016c15700e9c105d8",
+    "zarr_metadata_hash": "cbaaa916a8c30d220dfabfc2a9ec55bd662f0d1a940f2fab912b0508322a7c51",
+    "point_cloud_or_label_read": false,
+    "outcome_read": false,
+    "pretrain_provenance": {
+      "sha256": "6dd8f7a5993f6965c76772c6049824d33fd3043473f71079b210ebec78a644a3",
+      "label_free_provenance_verified": false,
+      "required_init": "random"
+    }
+  },
+  "counts": {
+    "A5_TRAIN": {
+      "contract_samples": 559,
+      "joined_primary": 557
+    },
+    "A5_CAL": {
+      "contract_samples": 102,
+      "joined_primary": 102
+    }
+  },
+  "checks": {
+    "train_contract_count": true,
+    "train_joined_primary_count": false,
+    "cal_contract_count": true,
+    "cal_joined_primary_count": true,
+    "train_cal_target_overlap": 0,
+    "train_cal_shape_overlap": 0,
+    "missing_accepted_sample": 0,
+    "missing_zarr_primary": 3,
+    "duplicate": 0,
+    "wrong_target": 0,
+    "mech_dev_target_test_content_read": false,
+    "old_replay_split_used": false
+  },
+  "decision": "Two A5_TRAIN primary rows are absent from the frozen Zarr; block A010 and do not shrink the split.",
+  "remaining_work": [
+    "resolve missing A5_TRAIN primary rows under a planning revision",
+    "A6-D010 exact adapter roundtrip"
+  ],
+  "next_run_ids": [
+    "a6_d010_adapter_roundtrip_v1"
+  ],
+  "event_id": "a6_a000r_affordance_membership_v2_terminal"
+}

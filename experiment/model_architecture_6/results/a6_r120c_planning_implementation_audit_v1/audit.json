@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r120c_planning_implementation_audit_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "audit_scope": "Architecture 6 planning and operation implementation before live closed-loop rollout",
+  "findings": {
+    "o100c_normalizer_lineage": {
+      "status": "invalid_implementation",
+      "evidence": [
+        "O200F training reads O010R load_batch action_std from D020 absolute normalizer",
+        "O100C evaluation reconstructs with D021C command-delta std",
+        "O100C checkpoint and evaluation representation are incompatible"
+      ],
+      "claim_impact": "revoke O100C numeric comparison"
+    },
+    "o110c_o120c_split_scope": {
+      "status": "diagnostic_only",
+      "evidence": [
+        "D020 sample_index split is A5_TRAIN only",
+        "D040 rows are all A5_TRAIN",
+        "D040 shares 64 exact anchor pairs with fixed64",
+        "D040 context includes recorded trajectory contact_feedback"
+      ],
+      "claim_impact": "not CAL generalization and not deployment evidence"
+    },
+    "o130_replay_protocol": {
+      "status": "protocol_corrective_required",
+      "evidence": [
+        "GT replay uses complete operation action with replay_action",
+        "learned chunk policy requires Architecture 2/3 live observation loop",
+        "single 32-step probe is infrastructure-only"
+      ],
+      "claim_impact": "do not run full short-chunk replay"
+    },
+    "o100rc_fix": {
+      "status": "passed_fixed_sanity",
+      "evidence": [
+        "D021C normalizer used from scratch",
+        "fixed normalized delta MAE 0.0126566552",
+        "fixed raw delta MAE 0.0002923057",
+        "checkpoint reload error 0"
+      ],
+      "claim_impact": "implementation repaired; CAL/live evaluation still required"
+    }
+  },
+  "next_authorized_run": "A6-D041C",
+  "deployment_boundary": {
+    "allowed": [
+      "live point cloud and target mask",
+      "current robot qpos/qvel",
+      "already executed command",
+      "current measurable contact feedback",
+      "SAPIEN task metadata and evaluator-only opening stop"
+    ],
+    "forbidden": [
+      "recorded future qpos or command",
+      "recorded future contact feedback",
+      "final outcome or final object qpos",
+      "GT affordance/grasp except labeled ablation"
+    ]
+  }
+}

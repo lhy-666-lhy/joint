@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source_run_id": "a6_o010r_mlp_fixed64_v2",
+  "source_relative_path": "../a6_o010r_mlp_fixed64_v2/resource_pilot.json",
+  "source_sha256": "f6b0af0de7d9c40e8348d869e05a4dfefc88b84eeb2a57e9fe2be7d93bd28885",
+  "workload_signature_sha256": "2ed834254bd2ff8a5b15bb8b586db4a99051fffce021be32797e6a179f444ada",
+  "selected": {
+    "workers": 0,
+    "microbatch": 64,
+    "world_size": 1,
+    "gradient_accumulation_steps": 1,
+    "effective_batch": 64
+  },
+  "workload_unchanged_except_preregistered_optimizer_steps": true
+}

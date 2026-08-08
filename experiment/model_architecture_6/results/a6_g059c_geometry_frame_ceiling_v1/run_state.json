@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G059C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "elapsed_seconds": 73.2458279132843,
+  "metrics": {
+    "labels": {
+      "train": 1991,
+      "cal": 382
+    },
+    "train_only_mean_local_offset": [
+      -0.0053085571523339824,
+      -0.00012361958212761816,
+      -0.08025160755039737
+    ],
+    "train_mapping_rotation_error": {
+      "x": 1.34373664532862,
+      "y": 1.6987827836857954
+    },
+    "selected_deploy_mapping": "x",
+    "fixed_rule": {
+      "translation_m": {
+        "mean": 0.08637841273017792,
+        "median": 0.10021573789198257,
+        "p90": 0.138093762416729,
+        "max": 0.195134798923134
+      },
+      "rotation_rad": {
+        "mean": 1.443598890843324,
+        "median": 1.5863002872936631,
+        "p90": 2.0819020659379963,
+        "max": 3.1360878918350155
+      },
+      "pose_within_3cm_12deg": 0.049738219895287955
+    },
+    "oracle_sign_mapping": {
+      "translation_m": {
+        "mean": 0.07670621547776948,
+        "median": 0.09788074421162313,
+        "p90": 0.11702376039012247,
+        "max": 0.19511653168035667
+      },
+      "rotation_rad": {
+        "mean": 0.9967287640339303,
+        "median": 1.3802150150021029,
+        "p90": 1.5655482897717694,
+        "max": 1.7078968619110866
+      },
+      "pose_within_3cm_12deg": 0.10471204188481675
+    },
+    "skipped_cal_labels": 0
+  },
+  "checks": {
+    "label_counts": true,
+    "finite": true,
+    "train_only_rule_selection": true,
+    "no_outcome_read": true,
+    "metadata_axis_only": true
+  },
+  "decision": "use fixed/oracle geometry ceiling to decide contact proposal training"
+}

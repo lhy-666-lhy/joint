@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G065C-classifier-SANITY",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "variant": "classifier",
+  "optimizer_steps": 50,
+  "train_loss_first": 1.4476721286773682,
+  "train_loss_last": 1.2395906448364258,
+  "elapsed_seconds": 1.2129614353179932,
+  "parameters": 446290,
+  "reload_max_abs": 0.0,
+  "checkpoint_sha256": "39b430717b40c3f4eeb7cf93185160c43e790731d5d6b0f6bc90db8cccb54c53",
+  "metrics": {
+    "selected_top1": {
+      "translation_m": 0.2739841938018799,
+      "rotation_rad": 1.683956265449524,
+      "pose_within_3cm_12deg": 0.0
+    },
+    "best_of_candidates": {
+      "translation_m": 0.2739841938018799,
+      "rotation_rad": 1.683956265449524,
+      "pose_within_3cm_12deg": 0.0
+    },
+    "mode_accuracy": 0.18586388230323792,
+    "selected_minus_g062": {
+      "translation_m": {
+        "mean": 0.04627897380475986,
+        "ci95": [
+          0.025472126423750626,
+          0.06674399736076397
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.011606801580176008,
+        "ci95": [
+          -0.1873640304264381,
+          0.20219865571172657
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "g064_terminal": true,
+    "split_counts": true,
+    "finite": true,
+    "loss_decreased": true,
+    "reload_exact": true,
+    "same_seed_steps_batch": true,
+    "no_outcome_read": true
+  },
+  "claim_supported": "sanity_only",
+  "decision": "run full matched variant"
+}

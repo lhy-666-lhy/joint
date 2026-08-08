@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r020_gpualive_reconciliation_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "checks": {
+    "regression_suite_passed": true,
+    "analysis_reconciliation_covered": true,
+    "keepalive_not_completion_evidence": true
+  },
+  "evidence": {
+    "audit": "audit.json"
+  },
+  "decision": "GPUALIVE expands a partial selection to all eligible cards when analysis/CPU reconciliation requires it.",
+  "remaining_work": [],
+  "next_run_ids": [],
+  "event_id": "a6_r020_gpualive_reconciliation_v1_terminal"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G034C-FIT",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "kind": "qpose",
+  "affordance_condition": "zero",
+  "coordinate_frame": "base",
+  "target_normalization": "per-joint",
+  "target_mean": [
+    -0.1596355140209198,
+    0.2648942172527313,
+    0.0954323559999466,
+    0.46603256464004517,
+    0.05684072896838188,
+    0.2038336545228958,
+    -0.6321455836296082
+  ],
+  "target_std": [
+    0.7350260615348816,
+    0.6317168474197388,
+    0.6633045673370361,
+    0.4587574899196625,
+    1.3700168132781982,
+    0.5695073008537292,
+    1.3928403854370117
+  ],
+  "deployable": true,
+  "seed": 20260806,
+  "optimizer_steps": 6000,
+  "effective_batch": 64,
+  "device": "cuda",
+  "trainable_parameters": 508680,
+  "train_loss_first": 0.9141950607299805,
+  "train_loss_last": 0.22659170627593994,
+  "cal_loss_last": 0.7521769404411316,
+  "reload_max_abs": 0.0,
+  "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g034c_qpose_base_frame_normalized_v1/qpose_zero_base_per-joint_seed20260806.pth",
+  "checkpoint_sha256": "b78eba779a33428d79b5858c91cff3bcb0250511871818ffc719ed4e0f58d397",
+  "source_input_sha256": "7d0eab91f86f51fb992105c032a5801b031bc2d59b13f63a3468c639dbedc6ff",
+  "checks": {
+    "finite": true,
+    "reload": true,
+    "train_loss_decreased": true,
+    "split_counts": true,
+    "affordance_contract": true,
+    "no_future_or_outcome_input": true
+  },
+  "decision": "run raw-unit CAL normalization comparison"
+}

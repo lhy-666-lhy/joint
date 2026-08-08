@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G066C-FAILURE-ANALYSIS",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "metrics": {
+    "full_oracle": {
+      "translation_m": 0.1765325665473938,
+      "rotation_rad": 0.5617828965187073,
+      "pose_within_3cm_12deg": 0.034031413612565446
+    },
+    "ik_feasible_oracle": {
+      "translation_m": 0.24495233595371246,
+      "rotation_rad": 1.4091594219207764,
+      "pose_within_3cm_12deg": 0.007853403141361256
+    },
+    "planner_feasible_oracle": {
+      "translation_m": 0.2835465371608734,
+      "rotation_rad": 1.8657307624816895,
+      "pose_within_3cm_12deg": 0.005235602094240838
+    },
+    "s0_mode_logit": {
+      "translation_m": 0.26096558570861816,
+      "rotation_rad": 1.8285573720932007,
+      "pose_within_3cm_12deg": 0.013089005235602094
+    },
+    "s1_calibrated_risk": {
+      "translation_m": 0.24993908405303955,
+      "rotation_rad": 1.8017174005508423,
+      "pose_within_3cm_12deg": 0.020942408376963352
+    },
+    "s2_ik_fk_planner": {
+      "translation_m": 0.2989937365055084,
+      "rotation_rad": 2.1655116081237793,
+      "pose_within_3cm_12deg": 0.005235602094240838
+    }
+  },
+  "coverage": {
+    "oracle_pose_has_legal_ik": 0.3481675392670157,
+    "oracle_pose_has_planner_path": 0.07591623036649214,
+    "selected_mode_exact_oracle_rate": {
+      "s0_mode_logit": 0.20418848167539266,
+      "s1_calibrated_risk": 0.24607329842931938,
+      "s2_ik_fk_planner": 0.11780104712041885
+    }
+  },
+  "correlation": {
+    "pose_cost_vs_best_path_length_spearman": -0.1589735663647345,
+    "pose_cost_vs_ik_solution_count_spearman": 0.1418289672604365
+  },
+  "comparisons": {
+    "ik_feasible_oracle_minus_full_oracle": {
+      "translation_m": {
+        "mean": 0.0664023450658758,
+        "ci95": [
+          0.049295296695655084,
+          0.08310865243196043
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.8225961969704321,
+        "ci95": [
+          0.6570712671707394,
+          0.9891088235736041
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.024752475247524754,
+        "ci95": [
+          -0.04950495049504951,
+          -0.007425742574257425
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "planner_feasible_oracle_minus_full_oracle": {
+      "translation_m": {
+        "mean": 0.10449096779938381,
+        "ci95": [
+          0.08513499636682544,
+          0.12345366877282389
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.268698269224698,
+        "ci95": [
+          1.1260743571408462,
+          1.4056786003762323
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.027227722772277228,
+        "ci95": [
+          -0.05198019801980198,
+          -0.007425742574257425
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "planner_feasible_oracle_minus_g062": {
+      "translation_m": {
+        "mean": 0.05550183629066672,
+        "ci95": [
+          0.03212122800299036,
+          0.07834618807468265
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.1749797999918786,
+        "ci95": [
+          -0.039553059254170755,
+          0.38917115533712116
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.0049504950495049506,
+        "ci95": [
+          -0.019801980198019802,
+          0.009900990099009901
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "g066_terminal_negative": true,
+    "group_count_101": true,
+    "valid_labels_382": true,
+    "selection_shape": true,
+    "finite_metrics": true,
+    "no_outcome_read": true,
+    "diagnostic_only": true
+  },
+  "feasible_generation_survives": "no",
+  "claim_supported": "diagnostic_only",
+  "decision": "repair IK/planner realization before any score revision",
+  "next_run_ids": []
+}

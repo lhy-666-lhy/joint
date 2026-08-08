@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source_run_id": "a6_o030r_causal_fixed64_v2",
+  "source_relative_path": "../a6_o030r_causal_fixed64_v2/resource_pilot.json",
+  "source_sha256": "1dcde286f4c710fd89226dfd8de55e7f9d9b734809eedd8a0a09abdda1c6ff7d",
+  "workload_signature_sha256": "bf8a68df5fdf146ddb92cf63b86e3d564f5e2c2754b41083ebc54ba85c93489e",
+  "selected": {
+    "workers": 0,
+    "microbatch": 64,
+    "world_size": 1,
+    "gradient_accumulation_steps": 1,
+    "effective_batch": 64
+  },
+  "workload_unchanged_except_preregistered_optimizer_steps": true
+}

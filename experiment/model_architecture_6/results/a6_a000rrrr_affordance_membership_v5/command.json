@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "argv": [
+    "/root/miniconda3/envs/sapien/bin/python",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/scripts/build_bestview_dual_affordance_zarr.py",
+    "--mode",
+    "collect",
+    "--data-root",
+    "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base",
+    "--grasp-root",
+    "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/grasp_dataset",
+    "--source-zarr",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/data/joint_from_data_cam.zarr",
+    "--replay-manifest",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/data/joint_from_data_cam_replays.json",
+    "--output",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a000rrrr_affordance_membership_v5/recovered_primary.zarr",
+    "--cache-dir",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a000rrrr_affordance_membership_v5/recovery_cache",
+    "--articu-root",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien",
+    "--replay-ids",
+    "70",
+    "251",
+    "--workers",
+    "2",
+    "--device",
+    "cpu",
+    "--num-points",
+    "1024",
+    "--allow-relaxed-view-search",
+    "--retry-failed",
+    "--overwrite"
+  ],
+  "cwd": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6",
+  "environment": "sapien",
+  "workers": 2,
+  "replay_ids": [
+    70,
+    251
+  ]
+}

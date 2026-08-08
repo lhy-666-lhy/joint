@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-07T00:24:30+00:00",
+  "config_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/a020c_supervisor_config.json",
+  "root": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6",
+  "read_only": true,
+  "allow_launch": false,
+  "next_check_at": "2026-08-07T00:44:30+00:00",
+  "rounds": [
+    {
+      "id": "a020c_three_seed",
+      "status": "running_or_pending",
+      "complete_count": 0,
+      "error_count": 0,
+      "total_count": 3,
+      "estimated_unit_seconds": 8100.0,
+      "estimated_remaining_seconds": 24300.0,
+      "process_lines": [
+        "root     3658175 3658137 99 00:22 pts/4    00:02:28 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260806 --gpu 1",
+        "root     3658176 3658137 99 00:22 pts/4    00:02:24 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260807 --gpu 2",
+        "root     3658177 3658137 99 00:22 pts/4    00:02:19 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260808 --gpu 3",
+        "root     3661598 3658177  2 00:22 pts/4    00:00:03 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260808 --gpu 3",
+        "root     3661661 3658177  2 00:22 pts/4    00:00:02 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260808 --gpu 3",
+        "root     3661724 3658177  2 00:22 pts/4    00:00:02 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260808 --gpu 3",
+        "root     3661787 3658177  3 00:22 pts/4    00:00:03 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260808 --gpu 3",
+        "root     3661919 3658176  2 00:22 pts/4    00:00:02 python /inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a010_a020_affordance_train.py --mode full --steps 7000 --batch-size 48 --gradient-accumulation 2 --num-workers 4 --seed 20260807 --gpu 2"
+      ],
+      "jobs": [
+        {
+          "id": "seed_20260806",
+          "status": "pending",
+          "summary_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260806/summary.json",
+          "log_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260806.log",
+          "latest_mtime": "2026-08-07T00:24:10+00:00",
+          "metrics": {}
+        },
+        {
+          "id": "seed_20260807",
+          "status": "pending",
+          "summary_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260807/summary.json",
+          "log_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260807.log",
+          "latest_mtime": "2026-08-07T00:24:10+00:00",
+          "metrics": {}
+        },
+        {
+          "id": "seed_20260808",
+          "status": "pending",
+          "summary_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260808/summary.json",
+          "log_path": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_a020c_affordance_clean_train_v1/seed_20260808.log",
+          "latest_mtime": "2026-08-07T00:24:09+00:00",
+          "metrics": {}
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "launch_action": null
+}

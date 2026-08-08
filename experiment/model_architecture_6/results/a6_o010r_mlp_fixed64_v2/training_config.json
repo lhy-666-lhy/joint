@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model": "O-MLP-ABS",
+  "shared_encoder": "PointCloudContextEncoder",
+  "hidden_dim": 256,
+  "dropout": 0.1,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "effective_batch": 64,
+  "optimizer_steps": 2000,
+  "sample_exposure": 128000,
+  "loss": "valid-mask normalized per-dimension L1",
+  "augmentation": false,
+  "seed": 20260805,
+  "checkpoint_rule": "fixed last-step 2000 only",
+  "parameter_count": 731928
+}

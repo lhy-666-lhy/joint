@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o172c_corrected_candidate_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "corrected live8 screen of previously trained valid A6 MLP candidates",
+  "execute_prefix": 8,
+  "rows": [
+    {
+      "arm": "baseline_mlp",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 2.974059410778725e-05,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.15080005582422018,
+      "observation_seconds": 0.8152637165039778,
+      "execution_seconds": 0.026424887590110302,
+      "wall_seconds": 1.004416017793119,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00041573408567929505,
+          "target_qpos": 0.36303001642227173,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 2,
+          "progress": -0.000246325885252982,
+          "target_qpos": 0.3635474443435669,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": 2.974059410778725e-05,
+          "target_qpos": 0.36439064145088196,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "additive_mlp",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": -0.00010082334610097299,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.002723085694015026,
+      "observation_seconds": 0.10016928147524595,
+      "execution_seconds": 0.027489667758345604,
+      "wall_seconds": 0.13344401959329844,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.0004178807164875999,
+          "target_qpos": 0.36302345991134644,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 2,
+          "progress": -0.0002955910623035784,
+          "target_qpos": 0.3633969724178314,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": -0.00010082334610097299,
+          "target_qpos": 0.3639918565750122,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "perturb_1x",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 6.293531233439231e-05,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.002617589198052883,
+      "observation_seconds": 0.08973909262567759,
+      "execution_seconds": 0.027559708803892136,
+      "wall_seconds": 0.12293428648263216,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00041607559512607084,
+          "target_qpos": 0.36302897334098816,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 2,
+          "progress": -0.00023561224603698777,
+          "target_qpos": 0.3635801672935486,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 3,
+          "progress": 6.293531233439231e-05,
+          "target_qpos": 0.3644920289516449,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "perturb_3x",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 9.456884451859384e-05,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.002603566274046898,
+      "observation_seconds": 0.08988051861524582,
+      "execution_seconds": 0.027479701675474644,
+      "wall_seconds": 0.12295664940029383,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00041351915298163506,
+          "target_qpos": 0.36303678154945374,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 2,
+          "progress": -0.00022374723211472094,
+          "target_qpos": 0.363616406917572,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 3,
+          "progress": 9.456884451859384e-05,
+          "target_qpos": 0.3645886480808258,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "geometry_residual",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": 1.7465768849389495e-05,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.003095153719186783,
+      "observation_seconds": 0.09405122604221106,
+      "execution_seconds": 0.02748708985745907,
+      "wall_seconds": 0.1290909443050623,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00041797829061525013,
+          "target_qpos": 0.36302316188812256,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 2,
+          "progress": -0.00025249257012047594,
+          "target_qpos": 0.36352860927581787,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": 1.7465768849389495e-05,
+          "target_qpos": 0.36435315012931824,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        }
+      ],
+      "model_input_features": [
+        "hand_minus_visible_target_centroid_x",
+        "hand_minus_visible_target_centroid_y",
+        "hand_minus_visible_target_centroid_z",
+        "visible_target_fraction"
+      ],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "repeat_last",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": -9.439321108882345e-05,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0,
+      "observation_seconds": 0.09525193832814693,
+      "execution_seconds": 0.027343026362359524,
+      "wall_seconds": 0.12487492803484201,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.0004142802311773068,
+          "target_qpos": 0.3630344569683075,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 2,
+          "progress": -0.00025359515776292345,
+          "target_qpos": 0.36352524161338806,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 3,
+          "progress": -9.439321108882345e-05,
+          "target_qpos": 0.3640114963054657,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 697,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    }
+  ],
+  "checks": {
+    "all_configured_arms": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "calls_bounded": true,
+    "prefix_exact": true,
+    "physics_budget_recorded": true,
+    "start_command_source_valid": true,
+    "start_command_finger_zero": true,
+    "start_command_matches_repaired": true
+  },
+  "decision": "live adapter valid; expand exact-paired bounded screen"
+}

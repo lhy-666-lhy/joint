@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G064C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "labels": 2373,
+  "mode_counts": {
+    "0": 362,
+    "1": 110,
+    "2": 70,
+    "3": 499,
+    "4": 468,
+    "5": 344,
+    "6": 331,
+    "7": 189
+  },
+  "ik_set": {
+    "coverage_at_least_one": 0.9152970922882427,
+    "multi_solution_fraction": 0.8605141171512853,
+    "mean_solutions": 3.183312262958281,
+    "max_solutions": 8
+  },
+  "pregrasp_distance_m": 0.08,
+  "max_reconstruction_translation_error": 6.018390663491007e-08,
+  "max_reconstruction_rotation_error": 0.0004551818526571515,
+  "checks": {
+    "g063_authorizes_g064": true,
+    "lineage_unique": true,
+    "presence_exact": true,
+    "teacher_slot_valid": true,
+    "mode_index_valid": true,
+    "mode_reconstruction_exact": true,
+    "ik_count_matches_g063": true,
+    "finite": true,
+    "full_label_counts": true,
+    "train_only_codebook": true,
+    "no_outcome_read": true,
+    "no_label_duplication": true
+  },
+  "claim_supported": "implementation",
+  "decision": "authorize G065 matched fit",
+  "next_run_ids": [
+    "A6-G065C"
+  ]
+}

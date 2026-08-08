@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o156c_geometry_residual_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "A5_CAL source-horizon live8 baseline versus corrected geometry residual",
+  "execute_prefix": 8,
+  "rows": [
+    {
+      "arm": "baseline_mlp",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": -0.00041577311533035516,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.12250080611556768,
+      "observation_seconds": 0.7397254323586822,
+      "execution_seconds": 0.02161490824073553,
+      "wall_seconds": 0.8926936723291874,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.0004589789390538729,
+          "target_qpos": 0.36289793252944946,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 2,
+          "progress": -0.0004383127388175561,
+          "target_qpos": 0.3629610538482666,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 3,
+          "progress": -0.00041577311533035516,
+          "target_qpos": 0.3630298972129822,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 1
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true
+    },
+    {
+      "arm": "fk_target_mlp",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": -0.0004329949488606191,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.00240350142121315,
+      "observation_seconds": 0.07416006177663803,
+      "execution_seconds": 0.020282591693103313,
+      "wall_seconds": 0.10015885625034571,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00046218912785356514,
+          "target_qpos": 0.3628881275653839,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 2,
+          "progress": -0.0004445282107488752,
+          "target_qpos": 0.36294206976890564,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 3,
+          "progress": -0.0004329949488606191,
+          "target_qpos": 0.3629772961139679,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        }
+      ],
+      "model_input_features": [
+        "hand_minus_visible_target_centroid_x",
+        "hand_minus_visible_target_centroid_y",
+        "hand_minus_visible_target_centroid_z",
+        "visible_target_fraction"
+      ],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true
+    },
+    {
+      "arm": "repeat_last",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "execute_prefix": 8,
+      "max_physics_steps": 24,
+      "calls": 3,
+      "physics_steps": 24,
+      "termination": "max_calls",
+      "final_progress": -0.0004267014176271799,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0,
+      "observation_seconds": 0.07368337642401457,
+      "execution_seconds": 0.021388206630945206,
+      "wall_seconds": 0.09668770153075457,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00045299764502891435,
+          "target_qpos": 0.3629162013530731,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 2,
+          "progress": -0.0004267014176271799,
+          "target_qpos": 0.36299651861190796,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 3,
+          "progress": -0.0004267014176271799,
+          "target_qpos": 0.36299651861190796,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true
+    }
+  ],
+  "checks": {
+    "all_configured_arms": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "calls_bounded": true,
+    "prefix_exact": true,
+    "physics_budget_recorded": true
+  },
+  "decision": "live adapter valid; expand exact-paired bounded screen",
+  "mode": "K8",
+  "checkpoint_scope": {
+    "baseline_mlp": "A6-O127C TRAIN1024 frozen",
+    "fk_target_mlp": "A6-O154C corrected residual TRAIN1024 frozen",
+    "repeat_last": "control"
+  }
+}

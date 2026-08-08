@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_a000rrr_affordance_membership_v4-RP",
+  "workload_signature": "A6 target-aware producer, two TRAIN replay IDs, 1024 points, SAPIEN renderer",
+  "candidates": [
+    {
+      "workers": 2,
+      "input_replay_ids": [
+        70,
+        251
+      ],
+      "selection": "frozen by A6-D030/E9 render-materialization contract"
+    }
+  ],
+  "selected": {
+    "workers": 2
+  },
+  "stop_reason": "fixed two-worker render/materialization contract; no upward probe",
+  "bottleneck_classification": "CPU/render/materialization",
+  "effective_batch_sample_exposure_parity": true,
+  "gpualive_stop_restore": "CPU-only; no GPUALIVE consumer"
+}

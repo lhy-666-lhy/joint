@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o020r_par_fixed64_v2",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint": "last.pt",
+    "checkpoint_sha256": "680259c2765504e5ae2916506240d1e3e8c59030109a8fb3480c43909b26ce76",
+    "history": "history.json",
+    "metrics": "offline_metrics.json",
+    "resource_pilot": "resource_pilot.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "metrics": {
+    "initial_normalized_mae": 0.7308815717697144,
+    "final_normalized_mae": 0.030015040189027786,
+    "loss_decrease_ratio": 24.35051155090332,
+    "raw_mae": 0.02795037068426609,
+    "per_dim_raw_mae": [
+      0.03622733801603317,
+      0.03099096566438675,
+      0.01984855718910694,
+      0.028530189767479897,
+      0.049377597868442535,
+      0.035415712743997574,
+      0.05116293206810951,
+      3.371010137698249e-08,
+      3.91002643596039e-08
+    ],
+    "reload_max_error": 0.0,
+    "baselines": {
+      "repeat_last_command_normalized_mae": 0.010377982631325722,
+      "train_mean_chunk_normalized_mae": 0.5912346839904785
+    },
+    "wall_seconds": 17.439489848009543,
+    "optimizer_steps_per_second": 114.68225374885436,
+    "step_time_mean_seconds": 0.008698878408991731,
+    "step_time_p95_seconds": 0.008883421859354711,
+    "peak_gpu_memory_bytes": 619353088,
+    "parameter_count": 761409,
+    "decoder_parameter_count": 571465
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "steps_exact_2000": true,
+    "normalized_mae_le_1e_3": false,
+    "loss_decrease_ge_100x": false,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "shared_input_revision": true,
+    "zero_affordance": true,
+    "zero_outcome_or_heldout_reads": true,
+    "parameter_parity_within_20_percent": true,
+    "resource_pilot_contract": true
+  },
+  "decision": "Corrected O020R is a scoped training-fit failure; route independent O030R.",
+  "remaining_work": [
+    "analyze O020R terminal evidence",
+    "route O030R independently"
+  ],
+  "next_run_ids": [
+    "a6_o030r_causal_fixed64_v2"
+  ],
+  "event_id": "a6_o020r_par_fixed64_v2_terminal"
+}

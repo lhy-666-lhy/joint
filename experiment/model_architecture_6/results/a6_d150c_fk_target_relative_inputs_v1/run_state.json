@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d150c_fk_target_relative_inputs_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "checks": {
+    "train_rows_1024": true,
+    "cal_rows_280": true,
+    "state_width_85": true,
+    "original_state_prefix_exact": true,
+    "zero_contact_preserved": true,
+    "train_cal_targets_disjoint": true,
+    "finite": true,
+    "normalizer_train_only": true,
+    "feature_dim_exact": true,
+    "source_hashes_recorded": true,
+    "forbidden_object_progress_reads": true
+  },
+  "metrics": {
+    "train_feature_mean": [
+      -0.18444526195526123,
+      -0.046291932463645935,
+      0.06363655626773834,
+      0.24919414520263672
+    ],
+    "train_feature_std": [
+      0.09587699174880981,
+      0.23267678916454315,
+      0.2058597356081009,
+      0.16855883598327637
+    ],
+    "train_visible_fraction_zero_rows": 21,
+    "cal_visible_fraction_zero_rows": 0
+  },
+  "decision": "deployable geometry state materialized; authorize matched MLP training",
+  "next_run_ids": [
+    "A6-O151C",
+    "A6-O152C",
+    "A6-O153C"
+  ]
+}

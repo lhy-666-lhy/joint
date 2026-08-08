@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o123c_parallel_zero_contact_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "fixed64 implementation sanity only",
+  "metrics": {
+    "deploy_normalized_delta_mae": 0.030678745359182358,
+    "deploy_raw_delta_mae": 0.0007084855460561812,
+    "teacher_forced_raw_delta_mae": null,
+    "reload_error": 0.0,
+    "wall_seconds": 27.798353782854974
+  },
+  "checks": {
+    "fixed_rows_64": true,
+    "zero_contact_exact": true,
+    "finite": true,
+    "steps_6000": true,
+    "reload_le_1e_6": true
+  },
+  "decision": "zero-contact fixed fit valid; evaluate exact-paired CAL"
+}

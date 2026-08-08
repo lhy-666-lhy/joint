@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o145c_perturb_cal_screen_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "frozen clean/shifted A5_CAL perturbation diagnostic",
+  "configuration": {
+    "base_sigma": [
+      0.0006102088955231011,
+      0.0005267241504043341,
+      0.0006208278937265277,
+      0.0007814542623236775,
+      0.0048128352500498295,
+      0.0010882887290790677,
+      0.003910632338374853
+    ],
+    "context_scales": {
+      "clean": 0.0,
+      "shift_1x": 1.0,
+      "shift_3x": 3.0
+    }
+  },
+  "metrics": {
+    "baseline": {
+      "clean": {
+        "full_raw_mae": 0.004013360943645239,
+        "prefix8_raw_mae": 0.0010106671834364533
+      },
+      "shift_1x": {
+        "full_raw_mae": 0.004401189740747213,
+        "prefix8_raw_mae": 0.0016686259768903255
+      },
+      "shift_3x": {
+        "full_raw_mae": 0.005866305436939001,
+        "prefix8_raw_mae": 0.0036364784464240074
+      }
+    },
+    "perturb_1x": {
+      "clean": {
+        "full_raw_mae": 0.003998002503067255,
+        "prefix8_raw_mae": 0.0010109037393704057
+      },
+      "shift_1x": {
+        "full_raw_mae": 0.004375479184091091,
+        "prefix8_raw_mae": 0.0016662942944094539
+      },
+      "shift_3x": {
+        "full_raw_mae": 0.005843956954777241,
+        "prefix8_raw_mae": 0.0036353012546896935
+      }
+    },
+    "perturb_3x": {
+      "clean": {
+        "full_raw_mae": 0.0039854273200035095,
+        "prefix8_raw_mae": 0.0010059801861643791
+      },
+      "shift_1x": {
+        "full_raw_mae": 0.004366023000329733,
+        "prefix8_raw_mae": 0.001662489608861506
+      },
+      "shift_3x": {
+        "full_raw_mae": 0.005832012742757797,
+        "prefix8_raw_mae": 0.003633182728663087
+      }
+    }
+  },
+  "comparisons": {
+    "clean": {
+      "perturb_1x_minus_baseline": {
+        "full": {
+          "mean": -1.29153986563324e-05,
+          "ci95": [
+            -4.379467263788683e-05,
+            1.7662433629084257e-05
+          ]
+        },
+        "prefix8": {
+          "mean": 5.897034611734853e-07,
+          "ci95": [
+            -9.127370890382736e-06,
+            9.822305173656785e-06
+          ]
+        }
+      },
+      "perturb_3x_minus_baseline": {
+        "full": {
+          "mean": -2.5232349798898213e-05,
+          "ci95": [
+            -8.861220703693107e-05,
+            3.8953569492150545e-05
+          ]
+        },
+        "prefix8": {
+          "mean": -4.946125955029856e-06,
+          "ci95": [
+            -2.0487636129473684e-05,
+            1.0578074852674028e-05
+          ]
+        }
+      }
+    },
+    "shift_1x": {
+      "perturb_1x_minus_baseline": {
+        "full": {
+          "mean": -2.2501351850223728e-05,
+          "ci95": [
+            -5.383092111514998e-05,
+            5.696778134733891e-06
+          ]
+        },
+        "prefix8": {
+          "mean": -2.1215760170889553e-06,
+          "ci95": [
+            -9.482278596806281e-06,
+            4.90749365553711e-06
+          ]
+        }
+      },
+      "perturb_3x_minus_baseline": {
+        "full": {
+          "mean": -3.036970338143874e-05,
+          "ci95": [
+            -8.614416256023106e-05,
+            2.4885771608751333e-05
+          ]
+        },
+        "prefix8": {
+          "mean": -5.11952339365962e-06,
+          "ci95": [
+            -1.7649950177656137e-05,
+            7.493757505017124e-06
+          ]
+        }
+      }
+    },
+    "shift_3x": {
+      "perturb_1x_minus_baseline": {
+        "full": {
+          "mean": -2.0314473658800125e-05,
+          "ci95": [
+            -4.6510414267686426e-05,
+            4.486958812321955e-06
+          ]
+        },
+        "prefix8": {
+          "mean": -1.7500416333859903e-06,
+          "ci95": [
+            -8.685897023497091e-06,
+            5.0517453473730694e-06
+          ]
+        }
+      },
+      "perturb_3x_minus_baseline": {
+        "full": {
+          "mean": -3.0001465347595513e-05,
+          "ci95": [
+            -7.915534206404118e-05,
+            1.8031672743745698e-05
+          ]
+        },
+        "prefix8": {
+          "mean": -2.9269738206494367e-06,
+          "ci95": [
+            -1.6076379461082978e-05,
+            1.0019347405432194e-05
+          ]
+        }
+      }
+    }
+  },
+  "absolute_target_invariance_max_error": {
+    "clean": 0.0,
+    "shift_1x": 2.384185791015625e-07,
+    "shift_3x": 2.384185791015625e-07
+  },
+  "checks": {
+    "rows_280": true,
+    "targets_35": true,
+    "train_only_sigma": true,
+    "absolute_target_invariant": true,
+    "finite": true,
+    "zero_contact": true
+  },
+  "decision": "CAL perturbation matrix valid; run exact-paired live8"
+}

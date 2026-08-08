@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_a000rrrr_affordance_membership_v5",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "data_contract_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "producer_failure_report": "recovered_primary_failure_report.json"
+  },
+  "decision": "Relaxed target-aware recovery produced zero usable primary rows; close this recovery route without shrinking the split.",
+  "remaining_work": [
+    "keep A010 blocked and route unaffected branches"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_a000rrrr_affordance_membership_v5_terminal",
+  "jobs": [
+    {
+      "id": "A6-A000RRRR",
+      "status": "failed"
+    }
+  ]
+}

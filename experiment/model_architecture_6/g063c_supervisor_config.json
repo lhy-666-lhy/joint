@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "experiment_name": "a6_g063c_contact_mode_ik_diagnostic",
+  "root": ".",
+  "state_path": "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/monitor_state.json",
+  "next_check_path": "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/NEXT_CHECK.md",
+  "policy": {
+    "pre_first_unit_seconds": 300,
+    "eta_gt_4h_seconds": 7200,
+    "eta_1h_to_4h_seconds": 3600,
+    "eta_lt_1h_seconds": 600,
+    "max_sleep_seconds": 60,
+    "stale_multiplier": 2.0
+  },
+  "rounds": [
+    {
+      "id": "g063c_full",
+      "depends_on": [],
+      "auto_launch": false,
+      "expected_unit_seconds": 450,
+      "process_patterns": [
+        "run_a6_g063c_contact_mode_ik_diagnostic.py",
+        "--ik-seeds 8"
+      ],
+      "launch": {
+        "cmd": [
+          "conda",
+          "run",
+          "-n",
+          "sapien",
+          "python",
+          "run_a6_g063c_contact_mode_ik_diagnostic.py",
+          "--ik-seeds",
+          "8"
+        ],
+        "log_path": "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/run.log"
+      },
+      "jobs": [
+        {
+          "id": "g063c_all_632_groups",
+          "summary_path": "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/summary.json",
+          "log_path": "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/run.log",
+          "artifact_paths": [
+            "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/progress.json",
+            "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/contact_mode_labels.npz",
+            "results/a6_g063c_contact_mode_ik_diagnostic_v1/full/ik_rows.json"
+          ]
+        }
+      ],
+      "summarize": [],
+      "analyze": []
+    }
+  ],
+  "final_analyze": []
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-A030C-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scope": "sanity",
+  "point_metrics": {
+    "per_seed": {
+      "20260806": {
+        "iou": 0.32472326649958233,
+        "precision": 0.5730033855033856,
+        "recall": 0.366682805498595,
+        "f1": 0.4356100571302983,
+        "auprc": 0.3955430909157224,
+        "mae": 0.010786876897327602,
+        "rmse": 0.06568090594373643,
+        "foreground_mae": 0.28536476753652096,
+        "spearman": -0.12092823240671896,
+        "n_replays": 8,
+        "n_valid_iou_replays": 8,
+        "threshold": 0.05,
+        "iou_curve": {
+          "0.03": 0.3081587276351001,
+          "0.05": 0.32472326649958233,
+          "0.1": 0.31409942182001005,
+          "0.2": 0.2565284909478621
+        },
+        "legacy_batch_mean_iou": 0.32472326649958233,
+        "per_object_macro_iou": 0.3729996287013831,
+        "per_object_iou": {
+          "102418/link_0": 0.14867724867724869,
+          "10751/link_1": 0.2111111111111111,
+          "10751/link_2": 0.7592105263157896
+        }
+      },
+      "20260807": {
+        "iou": 0.3351819627316064,
+        "precision": 0.5953696630167218,
+        "recall": 0.3916756854256854,
+        "f1": 0.4569755659883692,
+        "auprc": 0.5394363099082777,
+        "mae": 0.009993041807319969,
+        "rmse": 0.06236301688477397,
+        "foreground_mae": 0.28902430459856987,
+        "spearman": 0.05064538619477493,
+        "n_replays": 8,
+        "n_valid_iou_replays": 8,
+        "threshold": 0.05,
+        "iou_curve": {
+          "0.03": 0.3243709160471644,
+          "0.05": 0.3351819627316064,
+          "0.1": 0.32786298455470975,
+          "0.2": 0.24770620554825226
+        },
+        "legacy_batch_mean_iou": 0.3351819627316064,
+        "per_object_macro_iou": 0.37944537038131093,
+        "per_object_iou": {
+          "102418/link_0": 0.2109656015365811,
+          "10751/link_1": 0.19381787802840433,
+          "10751/link_2": 0.7335526315789473
+        }
+      },
+      "20260808": {
+        "iou": 0.3018849206349206,
+        "precision": 0.5400995562221838,
+        "recall": 0.35925087339561024,
+        "f1": 0.4108408013027453,
+        "auprc": 0.491270058304229,
+        "mae": 0.010358726314734668,
+        "rmse": 0.06364601012319326,
+        "foreground_mae": 0.29718898981809616,
+        "spearman": 0.3544136071684608,
+        "n_replays": 8,
+        "n_valid_iou_replays": 8,
+        "threshold": 0.05,
+        "iou_curve": {
+          "0.03": 0.30028280542986424,
+          "0.05": 0.3018849206349206,
+          "0.1": 0.28650040837540836,
+          "0.2": 0.23287530188028288
+        },
+        "legacy_batch_mean_iou": 0.3018849206349206,
+        "per_object_macro_iou": 0.3450396825396826,
+        "per_object_iou": {
+          "102418/link_0": 0.18611111111111112,
+          "10751/link_1": 0.15873015873015872,
+          "10751/link_2": 0.6902777777777778
+        }
+      }
+    },
+    "ensemble": {
+      "iou": 0.32378599573119793,
+      "precision": 0.5683571989922104,
+      "recall": 0.3896080162527531,
+      "f1": 0.4433792702139384,
+      "auprc": 0.5257658380683721,
+      "mae": 0.010301047062966973,
+      "rmse": 0.06316244346089661,
+      "foreground_mae": 0.287970457226038,
+      "spearman": 0.11571877525426914,
+      "n_replays": 8,
+      "n_valid_iou_replays": 8,
+      "threshold": 0.05,
+      "iou_curve": {
+        "0.03": 0.33261113782342444,
+        "0.05": 0.32378599573119793,
+        "0.1": 0.3097369994273075,
+        "0.2": 0.24642933765017944
+      },
+      "legacy_batch_mean_iou": 0.32378599573119793,
+      "per_object_macro_iou": 0.3669195855492389,
+      "per_object_iou": {
+        "102418/link_0": 0.19495257452574524,
+        "10751/link_1": 0.19381787802840433,
+        "10751/link_2": 0.7119883040935673
+      }
+    }
+  },
+  "contact_metrics": null,
+  "contact_audit": null,
+  "reload_max_abs": {
+    "20260806": 0.0,
+    "20260807": 0.0,
+    "20260808": 0.0
+  },
+  "checks": {
+    "a020_terminal_passed": true,
+    "fixed_three_seed_average": true,
+    "cal_primary_only": true,
+    "cal_count": true,
+    "finite": true,
+    "deterministic_reload": true,
+    "dataset_ground_truth": true,
+    "zero_task_outcome_read": true,
+    "forward_current_xyz_only": true,
+    "initial_live_target_alignment": true,
+    "dynamic_live_forward_not_claimed": true,
+    "contact_labels_382": true,
+    "contact_point_order_exact": true
+  },
+  "claim_supported": "no",
+  "decision": "run full A030C",
+  "next_run_ids": [
+    "A6-A030C"
+  ]
+}

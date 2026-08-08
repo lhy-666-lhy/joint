@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d043c_train194_zero_contact_input_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "checks": {
+    "targets_exact": true,
+    "rows_exact": true,
+    "train_only": true,
+    "zero_cal_target_overlap": true,
+    "zero_contact": true,
+    "task_metadata_finite": true,
+    "point_state_label_finite": true
+  },
+  "counts": {
+    "targets": 194,
+    "rows": 1552
+  },
+  "intervention": {
+    "target_count": 194,
+    "anchors_per_target": 8,
+    "trajectory_selection": "first clean sample and first indexed trajectory",
+    "pure_target_coverage_comparison_to_D042C": false
+  },
+  "decision": "TRAIN194 mixed-recipe input valid; not a pure target-coverage intervention"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d030c_clean_dyn64_hash_audit_v1",
+  "depends_on": [
+    "A6-R100",
+    "A6-D020C",
+    "A6-D030"
+  ],
+  "config": {
+    "schema_version": 1,
+    "planning_revision": "20260806T060210Z-c3831dc1",
+    "source": "existing D030 artifacts plus clean R100/D020 manifests",
+    "training": false,
+    "renderer": false
+  },
+  "source_hashes": {
+    "d020_index": "bc9fab96fa8af4e0301348facdd11146c1ab7756fdffecc0b0efcc17a4af5f43",
+    "d030_manifest": "6c2d0271c15ccfdfddcf7d246097f7518816ca09f69ad6923c7ab7fea99f495f",
+    "exclusion_manifest": "7c2783ae5398da5c2ffdc99247f66e9217b95ab9e008bbf41e8f4177d9662dbd"
+  }
+}

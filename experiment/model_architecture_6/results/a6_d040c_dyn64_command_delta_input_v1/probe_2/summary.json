@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d040c_dyn64_command_delta_input_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "counts": {
+    "targets": 2,
+    "rows": 32
+  },
+  "metrics": {
+    "delta_roundtrip_max_abs": 1.8044374883174896e-09
+  },
+  "checks": {
+    "target_count_exact": true,
+    "row_count_exact": true,
+    "point_shape_exact": true,
+    "state_context_shapes_exact": true,
+    "target_mask_binary": true,
+    "zero_affordance_exact": true,
+    "action_shapes_exact": true,
+    "all_rows_have_valid_action": true,
+    "all_arrays_finite": true,
+    "delta_roundtrip_le_1e_6": true,
+    "forbidden_field_audit_clean": true
+  },
+  "evidence": {
+    "input": "probe_2/dyn64_input.npz",
+    "manifest": "probe_2/input_manifest.json",
+    "forbidden_feature_audit": "probe_2/forbidden_feature_audit.json"
+  },
+  "decision": "DYN64 input adapter passes."
+}

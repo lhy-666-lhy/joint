@@ -1,0 +1,16 @@
+{
+  "seed": 20260808,
+  "steps": 6000,
+  "prefix_batch": 32,
+  "recovery_batch": 32,
+  "prefix_loss": "distill frozen O127C output",
+  "recovery_loss": "time-aligned D180C teacher",
+  "optimized_parameters": "zero-init linear recovery head only",
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "sampling_mode": "epoch_balanced_without_replacement",
+  "prefix_exposure_min": 187,
+  "prefix_exposure_max": 188,
+  "recovery_exposure_min": 1500,
+  "recovery_exposure_max": 1500
+}

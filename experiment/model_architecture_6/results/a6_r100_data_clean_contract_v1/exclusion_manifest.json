@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r100_data_clean_contract_v1",
+  "revision_id": "20260806T-data-clean-70-251-349",
+  "parent_split_contract": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_5/results/a5_c000sr_split_lineage_v1/split_contract.json",
+  "parent_split_contract_sha256": "4bb49c688e4b520831ba5d5df8fd933c3b8be704f7cb535016c15700e9c105d8",
+  "source_zarr": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/data/joint_bestview_dual.zarr",
+  "source_zarr_summary_sha256": "09ba11459982c65334bf106bb7e92adb4c7a6a97a3551c5a5e6a771fc56560cf",
+  "policy": "quarantine raw collection; exclude the exact repeat/base from all A6 derived action, point-cloud, and affordance manifests",
+  "raw_data_deleted": false,
+  "excluded_source_replay_ids": [
+    70,
+    251,
+    349
+  ],
+  "rows": [
+    {
+      "source_replay_id": 70,
+      "sample_id": "11550/link_1/repeat_1/base_0000",
+      "split": "A5_TRAIN",
+      "reason": "visible_positive_points_below_16_in_all_debug_views",
+      "visible_positive_debug": {
+        "views": 10,
+        "min": 2,
+        "max": 3,
+        "mean": 2.1,
+        "required_min": 16
+      },
+      "accepted_source_id": 70,
+      "target": "11550/link_1",
+      "point_count": 38458,
+      "positive_score_count": 341,
+      "success_count": 11,
+      "trajectory_count": 7,
+      "trajectory_relative_paths": [
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00001_candidate_000001.npz",
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00002_candidate_000002.npz",
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00007_candidate_000007.npz",
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00012_candidate_000012.npz",
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00013_candidate_000019.npz",
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00016_candidate_000024.npz",
+        "data/single/11550/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00017_candidate_000025.npz"
+      ],
+      "raw_sample_root": "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base/data/single/11550/link_1/repeat_1/base_0000",
+      "derived_pointcloud_present": false,
+      "derived_action_present": false
+    },
+    {
+      "source_replay_id": 251,
+      "sample_id": "45397/link_1/repeat_1/base_0000",
+      "split": "A5_TRAIN",
+      "reason": "visible_positive_points_below_16_in_all_debug_views",
+      "visible_positive_debug": {
+        "views": 10,
+        "min": 1,
+        "max": 4,
+        "mean": 2.5,
+        "required_min": 16
+      },
+      "accepted_source_id": 251,
+      "target": "45397/link_1",
+      "point_count": 56623,
+      "positive_score_count": 222,
+      "success_count": 1,
+      "trajectory_count": 1,
+      "trajectory_relative_paths": [
+        "data/single/45397/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00147_candidate_000248.npz"
+      ],
+      "raw_sample_root": "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base/data/single/45397/link_1/repeat_1/base_0000",
+      "derived_pointcloud_present": false,
+      "derived_action_present": false
+    },
+    {
+      "source_replay_id": 349,
+      "sample_id": "45670/link_1/repeat_1/base_0000",
+      "split": "A5_MECH_DEV",
+      "reason": "visible_positive_points_below_16_in_all_debug_views",
+      "visible_positive_debug": {
+        "views": 10,
+        "min": 2,
+        "max": 4,
+        "mean": 3.0,
+        "required_min": 16
+      },
+      "accepted_source_id": 349,
+      "target": "45670/link_1",
+      "point_count": 48973,
+      "positive_score_count": 177,
+      "success_count": 1,
+      "trajectory_count": 1,
+      "trajectory_relative_paths": [
+        "data/single/45670/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00128_candidate_000203.npz"
+      ],
+      "raw_sample_root": "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base/data/single/45670/link_1/repeat_1/base_0000",
+      "derived_pointcloud_present": false,
+      "derived_action_present": false
+    }
+  ],
+  "checks": {
+    "all_exclusion_rows_valid": true,
+    "derived_primary_excludes_exact_ids": true,
+    "derived_actions_exclude_exact_ids": true,
+    "raw_data_retained": true,
+    "all_excluded_rows_have_positive_labels": true
+  }
+}

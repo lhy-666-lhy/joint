@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r110_gate_reinterpretation_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "checks": {
+    "absolute_models_scoped_to_absolute_representation": true,
+    "command_delta_baseline_relative_fit_pass": true,
+    "command_delta_invariants_pass": true,
+    "state_delta_normalizer_mismatch_confirmed": true,
+    "legacy_loss_decrease_gate_retired": true
+  },
+  "decision": "Promote command-delta to the DYN64 architecture comparison; keep ABS negatives scoped and invalidate the old state-delta scientific conclusion.",
+  "evidence": {
+    "review": "review.json"
+  },
+  "next_run_ids": [
+    "a6_d020_clean_sample_normalizer_v1",
+    "a6_o100c_mlp_command_delta_dyn64_v1",
+    "a6_o110c_parallel_command_delta_dyn64_v1",
+    "a6_o120c_causal_command_delta_dyn64_v1"
+  ],
+  "jobs": [
+    {
+      "id": "A6-R110",
+      "status": "passed"
+    }
+  ]
+}

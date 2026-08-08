@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G070C-SANITY",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "optimizer_steps": 50,
+  "train_loss_first": 0.8653265833854675,
+  "train_loss_last": 0.8178558945655823,
+  "elapsed_seconds": 1.015486240386963,
+  "checkpoint_sha256": "39161b0f2d9e3a1355c8398eb12dad8a4df57ac28a1dca8c8b88261abd5e27e8",
+  "reload_max_abs": 0.0,
+  "metrics": {
+    "oracle_set_l1": 0.5527011156082153,
+    "norm_selector_set_l1": 0.5644360184669495,
+    "oracle_within_3cm12deg_proxy": 0.0,
+    "norm_selector_within_3cm12deg_proxy": 0.0,
+    "legal_ik_slot_fraction": 1.0
+  },
+  "checks": {
+    "g064_terminal": true,
+    "split_counts": true,
+    "finite": true,
+    "loss_decreased": true,
+    "reload_exact": true,
+    "qpose_shape": true,
+    "presence_shape": true,
+    "no_outcome_read": true,
+    "no_cal_training": true
+  },
+  "claim_supported": "sanity_only",
+  "decision": "run direct-qpose planner realization",
+  "next_run_ids": [
+    "A6-G070C"
+  ]
+}

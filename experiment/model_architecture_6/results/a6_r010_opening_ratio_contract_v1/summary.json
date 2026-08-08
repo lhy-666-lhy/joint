@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r010_opening_ratio_contract_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "addendum": "opening_ratio_addendum.json",
+    "fixed_input_sha256": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+    "lineage_hashes": {
+      "a6_o010r_mlp_fixed64_v2": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+      "a6_o020r_par_fixed64_v2": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+      "a6_o030r_causal_fixed64_v2": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+      "a6_o010s_mlp_fixed64_6k_v1": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+      "a6_o020s_par_fixed64_6k_v1": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468",
+      "a6_o030s_causal_fixed64_6k_v1": "77f93e8e6f920cf2b1287838e4eb7bf1037cbf9f45a765b8a5ec0d893db08468"
+    }
+  },
+  "checks": {
+    "rows_64": true,
+    "ratio_constant_0_4": true,
+    "fixed_tensor_hash_matches_source_manifest": true,
+    "all_r_s_lineage_hashes_unchanged": true,
+    "model_tensor_not_rewritten": true
+  },
+  "decision": "Opening ratio is persisted as a fixed evaluator-only sidecar; R/S tensors and evidence remain valid.",
+  "remaining_work": [
+    "A6-R030 preflight enforcement",
+    "A6-O200F start-delta fixed64"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_r010_opening_ratio_contract_v1_terminal"
+}

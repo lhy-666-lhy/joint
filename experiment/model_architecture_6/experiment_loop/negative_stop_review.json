@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "review_id": "negative-stop-5f75c4c1089d",
+  "status": "reopened",
+  "source_iteration_id": "a6_o201f_mlp_state_start_delta_fixed64_v1",
+  "termination": {
+    "outcome": "unsuccessful",
+    "event_id": "a6_global_termination_20260805T193129Z",
+    "reason": "Frozen Architecture 6 READY routes exhausted: ABS, command-delta, and state-start-delta failed fit gates; strict and relaxed affordance recovery produced 0/2 primary rows; all downstream routes remain dependency-blocked.",
+    "updated_at": "2026-08-05T19:31:29Z"
+  },
+  "requested_at": "2026-08-05T19:32:48.616548+00:00",
+  "last_analysis": {
+    "returncode": 0,
+    "transport": "tmux_tui",
+    "target": "ARCH6_CODEX_ANALYSIS:0.0",
+    "submission_confirmed": true,
+    "submit_count": 1,
+    "prompt_reused": false,
+    "output_tail": ""
+  },
+  "last_check_at": "2026-08-06T06:41:39.808461+00:00",
+  "dispatched_at": "2026-08-05T19:32:49.699702+00:00",
+  "recovery_attempts": 1,
+  "last_recovered_at": "2026-08-06T02:43:04.819638+00:00",
+  "decision": "reopen_bug",
+  "summary": "旧全局停止由任意性能硬门、state-delta normalizer 错误和 dirty-sample membership 不一致共同造成；clean contract 与 O200F 证据支持重开 command-delta 架构比较。",
+  "revision_id": "20260806T060210Z-c3831dc1",
+  "superseded_by_revision": "20260806T060210Z-c3831dc1",
+  "termination_superseded": true,
+  "optimization_goal": "基于 clean A6 split 完成 command-delta operation 架构与训练策略比较，再公平比较 direct grasp trajectory 与 target-qpose plus online planner，引入 deployable affordance 并完成 frozen-vs-joint 与最终测试。",
+  "decided_at": "2026-08-06T06:02:22.526292+00:00",
+  "reopen_iteration_id": "review-reopen-748c74c2a30d",
+  "worker_prompt": "自动事件ID：review-reopen-c5cb46ab173c。负向终止复审决定重开主优化循环。\n复审决策：reopen_bug；摘要：旧全局停止由任意性能硬门、state-delta normalizer 错误和 dirty-sample membership 不一致共同造成；clean contract 与 O200F 证据支持重开 command-delta 架构比较。。\npending revision：/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/experiment_loop/planning_revision.json；revision id：20260806T060210Z-c3831dc1；planning：EXPERIMENT_PLAN.md。\n第一项动作必须是真实工具调用：读取revision、修改过的planning、终止审计和最新证据，区分受bug影响与仍有效结论。\n吸收revision后运行planning_revision.py ack；只实施新planning当前允许的最小实验。\n启动前更新真实iteration/supervisor/completion/dashboard并设置launching；确认running后设置waiting_external并立即结束turn。\n不要重新加载顶层编排skill，不要创建嵌套worker/watcher，也不要在Codex内轮询等待实验。",
+  "reopen_started_at": "2026-08-06T06:03:20.988969+00:00",
+  "last_worker": {
+    "returncode": 0,
+    "transport": "tmux_tui",
+    "target": "ARCH6_CODEX_WORKER:0.0",
+    "submission_confirmed": true,
+    "submit_count": 2,
+    "prompt_reused": false,
+    "output_tail": ""
+  },
+  "reopened_at": "2026-08-06T06:41:39.808498+00:00"
+}

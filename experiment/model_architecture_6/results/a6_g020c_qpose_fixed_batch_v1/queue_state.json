@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G020C-FIT",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "kind": "qpose",
+  "seed": 20260806,
+  "optimizer_steps": 6000,
+  "effective_batch": 64,
+  "device": "cuda",
+  "trainable_parameters": 508680,
+  "train_loss_first": 0.7887958884239197,
+  "train_loss_last": 0.22835087776184082,
+  "cal_loss_last": 0.6961283087730408,
+  "reload_max_abs": 0.0,
+  "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g020c_qpose_fixed_batch_v1/qpose_seed20260806.pth",
+  "checkpoint_sha256": "782bb6ef5fef3bd116e0d4c777d76ed96719ca7de30791870710e70ff7138be0",
+  "source_input_sha256": "80ed3d97ba25cd973f7a3b21f76312b0dc443c5bc67b1d0f4b5fbadea8b1d81c",
+  "checks": {
+    "finite": true,
+    "reload": true,
+    "train_loss_decreased": true,
+    "split_counts": true,
+    "zero_affordance": true,
+    "no_oracle_input": true
+  },
+  "decision": "authorize DYN64/offline screen",
+  "jobs": [
+    {
+      "id": "A6-G020C-FIT",
+      "status": "passed"
+    }
+  ]
+}

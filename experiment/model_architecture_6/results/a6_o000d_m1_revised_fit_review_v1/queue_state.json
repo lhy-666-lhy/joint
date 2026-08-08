@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000d_m1_revised_fit_review_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "review": "review.json",
+    "manifest": "run_manifest.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "checks": {
+    "all_2k_reproduction_exact": true,
+    "all_6k_scoped_training_fit_failures": true,
+    "all_6k_models_worse_than_repeat_last": true,
+    "all_6k_contract_checks_except_fit_gates_pass": true,
+    "causal_exposure_gap_persists_at_6k": true,
+    "fixed_batch_contains_nontrivial_endpoint_motion": true,
+    "zero_training_replay_heldout_or_outcome": true
+  },
+  "metrics": {
+    "O-MLP-ABS": {
+      "mae_2k": 0.025114433839917183,
+      "mae_6k": 0.014016245491802692,
+      "improvement_2k_to_6k": 0.44190477949277507,
+      "excess_over_repeat_6k": 0.35057515412436235,
+      "teacher_forced_mae_6k": null,
+      "ar_over_tf_6k": null
+    },
+    "O-PAR-ABS": {
+      "mae_2k": 0.030015040189027786,
+      "mae_6k": 0.028085920959711075,
+      "improvement_2k_to_6k": 0.06427175233374882,
+      "excess_over_repeat_6k": 1.7062987053894574,
+      "teacher_forced_mae_6k": null,
+      "ar_over_tf_6k": null
+    },
+    "O-CAUSAL-ABS": {
+      "mae_2k": 0.11744870245456696,
+      "mae_6k": 0.0566321462392807,
+      "improvement_2k_to_6k": 0.5178137769449783,
+      "excess_over_repeat_6k": 4.456951341230593,
+      "teacher_forced_mae_6k": 0.0033223743084818125,
+      "ar_over_tf_6k": 17.045685097763485
+    }
+  },
+  "decision": "Budget-only ABS rescue is rejected. Evidence supports a new planning revision for one start-delta MLP fixed64 test before any other decoder, DYN64, or physics run.",
+  "remaining_work": [
+    "publish and acknowledge a start-delta fixed-sanity planning revision",
+    "do not launch representation training before that revision"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_o000d_m1_revised_fit_review_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-O000D",
+      "status": "passed"
+    }
+  ]
+}

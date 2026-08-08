@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G070C-PLANNER-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 2,
+  "elapsed_seconds": 20.043845176696777,
+  "metrics": {
+    "any_candidate_planner_coverage": 0.5,
+    "selected_planner_coverage": 0.5,
+    "oracle_qpose_set_l1": 0.8775527477264404,
+    "planner_selected_qpose_set_l1": 0.880351722240448
+  },
+  "checks": {
+    "g070_terminal": true,
+    "group_count": true,
+    "candidate_shape": true,
+    "finite_inputs": true,
+    "selection_indices_valid": true,
+    "evaluation_labels_loaded_after_selection": true,
+    "no_teacher_qpose_selector_input": true,
+    "no_outcome_read": true
+  },
+  "claim_supported": "probe_only",
+  "decision": "run full G070 planner screen"
+}

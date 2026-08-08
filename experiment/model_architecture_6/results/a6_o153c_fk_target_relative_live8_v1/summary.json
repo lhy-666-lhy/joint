@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o153c_fk_target_relative_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "A5_CAL source-horizon live8 exact-paired geometry-state probe",
+  "metrics": {
+    "baseline_mlp": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.16887852878011606,
+        "ci95": [
+          0.06802088353140419,
+          0.2837016601675521
+        ]
+      },
+      "progress_median": 0.12826481135966675,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6124957114209065,
+        "ci95": [
+          0.35648456250254246,
+          0.8547683185071043
+        ]
+      },
+      "full_contact_count": 2,
+      "wall_seconds": {
+        "mean": 5.847951354342513,
+        "ci95": [
+          3.0518088035751134,
+          10.350550827919506
+        ]
+      },
+      "per_target_progress": [
+        0.03552902311203235,
+        0.005471930010294612,
+        0.24064584749174592,
+        9.486373583257537e-09,
+        0.40889410133496046,
+        0.16632701654689172,
+        0.09020260617244179,
+        0.40395769608618787
+      ],
+      "per_target_contact": [
+        0.17419354838709677,
+        0.5327868852459017,
+        0.9611650485436893,
+        0.04153846153846154,
+        1.0,
+        0.8354430379746836,
+        0.3548387096774194,
+        1.0
+      ]
+    },
+    "fk_target_mlp": {
+      "targets": 8,
+      "task_success": 1,
+      "progress": {
+        "mean": 0.14516366566315653,
+        "ci95": [
+          0.0728203976431674,
+          0.23474675319377736
+        ]
+      },
+      "progress_median": 0.1252623612621894,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6014934097508287,
+        "ci95": [
+          0.3452698640060394,
+          0.8505422446406052
+        ]
+      },
+      "full_contact_count": 2,
+      "wall_seconds": {
+        "mean": 5.091551090357825,
+        "ci95": [
+          2.3647327175334794,
+          9.327624629018828
+        ]
+      },
+      "per_target_progress": [
+        0.12008441059723718,
+        0.04111124897974052,
+        0.16805968370912652,
+        9.486373583257538e-08,
+        0.4097944720244946,
+        0.20981492464594007,
+        0.08200417855783595,
+        0.13044031192714162
+      ],
+      "per_target_contact": [
+        0.27741935483870966,
+        0.9426229508196722,
+        1.0,
+        0.033846153846153845,
+        1.0,
+        0.8607594936708861,
+        0.2903225806451613,
+        0.4069767441860465
+      ]
+    },
+    "repeat_last": {
+      "targets": 8,
+      "task_success": 0,
+      "progress": {
+        "mean": -0.0007521122559669076,
+        "ci95": [
+          -0.001966059767482416,
+          6.848865277936848e-07
+        ]
+      },
+      "progress_median": 1.3755241695723428e-07,
+      "positive_progress_count": 4,
+      "wrong_way_count": 3,
+      "contact_fraction": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "full_contact_count": 8,
+      "wall_seconds": {
+        "mean": 5.147764633293264,
+        "ci95": [
+          2.3330036246683448,
+          9.625467052764721
+        ]
+      },
+      "per_target_progress": [
+        -0.0003727429250366079,
+        -0.004792155452065544,
+        2.7643292621612464e-05,
+        0.0,
+        -0.0009828072759726473,
+        0.00010125755162769095,
+        1.6316562563202963e-06,
+        2.7510483391446855e-07
+      ],
+      "per_target_contact": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise": {
+    "baseline_mlp_minus_repeat_last": {
+      "progress": {
+        "mean": 0.16963064103608294,
+        "ci95": [
+          0.06934562335069758,
+          0.2840346367717358
+        ]
+      },
+      "contact": {
+        "mean": -0.3875042885790934,
+        "ci95": [
+          -0.6435154374974577,
+          -0.1452316814928957
+        ]
+      },
+      "task_success_delta": 2
+    },
+    "fk_target_mlp_minus_repeat_last": {
+      "progress": {
+        "mean": 0.14591577791912347,
+        "ci95": [
+          0.07356463667043589,
+          0.23495095924312398
+        ]
+      },
+      "contact": {
+        "mean": -0.3985065902491713,
+        "ci95": [
+          -0.6547301359939606,
+          -0.14945775535939468
+        ]
+      },
+      "task_success_delta": 1
+    },
+    "fk_target_mlp_minus_baseline_mlp": {
+      "progress": {
+        "mean": -0.0237148631169595,
+        "ci95": [
+          -0.10558734819619497,
+          0.035032823634180504
+        ]
+      },
+      "contact": {
+        "mean": -0.011002301670077805,
+        "ci95": [
+          -0.2127306418435254,
+          0.1568396680740686
+        ]
+      },
+      "task_success_delta": -1
+    }
+  },
+  "checks": {
+    "three_arms": true,
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "baseline_reproduces_o131c": true,
+    "geometry_feature_schema_recorded": true
+  },
+  "geometry_progress_ci95": [
+    -0.10558734819619497,
+    0.035032823634180504
+  ],
+  "geometry_contact_ci95": [
+    -0.2127306418435254,
+    0.1568396680740686
+  ],
+  "claim_supported": "no",
+  "decision": "geometry state is a scoped closed-loop negative; retain K8 baseline and test recovery supervision",
+  "next_run_ids": [
+    "A6-O160C"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "planning_revision": "20260805T192525Z-1f253777",
+  "scientific_revision": "A6-FIT-v1.2",
+  "model": "O-MLP-STATEDELTA",
+  "shared_encoder": "PointCloudContextEncoder",
+  "hidden_dim": 256,
+  "dropout": 0.1,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "effective_batch": 64,
+  "microbatch": 64,
+  "gradient_accumulation_steps": 1,
+  "optimizer_steps": 6000,
+  "sample_exposure": 384000,
+  "loss": "valid-mask normalized per-dimension L1 on state-start delta",
+  "augmentation": false,
+  "seed": 20260805,
+  "restart": "scratch; do not resume 2k checkpoint",
+  "checkpoint_rule": "save fixed 6k last checkpoint; no ABS checkpoint reproduction",
+  "representation": "state_start_delta = target_abs - current_actual_qpos",
+  "current_qpos_slice": [
+    27,
+    36
+  ],
+  "reconstruction": "reconstructed_abs_norm = current_qpos_abs_norm + predicted_delta_norm",
+  "forbidden_representation": "command_delta = target_abs - last_command_raw",
+  "parameter_count": 731928
+}

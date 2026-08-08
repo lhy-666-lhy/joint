@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G061C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "metrics": {
+    "assigned_contact_distance": {
+      "train": {
+        "count": 1991,
+        "mean_m": 0.13968884495157666,
+        "median_m": 0.07914559179678692,
+        "p90_m": 0.3713129968849198,
+        "coverage_3cm": 0.2822702159718734,
+        "coverage_5cm": 0.3857358111501758,
+        "max_m": 1.0371389973707459
+      },
+      "cal": {
+        "count": 382,
+        "mean_m": 0.18425628143816764,
+        "median_m": 0.12090605661443388,
+        "p90_m": 0.4452074342567853,
+        "coverage_3cm": 0.25654450261780104,
+        "coverage_5cm": 0.34554973821989526,
+        "max_m": 1.1037724503480772
+      }
+    },
+    "centroid_contact_distance": {
+      "train": {
+        "count": 1991,
+        "mean_m": 0.35102167310560844,
+        "median_m": 0.3409576714038849,
+        "p90_m": 0.5188992023468018,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.7902202010154724
+      },
+      "cal": {
+        "count": 382,
+        "mean_m": 0.3534184163777616,
+        "median_m": 0.3412029445171356,
+        "p90_m": 0.4834697514772416,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.6203480958938599
+      }
+    },
+    "hand_center_minus_query_norm": {
+      "train": {
+        "count": 1991,
+        "mean_m": 0.1932181236280352,
+        "median_m": 0.1335035264492035,
+        "p90_m": 0.3932662010192871,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 1.0435184240341187
+      },
+      "cal": {
+        "count": 382,
+        "mean_m": 0.23388757749767827,
+        "median_m": 0.1580829620361328,
+        "p90_m": 0.4534123331308372,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 1.181522250175476
+      }
+    },
+    "assigned_minus_centroid_group_mean_m": {
+      "train": {
+        "mean": -0.2199530184017191,
+        "ci95": [
+          -0.23361323136162207,
+          -0.20638567569832073
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "cal": {
+        "mean": -0.17014160334757902,
+        "ci95": [
+          -0.20616031519973155,
+          -0.1327214855300087
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "reload_max_abs": {
+    "20260806": 0.0,
+    "20260807": 0.0,
+    "20260808": 0.0
+  },
+  "checks": {
+    "a030_positive_terminal": true,
+    "rows_exact": true,
+    "split_counts": true,
+    "teacher_presence_preserved": true,
+    "one_to_one_assignment": true,
+    "finite": true,
+    "reload_exact": true,
+    "train_cal_labels_only": true,
+    "zero_outcome_read": true
+  },
+  "claim_supported": "partial",
+  "decision": "authorize contact-conditioned SE3 fit",
+  "next_run_ids": [
+    "A6-G062C"
+  ]
+}

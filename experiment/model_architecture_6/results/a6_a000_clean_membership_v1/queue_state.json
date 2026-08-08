@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_a000_clean_membership_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "counts": {
+    "A5_TRAIN": {
+      "contract_samples": 557,
+      "joined_primary": 557
+    },
+    "A5_CAL": {
+      "contract_samples": 102,
+      "joined_primary": 102
+    }
+  },
+  "checks": {
+    "train_contract_count_exact": true,
+    "train_primary_join_exact": true,
+    "cal_contract_count_exact": true,
+    "cal_primary_join_exact": true,
+    "train_cal_target_overlap_zero": true,
+    "train_cal_shape_overlap_zero": true,
+    "join_failures_zero": true,
+    "clean_contract_hash_exact": true,
+    "old_replay_split_unused": true,
+    "heldout_content_unread": true
+  },
+  "evidence": {
+    "membership_manifest": "membership_manifest.json",
+    "pretrain_checkpoint_sha256": "6dd8f7a5993f6965c76772c6049824d33fd3043473f71079b210ebec78a644a3",
+    "pretrain_label_free_provenance_verified": false,
+    "required_init": "random"
+  },
+  "decision": "Clean TRAIN/CAL membership closes exactly; unlock A010 and clean D020.",
+  "next_run_ids": [
+    "a6_a010_affordance_fixed8_v1",
+    "a6_d020_clean_sample_normalizer_v1"
+  ],
+  "jobs": [
+    {
+      "id": "A6-A000C",
+      "status": "passed"
+    }
+  ]
+}

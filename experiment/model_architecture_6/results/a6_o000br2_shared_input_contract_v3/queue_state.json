@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000br2_shared_input_contract_v3",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "fixed_input": "fixed_input_v2.npz",
+    "manifest": "input_manifest.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "checks": {
+    "fixed_rows_64": true,
+    "target_mask_exact_shape_binary": true,
+    "zero_affordance_exact": true,
+    "state_schema_4x_qpos_qvel_plus_command": true,
+    "context_schema_contact_mask_task": true,
+    "all_inputs_finite": true,
+    "causal_qvel_only": true,
+    "actual_qvel_source_absent_confirmed": true,
+    "input_signatures_unique_64": true,
+    "zero_result_outcome_object_qpos_future_or_heldout_reads": true
+  },
+  "decision": "Shared A6-INPUT-v1.1 fixed64 input contract passes; authorize corrected runner implementation.",
+  "remaining_work": [
+    "implement shared hidden256 encoder and frozen lr/L1/dropout corrected runners"
+  ],
+  "next_run_ids": [
+    "a6_o010r_mlp_fixed64_v2"
+  ],
+  "event_id": "a6_o000br2_shared_input_contract_v3_terminal",
+  "jobs": [
+    {
+      "id": "A6-O000B",
+      "status": "passed"
+    }
+  ]
+}

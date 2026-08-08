@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o010s_mlp_fixed64_6k_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint_2000": "checkpoint_2000.pt",
+    "checkpoint_6000": "last.pt",
+    "checkpoint_6000_sha256": "eed071b4664560e82c91cc8b01a89e1fa9722b1cc4a5909dc0069214deec20d1",
+    "history": "history.json",
+    "metrics": "offline_metrics.json",
+    "resource_pilot_ref": "resource_pilot_ref.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "metrics": {
+    "initial_normalized_mae": 0.6765241026878357,
+    "step_2000_reproduction_max_error": 0.0,
+    "final_normalized_mae": 0.014016245491802692,
+    "loss_decrease_ratio": 48.26714324951172,
+    "raw_mae": 0.012780381366610527,
+    "per_dim_raw_mae": [
+      0.015463470481336117,
+      0.016717445105314255,
+      0.015416605398058891,
+      0.014845602214336395,
+      0.019838277250528336,
+      0.010087825357913971,
+      0.022654157131910324,
+      3.0296316566591486e-08,
+      3.117884617154232e-08
+    ],
+    "reload_max_error": 0.0,
+    "baselines": {
+      "repeat_last_command_normalized_mae": 0.010377982631325722,
+      "train_mean_chunk_normalized_mae": 0.5912346839904785
+    },
+    "wall_seconds": 31.87774195399834,
+    "optimizer_steps_per_second": 188.21910311772996,
+    "step_time_mean_seconds": 0.005298409798905292,
+    "step_time_p95_seconds": 0.00535562770528486,
+    "peak_gpu_memory_bytes": 618954240,
+    "parameter_count": 731928
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "scratch_seed_and_revision_exact": true,
+    "steps_exact_6000": true,
+    "step_2000_reproduction_le_1e_6": true,
+    "normalized_mae_le_1e_3": false,
+    "loss_decrease_ge_100x": false,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "shared_input_revision": true,
+    "zero_affordance": true,
+    "zero_outcome_or_heldout_reads": true,
+    "resource_pilot_reused_exactly": true
+  },
+  "decision": "O010S remains a scoped training-fit failure at the revised 6k budget; continue independent O020S.",
+  "remaining_work": [
+    "analyze O010S terminal evidence",
+    "route independent O020S under A6-FIT-v1.2"
+  ],
+  "next_run_ids": [
+    "a6_o020s_par_fixed64_6k_v1"
+  ],
+  "event_id": "a6_o010s_mlp_fixed64_6k_v1_terminal"
+}

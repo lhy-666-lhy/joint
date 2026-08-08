@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o126c_zero_contact_live_probe_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "bounded live closed-loop interface probe",
+  "rows": [
+    {
+      "arm": "mlp",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "calls": 3,
+      "termination": "max_calls",
+      "final_progress": -0.0004305458382565986,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.17233393713831902,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00045517354807551424,
+          "target_qpos": 0.36290955543518066,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 2,
+          "progress": -0.0004305458382565986,
+          "target_qpos": 0.3629847764968872,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 3,
+          "progress": -0.0004305458382565986,
+          "target_qpos": 0.3629847764968872,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        }
+      ],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true
+    },
+    {
+      "arm": "parallel",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "calls": 3,
+      "termination": "max_calls",
+      "final_progress": -0.0006158878937281927,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.015056483447551727,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.000492183414693243,
+          "target_qpos": 0.36279651522636414,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 2,
+          "progress": -0.0004915784551018116,
+          "target_qpos": 0.3627983629703522,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 3,
+          "progress": -0.0006158878937281927,
+          "target_qpos": 0.36241868138313293,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        }
+      ],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true
+    },
+    {
+      "arm": "repeat_last",
+      "target": "102418/link_0",
+      "trajectory_relative_path": "data/single/102418/link_0/repeat_1/base_0000/trajectory/base_0000_cluster_00042_candidate_000044.npz",
+      "max_calls": 3,
+      "calls": 3,
+      "termination": "max_calls",
+      "final_progress": -0.0004267014176271799,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0,
+      "trace": [
+        {
+          "call": 1,
+          "progress": -0.00045299764502891435,
+          "target_qpos": 0.3629162013530731,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 2,
+          "progress": -0.0004267014176271799,
+          "target_qpos": 0.36299651861190796,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 3,
+          "progress": -0.0004267014176271799,
+          "target_qpos": 0.36299651861190796,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        }
+      ],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true
+    }
+  ],
+  "checks": {
+    "three_arms": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "calls_bounded": true
+  },
+  "decision": "live adapter valid; expand exact-paired bounded screen"
+}

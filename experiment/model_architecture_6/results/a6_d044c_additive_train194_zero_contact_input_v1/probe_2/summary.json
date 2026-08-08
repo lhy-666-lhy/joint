@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d044c_additive_train194_zero_contact_input_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "counts": {
+    "base_targets": 64,
+    "new_targets": 2,
+    "targets": 66,
+    "rows": 1040
+  },
+  "checks": {
+    "base_rows_1024": true,
+    "base_targets_64": true,
+    "new_targets_exact": true,
+    "new_targets_disjoint_from_base": true,
+    "targets_exact": true,
+    "rows_exact": true,
+    "base_prefix_exact": true,
+    "base_rows_16_each": true,
+    "new_rows_8_each": true,
+    "zero_cal_target_overlap": true,
+    "zero_contact": true,
+    "task_metadata_finite": true,
+    "point_state_label_finite": true
+  },
+  "decision": "additive target-coverage input valid; train matched MLP/PAR"
+}

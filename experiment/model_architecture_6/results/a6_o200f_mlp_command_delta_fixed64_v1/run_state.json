@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o200f_mlp_command_delta_fixed64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "failed",
+  "failure_class": "training_fit_failure",
+  "claim_supported": "no",
+  "evidence": {
+    "manifest": "run_manifest.json",
+    "checkpoint_6000": "last.pt",
+    "checkpoint_6000_sha256": "4f76feda4ee05cc0d9bcc0317e734de3a92174f9aeaaf196c93bb14484372575",
+    "history": "history.json",
+    "metrics": "offline_metrics.json",
+    "resource_pilot_ref": "resource_pilot_ref.json",
+    "forbidden_feature_audit": "forbidden_feature_audit.json"
+  },
+  "metrics": {
+    "initial_normalized_mae": 0.057003892958164215,
+    "zero_repeat_max_error": 0.0,
+    "delta_absolute_l1_parity_max_error": 4.284083843231201e-07,
+    "final_normalized_mae": 0.0006511262035928667,
+    "loss_decrease_ratio": 87.5466079711914,
+    "raw_mae": 0.0005734124570153654,
+    "per_dim_raw_mae": [
+      0.0005944641306996346,
+      0.0006760690012015402,
+      0.0007080858922563493,
+      0.0006265022675506771,
+      0.0007956307381391525,
+      0.0008830346050672233,
+      0.0008769165142439306,
+      4.429699718144775e-09,
+      4.863161429113916e-09
+    ],
+    "reload_max_error": 0.0,
+    "baselines": {
+      "repeat_last_command_normalized_mae": 0.010377982631325722,
+      "train_mean_chunk_normalized_mae": 0.5912346839904785
+    },
+    "wall_seconds": 32.365455422987,
+    "optimizer_steps_per_second": 185.38283863413847,
+    "step_time_mean_seconds": 0.005380740329647475,
+    "step_time_p95_seconds": 0.005469564543454908,
+    "peak_gpu_memory_bytes": 619027456,
+    "parameter_count": 731928
+  },
+  "checks": {
+    "fixed_batch_64": true,
+    "scratch_seed_and_revision_exact": true,
+    "steps_exact_6000": true,
+    "zero_delta_reconstructs_repeat_last": true,
+    "delta_absolute_l1_parity_le_1e_6": true,
+    "normalized_mae_le_1e_3": true,
+    "loss_decrease_ge_100x": false,
+    "gradients_finite": true,
+    "strict_reload_max_error_le_1e_6": true,
+    "shared_input_revision": true,
+    "zero_affordance": true,
+    "zero_outcome_or_heldout_reads": true,
+    "resource_pilot_reused_exactly": true
+  },
+  "decision": "O200F remains a scoped command-delta training-fit failure; keep DYN64 revision-blocked.",
+  "remaining_work": [
+    "analyze O200F terminal evidence",
+    "retain A6-A000RR as independent READY route"
+  ],
+  "next_run_ids": [
+    "a6_a000rr_affordance_membership_v3"
+  ],
+  "event_id": "a6_o200f_mlp_command_delta_fixed64_v1_terminal"
+}

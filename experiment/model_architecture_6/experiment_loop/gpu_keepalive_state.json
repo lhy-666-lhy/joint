@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "tmux_session": "ARCH6_GPUALIVE",
+  "session_running": false,
+  "resource_mode": "cpu",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "active_gpu_ids": [],
+  "low_since": null,
+  "last_action": "already_stopped",
+  "last_reason": "loop_status=active,agent_state=stopped,resource_mode=cpu",
+  "updated_at": "2026-08-06T07:01:56.555306+00:00",
+  "launch_command": [
+    "tmux",
+    "new-session",
+    "-d",
+    "-s",
+    "ARCH6_GPUALIVE",
+    "-c",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6",
+    "env",
+    "CUDA_VISIBLE_DEVICES=GPU-1ddf52f0-4710-c96d-fb8d-e2c8443768ab,GPU-ae49920a-bc26-b066-e476-945915ae4bcb,GPU-9dde29a0-a8c9-6dd5-a896-a08e3aad7b37,GPU-272c06bc-4338-1cec-7fa0-298692b90d75,GPU-12b4dd7c-c3b7-67f6-815c-00e274c95d83,GPU-45c3b462-e3a2-fb1e-5334-51c64cb3aefa,GPU-406131ad-fa2d-1c0c-c755-cc8f258bd1fb,GPU-51aa1088-60ed-8905-6435-2271b58b9928",
+    "/root/miniconda3/envs/sapien/bin/torchrun",
+    "--standalone",
+    "--nproc_per_node=8",
+    "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/.agents/skills/autonomous-experiment-loop/scripts/gpu_keepalive.py",
+    "--gpu-ids",
+    "0,1,2,3,4,5,6,7",
+    "--matrix-size",
+    "4096",
+    "--check-every-steps",
+    "20",
+    "--yield-seconds",
+    "0.02",
+    "--pid-query-timeout-seconds",
+    "2.0"
+  ],
+  "baseline_compute_pids": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [
+      675742
+    ],
+    "5": [
+      675743
+    ],
+    "6": [
+      675744
+    ],
+    "7": [
+      675745
+    ]
+  },
+  "terminal_survival": false,
+  "last_utilization": [
+    20,
+    28,
+    34,
+    17,
+    100,
+    100,
+    100,
+    100
+  ],
+  "memory_used_mib": [
+    536,
+    536,
+    536,
+    536,
+    4478,
+    4478,
+    4478,
+    4478
+  ],
+  "memory_total_mib": [
+    49140,
+    49140,
+    49140,
+    49140,
+    49140,
+    49140,
+    49140,
+    49140
+  ],
+  "memory_scope_gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "aggregate_memory_fraction": 0.051017501017501014,
+  "memory_utilization_threshold": 0.15,
+  "minimum_free_memory_mib": 0,
+  "memory_headroom_gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "target_aggregate_utilization": 15.0,
+  "gpu_mode_stop_aggregate_utilization": 15.0,
+  "policy_mode": "default",
+  "idle_seconds": 0
+}

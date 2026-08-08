@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G040R-PILOT",
+  "status": "failed",
+  "complete": true,
+  "terminal": true,
+  "source_bad_rows": 64,
+  "rerendered_rows": 4,
+  "workers": 1,
+  "fresh_process_per_sample": true,
+  "elapsed_seconds": 22.175592184066772,
+  "max_alignment_error": 0.8191960784818412,
+  "target_points": {
+    "min": 197,
+    "median": 701.0,
+    "max": 1006
+  },
+  "checks": {
+    "source_terminal": true,
+    "selected_bad_exact": true,
+    "rows_exact": true,
+    "all_repaired_aligned": false,
+    "shape_binary": true,
+    "all_target_visible": true
+  },
+  "decision": "repair renderer reproducibility"
+}

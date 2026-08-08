@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d043c_train194_zero_contact_input_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "checks": {
+    "targets_exact": true,
+    "rows_exact": true,
+    "train_only": true,
+    "zero_cal_target_overlap": true,
+    "zero_contact": true,
+    "task_metadata_finite": true,
+    "point_state_label_finite": true
+  },
+  "counts": {
+    "targets": 2,
+    "rows": 16
+  },
+  "decision": "TRAIN194 coverage input valid; retrain MLP/PAR"
+}

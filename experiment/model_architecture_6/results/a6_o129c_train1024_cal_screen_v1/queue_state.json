@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o125c_zero_contact_cal_screen_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "A5_CAL recorded-current-observation with deployable zero-contact schema; live validation required",
+  "baseline": {
+    "repeat_last_raw_mae": 0.012379659339785576
+  },
+  "metrics": {
+    "mlp": {
+      "raw_mae": 0.004013360943645239,
+      "endpoint_raw_mae": 0.008052866905927658,
+      "relative_to_repeat": 0.3241899339464985,
+      "target_delta_vs_repeat": {
+        "mean": -0.007356260437518358,
+        "ci95": [
+          -0.008179099252447485,
+          -0.00651901992969215
+        ]
+      }
+    },
+    "parallel": {
+      "raw_mae": 0.0037072196137160063,
+      "endpoint_raw_mae": 0.007467350456863642,
+      "relative_to_repeat": 0.29946055153567885,
+      "target_delta_vs_repeat": {
+        "mean": -0.007523415144532919,
+        "ci95": [
+          -0.008420019829645752,
+          -0.006602886156179012
+        ]
+      }
+    },
+    "causal": {
+      "raw_mae": 0.012692111544311047,
+      "endpoint_raw_mae": 0.025793999433517456,
+      "relative_to_repeat": 1.0252391601375748,
+      "target_delta_vs_repeat": {
+        "mean": 0.0002912232303060591,
+        "ci95": [
+          -0.0009176450417726301,
+          0.0014940803957870226
+        ]
+      },
+      "teacher_raw_mae": 0.0012685945257544518
+    }
+  },
+  "pairwise": {
+    "parallel_minus_mlp": {
+      "mean": -0.0001671542995609343,
+      "ci95": [
+        -0.00047693886881461367,
+        0.0001311231477302499
+      ]
+    },
+    "parallel_minus_causal": {
+      "mean": -0.007814638316631317,
+      "ci95": [
+        -0.009254885115660727,
+        -0.006405449006706476
+      ]
+    },
+    "mlp_minus_causal": {
+      "mean": -0.0076474836096167564,
+      "ci95": [
+        -0.009078214457258583,
+        -0.006240504793822765
+      ]
+    }
+  },
+  "checks": {
+    "rows_280": true,
+    "targets_35": true,
+    "zero_contact": true,
+    "finite": true,
+    "exact_paired": true
+  },
+  "decision": "valid CAL prioritization for live closed-loop probe",
+  "jobs": [
+    {
+      "id": "A6-O125C",
+      "status": "passed"
+    }
+  ]
+}

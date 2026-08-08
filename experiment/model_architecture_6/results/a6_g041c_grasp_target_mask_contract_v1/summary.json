@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G041C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 632,
+  "target_points": {
+    "min": 71,
+    "median": 349.5,
+    "max": 1024
+  },
+  "source_hashes": {
+    "base_inputs": "7d0eab91f86f51fb992105c032a5801b031bc2d59b13f63a3468c639dbedc6ff",
+    "target_masks": "9828c1d64e7071f1e2bce0e1b20b27192d16b29f7d32dd4d8299e1e920888cde"
+  },
+  "output_sha256": "8c8e825afcef0c09c5d14fd13910915e7f7d4d9cd989437f0997e1ee8df84bbf",
+  "checks": {
+    "g040_terminal_pass": true,
+    "group_index_exact": true,
+    "shape": true,
+    "binary": true,
+    "all_target_visible": true,
+    "base_points_unchanged": true,
+    "labels_unchanged": true,
+    "split_counts": true,
+    "no_affordance_or_outcome": true
+  },
+  "decision": "authorize matched target-mask qpose/traj sanity"
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o136c_train194_live8_aggregate_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "8-target A5_CAL source-horizon live closed-loop TRAIN194 recipe test",
+  "metrics": {
+    "mlp": {
+      "task_success": 1,
+      "targets": 8,
+      "progress": {
+        "mean": 0.15621803913461163,
+        "ci95": [
+          0.07827075220112326,
+          0.24982595190716228
+        ]
+      },
+      "progress_median": 0.13170336056036547,
+      "positive_progress_count": 7,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.5392145759195877,
+      "full_contact_count": 2,
+      "per_target_progress": [
+        0.1486495096743967,
+        0.06006031815779179,
+        0.16056505015066258,
+        0.0,
+        0.28818056667042324,
+        0.06510919385176744,
+        0.11475721144633426,
+        0.4124224631255172
+      ],
+      "per_target_contact_fraction": [
+        0.36774193548387096,
+        0.32786885245901637,
+        1.0,
+        0.046153846153846156,
+        0.819672131147541,
+        0.35443037974683544,
+        0.3978494623655914,
+        1.0
+      ]
+    },
+    "parallel": {
+      "task_success": 0,
+      "targets": 8,
+      "progress": {
+        "mean": 0.10955249214521685,
+        "ci95": [
+          0.038568020998277656,
+          0.19462344185251654
+        ]
+      },
+      "progress_median": 0.08622401050077283,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction_mean": 0.5173681317489427,
+      "full_contact_count": 1,
+      "per_target_progress": [
+        0.08958094292982945,
+        0.13210505665452033,
+        0.20715910052482414,
+        6.965844122186009e-05,
+        0.35548107487442887,
+        0.08286707807171623,
+        0.009151988400821293,
+        5.037264372709753e-06
+      ],
+      "per_target_contact_fraction": [
+        0.25806451612903225,
+        0.9836065573770492,
+        0.9805825242718447,
+        0.027692307692307693,
+        1.0,
+        0.379746835443038,
+        0.17204301075268819,
+        0.3372093023255814
+      ]
+    },
+    "repeat_last": {
+      "task_success": 0,
+      "targets": 8,
+      "progress": {
+        "mean": -0.0007530537785450459,
+        "ci95": [
+          -0.0019672633511307923,
+          6.812994927825159e-07
+        ]
+      },
+      "progress_median": 1.3755241695723428e-07,
+      "positive_progress_count": 4,
+      "wrong_way_count": 3,
+      "contact_fraction_mean": 1.0,
+      "full_contact_count": 8,
+      "per_target_progress": [
+        -0.0003727429250366079,
+        -0.00479304717118237,
+        2.7946856576276705e-05,
+        0.0,
+        -0.0009897418150620087,
+        0.00010125755162769095,
+        1.6221698827370389e-06,
+        2.7510483391446855e-07
+      ],
+      "per_target_contact_fraction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise_progress": {
+    "mlp_minus_repeat_last": {
+      "mean": 0.1569710929131567,
+      "ci95": [
+        0.07976268292992483,
+        0.2506175652918634
+      ]
+    },
+    "parallel_minus_repeat_last": {
+      "mean": 0.1103055459237619,
+      "ci95": [
+        0.038974231072502835,
+        0.19580646558139708
+      ]
+    },
+    "mlp_minus_parallel": {
+      "mean": 0.0466655469893948,
+      "ci95": [
+        -0.036911678464029436,
+        0.16358621921268598
+      ]
+    }
+  },
+  "recipe_effect": {
+    "mlp": {
+      "progress_train194_recipe_minus_train1024": {
+        "mean": -0.012660489645504385,
+        "ci95": [
+          -0.06486057971608425,
+          0.03979622260887918
+        ]
+      },
+      "contact_train194_recipe_minus_train1024": {
+        "mean": -0.07328113550131887,
+        "ci95": [
+          -0.22004591474992172,
+          0.05173488238937929
+        ]
+      },
+      "task_success_delta": -1
+    },
+    "parallel": {
+      "progress_train194_recipe_minus_train1024": {
+        "mean": -0.05681759496323481,
+        "ci95": [
+          -0.11884969585737654,
+          -0.004314372534987095
+        ]
+      },
+      "contact_train194_recipe_minus_train1024": {
+        "mean": -0.12361968823429072,
+        "ci95": [
+          -0.25993497098054097,
+          -0.005540818917801359
+        ]
+      },
+      "task_success_delta": -1
+    }
+  },
+  "checks": {
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "source_horizon_exact": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "train1024_reference_valid": true
+  },
+  "decision": "mixed TRAIN194 recipe measured; do not attribute effect to target coverage alone"
+}

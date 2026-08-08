@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d030_dyn64_materialization_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "resource_probe": "experiment_loop/resource_probe.json",
+    "manifest": "materialization_manifest.json",
+    "materialized_dir": "materialized"
+  },
+  "counts": {
+    "targets": 64,
+    "frames": 1024
+  },
+  "checks": {
+    "dyn64_targets_exact": true,
+    "fixed_two_workers": true,
+    "sixteen_anchors_each": true,
+    "all_finite": true,
+    "source_hash_exact": true,
+    "restartable_sidecars": true,
+    "zero_outcome_or_heldout_reads": true
+  },
+  "decision": "D030 materialization passes; authorize O010/O020/O030.",
+  "remaining_work": [
+    "A6-O010/O020/O030 fixed-batch fits"
+  ],
+  "next_run_ids": [
+    "a6_o010_mlp_fixed64_v1",
+    "a6_o020_par_fixed64_v1",
+    "a6_o030_causal_fixed64_v1"
+  ],
+  "event_id": "a6_d030_dyn64_materialization_v1_terminal"
+}

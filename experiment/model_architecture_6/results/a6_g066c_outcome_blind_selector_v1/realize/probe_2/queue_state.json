@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G066C-REALIZE-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 2,
+  "elapsed_seconds": 23.227956533432007,
+  "realization": {
+    "legal_ik": 20,
+    "planner_success": 7,
+    "selected_ik_coverage": 1.0,
+    "selected_planner_coverage": 0.75
+  },
+  "metrics": {
+    "s0_mode_logit": {
+      "translation_m": 0.3462124764919281,
+      "rotation_rad": 2.0951180458068848,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.3462124764919281,
+        "rotation_rad": 2.0951180458068848,
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "s1_calibrated_risk": {
+      "translation_m": 0.2814185619354248,
+      "rotation_rad": 2.771106719970703,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.2814185619354248,
+        "rotation_rad": 2.771106719970703,
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "s2_ik_fk_planner": {
+      "translation_m": 0.3444388508796692,
+      "rotation_rad": 2.107973098754883,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.3444388508796692,
+        "rotation_rad": 2.107973039150238,
+        "pose_within_3cm_12deg": 0.0
+      }
+    },
+    "oracle_best_of_8": {
+      "translation_m": 0.21276327967643738,
+      "rotation_rad": 1.2576929330825806,
+      "pose_within_3cm_12deg": 0.0,
+      "group_mean": {
+        "translation_m": 0.21276327222585678,
+        "rotation_rad": 1.2576929330825806,
+        "pose_within_3cm_12deg": 0.0
+      }
+    }
+  },
+  "comparisons": {
+    "s2_minus_g062": {
+      "translation_m": {
+        "mean": 0.028234919561617985,
+        "ci95": [
+          -0.19280131613108564,
+          0.2492711552543216
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.6800512012636951,
+        "ci95": [
+          0.5879850869880965,
+          0.7721173155392937
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s2_minus_oracle": {
+      "translation_m": {
+        "mean": 0.1316755786538124,
+        "ci95": [
+          0.005214005708694458,
+          0.25813715159893036
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.8502801060676575,
+        "ci95": [
+          -0.0034874677658081055,
+          1.704047679901123
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_oracle": {
+      "translation_m": {
+        "mean": 0.06865528970956802,
+        "ci95": [
+          0.044540345668792725,
+          0.09277023375034332
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.5134137868881226,
+        "ci95": [
+          1.1940951347351074,
+          1.8327324390411377
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "score_terminal": true,
+    "cal_group_count": true,
+    "fixed_candidate_shape": true,
+    "ik_seed_count": true,
+    "no_teacher_qpose_seed": true,
+    "finite_legal_qpose": true,
+    "selection_indices_valid": true,
+    "outcome_mutation_invariance": true,
+    "evaluation_labels_loaded_after_selection": true,
+    "no_task_outcome_read": true
+  },
+  "claim_supported": "probe_only",
+  "decision": "run full G066 realization",
+  "next_run_ids": [
+    "A6-G066C-REALIZE"
+  ]
+}

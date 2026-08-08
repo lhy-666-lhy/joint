@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G066C-REALIZE-SHARD",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 13,
+  "cal_row_start": 52,
+  "cal_row_end": 65,
+  "elapsed_seconds": 104.82573556900024,
+  "realization": {
+    "legal_ik": 265,
+    "planner_success": 47,
+    "selected_ik_coverage": 0.9807692307692307,
+    "selected_planner_coverage": 0.7307692307692307
+  },
+  "metrics": {
+    "s0_mode_logit": {
+      "translation_m": 0.1662796437740326,
+      "rotation_rad": 1.1323422193527222,
+      "pose_within_3cm_12deg": 0.057692307692307696,
+      "group_mean": {
+        "translation_m": 0.16627967930757082,
+        "rotation_rad": 1.1323422849751437,
+        "pose_within_3cm_12deg": 0.057692307692307696
+      }
+    },
+    "s1_calibrated_risk": {
+      "translation_m": 0.17598789930343628,
+      "rotation_rad": 0.6843936443328857,
+      "pose_within_3cm_12deg": 0.11538461538461539,
+      "group_mean": {
+        "translation_m": 0.1759879025988854,
+        "rotation_rad": 0.684393650923784,
+        "pose_within_3cm_12deg": 0.11538461538461539
+      }
+    },
+    "s2_ik_fk_planner": {
+      "translation_m": 0.28338053822517395,
+      "rotation_rad": 1.936901569366455,
+      "pose_within_3cm_12deg": 0.019230769230769232,
+      "group_mean": {
+        "translation_m": 0.28338050613036525,
+        "rotation_rad": 1.9369014822519743,
+        "pose_within_3cm_12deg": 0.019230769230769232
+      }
+    },
+    "oracle_best_of_8": {
+      "translation_m": 0.15935270488262177,
+      "rotation_rad": 0.25087597966194153,
+      "pose_within_3cm_12deg": 0.11538461538461539,
+      "group_mean": {
+        "translation_m": 0.15935273425510296,
+        "rotation_rad": 0.2508759885453261,
+        "pose_within_3cm_12deg": 0.11538461538461539
+      }
+    }
+  },
+  "comparisons": {
+    "s2_minus_g062": {
+      "translation_m": {
+        "mean": 0.12539470730559157,
+        "ci95": [
+          0.07776907579798521,
+          0.16941711109394977
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.4878831713056109,
+        "ci95": [
+          -0.34100637344482176,
+          1.2457027440615815
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.019230769230769232,
+        "ci95": [
+          -0.057692307692307696,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s2_minus_oracle": {
+      "translation_m": {
+        "mean": 0.12402777187526226,
+        "ci95": [
+          0.07195050079518785,
+          0.1755400635445347
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.6860254937066481,
+        "ci95": [
+          1.4141629561638605,
+          1.9436456464159373
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.09615384615384616,
+        "ci95": [
+          -0.23076923076923078,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_oracle": {
+      "translation_m": {
+        "mean": 0.016635168343782425,
+        "ci95": [
+          -0.004105177091864438,
+          0.036129286082891315
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.4335176623784579,
+        "ci95": [
+          0.0939459170286472,
+          0.843925721828754
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "score_terminal": true,
+    "cal_group_count": true,
+    "fixed_candidate_shape": true,
+    "ik_seed_count": true,
+    "no_teacher_qpose_seed": true,
+    "finite_legal_qpose": true,
+    "selection_indices_valid": true,
+    "outcome_mutation_invariance": true,
+    "evaluation_labels_loaded_after_selection": true,
+    "no_task_outcome_read": true
+  },
+  "claim_supported": "shard_only",
+  "decision": "aggregate all G066 shards",
+  "next_run_ids": []
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_o000b_shared_input_contract.py", line 128, in <module>
+    raise SystemExit(main())
+  File "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_o000b_shared_input_contract.py", line 108, in main
+    task = task_metadata(target)
+  File "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_o000b_shared_input_contract.py", line 53, in task_metadata
+    raise ValueError(f"incomplete joint metadata: {target}")
+ValueError: incomplete joint metadata: 101605/link_0
+
+ERROR conda.cli.main_run:execute(127): `conda run python run_a6_o000b_shared_input_contract.py` failed. (See above for error)

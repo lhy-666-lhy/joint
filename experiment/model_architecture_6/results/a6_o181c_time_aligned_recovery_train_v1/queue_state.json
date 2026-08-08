@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o181c_time_aligned_recovery_train_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "matched time-aligned full-horizon recovery training",
+  "metrics": {
+    "total_normalized_delta_mae": 0.22424586880362454,
+    "total_raw_delta_mae": 0.005138414155960873,
+    "prefix1024_normalized_delta_mae": 0.04629193667383995,
+    "prefix1024_raw_delta_mae": 0.0010745716188866185,
+    "recovery128_normalized_delta_mae": 1.7118476936009743,
+    "recovery128_raw_delta_mae": 0.03911001288091493,
+    "reload_max_abs": 0.0,
+    "wall_seconds": 77.2437378950417
+  },
+  "checks": {
+    "d180c_passed": true,
+    "rows_1152": true,
+    "prefix_exact": true,
+    "zero_contact": true,
+    "steps_6000": true,
+    "batch_64": true,
+    "finite": true,
+    "reload_exact": true
+  },
+  "decision": "alignment training valid; run joint CAL screen",
+  "next_run_ids": [
+    "A6-O183C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-O181C",
+      "status": "passed"
+    }
+  ]
+}

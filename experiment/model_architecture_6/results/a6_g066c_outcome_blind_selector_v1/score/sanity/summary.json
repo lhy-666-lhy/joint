@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G066C-SCORE-SANITY",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "optimizer_steps": 50,
+  "train_loss_first": 37.591190338134766,
+  "train_loss_last": 2.7123231887817383,
+  "elapsed_seconds": 0.6979906558990479,
+  "metrics": {
+    "s0_mode_logit": {
+      "translation_m": 0.26096558570861816,
+      "rotation_rad": 1.8285573720932007,
+      "pose_within_3cm_12deg": 0.013089005235602094,
+      "group_mean": {
+        "translation_m": 0.2566386796902902,
+        "rotation_rad": 1.811231143735718,
+        "pose_within_3cm_12deg": 0.01485148514851485
+      }
+    },
+    "s1_calibrated_risk": {
+      "translation_m": 0.25507137179374695,
+      "rotation_rad": 1.6919002532958984,
+      "pose_within_3cm_12deg": 0.02356020942408377,
+      "group_mean": {
+        "translation_m": 0.2520615401502588,
+        "rotation_rad": 1.6741279237119868,
+        "pose_within_3cm_12deg": 0.024752475247524754
+      }
+    },
+    "oracle_best_of_8": {
+      "translation_m": 0.1765325665473938,
+      "rotation_rad": 0.5617828965187073,
+      "pose_within_3cm_12deg": 0.034031413612565446,
+      "group_mean": {
+        "translation_m": 0.17218126908018447,
+        "rotation_rad": 0.579535268505316,
+        "pose_within_3cm_12deg": 0.034653465346534656
+      }
+    }
+  },
+  "comparisons": {
+    "s0_minus_g062": {
+      "translation_m": {
+        "mean": 0.035468279101388646,
+        "ci95": [
+          0.014708354507877063,
+          0.05707377550942509
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.13797740599758268,
+        "ci95": [
+          -0.09364103378981208,
+          0.3589797180542205
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.0024752475247524753,
+        "ci95": [
+          -0.01485148514851485,
+          0.019801980198019802
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_g062": {
+      "translation_m": {
+        "mean": 0.03089113956135724,
+        "ci95": [
+          0.010226095218462032,
+          0.05182205547592497
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 0.0008741859738515108,
+        "ci95": [
+          -0.2283253578309767,
+          0.21685511464795168
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": 0.012376237623762377,
+        "ci95": [
+          -0.009900990099009901,
+          0.039603960396039604
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s0_minus_oracle": {
+      "translation_m": {
+        "mean": 0.08445741061010573,
+        "ci95": [
+          0.060782591761135964,
+          0.10895243981705591
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.2316958752304021,
+        "ci95": [
+          1.061006117780868,
+          1.4009925058166874
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.019801980198019802,
+        "ci95": [
+          -0.03712871287128713,
+          -0.0049504950495049506
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    },
+    "s1_minus_oracle": {
+      "translation_m": {
+        "mean": 0.07988027107007432,
+        "ci95": [
+          0.05674420231123372,
+          0.1041103955496582
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "rotation_rad": {
+        "mean": 1.094592655206671,
+        "ci95": [
+          0.9176297961734236,
+          1.2755947505400544
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "pose_within_3cm_12deg": {
+        "mean": -0.009900990099009901,
+        "ci95": [
+          -0.019801980198019802,
+          -0.0024752475247524753
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      }
+    }
+  },
+  "checks": {
+    "g065_terminal": true,
+    "split_counts": true,
+    "candidate_shape": true,
+    "train_cal_boundary": true,
+    "finite": true,
+    "loss_decreased": true,
+    "reload_exact": true,
+    "fixed_generator_checkpoint": true,
+    "no_teacher_qpose_or_outcome_input": true,
+    "selection_indices_valid": true
+  },
+  "claim_supported": "sanity_only",
+  "decision": "run G066 realization and S2",
+  "next_run_ids": [
+    "A6-G066C-SCORE"
+  ]
+}

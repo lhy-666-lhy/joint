@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G070C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "optimizer_steps": 6000,
+  "train_loss_first": 0.8653265833854675,
+  "train_loss_last": 0.19259130954742432,
+  "elapsed_seconds": 39.032371282577515,
+  "checkpoint_sha256": "0a83cb78a7c33a8d86985362445ccc181cd8af39d679f6a189cd4683e3c1f956",
+  "reload_max_abs": 0.0,
+  "metrics": {
+    "oracle_set_l1": 0.5953158140182495,
+    "norm_selector_set_l1": 0.6010470986366272,
+    "oracle_within_3cm12deg_proxy": 0.0,
+    "norm_selector_within_3cm12deg_proxy": 0.0,
+    "legal_ik_slot_fraction": 1.0
+  },
+  "checks": {
+    "g064_terminal": true,
+    "split_counts": true,
+    "finite": true,
+    "loss_decreased": true,
+    "reload_exact": true,
+    "qpose_shape": true,
+    "presence_shape": true,
+    "no_outcome_read": true,
+    "no_cal_training": true
+  },
+  "claim_supported": "diagnostic_only",
+  "decision": "run direct-qpose planner realization",
+  "next_run_ids": [
+    "A6-G070C-REALIZE"
+  ]
+}

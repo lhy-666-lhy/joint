@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o194c_balanced_recovery_residual_seed1_train_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "equal-exposure prefix and recovery sampling over frozen O127C residual",
+  "metrics": {
+    "step0_output_parity_max_abs": 0.0,
+    "prefix_teacher_raw_mae": 0.0015009282393559482,
+    "prefix_baseline_drift_raw_mae": 0.0011116512760770685,
+    "recovery_teacher_raw_mae": 0.04725219377505234,
+    "recovery_baseline_drift_raw_mae": 0.0029298463302904107,
+    "residual_weight_norm": 4.537372589111328,
+    "prefix_exposure_min": 187,
+    "prefix_exposure_max": 188,
+    "recovery_exposure_min": 1500,
+    "recovery_exposure_max": 1500,
+    "reload_max_abs": 0.0,
+    "wall_seconds": 47.199995229020715
+  },
+  "checks": {
+    "d180c_passed": true,
+    "rows_1152": true,
+    "step0_output_parity": true,
+    "baseline_parameters_frozen": true,
+    "only_residual_optimized": true,
+    "balanced_batch_32_32": true,
+    "sampling_indices_in_range": true,
+    "balanced_exposure_contract": true,
+    "finite": true,
+    "reload_exact": true
+  },
+  "decision": "residual isolation valid; run CAL/live comparison",
+  "next_run_ids": [
+    "A6-O195C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-O194C-seed1",
+      "status": "passed"
+    }
+  ]
+}

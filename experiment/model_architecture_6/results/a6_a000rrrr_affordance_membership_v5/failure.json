@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "error_type": "RuntimeError",
+  "error": "target-aware producer failed with return code 1",
+  "traceback": "Traceback (most recent call last):\n  File \"/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a000rr_affordance_membership.py\", line 153, in main\n    recovery_zarr = run_producer(out_dir)\n  File \"/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/run_a6_a000rr_affordance_membership.py\", line 83, in run_producer\n    raise RuntimeError(f\"target-aware producer failed with return code {completed.returncode}\")\nRuntimeError: target-aware producer failed with return code 1\n"
+}

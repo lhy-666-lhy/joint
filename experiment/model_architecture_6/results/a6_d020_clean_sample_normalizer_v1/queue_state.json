@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d020_clean_sample_normalizer_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "sample_index": "sample_index.jsonl",
+    "fixed_batch": "fixed_batch.npz",
+    "fixed_batch_manifest": "fixed_batch_manifest.json",
+    "normalizer": "normalizer.json",
+    "clean_split_contract_sha256": "56d871eecbf5b067fa929f5783daf94b3e3ac4bd1ba6edd9ad39c3bd7186f55f",
+    "clean_accepted_samples_sha256": "bfdb1a5e05f4ab65ccbb4980ba5f3eeb1e6ed4f7e4a20c76ac5fd107541b51d9",
+    "exclusion_manifest_sha256": "7c2783ae5398da5c2ffdc99247f66e9217b95ab9e008bbf41e8f4177d9662dbd"
+  },
+  "counts": {
+    "train_samples": 557,
+    "train_trajectories": 26597,
+    "excluded_train_trajectories": 8,
+    "operation_command_rows": 36700596,
+    "fixed_chunks": 64
+  },
+  "checks": {
+    "train_sample_count_exact": true,
+    "train_trajectory_count_exact": true,
+    "excluded_sample_ids_absent": true,
+    "dyn8_target_count_exact": true,
+    "fixed_chunk_count_exact": true,
+    "all_chunks_h32x9_finite": true,
+    "valid_masks_exact": true,
+    "all_sample_splits_train": true,
+    "terminal_mask_consumed": true,
+    "source_hashes_persisted": true,
+    "zero_mech_dev_or_final_reads": true
+  },
+  "decision": "Clean D020 sample/normalizer freeze passes.",
+  "remaining_work": [
+    "reuse or revalidate D030 because its 64 targets are unchanged",
+    "launch command-delta DYN64 screen"
+  ],
+  "next_run_ids": [
+    "a6_o100c_mlp_command_delta_dyn64_v1"
+  ],
+  "event_id": "a6_d020_clean_sample_normalizer_v1_terminal",
+  "jobs": [
+    {
+      "id": "A6-D020",
+      "status": "passed"
+    }
+  ]
+}

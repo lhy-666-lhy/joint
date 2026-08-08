@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o144c_mlp_state_command_perturb_3x_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "D042C TRAIN1024 MLP consistent state/command perturbation",
+  "configuration": {
+    "scale": 3.0,
+    "base_sigma": [
+      0.0006102088955231011,
+      0.0005267241504043341,
+      0.0006208278937265277,
+      0.0007814542623236775,
+      0.0048128352500498295,
+      0.0010882887290790677,
+      0.003910632338374853
+    ],
+    "augment_probability": 0.5,
+    "offset_clip_sigma": 3.0,
+    "arm_dim": 7,
+    "seed": 20260805,
+    "steps": 6000,
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-06,
+    "dropout": 0.1,
+    "parameter_count": 731928
+  },
+  "metrics": {
+    "clean_train_normalized_delta_mae": 0.04175975619391687,
+    "clean_train_raw_delta_mae": 0.0009746617240509191,
+    "stress_train_normalized_delta_mae": 0.1460581487216485,
+    "stress_train_raw_delta_mae": 0.003621650723196169,
+    "absolute_target_invariance_max_error": 2.384185791015625e-07,
+    "wall_seconds": 49.76934420038015
+  },
+  "checks": {
+    "train_rows_1024": true,
+    "zero_contact": true,
+    "arm_only_offsets": true,
+    "absolute_target_invariant_le_1e_6": true,
+    "steps_6000": true,
+    "finite": true
+  },
+  "decision": "perturbation fit valid; run frozen clean/perturbed CAL"
+}

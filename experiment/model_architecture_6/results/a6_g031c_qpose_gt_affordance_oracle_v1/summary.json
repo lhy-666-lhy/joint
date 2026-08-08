@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G031C-FIT",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "kind": "qpose",
+  "affordance_condition": "gt",
+  "deployable": false,
+  "seed": 20260806,
+  "optimizer_steps": 6000,
+  "effective_batch": 64,
+  "device": "cuda",
+  "trainable_parameters": 508680,
+  "train_loss_first": 0.7893282771110535,
+  "train_loss_last": 0.21577097475528717,
+  "cal_loss_last": 0.668588399887085,
+  "reload_max_abs": 0.0,
+  "checkpoint": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_g031c_qpose_gt_affordance_oracle_v1/qpose_gt_seed20260806.pth",
+  "checkpoint_sha256": "34c7af3a7345ab0211ce69c650993eb716a302ab85db81d314642dee850bdf7b",
+  "source_input_sha256": "80ed3d97ba25cd973f7a3b21f76312b0dc443c5bc67b1d0f4b5fbadea8b1d81c",
+  "checks": {
+    "finite": true,
+    "reload": true,
+    "train_loss_decreased": true,
+    "split_counts": true,
+    "affordance_contract": true,
+    "no_future_or_outcome_input": true
+  },
+  "decision": "run raw-unit CAL oracle comparison"
+}

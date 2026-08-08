@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "superseded",
+  "run_id": "a6_d021c_command_delta_normalizer_v1",
+  "planning_revision": "20260806T060210Z-c3831dc1",
+  "dependencies": ["A6-D020C", "A6-CLEAN-CMDDELTA-v2"],
+  "resource_mode": "cpu",
+  "split": "A5_TRAIN",
+  "forbidden_splits": ["A5_CAL", "A5_MECH_DEV", "A5_SAME_TEST", "A5_TARGET_TEST"],
+  "representation": "future_absolute_command - last_executed_command",
+  "horizon": 32,
+  "action_dimension": 9,
+  "training": false,
+  "workers": 1,
+  "source_hashes": {
+    "sample_index_sha256": "bc9fab96fa8af4e0301348facdd11146c1ab7756fdffecc0b0efcc17a4af5f43",
+    "fixed_batch_sha256": "91f5a6a76659c729fddfb2035664041a5ed90c5cb2374ba7058bf25f343981b3"
+  },
+  "required_artifacts": ["run_state.json", "queue_state.json", "summary.json", "run_manifest.json", "normalizer.json", "fixed_batch_command_delta.npz", "forbidden_feature_audit.json"],
+  "superseded_at": "2026-08-07T05:12:27Z",
+  "superseded_by": "A6-G062C",
+  "superseding_plan": "EXPERIMENT_PLAN_20260807_051227.md"
+}

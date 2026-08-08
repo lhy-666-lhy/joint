@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "root": "..",
+  "codex_session_id": "019fd298-4f43-7f30-9bab-0e94fa7310b8",
+  "codex_transport": {
+    "type": "tmux_tui",
+    "target": "ARCH6_CODEX_WORKER:0.0",
+    "submit_delay_seconds": 1,
+    "submit_attempts": 3,
+    "submit_retry_seconds": 1.5,
+    "input_ready_timeout_seconds": 10,
+    "confirm_timeout_seconds": 30
+  },
+  "planning_document": "EXPERIMENT_PLAN.md",
+  "global_planning_document": "EXPERIMENT_TRACKER.md",
+  "optimization_goal": "基于 clean A6 split 完成 command-delta operation 架构与训练策略比较，再公平比较 direct grasp trajectory 与 target-qpose plus online planner，引入 deployable affordance 并完成 frozen-vs-joint 与最终测试。",
+  "evidence_roots": [
+    ".",
+    "results",
+    "../model_architecture",
+    "../model_architecture_2",
+    "../model_architecture_3",
+    "../model_architecture_4",
+    "../model_architecture_5"
+  ],
+  "termination_review_path": "GLOBAL_TERMINATION_REVIEW.md",
+  "termination": {
+    "outcome": "manual",
+    "event_id": "a6_manual_autonomous_disabled_20260806T070117Z",
+    "reason": "用户要求停止 Architecture 6 autonomous-experiment-loop，后续改由当前对话中的 experiment-iteration-loop 管理。",
+    "updated_at": "2026-08-06T07:01:17Z"
+  },
+  "loop_status": "completed",
+  "iteration_id": "a6_d021c_command_delta_normalizer_v1",
+  "resource_mode": "cpu",
+  "resource_policy": {
+    "enabled": true,
+    "max_workers_per_gpu": 8,
+    "probe_seconds": 60,
+    "target_memory_fraction": 0.8,
+    "target_cpu_fraction": 0.8,
+    "min_throughput_gain": 1.1,
+    "probe_output": "experiment_loop/resource_probe.json"
+  },
+  "soft_deadline_at": null,
+  "poll_seconds": 60,
+  "state_path": "loop_state.json",
+  "agent_state_path": "agent_state.json",
+  "analysis_recovery": {
+    "idle_grace_seconds": 60,
+    "cooldown_seconds": 300,
+    "max_attempts": 3
+  },
+  "launch_recovery": {
+    "stale_seconds": 300
+  },
+  "contract_enforcement": {
+    "enabled": true,
+    "contract_path": "active_contract.json",
+    "audit_path": "preflight_contract_audit.json"
+  },
+  "runtime_reconciliation": {
+    "dead_process_grace_seconds": 60
+  },
+  "gpu_keepalive": {
+    "enabled": true,
+    "policy_locked": true,
+    "keepalive_after_completion": true,
+    "tmux_session": "ARCH6_GPUALIVE",
+    "state_path": "gpu_keepalive_state.json",
+    "gpu_ids": "auto",
+    "nproc_per_node": "auto",
+    "memory_utilization_threshold": 15,
+    "target_aggregate_utilization": 15,
+    "expected_keepalive_utilization": 30,
+    "allow_during_low_memory_gpu": true,
+    "gpu_mode_max_cards": 2,
+    "idle_seconds": 1800,
+    "matrix_size": 4096,
+    "check_every_steps": 20,
+    "yield_seconds": 0.02,
+    "stop_timeout_seconds": 30,
+    "stop_poll_seconds": 0.25,
+    "resource_mode_idle_seconds": {
+      "analysis": 0,
+      "cpu": 0,
+      "gpu": 0
+    }
+  },
+  "planning_control": {
+    "revision_path": "planning_revision.json"
+  },
+  "analysis_control": {
+    "sandbox": "danger-full-access",
+    "codex_session_id": null,
+    "max_validation_seconds": 600,
+    "max_gpus": 1,
+    "max_optimizer_steps": 50,
+    "scratch_dir": "experiment_loop/analysis_scratch"
+  },
+  "negative_stop_review": {
+    "enabled": true,
+    "review_unclassified": false,
+    "state_path": "negative_stop_review.json",
+    "analysis_transport": {
+      "type": "tmux_tui",
+      "target": "ARCH6_CODEX_ANALYSIS:0.0",
+      "submit_delay_seconds": 1,
+      "submit_attempts": 3,
+      "submit_retry_seconds": 1.5,
+      "input_ready_timeout_seconds": 10,
+      "confirm_timeout_seconds": 30
+    }
+  },
+  "dashboard": {
+    "tmux_session": "ARCH6_LOOP_DASHBOARD",
+    "analysis_tmux_session": "ARCH6_CODEX_ANALYSIS",
+    "worker_tmux_session": "ARCH6_CODEX_WORKER",
+    "worker_tmux_target": "ARCH6_CODEX_WORKER:0.0",
+    "refresh_seconds": 5,
+    "main_branch_zh": "Architecture 6：模型拟合与铰链操作完整系统",
+    "sub_branch_zh": "A6-D021C：clean TRAIN-only command-delta normalizer 与 fixed64 roundtrip",
+    "experiment_purpose_zh": "仅统计 A5_TRAIN 的 future absolute command 减 last executed command，生成独立 normalizer；不读取 CAL、MECH_DEV 或最终测试。"
+  },
+  "log_path": "loop.log",
+  "completion": {
+    "source": "command",
+    "cmd": [
+      "python",
+      "experiment_loop/check_iteration_complete.py",
+      "--iteration",
+      "a6_d021c_command_delta_normalizer_v1",
+      "--summary",
+      "results/a6_d021c_command_delta_normalizer_v1/summary.json"
+    ]
+  }
+}

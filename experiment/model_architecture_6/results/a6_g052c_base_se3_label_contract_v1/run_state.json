@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G052C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "groups": 632,
+  "labels": 2373,
+  "input_sha256": "8c8e825afcef0c09c5d14fd13910915e7f7d4d9cd989437f0997e1ee8df84bbf",
+  "pose_source_sha256": "f7fa3a4da2f7efe8c969f4fe8783f83678c1a3d973ebe164ee66edfb027e7a60",
+  "output_sha256": "f3e0d27be10a8019a7f0c336bb50eff5a59872f8722b4a8eb673cf438783c48e",
+  "checks": {
+    "all_pose_rows_consumed": true,
+    "lineage_exact": true,
+    "shape": true,
+    "finite": true,
+    "rotation_unit": true,
+    "rotation_orthogonal": true,
+    "split_counts": true,
+    "no_link_pose_input": true,
+    "no_outcome": true
+  },
+  "decision": "authorize matched base-only and target-local SE3 sanity"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g005c_gt_qpose_candidate_physical_pilot_v1",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scientific_scope": "GT-QPOSE K4 candidate physical ceiling",
+  "groups": 2,
+  "candidates": 8,
+  "candidate_strict_grasp_success": 0,
+  "candidate_task_success": 1,
+  "route_level_selection": "shortest successful planner path, slot tie-break; no outcome read",
+  "checks": {
+    "fresh_world_each": true,
+    "l64_each": true,
+    "fixed_stage_ticks": true,
+    "fixed_operation_budget": true,
+    "qpose_consumer_forbidden_reads_absent": true
+  },
+  "file_read_string_literals": [
+    "planned_paths.npz",
+    "qpose_teacher_manifest.json"
+  ],
+  "forbidden_read_hits": [],
+  "completed_at": "2026-08-06T20:07:34+00:00"
+}

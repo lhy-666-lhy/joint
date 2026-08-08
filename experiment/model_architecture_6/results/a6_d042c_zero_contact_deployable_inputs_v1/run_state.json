@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d042c_zero_contact_deployable_inputs_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "claim_supported": "partial",
+  "checks": {
+    "fixed": {
+      "context_shape_43": true,
+      "contact_and_availability_zero": true,
+      "task_metadata_tail_exact": true,
+      "all_other_arrays_exact": true,
+      "all_finite": true
+    },
+    "train": {
+      "context_shape_43": true,
+      "contact_and_availability_zero": true,
+      "task_metadata_tail_exact": true,
+      "all_other_arrays_exact": true,
+      "all_finite": true
+    },
+    "cal": {
+      "context_shape_43": true,
+      "contact_and_availability_zero": true,
+      "task_metadata_tail_exact": true,
+      "all_other_arrays_exact": true,
+      "all_finite": true
+    },
+    "fixed_rows_64": true,
+    "train_rows_1024": true,
+    "cal_rows_280": true
+  },
+  "decision": "zero-contact deployable input schema passes; retrain matched decoders"
+}

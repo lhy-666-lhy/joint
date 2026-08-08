@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_g000c_grasp_label_set_contract_v3",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "clean TRAIN/CAL grasp K4 label-set materialization",
+  "implementation_revision": "v3 excludes replay-fail teachers and zero-valid-teacher groups",
+  "selection_policy": "filter fixed_gate_pass, then first K by collection index; no task-outcome ranking",
+  "metrics": {
+    "group_counts": {
+      "A5_TRAIN": 531,
+      "A5_CAL": 101
+    },
+    "source_trajectory_counts": {
+      "A5_TRAIN": 26505,
+      "A5_CAL": 4918
+    },
+    "replay_pass_trajectory_counts": {
+      "A5_TRAIN": 22242,
+      "A5_CAL": 3952
+    },
+    "selected_teacher_counts": {
+      "A5_TRAIN": 1991,
+      "A5_CAL": 382
+    },
+    "selected_teacher_count": 2373,
+    "groups_with_fewer_than_k": 72,
+    "available_candidate_count": {
+      "min": 1.0,
+      "median": 24.0,
+      "mean": 41.44620253164557,
+      "max": 251.0
+    },
+    "raw_qpath_length": {
+      "min": 65.0,
+      "median": 208.0,
+      "mean": 190.1803624104509,
+      "max": 226.0
+    },
+    "raw_qpath_arc_length": {
+      "min": 0.8489961624145508,
+      "median": 2.7848081588745117,
+      "mean": 2.857243607328554,
+      "max": 8.902886390686035
+    },
+    "open_closed_l2": {
+      "min": 0.006170045118778944,
+      "median": 0.018608564510941505,
+      "mean": 0.019892497055485275,
+      "max": 0.07221643626689911
+    },
+    "initial_qpos_max_abs_error": 0.0,
+    "base_pose_max_abs_error": 0.0,
+    "initial_object_qpos_max_abs_error": 0.0,
+    "relative_path_roundtrip_max_abs": 1.1920928955078125e-07,
+    "relative_qpose_roundtrip_max_abs": 1.1920928955078125e-07
+  },
+  "checks": {
+    "parent_a5_label_contract_passed": true,
+    "clean_split_contract_passed": true,
+    "original_clean_group_counts_exact": true,
+    "excluded_zero_teacher_group_counts_exact": true,
+    "allowed_group_counts_exact": true,
+    "allowed_source_trajectory_counts_exact": true,
+    "selected_teacher_count_exact": true,
+    "replay_pass_trajectory_counts_exact": true,
+    "all_selected_teachers_replay_pass": true,
+    "group_count_exact": true,
+    "one_group_per_clean_sample": true,
+    "candidate_slots_not_duplicated": true,
+    "missing_slots_not_label_copies": true,
+    "resampled_start_exact": true,
+    "terminal_qpose_exact": true,
+    "relative_path_roundtrip_le_1e_6": true,
+    "relative_qpose_roundtrip_le_1e_6": true,
+    "open_terminal_distinct_from_closed": true,
+    "same_initial_state_for_group_candidates": true,
+    "all_arrays_finite": true,
+    "all_raw_paths_positive_arc": true,
+    "traj_reload_exact": true,
+    "qpose_reload_exact": true,
+    "qpose_npz_physically_excludes_paths": true,
+    "qpose_manifest_excludes_trajectory_paths": true,
+    "train_cal_only": true
+  },
+  "sources": {
+    "clean_split_contract_sha256": "56d871eecbf5b067fa929f5783daf94b3e3ac4bd1ba6edd9ad39c3bd7186f55f",
+    "clean_accepted_samples_sha256": "bfdb1a5e05f4ab65ccbb4980ba5f3eeb1e6ed4f7e4a20c76ac5fd107541b51d9",
+    "parent_label_summary_sha256": "aac1e9aca3b68187112a7440fdb2dad52da958f1f6d1ca2ae9957444cce03035",
+    "parent_label_report_sha256": "eb016f8b8ae7acaa5c09c898a78a72c9817b868da72c317dab245428740c381f",
+    "replay_quality_sources_sha256": "c0093b6c01587fce2cd6393cb4970a777b1c4549b036e32ec8faf21804cf8601"
+  },
+  "artifacts": {
+    "traj_labels.npz": "28139322eb967182fe2a356975ba5b48f0b4e33f4b0f67a55a8c7544d0bcbe6f",
+    "qpose_labels.npz": "87d17275f597ce2f92067389f283415bad04861b7d7f0144fa17299e13c3acab",
+    "closed_operation_labels.npz": "5f1ddb247e1fb5fbda60efa7afd5353b744b8eb381201ee71a5809e0bdc23e34",
+    "traj_teacher_manifest.json": "48d809adb3b38360eaae0cf12379b5c4e51fdbadae3cbd61d0afb9bc1f5a6367",
+    "qpose_teacher_manifest.json": "f5c4ad329fa92cecd5c2f283498cd47647eda5a31b1db3d52acff02a3e877bb2",
+    "forbidden_feature_audit.json": "66b16e2e8b7cf9c925aae3f89c09b409a030828ccb8490c51a4dcac35891642e",
+    "excluded_zero_teacher_groups.json": "673e8c6e8b36a1a9560794654df3e02c14432d85d46f9d61741a37b1febdf93a",
+    "replay_quality_sources.json": "31c14c8a479354410234556eb04c24747586e34d5c2c17a038d898eda922b58b"
+  },
+  "decision": "authorize A6-G005C exact-paired GT-TRAJ versus GT-QPOSE interface test",
+  "next_run_ids": [
+    "A6-G005C"
+  ],
+  "started_at": "2026-08-06T19:19:32+00:00",
+  "completed_at": "2026-08-06T19:20:51+00:00",
+  "jobs": [
+    {
+      "id": "A6-G000C",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G061C-PROBE",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "metrics": {
+    "assigned_contact_distance": {
+      "train": {
+        "count": 29,
+        "mean_m": 0.11768869675365429,
+        "median_m": 0.09692166338904673,
+        "p90_m": 0.20615603609901206,
+        "coverage_3cm": 0.2413793103448276,
+        "coverage_5cm": 0.3103448275862069,
+        "max_m": 0.7026487520793567
+      },
+      "cal": null
+    },
+    "centroid_contact_distance": {
+      "train": {
+        "count": 29,
+        "mean_m": 0.3045856891007259,
+        "median_m": 0.285106897354126,
+        "p90_m": 0.5095988154411316,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.5370157957077026
+      },
+      "cal": null
+    },
+    "hand_center_minus_query_norm": {
+      "train": {
+        "count": 29,
+        "mean_m": 0.158422258907351,
+        "median_m": 0.1367311328649521,
+        "p90_m": 0.22960631549358365,
+        "coverage_3cm": 0.0,
+        "coverage_5cm": 0.0,
+        "max_m": 0.6438415050506592
+      },
+      "cal": null
+    },
+    "assigned_minus_centroid_group_mean_m": {
+      "train": {
+        "mean": -0.21314759162023422,
+        "ci95": [
+          -0.3239511330561884,
+          -0.10710656510996536
+        ],
+        "unit": "CAL observation group",
+        "bootstrap_samples": 10000
+      },
+      "cal": null
+    }
+  },
+  "reload_max_abs": {
+    "20260806": 0.0,
+    "20260807": 0.0,
+    "20260808": 0.0
+  },
+  "checks": {
+    "a030_positive_terminal": true,
+    "rows_exact": true,
+    "split_counts": true,
+    "teacher_presence_preserved": true,
+    "one_to_one_assignment": true,
+    "finite": true,
+    "reload_exact": true,
+    "train_cal_labels_only": true,
+    "zero_outcome_read": true
+  },
+  "claim_supported": "no",
+  "decision": "run full G061C",
+  "next_run_ids": [
+    "A6-G061C"
+  ]
+}

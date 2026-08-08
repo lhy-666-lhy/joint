@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r000_planning_consistency_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "evidence": {
+    "audit": "audit.json"
+  },
+  "checks": {
+    "all_repair_ids_in_plan": true,
+    "all_repair_ids_in_tracker": true,
+    "legacy_v1_marked_invalid": true,
+    "detailed_list_uses_revised_runs": true,
+    "repair_barrier_blocks_dyn64": true,
+    "machine_preflight_required": true,
+    "only_two_post_repair_ready_routes": true
+  },
+  "decision": "Plan, tracker, detailed run list and machine launch barrier agree on A6-REPAIR-v1.4.",
+  "remaining_work": [
+    "A6-A000RR and A6-O200F may proceed independently after revision ack"
+  ],
+  "next_run_ids": [],
+  "event_id": "a6_r000_planning_consistency_v1_terminal"
+}

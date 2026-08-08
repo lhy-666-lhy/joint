@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G006SC",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "counts": {
+    "eligible_targets": 180,
+    "excluded_single_group_targets": 13,
+    "train": 338,
+    "same_target_val": 180
+  },
+  "excluded_targets": [
+    "102384/link_0",
+    "10489/link_2",
+    "10900/link_0",
+    "10900/link_1",
+    "40417/link_0",
+    "45271/link_2",
+    "45749/link_3",
+    "45850/link_1",
+    "46490/link_1",
+    "46922/link_0",
+    "47088/link_1",
+    "7366/link_1",
+    "9386/link_1"
+  ],
+  "checks": {
+    "train_only": true,
+    "all_targets_in_both": true,
+    "no_a5_cal_read": true,
+    "train_val_group_disjoint": true,
+    "finite": true
+  },
+  "decision": "authorize same-target qpose diagnostic"
+}

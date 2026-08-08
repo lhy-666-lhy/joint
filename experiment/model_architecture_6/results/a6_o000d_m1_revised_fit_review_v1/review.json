@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000d_m1_revised_fit_review_v1",
+  "arms": {
+    "O-MLP-ABS": {
+      "run_2k": "a6_o010r_mlp_fixed64_v2",
+      "run_6k": "a6_o010s_mlp_fixed64_6k_v1",
+      "failure_class_2k": "training_fit_failure",
+      "failure_class_6k": "training_fit_failure",
+      "step_2000_reproduction_max_error": 0.0,
+      "mae_2k": 0.025114433839917183,
+      "mae_6k": 0.014016245491802692,
+      "relative_improvement_2k_to_6k": 0.44190477949277507,
+      "repeat_last_mae": 0.010377982631325722,
+      "relative_excess_over_repeat_at_6k": 0.35057515412436235,
+      "loss_decrease_ratio_6k": 48.26714324951172,
+      "train_loss_2k": 0.04899003356695175,
+      "train_loss_6k": 0.029997993260622025,
+      "eval_mae_2k_replayed": 0.025114433839917183,
+      "eval_mae_6k": 0.014016245491802692,
+      "teacher_forced_mae_6k": null,
+      "autoregressive_over_teacher_ratio_6k": null,
+      "checks_6k": {
+        "fixed_batch_64": true,
+        "scratch_seed_and_revision_exact": true,
+        "steps_exact_6000": true,
+        "step_2000_reproduction_le_1e_6": true,
+        "normalized_mae_le_1e_3": false,
+        "loss_decrease_ge_100x": false,
+        "gradients_finite": true,
+        "strict_reload_max_error_le_1e_6": true,
+        "shared_input_revision": true,
+        "zero_affordance": true,
+        "zero_outcome_or_heldout_reads": true,
+        "resource_pilot_reused_exactly": true
+      }
+    },
+    "O-PAR-ABS": {
+      "run_2k": "a6_o020r_par_fixed64_v2",
+      "run_6k": "a6_o020s_par_fixed64_6k_v1",
+      "failure_class_2k": "training_fit_failure",
+      "failure_class_6k": "training_fit_failure",
+      "step_2000_reproduction_max_error": 0.0,
+      "mae_2k": 0.030015040189027786,
+      "mae_6k": 0.028085920959711075,
+      "relative_improvement_2k_to_6k": 0.06427175233374882,
+      "repeat_last_mae": 0.010377982631325722,
+      "relative_excess_over_repeat_at_6k": 1.7062987053894574,
+      "loss_decrease_ratio_6k": 26.02305793762207,
+      "train_loss_2k": 0.0606575682759285,
+      "train_loss_6k": 0.04439079761505127,
+      "eval_mae_2k_replayed": 0.030015040189027786,
+      "eval_mae_6k": 0.028085920959711075,
+      "teacher_forced_mae_6k": null,
+      "autoregressive_over_teacher_ratio_6k": null,
+      "checks_6k": {
+        "fixed_batch_64": true,
+        "scratch_seed_and_revision_exact": true,
+        "steps_exact_6000": true,
+        "step_2000_reproduction_le_1e_6": true,
+        "normalized_mae_le_1e_3": false,
+        "loss_decrease_ge_100x": false,
+        "gradients_finite": true,
+        "strict_reload_max_error_le_1e_6": true,
+        "shared_input_revision": true,
+        "zero_affordance": true,
+        "zero_outcome_or_heldout_reads": true,
+        "resource_pilot_reused_exactly": true
+      }
+    },
+    "O-CAUSAL-ABS": {
+      "run_2k": "a6_o030r_causal_fixed64_v2",
+      "run_6k": "a6_o030s_causal_fixed64_6k_v1",
+      "failure_class_2k": "training_fit_failure",
+      "failure_class_6k": "training_fit_failure",
+      "step_2000_reproduction_max_error": 0.0,
+      "mae_2k": 0.11744870245456696,
+      "mae_6k": 0.0566321462392807,
+      "relative_improvement_2k_to_6k": 0.5178137769449783,
+      "repeat_last_mae": 0.010377982631325722,
+      "relative_excess_over_repeat_at_6k": 4.456951341230593,
+      "loss_decrease_ratio_6k": 15.127148628234863,
+      "train_loss_2k": 0.016597481444478035,
+      "train_loss_6k": 0.008411737158894539,
+      "eval_mae_2k_replayed": 0.11744870245456696,
+      "eval_mae_6k": 0.0566321462392807,
+      "teacher_forced_mae_6k": 0.0033223743084818125,
+      "autoregressive_over_teacher_ratio_6k": 17.045685097763485,
+      "checks_6k": {
+        "fixed_batch_64": true,
+        "scratch_seed_and_revision_exact": true,
+        "steps_exact_6000": true,
+        "step_2000_reproduction_le_1e_6": true,
+        "normalized_mae_le_1e_3": false,
+        "loss_decrease_ge_100x": false,
+        "teacher_forced_eval_finite": true,
+        "gradients_finite": true,
+        "strict_reload_max_error_le_1e_6": true,
+        "shared_input_revision": true,
+        "zero_affordance": true,
+        "zero_outcome_or_heldout_reads": true,
+        "resource_pilot_reused_exactly": true
+      }
+    }
+  },
+  "motion_structure": {
+    "valid_scalar_count": 16200,
+    "fraction_valid_scalars_with_normalized_delta_le_1e_3": 0.3367901146411896,
+    "fraction_valid_scalars_with_normalized_delta_le_1e_2": 0.6933950781822205,
+    "mean_normalized_abs_delta_from_last_command": 0.010377982631325722,
+    "p95_normalized_abs_delta_from_last_command": 0.042733293026685715,
+    "endpoint_rows": 56,
+    "fraction_endpoint_rows_mean_delta_gt_1e_2": 0.7142857313156128
+  },
+  "source_hashes": {
+    "O-MLP-ABS": {
+      "summary_2k_sha256": "7b334929f747fbe0d821b4cc739e127608089cf565704c4c3f9521fbadab2190",
+      "summary_6k_sha256": "872429a8bd6850108e50ca2f81425cc165e2019792a0f08f1499826a6bbfa941",
+      "history_6k_sha256": "a29410cdd157d59e27f2b352500aa441cbaddf8477fb9f800c0f60e1aa499ab8",
+      "checkpoint_6k_sha256": "eed071b4664560e82c91cc8b01a89e1fa9722b1cc4a5909dc0069214deec20d1"
+    },
+    "O-PAR-ABS": {
+      "summary_2k_sha256": "0da7904b6d395d76642a48d842d884d5f76718169e4115b33c050f8cfa088563",
+      "summary_6k_sha256": "6393160ee041be3f09c9ac4b67e0585a6858d07d6ab51aaeb1644f0aabec4b39",
+      "history_6k_sha256": "1f5ff0e885f6e1d1053689617a1e05d34535cede732904ea529edc47a558da0c",
+      "checkpoint_6k_sha256": "27b7390345b78e48143b5a13071c5aff307478a75bda9230d3c80e863ece252a"
+    },
+    "O-CAUSAL-ABS": {
+      "summary_2k_sha256": "8dbea838edcb17c179188be042d6d5917fd1b62c288d90087e5ccebf226f5264",
+      "summary_6k_sha256": "da8043fc511bf4f15ab53ac0c1b25fcad86048fd633a33240a52c30f4a31c25d",
+      "history_6k_sha256": "f1a271f914d576ab701e5a8dc5e063a4abdbb1b6b7b26b9ce419564eb80a43e9",
+      "checkpoint_6k_sha256": "1265cb816f0a57c0f314555be5be720dbe06369a364fc5f44a0546bc03acd57d"
+    }
+  },
+  "interpretation": {
+    "budget_only_rescue_supported": false,
+    "reason": "No ABS arm beats repeat-last at 6k; PAR is nearly flat and causal retains a large TF/AR gap.",
+    "start_delta_fixed_sanity_supported": true,
+    "start_delta_rationale": "Start-delta is already preregistered in O200 and makes repeat-last the zero-residual reconstruction baseline. It directly tests the observed ABS-vs-repeat failure without changing encoder, data, optimizer, loss, seed, batch, horizon, or executor.",
+    "minimum_next_test": "One O-MLP start-delta fixed64 scratch 6k run with absolute-command reconstruction metrics and unchanged gates; other decoders remain blocked until that single-variable test is terminal.",
+    "requires_new_planning_revision": true
+  }
+}

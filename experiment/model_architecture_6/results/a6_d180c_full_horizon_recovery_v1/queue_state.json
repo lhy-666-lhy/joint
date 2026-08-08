@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d180c_full_horizon_recovery_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "full-horizon TRAIN-only recovery state generation",
+  "checks": {
+    "targets_16": true,
+    "snapshots_8_each": true,
+    "full_horizon_spread": true,
+    "correct_start_command": true,
+    "train_only": true,
+    "model_input_oracle_fields_empty": true,
+    "common_shapes": true,
+    "finite": true,
+    "zero_contact": true,
+    "zero_affordance": true,
+    "alignment_changes_labels": true,
+    "prefix_exact": true
+  },
+  "metrics": {
+    "rows": 128,
+    "total_policy_calls": 4798,
+    "alignment_changed_rows": 112,
+    "alignment_offset_abs_median": 50.5,
+    "alignment_offset_abs_max": 5135,
+    "time_state_deviation_mean": 0.3205370475093332,
+    "progress_state_deviation_mean": 0.30098085958888987,
+    "wall_seconds": 148.33756658528
+  },
+  "decision": "authorize matched time/progress recovery training",
+  "next_run_ids": [
+    "A6-O181C",
+    "A6-O182C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-D180C",
+      "status": "passed"
+    }
+  ]
+}

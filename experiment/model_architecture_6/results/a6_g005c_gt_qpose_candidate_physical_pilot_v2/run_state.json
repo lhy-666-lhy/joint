@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "run_id": "a6_g005c_gt_qpose_candidate_physical_pilot_v2",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "scientific_scope": "GT-QPOSE K4 candidate physical ceiling",
+  "groups": 8,
+  "candidates": 31,
+  "candidate_strict_grasp_success": 8,
+  "candidate_task_success": 7,
+  "route_level_strict_grasp_success": 1,
+  "route_level_task_success": 3,
+  "route_level_mean_progress": 0.15465456248113205,
+  "route_level_mean_contact_fraction": 0.4140182689789917,
+  "route_level_selection": "minimum (joint_space_length, candidate_index); no outcome read",
+  "selector_input_fields": [
+    "group_index",
+    "joint_space_length",
+    "candidate_index"
+  ],
+  "selected": {
+    "531": {
+      "group_id": "b3727191c5b0ce7336370e5e7e0ee2a6a30251b620f468cb4a2d18935d5c422b",
+      "candidate_index": 2,
+      "planner_success": true,
+      "joint_space_length": 2.397697925567627,
+      "selection_key": [
+        2.397697925567627,
+        2
+      ],
+      "strict_grasp_pass": false,
+      "task_success": false,
+      "progress": -0.00033304001249573307,
+      "contact_fraction": 0.004615384615384616
+    },
+    "534": {
+      "group_id": "4004301f61586a46919be53b3d0cba54c0c77df68f44d3fd352ed663adbb1ca1",
+      "candidate_index": 0,
+      "planner_success": true,
+      "joint_space_length": 1.5425188541412354,
+      "selection_key": [
+        1.5425188541412354,
+        0
+      ],
+      "strict_grasp_pass": false,
+      "task_success": false,
+      "progress": 0.0004419606588703854,
+      "contact_fraction": 0.0015384615384615385
+    },
+    "537": {
+      "group_id": "58d270bb81d4ebb6324ee5822e77e074d8021cd0372eba4f971cf50561d81931",
+      "candidate_index": 3,
+      "planner_success": true,
+      "joint_space_length": 1.4591186046600342,
+      "selection_key": [
+        1.4591186046600342,
+        3
+      ],
+      "strict_grasp_pass": false,
+      "task_success": false,
+      "progress": -0.01265982167894393,
+      "contact_fraction": 0.0
+    },
+    "540": {
+      "group_id": "31002e24bed789196f241c5ae4d7cd0918e0215eb10ff6cf17e7dfa9a4673062",
+      "candidate_index": 1,
+      "planner_success": true,
+      "joint_space_length": 1.9721959829330444,
+      "selection_key": [
+        1.9721959829330444,
+        1
+      ],
+      "strict_grasp_pass": true,
+      "task_success": false,
+      "progress": 0.030016470241815252,
+      "contact_fraction": 0.3384615384615385
+    },
+    "543": {
+      "group_id": "8f7d3ee44649a84a3c8d4ded45d393ed85267807bcd78c539aaab7f9086e16f7",
+      "candidate_index": 0,
+      "planner_success": true,
+      "joint_space_length": 2.4946866035461426,
+      "selection_key": [
+        2.4946866035461426,
+        0
+      ],
+      "strict_grasp_pass": false,
+      "task_success": true,
+      "progress": 0.403779276371834,
+      "contact_fraction": 0.9850746268656716
+    },
+    "546": {
+      "group_id": "acc679b2955518c2af7ee0dd68ec3ea869c8fada6795437dc937283b88bdebe5",
+      "candidate_index": 3,
+      "planner_success": true,
+      "joint_space_length": 2.4771082401275635,
+      "selection_key": [
+        2.4771082401275635,
+        3
+      ],
+      "strict_grasp_pass": false,
+      "task_success": true,
+      "progress": 0.4035583577038271,
+      "contact_fraction": 1.0
+    },
+    "549": {
+      "group_id": "e956c156b7d9fc0964409160c9431c55c989c76b883a04eb8fd629c63b83ee81",
+      "candidate_index": 0,
+      "planner_success": true,
+      "joint_space_length": 3.6014456748962402,
+      "selection_key": [
+        3.6014456748962402,
+        0
+      ],
+      "strict_grasp_pass": false,
+      "task_success": false,
+      "progress": -2.5480399444629744e-05,
+      "contact_fraction": 0.0
+    },
+    "552": {
+      "group_id": "6dc7084a9d8597848acc24e0afa24244ffb1e0f778f4e4ac7630fd97d709ef3a",
+      "candidate_index": 1,
+      "planner_success": true,
+      "joint_space_length": 2.690312623977661,
+      "selection_key": [
+        2.690312623977661,
+        1
+      ],
+      "strict_grasp_pass": false,
+      "task_success": true,
+      "progress": 0.41245877696359395,
+      "contact_fraction": 0.9824561403508771
+    }
+  },
+  "checks": {
+    "fresh_world_each": true,
+    "l64_each": true,
+    "fixed_stage_ticks": true,
+    "fixed_operation_budget": true,
+    "qpose_consumer_forbidden_reads_absent": true,
+    "all_groups_selected": true,
+    "selector_outcome_invariant": true
+  },
+  "file_read_string_literals": [
+    "planned_paths.npz",
+    "qpose_teacher_manifest.json"
+  ],
+  "forbidden_read_hits": [],
+  "completed_at": "2026-08-06T21:19:16+00:00"
+}

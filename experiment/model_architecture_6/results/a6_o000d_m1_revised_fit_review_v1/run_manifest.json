@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o000d_m1_revised_fit_review_v1",
+  "depends_on": [
+    "A6-O000C",
+    "A6-O010S",
+    "A6-O020S",
+    "A6-O030S"
+  ],
+  "mode": "CPU-only artifact review; zero optimization",
+  "source_hashes": {
+    "O-MLP-ABS": {
+      "summary_2k_sha256": "7b334929f747fbe0d821b4cc739e127608089cf565704c4c3f9521fbadab2190",
+      "summary_6k_sha256": "872429a8bd6850108e50ca2f81425cc165e2019792a0f08f1499826a6bbfa941",
+      "history_6k_sha256": "a29410cdd157d59e27f2b352500aa441cbaddf8477fb9f800c0f60e1aa499ab8",
+      "checkpoint_6k_sha256": "eed071b4664560e82c91cc8b01a89e1fa9722b1cc4a5909dc0069214deec20d1"
+    },
+    "O-PAR-ABS": {
+      "summary_2k_sha256": "0da7904b6d395d76642a48d842d884d5f76718169e4115b33c050f8cfa088563",
+      "summary_6k_sha256": "6393160ee041be3f09c9ac4b67e0585a6858d07d6ab51aaeb1644f0aabec4b39",
+      "history_6k_sha256": "1f5ff0e885f6e1d1053689617a1e05d34535cede732904ea529edc47a558da0c",
+      "checkpoint_6k_sha256": "27b7390345b78e48143b5a13071c5aff307478a75bda9230d3c80e863ece252a"
+    },
+    "O-CAUSAL-ABS": {
+      "summary_2k_sha256": "8dbea838edcb17c179188be042d6d5917fd1b62c288d90087e5ccebf226f5264",
+      "summary_6k_sha256": "da8043fc511bf4f15ab53ac0c1b25fcad86048fd633a33240a52c30f4a31c25d",
+      "history_6k_sha256": "f1a271f914d576ab701e5a8dc5e063a4abdbb1b6b7b26b9ce419564eb80a43e9",
+      "checkpoint_6k_sha256": "1265cb816f0a57c0f314555be5be720dbe06369a364fc5f44a0546bc03acd57d"
+    }
+  }
+}

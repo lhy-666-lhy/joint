@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o120c_causal_command_delta_dyn64_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "metrics": {
+    "fixed_normalized_delta_mae": 0.004174090921878815,
+    "dyn_normalized_delta_mae": 0.05082444101572037,
+    "dyn_raw_mae": 0.0012365952134132385,
+    "repeat_last_raw_mae": 0.010510670952498913,
+    "relative_to_repeat_last": 0.11765140579529206,
+    "dyn_autoregressive_normalized_delta_mae": 0.46414434909820557,
+    "dyn_autoregressive_raw_mae": 0.010857811197638512,
+    "dyn_autoregressive_relative_to_repeat_last": 1.03302741059143,
+    "wall_seconds": 30.232643545605242
+  },
+  "checks": {
+    "fixed_shape": true,
+    "dyn_shape": true,
+    "finite": true,
+    "steps_exact": true
+  },
+  "evidence": {
+    "checkpoint": "last.pt",
+    "history": "history.json",
+    "input": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/experiment/model_architecture_6/results/a6_d040c_dyn64_command_delta_input_v1/full/dyn64_input.npz"
+  },
+  "decision": "matched decoder screen valid",
+  "jobs": [
+    {
+      "id": "o120c_causal",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o184c_recovery_alignment_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "corrected live8 full-horizon recovery alignment comparison",
+  "metrics": {
+    "baseline_mlp": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.22941501518818197,
+        "ci95": [
+          0.13609077075367115,
+          0.32167160147820467
+        ]
+      },
+      "progress_median": 0.2209164671682302,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.82484882867324,
+        "ci95": [
+          0.6248273955355929,
+          0.990506329113924
+        ]
+      },
+      "per_target_progress": [
+        0.07805439414155571,
+        0.010033433775056833,
+        0.24140236681226354,
+        0.30422860794297857,
+        0.41312612437242896,
+        0.20043056752419688,
+        0.183459767720451,
+        0.4045848592165242
+      ],
+      "per_target_contact": [
+        0.27741935483870966,
+        0.9672131147540983,
+        1.0,
+        1.0,
+        1.0,
+        0.9240506329113924,
+        0.43010752688172044,
+        1.0
+      ]
+    },
+    "time_aligned": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.25648643039668256,
+        "ci95": [
+          0.17710456014131992,
+          0.3331933429183652
+        ]
+      },
+      "progress_median": 0.25347411870640774,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6323091284996614,
+        "ci95": [
+          0.4094954507857733,
+          0.8620014972097454
+        ]
+      },
+      "per_target_progress": [
+        0.0622402040064249,
+        0.31440483061321056,
+        0.2150415560081188,
+        0.29190668140469667,
+        0.41081550938600775,
+        0.19461819053874632,
+        0.15675226790733254,
+        0.406112203308923
+      ],
+      "per_target_contact": [
+        0.18064516129032257,
+        0.7295081967213115,
+        1.0,
+        0.2523076923076923,
+        1.0,
+        0.5949367088607594,
+        0.3010752688172043,
+        1.0
+      ]
+    },
+    "progress_aligned": {
+      "targets": 8,
+      "task_success": 1,
+      "progress": {
+        "mean": 0.09906354220056512,
+        "ci95": [
+          0.010195837641374647,
+          0.2040357721079218
+        ]
+      },
+      "progress_median": 0.07832500240005252,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction": {
+        "mean": 0.7697958032714558,
+        "ci95": [
+          0.5543482426107987,
+          0.9604982337356491
+        ]
+      },
+      "per_target_progress": [
+        0.06327169913946645,
+        0.12895430945081865,
+        0.0845313864259101,
+        0.13929734051413867,
+        0.404145146828193,
+        0.026551799963496433,
+        0.07211861837419493,
+        -0.12636196309169723
+      ],
+      "per_target_contact": [
+        0.2903225806451613,
+        0.8852459016393442,
+        1.0,
+        0.28615384615384615,
+        1.0,
+        0.9873417721518988,
+        1.0,
+        0.7093023255813954
+      ]
+    },
+    "repeat_last": {
+      "targets": 8,
+      "task_success": 0,
+      "progress": {
+        "mean": 0.00033741702706057547,
+        "ci95": [
+          -0.0012565289432671478,
+          0.0015182966470286964
+        ]
+      },
+      "progress_median": 0.0005097834868038852,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "per_target_progress": [
+        0.00045857888513050693,
+        -0.00464382651471773,
+        0.0004618251251537267,
+        2.4446384724054673e-05,
+        0.0014656162594925397,
+        0.0028496497061690647,
+        0.0015253045220783963,
+        0.0005577418484540436
+      ],
+      "per_target_contact": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "pairwise": {
+    "time_aligned_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.027071415208500607,
+        "ci95": [
+          -0.01795539439349195,
+          0.10854865689986805
+        ]
+      },
+      "contact": {
+        "mean": -0.19253970017357883,
+        "ci95": [
+          -0.3739432107296542,
+          -0.053236014699877515
+        ]
+      },
+      "task_success_delta": 0
+    },
+    "progress_aligned_minus_baseline_mlp": {
+      "progress": {
+        "mean": -0.13035147298761685,
+        "ci95": [
+          -0.26588635458452664,
+          -0.01755441771102258
+        ]
+      },
+      "contact": {
+        "mean": -0.055053025401784375,
+        "ci95": [
+          -0.2880251041164085,
+          0.17503795888274826
+        ]
+      },
+      "task_success_delta": -1
+    },
+    "progress_aligned_minus_time_aligned": {
+      "progress": {
+        "mean": -0.15742288819611744,
+        "ci95": [
+          -0.2796731716671144,
+          -0.06579501099532589
+        ]
+      },
+      "contact": {
+        "mean": 0.1374866747717945,
+        "ci95": [
+          -0.04102429453517223,
+          0.3375705081333625
+        ]
+      },
+      "task_success_delta": -1
+    }
+  },
+  "outcome_repeatability_diagnostic": {
+    "baseline_max_abs_progress_drift_vs_o171c": 0.0,
+    "validity_gate": false
+  },
+  "checks": {
+    "four_arms": true,
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "correct_start_command_lineage": true,
+    "calls_and_prefix_match": true
+  },
+  "decision": "recovery alignment live screen complete; select from paired evidence",
+  "next_run_ids": []
+}

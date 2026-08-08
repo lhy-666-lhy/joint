@@ -1,0 +1,5154 @@
+{
+  "schema_version": 1,
+  "run_id": "A6-G051C",
+  "status": "passed",
+  "complete": true,
+  "terminal": true,
+  "elapsed_seconds": 70.19299030303955,
+  "results": {
+    "labels": {
+      "train": 1991,
+      "cal": 382,
+      "groups": 632
+    },
+    "qpose_standardized_train_nn": {
+      "mean": 0.2085775102214132,
+      "median": 0.1830235010852015,
+      "p90": 0.3516008024916657,
+      "max": 0.7871685784416653
+    },
+    "relative_se3_standardized_train_nn": {
+      "mean": 0.16340801852420622,
+      "median": 0.10937064910855593,
+      "p90": 0.3377025000536803,
+      "max": 0.9009062838328795
+    },
+    "relative_se3_train_nn_translation_m": {
+      "mean": 0.16690232135875005,
+      "median": 0.12863309958876096,
+      "p90": 0.36571433862103103,
+      "max": 1.3312096463543297
+    },
+    "relative_se3_train_nn_rotation_rad": {
+      "mean": 0.09499399974455232,
+      "median": 0.024001675497044326,
+      "p90": 0.2211131690991406,
+      "max": 1.277487373382411
+    },
+    "qpose_train_nn_l2": {
+      "mean": 0.4496361881940818,
+      "median": 0.3886977746184553,
+      "p90": 0.7541524858975172,
+      "max": 1.897905831710123
+    },
+    "cal_group_count": 101,
+    "base_se3_standardized_train_nn": {
+      "mean": 0.22591226604520295,
+      "median": 0.19935861764846824,
+      "p90": 0.41497435460794324,
+      "max": 0.8213701802045775
+    },
+    "base_se3_train_nn_translation_m": {
+      "mean": 0.08945981575618323,
+      "median": 0.07355384639966758,
+      "p90": 0.1634686003854215,
+      "max": 0.42143734882882217
+    },
+    "base_se3_train_nn_rotation_rad": {
+      "mean": 0.18192723089652676,
+      "median": 0.12532247339032496,
+      "p90": 0.37833627511354895,
+      "max": 1.576394637858599
+    },
+    "target_centroid_relative_standardized_train_nn": {
+      "mean": 0.2558048992595403,
+      "median": 0.20402674991747627,
+      "p90": 0.5231373962064731,
+      "max": 0.8741393320256513
+    },
+    "target_centroid_relative_train_nn_translation_m": {
+      "mean": 0.11220904089730487,
+      "median": 0.09577745533225279,
+      "p90": 0.19517859796998538,
+      "max": 0.4688188161162058
+    },
+    "target_centroid_relative_train_nn_rotation_rad": {
+      "mean": 0.2148297779857056,
+      "median": 0.14961432363075644,
+      "p90": 0.49577067259504476,
+      "max": 1.4554195980432527
+    }
+  },
+  "ik_roundtrip": {
+    "attempted": 632,
+    "success": 632,
+    "rate": 1.0,
+    "rows": [
+      {
+        "group_index": 0,
+        "success": true,
+        "position_error": 1.05106781914375e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.10672773903904853,
+        "fk_position_error": 1.05106781914375e-05
+      },
+      {
+        "group_index": 1,
+        "success": true,
+        "position_error": 8.733097708796961e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.058117881913192816,
+        "fk_position_error": 8.733097708796961e-06
+      },
+      {
+        "group_index": 2,
+        "success": true,
+        "position_error": 6.326154013628257e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.11157990986895222,
+        "fk_position_error": 6.326154013628257e-06
+      },
+      {
+        "group_index": 3,
+        "success": true,
+        "position_error": 1.7356648767246012e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.059449325521159,
+        "fk_position_error": 1.7356648767246012e-05
+      },
+      {
+        "group_index": 4,
+        "success": true,
+        "position_error": 1.766966298039737e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.272240483811491,
+        "fk_position_error": 1.766966298039737e-05
+      },
+      {
+        "group_index": 5,
+        "success": true,
+        "position_error": 1.796959146740224e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.241030200746124,
+        "fk_position_error": 1.796959146740224e-05
+      },
+      {
+        "group_index": 6,
+        "success": true,
+        "position_error": 3.322033008203201e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.7923260761835333,
+        "fk_position_error": 3.322033008203201e-05
+      },
+      {
+        "group_index": 7,
+        "success": true,
+        "position_error": 1.796292189453507e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.404973341102732,
+        "fk_position_error": 1.796292189453507e-05
+      },
+      {
+        "group_index": 8,
+        "success": true,
+        "position_error": 9.264355897809455e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.725700790557667,
+        "fk_position_error": 9.264355897809455e-06
+      },
+      {
+        "group_index": 9,
+        "success": true,
+        "position_error": 1.9741699264556462e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.4892768271079966,
+        "fk_position_error": 1.9741699264556462e-05
+      },
+      {
+        "group_index": 10,
+        "success": true,
+        "position_error": 2.096499652305632e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.1711443167157567,
+        "fk_position_error": 2.096499652305632e-05
+      },
+      {
+        "group_index": 11,
+        "success": true,
+        "position_error": 1.950415717403507e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3696323986813084,
+        "fk_position_error": 1.950415717403507e-05
+      },
+      {
+        "group_index": 12,
+        "success": true,
+        "position_error": 1.9065405733359116e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.02870995886709,
+        "fk_position_error": 1.9065405733359116e-05
+      },
+      {
+        "group_index": 13,
+        "success": true,
+        "position_error": 1.6245424904883825e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1913743459447218,
+        "fk_position_error": 1.6245424904883825e-05
+      },
+      {
+        "group_index": 14,
+        "success": true,
+        "position_error": 1.2616643030170927e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3894345163175332,
+        "fk_position_error": 1.2616643030170927e-05
+      },
+      {
+        "group_index": 15,
+        "success": true,
+        "position_error": 1.146307353345307e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3782469938675614,
+        "fk_position_error": 1.146307353345307e-05
+      },
+      {
+        "group_index": 16,
+        "success": true,
+        "position_error": 1.225441815559699e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.389439945420261,
+        "fk_position_error": 1.225441815559699e-05
+      },
+      {
+        "group_index": 17,
+        "success": true,
+        "position_error": 1.879032029669427e-05,
+        "rotation_error": 0.0002831843608832594,
+        "qpose_l2_to_teacher": 4.796194827644533,
+        "fk_position_error": 1.879032029669427e-05
+      },
+      {
+        "group_index": 18,
+        "success": true,
+        "position_error": 1.9620093596399137e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.5245114358022125,
+        "fk_position_error": 1.9620093596399137e-05
+      },
+      {
+        "group_index": 19,
+        "success": true,
+        "position_error": 3.489242710944894e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.033258538880854956,
+        "fk_position_error": 3.489242710944894e-05
+      },
+      {
+        "group_index": 20,
+        "success": true,
+        "position_error": 1.2491744594283698e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7618680933621405,
+        "fk_position_error": 1.2491744594283698e-05
+      },
+      {
+        "group_index": 21,
+        "success": true,
+        "position_error": 1.1763693135951666e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.9067685385569317,
+        "fk_position_error": 1.1763693135951666e-05
+      },
+      {
+        "group_index": 22,
+        "success": true,
+        "position_error": 2.9372362160914975e-05,
+        "rotation_error": 0.00036629948634201603,
+        "qpose_l2_to_teacher": 0.26842808170607535,
+        "fk_position_error": 2.9372362160914975e-05
+      },
+      {
+        "group_index": 23,
+        "success": true,
+        "position_error": 2.7798638377447587e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.14245733148168846,
+        "fk_position_error": 2.7798638377447587e-05
+      },
+      {
+        "group_index": 24,
+        "success": true,
+        "position_error": 1.000405188591296e-05,
+        "rotation_error": 0.0001856763233774223,
+        "qpose_l2_to_teacher": 2.1506449983390072,
+        "fk_position_error": 1.000405188591296e-05
+      },
+      {
+        "group_index": 25,
+        "success": true,
+        "position_error": 1.578233638534685e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.43538216269015,
+        "fk_position_error": 1.578233638534685e-05
+      },
+      {
+        "group_index": 26,
+        "success": true,
+        "position_error": 1.6578162937594975e-05,
+        "rotation_error": 0.00022897794427155982,
+        "qpose_l2_to_teacher": 0.8427266049934186,
+        "fk_position_error": 1.6578162937594975e-05
+      },
+      {
+        "group_index": 27,
+        "success": true,
+        "position_error": 9.466178976285266e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.004885735302726716,
+        "fk_position_error": 9.466178976285266e-06
+      },
+      {
+        "group_index": 28,
+        "success": true,
+        "position_error": 5.7574093986991585e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3132459998211147,
+        "fk_position_error": 5.7574093986991585e-06
+      },
+      {
+        "group_index": 29,
+        "success": true,
+        "position_error": 4.090027560637597e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.08197474087395233,
+        "fk_position_error": 4.090027560637597e-05
+      },
+      {
+        "group_index": 30,
+        "success": true,
+        "position_error": 1.3857406774331302e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5141717210315954,
+        "fk_position_error": 1.3857406774331302e-05
+      },
+      {
+        "group_index": 31,
+        "success": true,
+        "position_error": 2.3401716068479727e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.49876435241227,
+        "fk_position_error": 2.3401716068479727e-05
+      },
+      {
+        "group_index": 32,
+        "success": true,
+        "position_error": 1.677010319133639e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.13578433323337288,
+        "fk_position_error": 1.677010319133639e-05
+      },
+      {
+        "group_index": 33,
+        "success": true,
+        "position_error": 2.0028047548598924e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.08681495185776365,
+        "fk_position_error": 2.0028047548598924e-05
+      },
+      {
+        "group_index": 34,
+        "success": true,
+        "position_error": 1.8969505258598873e-05,
+        "rotation_error": 0.00026995146291945515,
+        "qpose_l2_to_teacher": 0.3339192509385463,
+        "fk_position_error": 1.8969505258598873e-05
+      },
+      {
+        "group_index": 35,
+        "success": true,
+        "position_error": 1.6240652378783333e-05,
+        "rotation_error": 0.00041564719287657,
+        "qpose_l2_to_teacher": 0.9245610890492426,
+        "fk_position_error": 1.6240652378783333e-05
+      },
+      {
+        "group_index": 36,
+        "success": true,
+        "position_error": 2.263077759968109e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.07763749220614406,
+        "fk_position_error": 2.263077759968109e-05
+      },
+      {
+        "group_index": 37,
+        "success": true,
+        "position_error": 2.170024990144819e-05,
+        "rotation_error": 0.0003898363191610058,
+        "qpose_l2_to_teacher": 1.4510166535126996,
+        "fk_position_error": 2.170024990144819e-05
+      },
+      {
+        "group_index": 38,
+        "success": true,
+        "position_error": 2.088481642783637e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8910708852247338,
+        "fk_position_error": 2.088481642783637e-05
+      },
+      {
+        "group_index": 39,
+        "success": true,
+        "position_error": 4.977841670441969e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.45802547355600276,
+        "fk_position_error": 4.977841670441969e-05
+      },
+      {
+        "group_index": 40,
+        "success": true,
+        "position_error": 1.8498655808636032e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6664443745905443,
+        "fk_position_error": 1.8498655808636032e-05
+      },
+      {
+        "group_index": 41,
+        "success": true,
+        "position_error": 1.737056805995168e-05,
+        "rotation_error": 0.0002613643444407167,
+        "qpose_l2_to_teacher": 0.4113223553102236,
+        "fk_position_error": 1.737056805995168e-05
+      },
+      {
+        "group_index": 42,
+        "success": true,
+        "position_error": 1.602612104126792e-05,
+        "rotation_error": 0.0003951207056030882,
+        "qpose_l2_to_teacher": 0.27907283259139726,
+        "fk_position_error": 1.602612104126792e-05
+      },
+      {
+        "group_index": 43,
+        "success": true,
+        "position_error": 9.387261468282164e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.392287799797974,
+        "fk_position_error": 9.387261468282164e-06
+      },
+      {
+        "group_index": 44,
+        "success": true,
+        "position_error": 1.912234274120187e-05,
+        "rotation_error": 0.0002845885850195688,
+        "qpose_l2_to_teacher": 0.34925227745300375,
+        "fk_position_error": 1.912234274120187e-05
+      },
+      {
+        "group_index": 45,
+        "success": true,
+        "position_error": 1.8144557681823448e-05,
+        "rotation_error": 0.0005846037445519079,
+        "qpose_l2_to_teacher": 0.053407716486597034,
+        "fk_position_error": 1.8144557681823448e-05
+      },
+      {
+        "group_index": 46,
+        "success": true,
+        "position_error": 1.8005012138963325e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06778312517737274,
+        "fk_position_error": 1.8005012138963325e-05
+      },
+      {
+        "group_index": 47,
+        "success": true,
+        "position_error": 1.0668783990704926e-05,
+        "rotation_error": 5.4620287159553517e-05,
+        "qpose_l2_to_teacher": 0.1664763378145837,
+        "fk_position_error": 1.0668783990704926e-05
+      },
+      {
+        "group_index": 48,
+        "success": true,
+        "position_error": 9.942461354827416e-06,
+        "rotation_error": 0.0002432476522435727,
+        "qpose_l2_to_teacher": 0.08669480300460666,
+        "fk_position_error": 9.942461354827416e-06
+      },
+      {
+        "group_index": 49,
+        "success": true,
+        "position_error": 2.37607692354109e-05,
+        "rotation_error": 0.00034668507651624414,
+        "qpose_l2_to_teacher": 0.0003605987102831068,
+        "fk_position_error": 2.37607692354109e-05
+      },
+      {
+        "group_index": 50,
+        "success": true,
+        "position_error": 2.5025293315142935e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6625766305256737,
+        "fk_position_error": 2.5025293315142935e-05
+      },
+      {
+        "group_index": 51,
+        "success": true,
+        "position_error": 2.413459390869836e-05,
+        "rotation_error": 0.0002772701151845492,
+        "qpose_l2_to_teacher": 0.5673751325397127,
+        "fk_position_error": 2.413459390869836e-05
+      },
+      {
+        "group_index": 52,
+        "success": true,
+        "position_error": 1.909216350683278e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.1766623409611037,
+        "fk_position_error": 1.909216350683278e-05
+      },
+      {
+        "group_index": 53,
+        "success": true,
+        "position_error": 1.893104440281623e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.21131627627366328,
+        "fk_position_error": 1.893104440281623e-05
+      },
+      {
+        "group_index": 54,
+        "success": true,
+        "position_error": 1.8870048552407094e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.16735216102470055,
+        "fk_position_error": 1.8870048552407094e-05
+      },
+      {
+        "group_index": 55,
+        "success": true,
+        "position_error": 2.481472418710129e-05,
+        "rotation_error": 0.0003359217324683688,
+        "qpose_l2_to_teacher": 2.507248419708495,
+        "fk_position_error": 2.481472418710129e-05
+      },
+      {
+        "group_index": 56,
+        "success": true,
+        "position_error": 2.726999591000913e-05,
+        "rotation_error": 0.00022377836618473382,
+        "qpose_l2_to_teacher": 7.363598834979113,
+        "fk_position_error": 2.726999591000913e-05
+      },
+      {
+        "group_index": 57,
+        "success": true,
+        "position_error": 2.3101091812198775e-05,
+        "rotation_error": 0.0005314726959814277,
+        "qpose_l2_to_teacher": 1.1176361270892172,
+        "fk_position_error": 2.3101091812198775e-05
+      },
+      {
+        "group_index": 58,
+        "success": true,
+        "position_error": 1.1237026836458216e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.0677141047988674,
+        "fk_position_error": 1.1237026836458216e-05
+      },
+      {
+        "group_index": 59,
+        "success": true,
+        "position_error": 1.173651638811066e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.943596251802363,
+        "fk_position_error": 1.173651638811066e-05
+      },
+      {
+        "group_index": 60,
+        "success": true,
+        "position_error": 7.2288910805670735e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.5547894907318163,
+        "fk_position_error": 7.2288910805670735e-06
+      },
+      {
+        "group_index": 61,
+        "success": true,
+        "position_error": 3.641095011721662e-05,
+        "rotation_error": 0.00015662215649061596,
+        "qpose_l2_to_teacher": 0.3525829251289175,
+        "fk_position_error": 3.641095011721662e-05
+      },
+      {
+        "group_index": 62,
+        "success": true,
+        "position_error": 3.261987743706718e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.14120762265778353,
+        "fk_position_error": 3.261987743706718e-05
+      },
+      {
+        "group_index": 63,
+        "success": true,
+        "position_error": 2.7695081956230944e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.03943166250129415,
+        "fk_position_error": 2.7695081956230944e-05
+      },
+      {
+        "group_index": 64,
+        "success": true,
+        "position_error": 1.4615152573198968e-05,
+        "rotation_error": 5.596517886906703e-05,
+        "qpose_l2_to_teacher": 0.4371195029242369,
+        "fk_position_error": 1.4615152573198968e-05
+      },
+      {
+        "group_index": 65,
+        "success": true,
+        "position_error": 1.2136007629571705e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4356173904270247,
+        "fk_position_error": 1.2136007629571705e-05
+      },
+      {
+        "group_index": 66,
+        "success": true,
+        "position_error": 1.5440824252515055e-05,
+        "rotation_error": 0.000440756891081138,
+        "qpose_l2_to_teacher": 0.0012942990045487486,
+        "fk_position_error": 1.5440824252515055e-05
+      },
+      {
+        "group_index": 67,
+        "success": true,
+        "position_error": 2.3100049624888694e-05,
+        "rotation_error": 0.00024636203562582203,
+        "qpose_l2_to_teacher": 0.9589183164425981,
+        "fk_position_error": 2.3100049624888694e-05
+      },
+      {
+        "group_index": 68,
+        "success": true,
+        "position_error": 2.251476756195899e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0826745048070199,
+        "fk_position_error": 2.251476756195899e-05
+      },
+      {
+        "group_index": 69,
+        "success": true,
+        "position_error": 1.7956889007294804e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5909914938618409,
+        "fk_position_error": 1.7956889007294804e-05
+      },
+      {
+        "group_index": 70,
+        "success": true,
+        "position_error": 1.839486652827536e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9918818926138883,
+        "fk_position_error": 1.839486652827536e-05
+      },
+      {
+        "group_index": 71,
+        "success": true,
+        "position_error": 1.7957327614494087e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7913316799896177,
+        "fk_position_error": 1.7957327614494087e-05
+      },
+      {
+        "group_index": 72,
+        "success": true,
+        "position_error": 1.6512342552632375e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.477280151941806,
+        "fk_position_error": 1.6512342552632375e-05
+      },
+      {
+        "group_index": 73,
+        "success": true,
+        "position_error": 8.90331605485442e-06,
+        "rotation_error": 0.00022853694065910524,
+        "qpose_l2_to_teacher": 0.02463287904953593,
+        "fk_position_error": 8.90331605485442e-06
+      },
+      {
+        "group_index": 74,
+        "success": true,
+        "position_error": 6.603656863450462e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9381547452360663,
+        "fk_position_error": 6.603656863450462e-06
+      },
+      {
+        "group_index": 75,
+        "success": true,
+        "position_error": 5.544353480094156e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2827056202767534,
+        "fk_position_error": 5.544353480094156e-06
+      },
+      {
+        "group_index": 76,
+        "success": true,
+        "position_error": 1.1373257870325441e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.1538981260656729,
+        "fk_position_error": 1.1373257870325441e-05
+      },
+      {
+        "group_index": 77,
+        "success": true,
+        "position_error": 1.697364725531212e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.4545746986907457,
+        "fk_position_error": 1.697364725531212e-05
+      },
+      {
+        "group_index": 78,
+        "success": true,
+        "position_error": 1.4741460176958037e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3457770299354495,
+        "fk_position_error": 1.4741460176958037e-05
+      },
+      {
+        "group_index": 79,
+        "success": true,
+        "position_error": 1.818684706251375e-05,
+        "rotation_error": 0.0001668828671453471,
+        "qpose_l2_to_teacher": 0.8124079542831492,
+        "fk_position_error": 1.818684706251375e-05
+      },
+      {
+        "group_index": 80,
+        "success": true,
+        "position_error": 2.223671796713716e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.5160681662978284,
+        "fk_position_error": 2.223671796713716e-05
+      },
+      {
+        "group_index": 81,
+        "success": true,
+        "position_error": 1.3666663767870787e-05,
+        "rotation_error": 0.0004727544370084418,
+        "qpose_l2_to_teacher": 3.055049767180655,
+        "fk_position_error": 1.3666663767870787e-05
+      },
+      {
+        "group_index": 82,
+        "success": true,
+        "position_error": 1.8486522551880637e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.07018868502192356,
+        "fk_position_error": 1.8486522551880637e-05
+      },
+      {
+        "group_index": 83,
+        "success": true,
+        "position_error": 1.5341136247629655e-05,
+        "rotation_error": 0.0003029026661624566,
+        "qpose_l2_to_teacher": 0.1967381325326958,
+        "fk_position_error": 1.5341136247629655e-05
+      },
+      {
+        "group_index": 84,
+        "success": true,
+        "position_error": 1.523103924852046e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.19525437680680768,
+        "fk_position_error": 1.523103924852046e-05
+      },
+      {
+        "group_index": 85,
+        "success": true,
+        "position_error": 1.7666022894895645e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7575620229287603,
+        "fk_position_error": 1.7666022894895645e-05
+      },
+      {
+        "group_index": 86,
+        "success": true,
+        "position_error": 1.8993253271469233e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0521737989815014,
+        "fk_position_error": 1.8993253271469233e-05
+      },
+      {
+        "group_index": 87,
+        "success": true,
+        "position_error": 1.5760810034956122e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.694915971083674,
+        "fk_position_error": 1.5760810034956122e-05
+      },
+      {
+        "group_index": 88,
+        "success": true,
+        "position_error": 1.3658003570901296e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.3696920291942734,
+        "fk_position_error": 1.3658003570901296e-05
+      },
+      {
+        "group_index": 89,
+        "success": true,
+        "position_error": 1.4642051564341164e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.424780938681486,
+        "fk_position_error": 1.4642051564341164e-05
+      },
+      {
+        "group_index": 90,
+        "success": true,
+        "position_error": 8.838699984958833e-06,
+        "rotation_error": 0.0004904872184554054,
+        "qpose_l2_to_teacher": 1.5863474348734308,
+        "fk_position_error": 8.838699984958833e-06
+      },
+      {
+        "group_index": 91,
+        "success": true,
+        "position_error": 7.98616389412954e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.9536151902361947,
+        "fk_position_error": 7.98616389412954e-06
+      },
+      {
+        "group_index": 92,
+        "success": true,
+        "position_error": 2.0236918025309025e-05,
+        "rotation_error": 0.0002741330107224551,
+        "qpose_l2_to_teacher": 0.6554888349292328,
+        "fk_position_error": 2.0236918025309025e-05
+      },
+      {
+        "group_index": 93,
+        "success": true,
+        "position_error": 2.202448075545568e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.13513788061180587,
+        "fk_position_error": 2.202448075545568e-05
+      },
+      {
+        "group_index": 94,
+        "success": true,
+        "position_error": 2.134455970966575e-05,
+        "rotation_error": 0.00028916229521480956,
+        "qpose_l2_to_teacher": 0.09961899899840698,
+        "fk_position_error": 2.134455970966575e-05
+      },
+      {
+        "group_index": 95,
+        "success": true,
+        "position_error": 1.5626337986283674e-05,
+        "rotation_error": 0.0002861535807880675,
+        "qpose_l2_to_teacher": 2.369062203558304,
+        "fk_position_error": 1.5626337986283674e-05
+      },
+      {
+        "group_index": 96,
+        "success": true,
+        "position_error": 1.2966339055680346e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.341699345619601,
+        "fk_position_error": 1.2966339055680346e-05
+      },
+      {
+        "group_index": 97,
+        "success": true,
+        "position_error": 1.2005130155621897e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.526348753619232,
+        "fk_position_error": 1.2005130155621897e-05
+      },
+      {
+        "group_index": 98,
+        "success": true,
+        "position_error": 1.1842973842322278e-05,
+        "rotation_error": 0.00016394849834336942,
+        "qpose_l2_to_teacher": 2.6613922680106348,
+        "fk_position_error": 1.1842973842322278e-05
+      },
+      {
+        "group_index": 99,
+        "success": true,
+        "position_error": 1.3041676852448485e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.4353051432246584,
+        "fk_position_error": 1.3041676852448485e-05
+      },
+      {
+        "group_index": 100,
+        "success": true,
+        "position_error": 1.114336891483003e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9144630150228722,
+        "fk_position_error": 1.114336891483003e-05
+      },
+      {
+        "group_index": 101,
+        "success": true,
+        "position_error": 2.258633805544223e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.459577058777471,
+        "fk_position_error": 2.258633805544223e-05
+      },
+      {
+        "group_index": 102,
+        "success": true,
+        "position_error": 3.8656085485253097e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.20621148531185635,
+        "fk_position_error": 3.8656085485253097e-05
+      },
+      {
+        "group_index": 103,
+        "success": true,
+        "position_error": 3.759867753163406e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.19061602546925904,
+        "fk_position_error": 3.759867753163406e-05
+      },
+      {
+        "group_index": 104,
+        "success": true,
+        "position_error": 3.1877899496571547e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.15075110696965321,
+        "fk_position_error": 3.1877899496571547e-05
+      },
+      {
+        "group_index": 105,
+        "success": true,
+        "position_error": 1.5958345057967278e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.5229043017443855,
+        "fk_position_error": 1.5958345057967278e-05
+      },
+      {
+        "group_index": 106,
+        "success": true,
+        "position_error": 1.5582448643460233e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.5013344634880563,
+        "fk_position_error": 1.5582448643460233e-05
+      },
+      {
+        "group_index": 107,
+        "success": true,
+        "position_error": 1.4233487206813709e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.058807085075296,
+        "fk_position_error": 1.4233487206813709e-05
+      },
+      {
+        "group_index": 108,
+        "success": true,
+        "position_error": 1.7958669243784173e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2676965411306786,
+        "fk_position_error": 1.7958669243784173e-05
+      },
+      {
+        "group_index": 109,
+        "success": true,
+        "position_error": 1.8046358451783988e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.07578571068090362,
+        "fk_position_error": 1.8046358451783988e-05
+      },
+      {
+        "group_index": 110,
+        "success": true,
+        "position_error": 8.43122668937873e-06,
+        "rotation_error": 0.0002342380644084191,
+        "qpose_l2_to_teacher": 0.4925964248886631,
+        "fk_position_error": 8.43122668937873e-06
+      },
+      {
+        "group_index": 111,
+        "success": true,
+        "position_error": 1.4781020781704141e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2899467529126998,
+        "fk_position_error": 1.4781020781704141e-05
+      },
+      {
+        "group_index": 112,
+        "success": true,
+        "position_error": 1.3599243229563392e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4657171060058392,
+        "fk_position_error": 1.3599243229563392e-05
+      },
+      {
+        "group_index": 113,
+        "success": true,
+        "position_error": 1.3983340482094726e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.1161796438451366,
+        "fk_position_error": 1.3983340482094726e-05
+      },
+      {
+        "group_index": 114,
+        "success": true,
+        "position_error": 2.9263672674650168e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.39759701064775954,
+        "fk_position_error": 2.9263672674650168e-05
+      },
+      {
+        "group_index": 115,
+        "success": true,
+        "position_error": 2.8271677499624687e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5052245477002785,
+        "fk_position_error": 2.8271677499624687e-05
+      },
+      {
+        "group_index": 116,
+        "success": true,
+        "position_error": 2.7603294083830516e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4212538927406733,
+        "fk_position_error": 2.7603294083830516e-05
+      },
+      {
+        "group_index": 117,
+        "success": true,
+        "position_error": 4.997824010649592e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.0519597839470879,
+        "fk_position_error": 4.997824010649592e-06
+      },
+      {
+        "group_index": 118,
+        "success": true,
+        "position_error": 4.184996900154494e-06,
+        "rotation_error": 0.00031757268449637724,
+        "qpose_l2_to_teacher": 0.29584222867666915,
+        "fk_position_error": 4.184996900154494e-06
+      },
+      {
+        "group_index": 119,
+        "success": true,
+        "position_error": 3.2024065147508614e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6641893040818292,
+        "fk_position_error": 3.2024065147508614e-06
+      },
+      {
+        "group_index": 120,
+        "success": true,
+        "position_error": 1.38755017160336e-05,
+        "rotation_error": 5.3440404835701546e-05,
+        "qpose_l2_to_teacher": 0.5312299227990871,
+        "fk_position_error": 1.38755017160336e-05
+      },
+      {
+        "group_index": 121,
+        "success": true,
+        "position_error": 1.2692712978750424e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6053432652651141,
+        "fk_position_error": 1.2692712978750424e-05
+      },
+      {
+        "group_index": 122,
+        "success": true,
+        "position_error": 3.1976268213692785e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.26409041029695457,
+        "fk_position_error": 3.1976268213692785e-05
+      },
+      {
+        "group_index": 123,
+        "success": true,
+        "position_error": 3.686343901810134e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6043270267522273,
+        "fk_position_error": 3.686343901810134e-05
+      },
+      {
+        "group_index": 124,
+        "success": true,
+        "position_error": 1.7082526498530486e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.215277942825825,
+        "fk_position_error": 1.7082526498530486e-05
+      },
+      {
+        "group_index": 125,
+        "success": true,
+        "position_error": 1.4689976055991837e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.13435592125237142,
+        "fk_position_error": 1.4689976055991837e-05
+      },
+      {
+        "group_index": 126,
+        "success": true,
+        "position_error": 1.2066675136234071e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.30600999499685766,
+        "fk_position_error": 1.2066675136234071e-05
+      },
+      {
+        "group_index": 127,
+        "success": true,
+        "position_error": 1.0523409346597623e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4320175616728351,
+        "fk_position_error": 1.0523409346597623e-05
+      },
+      {
+        "group_index": 128,
+        "success": true,
+        "position_error": 7.318275598061323e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.2337074651935787,
+        "fk_position_error": 7.318275598061323e-06
+      },
+      {
+        "group_index": 129,
+        "success": true,
+        "position_error": 8.358488836394929e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.44501919023315306,
+        "fk_position_error": 8.358488836394929e-06
+      },
+      {
+        "group_index": 130,
+        "success": true,
+        "position_error": 1.3098993626080773e-05,
+        "rotation_error": 9.494068083798924e-05,
+        "qpose_l2_to_teacher": 0.4030052817498229,
+        "fk_position_error": 1.3098993626080773e-05
+      },
+      {
+        "group_index": 131,
+        "success": true,
+        "position_error": 4.5018872501219394e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.09028708454012424,
+        "fk_position_error": 4.5018872501219394e-05
+      },
+      {
+        "group_index": 132,
+        "success": true,
+        "position_error": 1.6225156534131995e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.1786097954349275,
+        "fk_position_error": 1.6225156534131995e-05
+      },
+      {
+        "group_index": 133,
+        "success": true,
+        "position_error": 6.574604288627036e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1422519888272697,
+        "fk_position_error": 6.574604288627036e-05
+      },
+      {
+        "group_index": 134,
+        "success": true,
+        "position_error": 1.702316810725374e-05,
+        "rotation_error": 0.00018012026387963183,
+        "qpose_l2_to_teacher": 0.17626942177315721,
+        "fk_position_error": 1.702316810725374e-05
+      },
+      {
+        "group_index": 135,
+        "success": true,
+        "position_error": 1.8708096530828843e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1685772691826502,
+        "fk_position_error": 1.8708096530828843e-05
+      },
+      {
+        "group_index": 136,
+        "success": true,
+        "position_error": 1.867076846869806e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1280119438462565,
+        "fk_position_error": 1.867076846869806e-05
+      },
+      {
+        "group_index": 137,
+        "success": true,
+        "position_error": 3.1967699014408985e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4488543152329713,
+        "fk_position_error": 3.1967699014408985e-06
+      },
+      {
+        "group_index": 138,
+        "success": true,
+        "position_error": 3.2761090198455473e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5906681441428435,
+        "fk_position_error": 3.2761090198455473e-06
+      },
+      {
+        "group_index": 139,
+        "success": true,
+        "position_error": 2.360014783909747e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3210541178456141,
+        "fk_position_error": 2.360014783909747e-06
+      },
+      {
+        "group_index": 140,
+        "success": true,
+        "position_error": 1.5188289896249503e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.45228123097737893,
+        "fk_position_error": 1.5188289896249503e-05
+      },
+      {
+        "group_index": 141,
+        "success": true,
+        "position_error": 1.2307225078936286e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.473172940271704,
+        "fk_position_error": 1.2307225078936286e-05
+      },
+      {
+        "group_index": 142,
+        "success": true,
+        "position_error": 1.0228974452280446e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0999950293782512,
+        "fk_position_error": 1.0228974452280446e-05
+      },
+      {
+        "group_index": 143,
+        "success": true,
+        "position_error": 2.4580395969323487e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.11896220959875758,
+        "fk_position_error": 2.4580395969323487e-05
+      },
+      {
+        "group_index": 144,
+        "success": true,
+        "position_error": 2.0889881655487772e-05,
+        "rotation_error": 0.00027107222525148025,
+        "qpose_l2_to_teacher": 0.06311589940469332,
+        "fk_position_error": 2.0889881655487772e-05
+      },
+      {
+        "group_index": 145,
+        "success": true,
+        "position_error": 1.7734917479213994e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.02352379110041224,
+        "fk_position_error": 1.7734917479213994e-05
+      },
+      {
+        "group_index": 146,
+        "success": true,
+        "position_error": 6.882147009462275e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.13718919512157726,
+        "fk_position_error": 6.882147009462275e-06
+      },
+      {
+        "group_index": 147,
+        "success": true,
+        "position_error": 5.88490738890425e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.14024343531609937,
+        "fk_position_error": 5.88490738890425e-06
+      },
+      {
+        "group_index": 148,
+        "success": true,
+        "position_error": 5.583772830205372e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.24052010483571598,
+        "fk_position_error": 5.583772830205372e-06
+      },
+      {
+        "group_index": 149,
+        "success": true,
+        "position_error": 8.94881503512431e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.6170148583806185,
+        "fk_position_error": 8.94881503512431e-06
+      },
+      {
+        "group_index": 150,
+        "success": true,
+        "position_error": 8.962069613820181e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.5550237966047926,
+        "fk_position_error": 8.962069613820181e-06
+      },
+      {
+        "group_index": 151,
+        "success": true,
+        "position_error": 3.2360279545453173e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9420663086043172,
+        "fk_position_error": 3.2360279545453173e-06
+      },
+      {
+        "group_index": 152,
+        "success": true,
+        "position_error": 1.4184751440538933e-05,
+        "rotation_error": 0.0003695090691553649,
+        "qpose_l2_to_teacher": 0.1619678528778936,
+        "fk_position_error": 1.4184751440538933e-05
+      },
+      {
+        "group_index": 153,
+        "success": true,
+        "position_error": 5.551068774145312e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.9180318109010757,
+        "fk_position_error": 5.551068774145312e-06
+      },
+      {
+        "group_index": 154,
+        "success": true,
+        "position_error": 1.795151465539536e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.939276224816452,
+        "fk_position_error": 1.795151465539536e-05
+      },
+      {
+        "group_index": 155,
+        "success": true,
+        "position_error": 1.779555513311248e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.8109747519417536,
+        "fk_position_error": 1.779555513311248e-05
+      },
+      {
+        "group_index": 156,
+        "success": true,
+        "position_error": 1.7019637448262595e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6457626314921299,
+        "fk_position_error": 1.7019637448262595e-05
+      },
+      {
+        "group_index": 157,
+        "success": true,
+        "position_error": 6.500358462194635e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.5364304124595476,
+        "fk_position_error": 6.500358462194635e-06
+      },
+      {
+        "group_index": 158,
+        "success": true,
+        "position_error": 5.5862234453707914e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.4959899404512855,
+        "fk_position_error": 5.5862234453707914e-06
+      },
+      {
+        "group_index": 159,
+        "success": true,
+        "position_error": 5.698369630129206e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.5861757605352635,
+        "fk_position_error": 5.698369630129206e-06
+      },
+      {
+        "group_index": 160,
+        "success": true,
+        "position_error": 8.533006384007273e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.814898811073673,
+        "fk_position_error": 8.533006384007273e-06
+      },
+      {
+        "group_index": 161,
+        "success": true,
+        "position_error": 1.996831204914097e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06347694764716666,
+        "fk_position_error": 1.996831204914097e-05
+      },
+      {
+        "group_index": 162,
+        "success": true,
+        "position_error": 9.215148274328266e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.1740149060013971,
+        "fk_position_error": 9.215148274328266e-06
+      },
+      {
+        "group_index": 163,
+        "success": true,
+        "position_error": 1.226589153222412e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7523112603963524,
+        "fk_position_error": 1.226589153222412e-05
+      },
+      {
+        "group_index": 164,
+        "success": true,
+        "position_error": 1.435539846322095e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.16171101072063962,
+        "fk_position_error": 1.435539846322095e-05
+      },
+      {
+        "group_index": 165,
+        "success": true,
+        "position_error": 1.3924377681492547e-05,
+        "rotation_error": 0.00019456781437645742,
+        "qpose_l2_to_teacher": 0.0460125391240157,
+        "fk_position_error": 1.3924377681492547e-05
+      },
+      {
+        "group_index": 166,
+        "success": true,
+        "position_error": 1.212645324083913e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5652282746960463,
+        "fk_position_error": 1.212645324083913e-05
+      },
+      {
+        "group_index": 167,
+        "success": true,
+        "position_error": 2.410833403452451e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.10582487074647962,
+        "fk_position_error": 2.410833403452451e-05
+      },
+      {
+        "group_index": 168,
+        "success": true,
+        "position_error": 1.1070479974944368e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.9616021191604127,
+        "fk_position_error": 1.1070479974944368e-05
+      },
+      {
+        "group_index": 169,
+        "success": true,
+        "position_error": 1.0311528409015515e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.895850305358138,
+        "fk_position_error": 1.0311528409015515e-05
+      },
+      {
+        "group_index": 170,
+        "success": true,
+        "position_error": 3.179370629788632e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.11382020036044443,
+        "fk_position_error": 3.179370629788632e-05
+      },
+      {
+        "group_index": 171,
+        "success": true,
+        "position_error": 3.150847333791326e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3056522901543993,
+        "fk_position_error": 3.150847333791326e-05
+      },
+      {
+        "group_index": 172,
+        "success": true,
+        "position_error": 3.148146031415042e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.35477192346005665,
+        "fk_position_error": 3.148146031415042e-05
+      },
+      {
+        "group_index": 173,
+        "success": true,
+        "position_error": 1.839894593541852e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.33854349884009266,
+        "fk_position_error": 1.839894593541852e-05
+      },
+      {
+        "group_index": 174,
+        "success": true,
+        "position_error": 1.9478828832649004e-05,
+        "rotation_error": 0.00014691258044213787,
+        "qpose_l2_to_teacher": 1.5099896822019248,
+        "fk_position_error": 1.9478828832649004e-05
+      },
+      {
+        "group_index": 175,
+        "success": true,
+        "position_error": 2.1981308957812908e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7786372058976238,
+        "fk_position_error": 2.1981308957812908e-05
+      },
+      {
+        "group_index": 176,
+        "success": true,
+        "position_error": 2.463414344643358e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7115489454195377,
+        "fk_position_error": 2.463414344643358e-05
+      },
+      {
+        "group_index": 177,
+        "success": true,
+        "position_error": 2.4893931827417396e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.5471348640171476,
+        "fk_position_error": 2.4893931827417396e-05
+      },
+      {
+        "group_index": 178,
+        "success": true,
+        "position_error": 3.2274802001997524e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.123980069149063,
+        "fk_position_error": 3.2274802001997524e-05
+      },
+      {
+        "group_index": 179,
+        "success": true,
+        "position_error": 2.8056097502703848e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.026227573166390503,
+        "fk_position_error": 2.8056097502703848e-05
+      },
+      {
+        "group_index": 180,
+        "success": true,
+        "position_error": 1.139709361156196e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.204186509892903,
+        "fk_position_error": 1.139709361156196e-05
+      },
+      {
+        "group_index": 181,
+        "success": true,
+        "position_error": 3.1544390587116945e-05,
+        "rotation_error": 5.274163649474584e-05,
+        "qpose_l2_to_teacher": 0.08031295929370333,
+        "fk_position_error": 3.1544390587116945e-05
+      },
+      {
+        "group_index": 182,
+        "success": true,
+        "position_error": 2.9247032313298873e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.0005430527884064287,
+        "fk_position_error": 2.9247032313298873e-05
+      },
+      {
+        "group_index": 183,
+        "success": true,
+        "position_error": 2.591853460872117e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.014178033852773813,
+        "fk_position_error": 2.591853460872117e-05
+      },
+      {
+        "group_index": 184,
+        "success": true,
+        "position_error": 1.686822001320415e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.0704638814733123,
+        "fk_position_error": 1.686822001320415e-05
+      },
+      {
+        "group_index": 185,
+        "success": true,
+        "position_error": 5.403561605184507e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.2038099449291533,
+        "fk_position_error": 5.403561605184507e-06
+      },
+      {
+        "group_index": 186,
+        "success": true,
+        "position_error": 3.6294378654902486e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.211006493345755,
+        "fk_position_error": 3.6294378654902486e-05
+      },
+      {
+        "group_index": 187,
+        "success": true,
+        "position_error": 1.7412980817160866e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.619236729865103,
+        "fk_position_error": 1.7412980817160866e-05
+      },
+      {
+        "group_index": 188,
+        "success": true,
+        "position_error": 1.7363529751279596e-05,
+        "rotation_error": 0.00019936824871976796,
+        "qpose_l2_to_teacher": 5.738422508908455,
+        "fk_position_error": 1.7363529751279596e-05
+      },
+      {
+        "group_index": 189,
+        "success": true,
+        "position_error": 1.6714294512695484e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.621444723169101,
+        "fk_position_error": 1.6714294512695484e-05
+      },
+      {
+        "group_index": 190,
+        "success": true,
+        "position_error": 2.0678793611261482e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.6034288791810853,
+        "fk_position_error": 2.0678793611261482e-05
+      },
+      {
+        "group_index": 191,
+        "success": true,
+        "position_error": 8.479860456263669e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.6146340699600477,
+        "fk_position_error": 8.479860456263669e-06
+      },
+      {
+        "group_index": 192,
+        "success": true,
+        "position_error": 2.878352093242868e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2015167960290001,
+        "fk_position_error": 2.878352093242868e-05
+      },
+      {
+        "group_index": 193,
+        "success": true,
+        "position_error": 2.8421718363901148e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2893388677863596,
+        "fk_position_error": 2.8421718363901148e-05
+      },
+      {
+        "group_index": 194,
+        "success": true,
+        "position_error": 2.8077635633686133e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4768146492556059,
+        "fk_position_error": 2.8077635633686133e-05
+      },
+      {
+        "group_index": 195,
+        "success": true,
+        "position_error": 1.0018596956364198e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.03656514489222907,
+        "fk_position_error": 1.0018596956364198e-05
+      },
+      {
+        "group_index": 196,
+        "success": true,
+        "position_error": 5.528551768258896e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3954152904457494,
+        "fk_position_error": 5.528551768258896e-06
+      },
+      {
+        "group_index": 197,
+        "success": true,
+        "position_error": 1.7656129440924147e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 7.181412041654515,
+        "fk_position_error": 1.7656129440924147e-05
+      },
+      {
+        "group_index": 198,
+        "success": true,
+        "position_error": 1.7130008604871007e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 7.167937947607169,
+        "fk_position_error": 1.7130008604871007e-05
+      },
+      {
+        "group_index": 199,
+        "success": true,
+        "position_error": 1.6583463630860595e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.8808741950186745,
+        "fk_position_error": 1.6583463630860595e-05
+      },
+      {
+        "group_index": 200,
+        "success": true,
+        "position_error": 1.57215482221364e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.1436785514484145,
+        "fk_position_error": 1.57215482221364e-05
+      },
+      {
+        "group_index": 201,
+        "success": true,
+        "position_error": 1.3723862556426477e-05,
+        "rotation_error": 0.0002773698759243038,
+        "qpose_l2_to_teacher": 1.3836269810600612,
+        "fk_position_error": 1.3723862556426477e-05
+      },
+      {
+        "group_index": 202,
+        "success": true,
+        "position_error": 1.2522123782879407e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.0598441215405905,
+        "fk_position_error": 1.2522123782879407e-05
+      },
+      {
+        "group_index": 203,
+        "success": true,
+        "position_error": 1.831839475640491e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6373745352503989,
+        "fk_position_error": 1.831839475640491e-05
+      },
+      {
+        "group_index": 204,
+        "success": true,
+        "position_error": 1.7591047263680933e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8536870343680969,
+        "fk_position_error": 1.7591047263680933e-05
+      },
+      {
+        "group_index": 205,
+        "success": true,
+        "position_error": 1.5517060835109242e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9229522974172258,
+        "fk_position_error": 1.5517060835109242e-05
+      },
+      {
+        "group_index": 206,
+        "success": true,
+        "position_error": 2.3589605479893678e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4776381176897871,
+        "fk_position_error": 2.3589605479893678e-05
+      },
+      {
+        "group_index": 207,
+        "success": true,
+        "position_error": 2.235520784692436e-05,
+        "rotation_error": 0.0004369671723540138,
+        "qpose_l2_to_teacher": 0.02247802663619389,
+        "fk_position_error": 2.235520784692436e-05
+      },
+      {
+        "group_index": 208,
+        "success": true,
+        "position_error": 2.2258742924315406e-05,
+        "rotation_error": 0.00041414939761435675,
+        "qpose_l2_to_teacher": 0.07326570377845355,
+        "fk_position_error": 2.2258742924315406e-05
+      },
+      {
+        "group_index": 209,
+        "success": true,
+        "position_error": 2.5929842488446155e-05,
+        "rotation_error": 0.00026598716060541403,
+        "qpose_l2_to_teacher": 0.26615659936026964,
+        "fk_position_error": 2.5929842488446155e-05
+      },
+      {
+        "group_index": 210,
+        "success": true,
+        "position_error": 2.8050294205810807e-05,
+        "rotation_error": 0.0003688027608692088,
+        "qpose_l2_to_teacher": 0.27902105220308365,
+        "fk_position_error": 2.8050294205810807e-05
+      },
+      {
+        "group_index": 211,
+        "success": true,
+        "position_error": 2.798908169132554e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5931141713477557,
+        "fk_position_error": 2.798908169132554e-05
+      },
+      {
+        "group_index": 212,
+        "success": true,
+        "position_error": 1.1160189683451502e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.448393555966498,
+        "fk_position_error": 1.1160189683451502e-05
+      },
+      {
+        "group_index": 213,
+        "success": true,
+        "position_error": 1.567256497884951e-05,
+        "rotation_error": 0.00021818076620616636,
+        "qpose_l2_to_teacher": 1.4905372161653114,
+        "fk_position_error": 1.567256497884951e-05
+      },
+      {
+        "group_index": 214,
+        "success": true,
+        "position_error": 1.1354802136603362e-05,
+        "rotation_error": 0.0004418393468265536,
+        "qpose_l2_to_teacher": 0.8646035587306219,
+        "fk_position_error": 1.1354802136603362e-05
+      },
+      {
+        "group_index": 215,
+        "success": true,
+        "position_error": 7.588484995315497e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3762605749674721,
+        "fk_position_error": 7.588484995315497e-06
+      },
+      {
+        "group_index": 216,
+        "success": true,
+        "position_error": 7.100372106568029e-06,
+        "rotation_error": 0.0004527597619315017,
+        "qpose_l2_to_teacher": 1.4062186849986198,
+        "fk_position_error": 7.100372106568029e-06
+      },
+      {
+        "group_index": 217,
+        "success": true,
+        "position_error": 6.959911190730494e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8428386366427347,
+        "fk_position_error": 6.959911190730494e-06
+      },
+      {
+        "group_index": 218,
+        "success": true,
+        "position_error": 1.616078156939736e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2408573526460633,
+        "fk_position_error": 1.616078156939736e-05
+      },
+      {
+        "group_index": 219,
+        "success": true,
+        "position_error": 1.5370437567549953e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2575597545034086,
+        "fk_position_error": 1.5370437567549953e-05
+      },
+      {
+        "group_index": 220,
+        "success": true,
+        "position_error": 3.275330335376701e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.470477846552478,
+        "fk_position_error": 3.275330335376701e-05
+      },
+      {
+        "group_index": 221,
+        "success": true,
+        "position_error": 3.2449763575976435e-05,
+        "rotation_error": 0.00015342367426576518,
+        "qpose_l2_to_teacher": 5.14563866129735,
+        "fk_position_error": 3.2449763575976435e-05
+      },
+      {
+        "group_index": 222,
+        "success": true,
+        "position_error": 1.591803489582037e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.02273477767545,
+        "fk_position_error": 1.591803489582037e-05
+      },
+      {
+        "group_index": 223,
+        "success": true,
+        "position_error": 2.4585678861100214e-05,
+        "rotation_error": 0.0003941566566334558,
+        "qpose_l2_to_teacher": 0.045413544565752154,
+        "fk_position_error": 2.4585678861100214e-05
+      },
+      {
+        "group_index": 224,
+        "success": true,
+        "position_error": 9.182598144485571e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.0120355602169355,
+        "fk_position_error": 9.182598144485571e-06
+      },
+      {
+        "group_index": 225,
+        "success": true,
+        "position_error": 8.649723089811182e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.6634766417798927,
+        "fk_position_error": 8.649723089811182e-06
+      },
+      {
+        "group_index": 226,
+        "success": true,
+        "position_error": 3.823861767331012e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.13019822430563943,
+        "fk_position_error": 3.823861767331012e-06
+      },
+      {
+        "group_index": 227,
+        "success": true,
+        "position_error": 3.6585036271128357e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.49271710804276436,
+        "fk_position_error": 3.6585036271128357e-06
+      },
+      {
+        "group_index": 228,
+        "success": true,
+        "position_error": 4.263010094488568e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.07181130395318162,
+        "fk_position_error": 4.263010094488568e-06
+      },
+      {
+        "group_index": 229,
+        "success": true,
+        "position_error": 2.045440450218119e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1319519308069892,
+        "fk_position_error": 2.045440450218119e-05
+      },
+      {
+        "group_index": 230,
+        "success": true,
+        "position_error": 2.0375529052847867e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.09353277148977229,
+        "fk_position_error": 2.0375529052847867e-05
+      },
+      {
+        "group_index": 231,
+        "success": true,
+        "position_error": 2.036332196290596e-05,
+        "rotation_error": 0.00016009007742044039,
+        "qpose_l2_to_teacher": 0.6261449211422037,
+        "fk_position_error": 2.036332196290596e-05
+      },
+      {
+        "group_index": 232,
+        "success": true,
+        "position_error": 1.9809399491076897e-05,
+        "rotation_error": 5.881955878014902e-05,
+        "qpose_l2_to_teacher": 3.100470150267267,
+        "fk_position_error": 1.9809399491076897e-05
+      },
+      {
+        "group_index": 233,
+        "success": true,
+        "position_error": 1.805652435141037e-05,
+        "rotation_error": 0.00015510240692850332,
+        "qpose_l2_to_teacher": 2.646732108036266,
+        "fk_position_error": 1.805652435141037e-05
+      },
+      {
+        "group_index": 234,
+        "success": true,
+        "position_error": 1.9923810579497426e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.7570608098216343,
+        "fk_position_error": 1.9923810579497426e-05
+      },
+      {
+        "group_index": 235,
+        "success": true,
+        "position_error": 1.0829979617629866e-05,
+        "rotation_error": 0.000142468202953872,
+        "qpose_l2_to_teacher": 0.6383900953260742,
+        "fk_position_error": 1.0829979617629866e-05
+      },
+      {
+        "group_index": 236,
+        "success": true,
+        "position_error": 9.968041320921092e-06,
+        "rotation_error": 0.00014964667696677075,
+        "qpose_l2_to_teacher": 1.4298578625190068,
+        "fk_position_error": 9.968041320921092e-06
+      },
+      {
+        "group_index": 237,
+        "success": true,
+        "position_error": 9.145697953533291e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.2214527510271824,
+        "fk_position_error": 9.145697953533291e-06
+      },
+      {
+        "group_index": 238,
+        "success": true,
+        "position_error": 3.5284300746934324e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.39369270114998406,
+        "fk_position_error": 3.5284300746934324e-05
+      },
+      {
+        "group_index": 239,
+        "success": true,
+        "position_error": 2.9150419047138722e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.20554629571802516,
+        "fk_position_error": 2.9150419047138722e-05
+      },
+      {
+        "group_index": 240,
+        "success": true,
+        "position_error": 2.7697262414457093e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.35336544684366117,
+        "fk_position_error": 2.7697262414457093e-05
+      },
+      {
+        "group_index": 241,
+        "success": true,
+        "position_error": 2.1735019655432244e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.884885908719547,
+        "fk_position_error": 2.1735019655432244e-05
+      },
+      {
+        "group_index": 242,
+        "success": true,
+        "position_error": 1.4260777518064276e-05,
+        "rotation_error": 9.436377252214777e-06,
+        "qpose_l2_to_teacher": 6.198322522597348,
+        "fk_position_error": 1.4260777518064276e-05
+      },
+      {
+        "group_index": 243,
+        "success": true,
+        "position_error": 9.93669018720071e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.147126669712605,
+        "fk_position_error": 9.93669018720071e-06
+      },
+      {
+        "group_index": 244,
+        "success": true,
+        "position_error": 1.6134951153325997e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.9686386787690244,
+        "fk_position_error": 1.6134951153325997e-05
+      },
+      {
+        "group_index": 245,
+        "success": true,
+        "position_error": 1.0396537233968322e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.2218253618946493,
+        "fk_position_error": 1.0396537233968322e-05
+      },
+      {
+        "group_index": 246,
+        "success": true,
+        "position_error": 9.354049052562934e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.1629281215214196,
+        "fk_position_error": 9.354049052562934e-06
+      },
+      {
+        "group_index": 247,
+        "success": true,
+        "position_error": 1.1673088801519008e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4400127902040518,
+        "fk_position_error": 1.1673088801519008e-05
+      },
+      {
+        "group_index": 248,
+        "success": true,
+        "position_error": 9.102087998411508e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5222124654080933,
+        "fk_position_error": 9.102087998411508e-06
+      },
+      {
+        "group_index": 249,
+        "success": true,
+        "position_error": 7.560166198463235e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7090241978653918,
+        "fk_position_error": 7.560166198463235e-06
+      },
+      {
+        "group_index": 250,
+        "success": true,
+        "position_error": 1.1698992763825203e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2050554757477533,
+        "fk_position_error": 1.1698992763825203e-05
+      },
+      {
+        "group_index": 251,
+        "success": true,
+        "position_error": 1.1791162617577376e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2336728347210907,
+        "fk_position_error": 1.1791162617577376e-05
+      },
+      {
+        "group_index": 252,
+        "success": true,
+        "position_error": 1.2083273228411123e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2880030808693248,
+        "fk_position_error": 1.2083273228411123e-05
+      },
+      {
+        "group_index": 253,
+        "success": true,
+        "position_error": 2.053639530709363e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.6259379991487377,
+        "fk_position_error": 2.053639530709363e-05
+      },
+      {
+        "group_index": 254,
+        "success": true,
+        "position_error": 2.0169369905722843e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.6790633488771187,
+        "fk_position_error": 2.0169369905722843e-05
+      },
+      {
+        "group_index": 255,
+        "success": true,
+        "position_error": 1.906794417819305e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.2489685229217864,
+        "fk_position_error": 1.906794417819305e-05
+      },
+      {
+        "group_index": 256,
+        "success": true,
+        "position_error": 1.4301794354250742e-05,
+        "rotation_error": 0.00012221315064196025,
+        "qpose_l2_to_teacher": 0.1680494245258826,
+        "fk_position_error": 1.4301794354250742e-05
+      },
+      {
+        "group_index": 257,
+        "success": true,
+        "position_error": 1.2829425799155463e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.08423230947576431,
+        "fk_position_error": 1.2829425799155463e-05
+      },
+      {
+        "group_index": 258,
+        "success": true,
+        "position_error": 1.0396541081137877e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.21955396846545003,
+        "fk_position_error": 1.0396541081137877e-05
+      },
+      {
+        "group_index": 259,
+        "success": true,
+        "position_error": 5.7304223741785196e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7450794010909578,
+        "fk_position_error": 5.7304223741785196e-05
+      },
+      {
+        "group_index": 260,
+        "success": true,
+        "position_error": 5.448021806893292e-05,
+        "rotation_error": 0.00022091404573983058,
+        "qpose_l2_to_teacher": 0.388825814513357,
+        "fk_position_error": 5.448021806893292e-05
+      },
+      {
+        "group_index": 261,
+        "success": true,
+        "position_error": 5.112094749359614e-05,
+        "rotation_error": 0.000608819293446298,
+        "qpose_l2_to_teacher": 0.09289803383398906,
+        "fk_position_error": 5.112094749359614e-05
+      },
+      {
+        "group_index": 262,
+        "success": true,
+        "position_error": 1.6552017933993158e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.023194429055639,
+        "fk_position_error": 1.6552017933993158e-05
+      },
+      {
+        "group_index": 263,
+        "success": true,
+        "position_error": 1.6616258240534125e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3095499997399896,
+        "fk_position_error": 1.6616258240534125e-05
+      },
+      {
+        "group_index": 264,
+        "success": true,
+        "position_error": 1.749008540424291e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.29932681909209063,
+        "fk_position_error": 1.749008540424291e-05
+      },
+      {
+        "group_index": 265,
+        "success": true,
+        "position_error": 5.420763060641525e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.13218810345324178,
+        "fk_position_error": 5.420763060641525e-05
+      },
+      {
+        "group_index": 266,
+        "success": true,
+        "position_error": 5.558134344003745e-05,
+        "rotation_error": 0.00023778067556714323,
+        "qpose_l2_to_teacher": 0.06688831818192698,
+        "fk_position_error": 5.558134344003745e-05
+      },
+      {
+        "group_index": 267,
+        "success": true,
+        "position_error": 5.6995412659080544e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.013548426367386767,
+        "fk_position_error": 5.6995412659080544e-05
+      },
+      {
+        "group_index": 268,
+        "success": true,
+        "position_error": 4.0927211099815034e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.024669345871109756,
+        "fk_position_error": 4.0927211099815034e-05
+      },
+      {
+        "group_index": 269,
+        "success": true,
+        "position_error": 1.689719826318354e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.175579334223909,
+        "fk_position_error": 1.689719826318354e-05
+      },
+      {
+        "group_index": 270,
+        "success": true,
+        "position_error": 1.4486807154256928e-05,
+        "rotation_error": 0.00022053879503268565,
+        "qpose_l2_to_teacher": 6.156697358113259,
+        "fk_position_error": 1.4486807154256928e-05
+      },
+      {
+        "group_index": 271,
+        "success": true,
+        "position_error": 2.224793220577674e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.29029221226361884,
+        "fk_position_error": 2.224793220577674e-05
+      },
+      {
+        "group_index": 272,
+        "success": true,
+        "position_error": 2.1017020864329265e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.47685944842971967,
+        "fk_position_error": 2.1017020864329265e-05
+      },
+      {
+        "group_index": 273,
+        "success": true,
+        "position_error": 2.0544536607717064e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2147092051509497,
+        "fk_position_error": 2.0544536607717064e-05
+      },
+      {
+        "group_index": 274,
+        "success": true,
+        "position_error": 2.1038847423542736e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3152378086418475,
+        "fk_position_error": 2.1038847423542736e-05
+      },
+      {
+        "group_index": 275,
+        "success": true,
+        "position_error": 2.9973553745252664e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3634262086587108,
+        "fk_position_error": 2.9973553745252664e-05
+      },
+      {
+        "group_index": 276,
+        "success": true,
+        "position_error": 1.9552358135468637e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.6065109118634477,
+        "fk_position_error": 1.9552358135468637e-05
+      },
+      {
+        "group_index": 277,
+        "success": true,
+        "position_error": 2.0421551114033793e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3112416518833314,
+        "fk_position_error": 2.0421551114033793e-05
+      },
+      {
+        "group_index": 278,
+        "success": true,
+        "position_error": 1.1411918154028213e-05,
+        "rotation_error": 0.00041838670840149575,
+        "qpose_l2_to_teacher": 0.32848696761453433,
+        "fk_position_error": 1.1411918154028213e-05
+      },
+      {
+        "group_index": 279,
+        "success": true,
+        "position_error": 1.1077517555694327e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.004224730890587495,
+        "fk_position_error": 1.1077517555694327e-05
+      },
+      {
+        "group_index": 280,
+        "success": true,
+        "position_error": 1.129343834171386e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.34598212411052137,
+        "fk_position_error": 1.129343834171386e-05
+      },
+      {
+        "group_index": 281,
+        "success": true,
+        "position_error": 4.390791623161366e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1359221939177526,
+        "fk_position_error": 4.390791623161366e-05
+      },
+      {
+        "group_index": 282,
+        "success": true,
+        "position_error": 4.545726154211129e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06083922831211723,
+        "fk_position_error": 4.545726154211129e-05
+      },
+      {
+        "group_index": 283,
+        "success": true,
+        "position_error": 5.0572639745471695e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.02394132489377121,
+        "fk_position_error": 5.0572639745471695e-05
+      },
+      {
+        "group_index": 284,
+        "success": true,
+        "position_error": 5.759593932776165e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.0466828853920034,
+        "fk_position_error": 5.759593932776165e-06
+      },
+      {
+        "group_index": 285,
+        "success": true,
+        "position_error": 1.753004897226996e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.4973097918620277,
+        "fk_position_error": 1.753004897226996e-05
+      },
+      {
+        "group_index": 286,
+        "success": true,
+        "position_error": 1.722665078097068e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.26653362615383236,
+        "fk_position_error": 1.722665078097068e-05
+      },
+      {
+        "group_index": 287,
+        "success": true,
+        "position_error": 1.4259010382082333e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7417686745927176,
+        "fk_position_error": 1.4259010382082333e-05
+      },
+      {
+        "group_index": 288,
+        "success": true,
+        "position_error": 1.185960241165244e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.40041498221785166,
+        "fk_position_error": 1.185960241165244e-05
+      },
+      {
+        "group_index": 289,
+        "success": true,
+        "position_error": 1.0396227798534796e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6224750627576782,
+        "fk_position_error": 1.0396227798534796e-05
+      },
+      {
+        "group_index": 290,
+        "success": true,
+        "position_error": 1.6300671533789337e-05,
+        "rotation_error": 0.0002961405635938417,
+        "qpose_l2_to_teacher": 0.5808395493107116,
+        "fk_position_error": 1.6300671533789337e-05
+      },
+      {
+        "group_index": 291,
+        "success": true,
+        "position_error": 1.3040823052628903e-05,
+        "rotation_error": 0.00039842450423891297,
+        "qpose_l2_to_teacher": 2.9690029943770764,
+        "fk_position_error": 1.3040823052628903e-05
+      },
+      {
+        "group_index": 292,
+        "success": true,
+        "position_error": 1.146863850586959e-05,
+        "rotation_error": 0.00020462013066349145,
+        "qpose_l2_to_teacher": 1.0237794799797573,
+        "fk_position_error": 1.146863850586959e-05
+      },
+      {
+        "group_index": 293,
+        "success": true,
+        "position_error": 3.862394371541407e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6458227180768773,
+        "fk_position_error": 3.862394371541407e-05
+      },
+      {
+        "group_index": 294,
+        "success": true,
+        "position_error": 5.5870272503277944e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4467699609829406,
+        "fk_position_error": 5.5870272503277944e-05
+      },
+      {
+        "group_index": 295,
+        "success": true,
+        "position_error": 5.384406544901331e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.32283998012388704,
+        "fk_position_error": 5.384406544901331e-05
+      },
+      {
+        "group_index": 296,
+        "success": true,
+        "position_error": 2.1943782823199723e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 7.0349657670204175,
+        "fk_position_error": 2.1943782823199723e-05
+      },
+      {
+        "group_index": 297,
+        "success": true,
+        "position_error": 1.7235517430084636e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.711664641098991,
+        "fk_position_error": 1.7235517430084636e-05
+      },
+      {
+        "group_index": 298,
+        "success": true,
+        "position_error": 1.8343232784796153e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.626345336006799,
+        "fk_position_error": 1.8343232784796153e-05
+      },
+      {
+        "group_index": 299,
+        "success": true,
+        "position_error": 1.430574369061727e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.864305101498224,
+        "fk_position_error": 1.430574369061727e-05
+      },
+      {
+        "group_index": 300,
+        "success": true,
+        "position_error": 1.3401971227856107e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.847937334541179,
+        "fk_position_error": 1.3401971227856107e-05
+      },
+      {
+        "group_index": 301,
+        "success": true,
+        "position_error": 1.1285721574543709e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.9817194847835236,
+        "fk_position_error": 1.1285721574543709e-05
+      },
+      {
+        "group_index": 302,
+        "success": true,
+        "position_error": 1.547846215450739e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.3837419612610304,
+        "fk_position_error": 1.547846215450739e-05
+      },
+      {
+        "group_index": 303,
+        "success": true,
+        "position_error": 1.4777654913558153e-05,
+        "rotation_error": 0.0002630630831465224,
+        "qpose_l2_to_teacher": 1.774673262610066,
+        "fk_position_error": 1.4777654913558153e-05
+      },
+      {
+        "group_index": 304,
+        "success": true,
+        "position_error": 1.2946810878604703e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6172521560998199,
+        "fk_position_error": 1.2946810878604703e-05
+      },
+      {
+        "group_index": 305,
+        "success": true,
+        "position_error": 1.3829758842928511e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.44569418946919465,
+        "fk_position_error": 1.3829758842928511e-05
+      },
+      {
+        "group_index": 306,
+        "success": true,
+        "position_error": 1.3456022460561346e-05,
+        "rotation_error": 0.00012061738469510378,
+        "qpose_l2_to_teacher": 0.4688162173650459,
+        "fk_position_error": 1.3456022460561346e-05
+      },
+      {
+        "group_index": 307,
+        "success": true,
+        "position_error": 1.2756509801638634e-05,
+        "rotation_error": 0.000563944914675633,
+        "qpose_l2_to_teacher": 0.5093968295345516,
+        "fk_position_error": 1.2756509801638634e-05
+      },
+      {
+        "group_index": 308,
+        "success": true,
+        "position_error": 1.0535236718613558e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.6848374682837348,
+        "fk_position_error": 1.0535236718613558e-05
+      },
+      {
+        "group_index": 309,
+        "success": true,
+        "position_error": 2.1570556877593086e-05,
+        "rotation_error": 0.0003510636242493227,
+        "qpose_l2_to_teacher": 0.7469406854956407,
+        "fk_position_error": 2.1570556877593086e-05
+      },
+      {
+        "group_index": 310,
+        "success": true,
+        "position_error": 4.577834545475688e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2546467042506798,
+        "fk_position_error": 4.577834545475688e-06
+      },
+      {
+        "group_index": 311,
+        "success": true,
+        "position_error": 6.5692287009545494e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.902593821733307,
+        "fk_position_error": 6.5692287009545494e-06
+      },
+      {
+        "group_index": 312,
+        "success": true,
+        "position_error": 6.033884323623521e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.68239475814122,
+        "fk_position_error": 6.033884323623521e-06
+      },
+      {
+        "group_index": 313,
+        "success": true,
+        "position_error": 5.501097278530826e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.1328711125313657,
+        "fk_position_error": 5.501097278530826e-06
+      },
+      {
+        "group_index": 314,
+        "success": true,
+        "position_error": 2.2853018356634995e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.1931372110594323,
+        "fk_position_error": 2.2853018356634995e-05
+      },
+      {
+        "group_index": 315,
+        "success": true,
+        "position_error": 2.1801065750398053e-05,
+        "rotation_error": 0.0004909534122976217,
+        "qpose_l2_to_teacher": 2.1249215518774376,
+        "fk_position_error": 2.1801065750398053e-05
+      },
+      {
+        "group_index": 316,
+        "success": true,
+        "position_error": 1.2305769987740158e-05,
+        "rotation_error": 0.00015382518443771525,
+        "qpose_l2_to_teacher": 1.269072764771401,
+        "fk_position_error": 1.2305769987740158e-05
+      },
+      {
+        "group_index": 317,
+        "success": true,
+        "position_error": 1.0317289549517244e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.037871390238012476,
+        "fk_position_error": 1.0317289549517244e-05
+      },
+      {
+        "group_index": 318,
+        "success": true,
+        "position_error": 9.961337137199346e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.19769222710888718,
+        "fk_position_error": 9.961337137199346e-06
+      },
+      {
+        "group_index": 319,
+        "success": true,
+        "position_error": 1.4543064369072992e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.568571283978871,
+        "fk_position_error": 1.4543064369072992e-05
+      },
+      {
+        "group_index": 320,
+        "success": true,
+        "position_error": 1.9659060021855117e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.18506333801744554,
+        "fk_position_error": 1.9659060021855117e-05
+      },
+      {
+        "group_index": 321,
+        "success": true,
+        "position_error": 2.0814741214687715e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6242024094139267,
+        "fk_position_error": 2.0814741214687715e-05
+      },
+      {
+        "group_index": 322,
+        "success": true,
+        "position_error": 1.277752650424102e-05,
+        "rotation_error": 0.00014038901098345692,
+        "qpose_l2_to_teacher": 1.722582865327316,
+        "fk_position_error": 1.277752650424102e-05
+      },
+      {
+        "group_index": 323,
+        "success": true,
+        "position_error": 1.811936018497662e-05,
+        "rotation_error": 0.00010162632578026654,
+        "qpose_l2_to_teacher": 0.1440746378490968,
+        "fk_position_error": 1.811936018497662e-05
+      },
+      {
+        "group_index": 324,
+        "success": true,
+        "position_error": 1.7294182703378404e-05,
+        "rotation_error": 0.00036391442296382056,
+        "qpose_l2_to_teacher": 0.14372206817534988,
+        "fk_position_error": 1.7294182703378404e-05
+      },
+      {
+        "group_index": 325,
+        "success": true,
+        "position_error": 1.7896412508121685e-05,
+        "rotation_error": 0.00037640572901120076,
+        "qpose_l2_to_teacher": 0.09278396738895567,
+        "fk_position_error": 1.7896412508121685e-05
+      },
+      {
+        "group_index": 326,
+        "success": true,
+        "position_error": 1.927627507416446e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3795534059448247,
+        "fk_position_error": 1.927627507416446e-05
+      },
+      {
+        "group_index": 327,
+        "success": true,
+        "position_error": 1.5496462915885056e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0651951629567078,
+        "fk_position_error": 1.5496462915885056e-05
+      },
+      {
+        "group_index": 328,
+        "success": true,
+        "position_error": 1.527903267113812e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.8622282506706265,
+        "fk_position_error": 1.527903267113812e-05
+      },
+      {
+        "group_index": 329,
+        "success": true,
+        "position_error": 2.1576964114851164e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8753652501229575,
+        "fk_position_error": 2.1576964114851164e-05
+      },
+      {
+        "group_index": 330,
+        "success": true,
+        "position_error": 2.0943294826836883e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.091521449592005,
+        "fk_position_error": 2.0943294826836883e-05
+      },
+      {
+        "group_index": 331,
+        "success": true,
+        "position_error": 1.773657028051407e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.9231072021227293,
+        "fk_position_error": 1.773657028051407e-05
+      },
+      {
+        "group_index": 332,
+        "success": true,
+        "position_error": 1.3840911621764232e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.07432503513406609,
+        "fk_position_error": 1.3840911621764232e-05
+      },
+      {
+        "group_index": 333,
+        "success": true,
+        "position_error": 1.3325980082884377e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4480575200933037,
+        "fk_position_error": 1.3325980082884377e-05
+      },
+      {
+        "group_index": 334,
+        "success": true,
+        "position_error": 1.077628660398279e-05,
+        "rotation_error": 0.00026263904259536127,
+        "qpose_l2_to_teacher": 0.18681350907944863,
+        "fk_position_error": 1.077628660398279e-05
+      },
+      {
+        "group_index": 335,
+        "success": true,
+        "position_error": 2.1649069119784155e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3499493508614376,
+        "fk_position_error": 2.1649069119784155e-05
+      },
+      {
+        "group_index": 336,
+        "success": true,
+        "position_error": 2.0848018374027713e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1685544884219403,
+        "fk_position_error": 2.0848018374027713e-05
+      },
+      {
+        "group_index": 337,
+        "success": true,
+        "position_error": 1.854198477012447e-05,
+        "rotation_error": 0.00022200798589880878,
+        "qpose_l2_to_teacher": 0.3606485384954841,
+        "fk_position_error": 1.854198477012447e-05
+      },
+      {
+        "group_index": 338,
+        "success": true,
+        "position_error": 6.567045816995906e-06,
+        "rotation_error": 0.00023503038116649754,
+        "qpose_l2_to_teacher": 0.20831721350354693,
+        "fk_position_error": 6.567045816995906e-06
+      },
+      {
+        "group_index": 339,
+        "success": true,
+        "position_error": 3.898585298893643e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9612442994338778,
+        "fk_position_error": 3.898585298893643e-06
+      },
+      {
+        "group_index": 340,
+        "success": true,
+        "position_error": 3.5522650806486886e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06960349644785949,
+        "fk_position_error": 3.5522650806486886e-06
+      },
+      {
+        "group_index": 341,
+        "success": true,
+        "position_error": 1.6931837713612784e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.666675373523022,
+        "fk_position_error": 1.6931837713612784e-05
+      },
+      {
+        "group_index": 342,
+        "success": true,
+        "position_error": 1.6637285218041347e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.5335392091960496,
+        "fk_position_error": 1.6637285218041347e-05
+      },
+      {
+        "group_index": 343,
+        "success": true,
+        "position_error": 1.5611276267559492e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.5059519908623695,
+        "fk_position_error": 1.5611276267559492e-05
+      },
+      {
+        "group_index": 344,
+        "success": true,
+        "position_error": 1.4101451657237939e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7296076126776169,
+        "fk_position_error": 1.4101451657237939e-05
+      },
+      {
+        "group_index": 345,
+        "success": true,
+        "position_error": 1.3373914723873036e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5548163003629915,
+        "fk_position_error": 1.3373914723873036e-05
+      },
+      {
+        "group_index": 346,
+        "success": true,
+        "position_error": 1.2063833783483797e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8403813203718666,
+        "fk_position_error": 1.2063833783483797e-05
+      },
+      {
+        "group_index": 347,
+        "success": true,
+        "position_error": 1.919762348195945e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.311967748424914,
+        "fk_position_error": 1.919762348195945e-05
+      },
+      {
+        "group_index": 348,
+        "success": true,
+        "position_error": 2.4910695067861937e-05,
+        "rotation_error": 0.0002550534382811303,
+        "qpose_l2_to_teacher": 0.5854299402229127,
+        "fk_position_error": 2.4910695067861937e-05
+      },
+      {
+        "group_index": 349,
+        "success": true,
+        "position_error": 2.116343976767572e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.39039015748718164,
+        "fk_position_error": 2.116343976767572e-05
+      },
+      {
+        "group_index": 350,
+        "success": true,
+        "position_error": 2.296338596656066e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.46474483856850785,
+        "fk_position_error": 2.296338596656066e-05
+      },
+      {
+        "group_index": 351,
+        "success": true,
+        "position_error": 2.084588865839671e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6113171344054382,
+        "fk_position_error": 2.084588865839671e-05
+      },
+      {
+        "group_index": 352,
+        "success": true,
+        "position_error": 6.322068412851086e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.03138959300464418,
+        "fk_position_error": 6.322068412851086e-05
+      },
+      {
+        "group_index": 353,
+        "success": true,
+        "position_error": 6.597148151736417e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3649142210916724,
+        "fk_position_error": 6.597148151736417e-05
+      },
+      {
+        "group_index": 354,
+        "success": true,
+        "position_error": 1.2891117702877815e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.28724250159912,
+        "fk_position_error": 1.2891117702877815e-05
+      },
+      {
+        "group_index": 355,
+        "success": true,
+        "position_error": 1.5708207942931973e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.29574228344622866,
+        "fk_position_error": 1.5708207942931973e-05
+      },
+      {
+        "group_index": 356,
+        "success": true,
+        "position_error": 1.5509858307403988e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.32248251609173767,
+        "fk_position_error": 1.5509858307403988e-05
+      },
+      {
+        "group_index": 357,
+        "success": true,
+        "position_error": 1.4218117964310664e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06202296115605462,
+        "fk_position_error": 1.4218117964310664e-05
+      },
+      {
+        "group_index": 358,
+        "success": true,
+        "position_error": 1.5243765856252151e-05,
+        "rotation_error": 0.0002944939776819996,
+        "qpose_l2_to_teacher": 0.01942702189966182,
+        "fk_position_error": 1.5243765856252151e-05
+      },
+      {
+        "group_index": 359,
+        "success": true,
+        "position_error": 1.783944701000852e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.496953633176881,
+        "fk_position_error": 1.783944701000852e-05
+      },
+      {
+        "group_index": 360,
+        "success": true,
+        "position_error": 1.2542127383675776e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.23198485192617757,
+        "fk_position_error": 1.2542127383675776e-05
+      },
+      {
+        "group_index": 361,
+        "success": true,
+        "position_error": 1.8589961693963495e-05,
+        "rotation_error": 5.579288070800384e-05,
+        "qpose_l2_to_teacher": 3.522247984383224,
+        "fk_position_error": 1.8589961693963495e-05
+      },
+      {
+        "group_index": 362,
+        "success": true,
+        "position_error": 2.146107136929417e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4234369600444131,
+        "fk_position_error": 2.146107136929417e-05
+      },
+      {
+        "group_index": 363,
+        "success": true,
+        "position_error": 2.184557006424414e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.155773521956265,
+        "fk_position_error": 2.184557006424414e-05
+      },
+      {
+        "group_index": 364,
+        "success": true,
+        "position_error": 2.3469174882708414e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.994949987621945,
+        "fk_position_error": 2.3469174882708414e-05
+      },
+      {
+        "group_index": 365,
+        "success": true,
+        "position_error": 2.4006713867614178e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.193605054458659,
+        "fk_position_error": 2.4006713867614178e-05
+      },
+      {
+        "group_index": 366,
+        "success": true,
+        "position_error": 2.2841896621740694e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.924498240927539,
+        "fk_position_error": 2.2841896621740694e-05
+      },
+      {
+        "group_index": 367,
+        "success": true,
+        "position_error": 2.580998120666791e-05,
+        "rotation_error": 0.0005186058396435936,
+        "qpose_l2_to_teacher": 2.1609066850330563,
+        "fk_position_error": 2.580998120666791e-05
+      },
+      {
+        "group_index": 368,
+        "success": true,
+        "position_error": 1.4598765573124152e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.077931804438686,
+        "fk_position_error": 1.4598765573124152e-05
+      },
+      {
+        "group_index": 369,
+        "success": true,
+        "position_error": 7.353205827760486e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2778104000751575,
+        "fk_position_error": 7.353205827760486e-06
+      },
+      {
+        "group_index": 370,
+        "success": true,
+        "position_error": 4.4758060342988806e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.0037388762229709823,
+        "fk_position_error": 4.4758060342988806e-05
+      },
+      {
+        "group_index": 371,
+        "success": true,
+        "position_error": 5.4264931125034654e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.01206024077549763,
+        "fk_position_error": 5.4264931125034654e-05
+      },
+      {
+        "group_index": 372,
+        "success": true,
+        "position_error": 8.642081935522764e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.01575081367978961,
+        "fk_position_error": 8.642081935522764e-05
+      },
+      {
+        "group_index": 373,
+        "success": true,
+        "position_error": 1.3183578795021831e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.854421432643468,
+        "fk_position_error": 1.3183578795021831e-05
+      },
+      {
+        "group_index": 374,
+        "success": true,
+        "position_error": 1.333713874071013e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.42320371659904044,
+        "fk_position_error": 1.333713874071013e-05
+      },
+      {
+        "group_index": 375,
+        "success": true,
+        "position_error": 1.2984686351100987e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6978142928683517,
+        "fk_position_error": 1.2984686351100987e-05
+      },
+      {
+        "group_index": 376,
+        "success": true,
+        "position_error": 8.938007915241675e-06,
+        "rotation_error": 0.00042958220178866815,
+        "qpose_l2_to_teacher": 0.046432486667666424,
+        "fk_position_error": 8.938007915241675e-06
+      },
+      {
+        "group_index": 377,
+        "success": true,
+        "position_error": 9.858910200269396e-06,
+        "rotation_error": 0.00042189850600470036,
+        "qpose_l2_to_teacher": 0.0378579613007626,
+        "fk_position_error": 9.858910200269396e-06
+      },
+      {
+        "group_index": 378,
+        "success": true,
+        "position_error": 1.009890932824821e-05,
+        "rotation_error": 0.000226485601936991,
+        "qpose_l2_to_teacher": 0.2132373532916176,
+        "fk_position_error": 1.009890932824821e-05
+      },
+      {
+        "group_index": 379,
+        "success": true,
+        "position_error": 1.91853419109775e-05,
+        "rotation_error": 7.433883615728664e-05,
+        "qpose_l2_to_teacher": 1.1717636649290968,
+        "fk_position_error": 1.91853419109775e-05
+      },
+      {
+        "group_index": 380,
+        "success": true,
+        "position_error": 1.9812364368163177e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6637985944688407,
+        "fk_position_error": 1.9812364368163177e-05
+      },
+      {
+        "group_index": 381,
+        "success": true,
+        "position_error": 1.5570679502070742e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7422303366995213,
+        "fk_position_error": 1.5570679502070742e-05
+      },
+      {
+        "group_index": 382,
+        "success": true,
+        "position_error": 7.869802585160029e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.24201828685765622,
+        "fk_position_error": 7.869802585160029e-06
+      },
+      {
+        "group_index": 383,
+        "success": true,
+        "position_error": 8.738565613094052e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.43058115927006163,
+        "fk_position_error": 8.738565613094052e-06
+      },
+      {
+        "group_index": 384,
+        "success": true,
+        "position_error": 8.923307608341689e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.21002554120266098,
+        "fk_position_error": 8.923307608341689e-06
+      },
+      {
+        "group_index": 385,
+        "success": true,
+        "position_error": 2.0275669462422233e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1345610702232575,
+        "fk_position_error": 2.0275669462422233e-05
+      },
+      {
+        "group_index": 386,
+        "success": true,
+        "position_error": 2.185570737131727e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.48337348267278657,
+        "fk_position_error": 2.185570737131727e-05
+      },
+      {
+        "group_index": 387,
+        "success": true,
+        "position_error": 1.9860301735132956e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.204065056605161,
+        "fk_position_error": 1.9860301735132956e-05
+      },
+      {
+        "group_index": 388,
+        "success": true,
+        "position_error": 1.9475863023197454e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9198928291959091,
+        "fk_position_error": 1.9475863023197454e-05
+      },
+      {
+        "group_index": 389,
+        "success": true,
+        "position_error": 1.8941779746279264e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.14871505420350384,
+        "fk_position_error": 1.8941779746279264e-05
+      },
+      {
+        "group_index": 390,
+        "success": true,
+        "position_error": 2.2075737873773158e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.088718803508799,
+        "fk_position_error": 2.2075737873773158e-05
+      },
+      {
+        "group_index": 391,
+        "success": true,
+        "position_error": 3.536702824038819e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.10876297022837396,
+        "fk_position_error": 3.536702824038819e-05
+      },
+      {
+        "group_index": 392,
+        "success": true,
+        "position_error": 3.4770187622515615e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2185119727201994,
+        "fk_position_error": 3.4770187622515615e-05
+      },
+      {
+        "group_index": 393,
+        "success": true,
+        "position_error": 3.099998142318583e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2788907834282125,
+        "fk_position_error": 3.099998142318583e-05
+      },
+      {
+        "group_index": 394,
+        "success": true,
+        "position_error": 2.9858690672301734e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06797808480706576,
+        "fk_position_error": 2.9858690672301734e-05
+      },
+      {
+        "group_index": 395,
+        "success": true,
+        "position_error": 9.050109512500203e-06,
+        "rotation_error": 0.0003341886290219045,
+        "qpose_l2_to_teacher": 0.12015982781347768,
+        "fk_position_error": 9.050109512500203e-06
+      },
+      {
+        "group_index": 396,
+        "success": true,
+        "position_error": 1.1114073171603016e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.187158462104969,
+        "fk_position_error": 1.1114073171603016e-05
+      },
+      {
+        "group_index": 397,
+        "success": true,
+        "position_error": 2.3525233831244456e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7317595158056642,
+        "fk_position_error": 2.3525233831244456e-05
+      },
+      {
+        "group_index": 398,
+        "success": true,
+        "position_error": 2.3425009232484426e-05,
+        "rotation_error": 0.0003204247746298184,
+        "qpose_l2_to_teacher": 0.13732097703574908,
+        "fk_position_error": 2.3425009232484426e-05
+      },
+      {
+        "group_index": 399,
+        "success": true,
+        "position_error": 1.4957864418164726e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.09418000836439748,
+        "fk_position_error": 1.4957864418164726e-05
+      },
+      {
+        "group_index": 400,
+        "success": true,
+        "position_error": 1.4645273660795223e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.26841840081868845,
+        "fk_position_error": 1.4645273660795223e-05
+      },
+      {
+        "group_index": 401,
+        "success": true,
+        "position_error": 1.4637766783744691e-05,
+        "rotation_error": 0.00017866988165147774,
+        "qpose_l2_to_teacher": 0.43991154798152676,
+        "fk_position_error": 1.4637766783744691e-05
+      },
+      {
+        "group_index": 402,
+        "success": true,
+        "position_error": 1.0019267669327379e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.2480105179002563,
+        "fk_position_error": 1.0019267669327379e-05
+      },
+      {
+        "group_index": 403,
+        "success": true,
+        "position_error": 1.8386855722895077e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.1248726329738625,
+        "fk_position_error": 1.8386855722895077e-05
+      },
+      {
+        "group_index": 404,
+        "success": true,
+        "position_error": 1.791774035659685e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5151420400438586,
+        "fk_position_error": 1.791774035659685e-05
+      },
+      {
+        "group_index": 405,
+        "success": true,
+        "position_error": 1.2941605319892637e-05,
+        "rotation_error": 0.0004137220165794926,
+        "qpose_l2_to_teacher": 0.474939465907171,
+        "fk_position_error": 1.2941605319892637e-05
+      },
+      {
+        "group_index": 406,
+        "success": true,
+        "position_error": 1.4097148625316167e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.42407216043356183,
+        "fk_position_error": 1.4097148625316167e-05
+      },
+      {
+        "group_index": 407,
+        "success": true,
+        "position_error": 1.3865706516650473e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.04726525709174476,
+        "fk_position_error": 1.3865706516650473e-05
+      },
+      {
+        "group_index": 408,
+        "success": true,
+        "position_error": 3.3989350115620126e-05,
+        "rotation_error": 0.00014836444703742696,
+        "qpose_l2_to_teacher": 0.6114517417372852,
+        "fk_position_error": 3.3989350115620126e-05
+      },
+      {
+        "group_index": 409,
+        "success": true,
+        "position_error": 1.943157659292912e-05,
+        "rotation_error": 0.00041504020987847857,
+        "qpose_l2_to_teacher": 0.6635023128948119,
+        "fk_position_error": 1.943157659292912e-05
+      },
+      {
+        "group_index": 410,
+        "success": true,
+        "position_error": 1.907074414540276e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7866137162902302,
+        "fk_position_error": 1.907074414540276e-05
+      },
+      {
+        "group_index": 411,
+        "success": true,
+        "position_error": 1.6573762178199652e-05,
+        "rotation_error": 0.00037520360103216133,
+        "qpose_l2_to_teacher": 0.6122766082379154,
+        "fk_position_error": 1.6573762178199652e-05
+      },
+      {
+        "group_index": 412,
+        "success": true,
+        "position_error": 1.2797972081681691e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.5473437636087164,
+        "fk_position_error": 1.2797972081681691e-05
+      },
+      {
+        "group_index": 413,
+        "success": true,
+        "position_error": 6.015461333953216e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.20578854675757452,
+        "fk_position_error": 6.015461333953216e-06
+      },
+      {
+        "group_index": 414,
+        "success": true,
+        "position_error": 1.5645877886647878e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.7268887408117983,
+        "fk_position_error": 1.5645877886647878e-05
+      },
+      {
+        "group_index": 415,
+        "success": true,
+        "position_error": 1.642859467677579e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.8868169711690153,
+        "fk_position_error": 1.642859467677579e-05
+      },
+      {
+        "group_index": 416,
+        "success": true,
+        "position_error": 1.083788826302842e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.39349875328939926,
+        "fk_position_error": 1.083788826302842e-05
+      },
+      {
+        "group_index": 417,
+        "success": true,
+        "position_error": 1.7254335369992815e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6933800059269473,
+        "fk_position_error": 1.7254335369992815e-05
+      },
+      {
+        "group_index": 418,
+        "success": true,
+        "position_error": 3.390868192944923e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7500427558116998,
+        "fk_position_error": 3.390868192944923e-05
+      },
+      {
+        "group_index": 419,
+        "success": true,
+        "position_error": 1.505622077771684e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1199278151321509,
+        "fk_position_error": 1.505622077771684e-05
+      },
+      {
+        "group_index": 420,
+        "success": true,
+        "position_error": 1.7861057464178283e-05,
+        "rotation_error": 0.0003237924601366995,
+        "qpose_l2_to_teacher": 1.355788160047563,
+        "fk_position_error": 1.7861057464178283e-05
+      },
+      {
+        "group_index": 421,
+        "success": true,
+        "position_error": 1.593274232283664e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.8428005548793083,
+        "fk_position_error": 1.593274232283664e-05
+      },
+      {
+        "group_index": 422,
+        "success": true,
+        "position_error": 1.5731110219651764e-05,
+        "rotation_error": 0.00016398504697924182,
+        "qpose_l2_to_teacher": 2.724947414057937,
+        "fk_position_error": 1.5731110219651764e-05
+      },
+      {
+        "group_index": 423,
+        "success": true,
+        "position_error": 1.6575343496240586e-05,
+        "rotation_error": 0.00016633710195054525,
+        "qpose_l2_to_teacher": 2.8366533956104854,
+        "fk_position_error": 1.6575343496240586e-05
+      },
+      {
+        "group_index": 424,
+        "success": true,
+        "position_error": 1.723610955441076e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.12378969112320871,
+        "fk_position_error": 1.723610955441076e-05
+      },
+      {
+        "group_index": 425,
+        "success": true,
+        "position_error": 3.1672995478975474e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.155723563267632,
+        "fk_position_error": 3.1672995478975474e-05
+      },
+      {
+        "group_index": 426,
+        "success": true,
+        "position_error": 3.67233392355423e-05,
+        "rotation_error": 0.00019089859431061773,
+        "qpose_l2_to_teacher": 4.830118026628406,
+        "fk_position_error": 3.67233392355423e-05
+      },
+      {
+        "group_index": 427,
+        "success": true,
+        "position_error": 2.8086346878636548e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.852337146890372,
+        "fk_position_error": 2.8086346878636548e-05
+      },
+      {
+        "group_index": 428,
+        "success": true,
+        "position_error": 1.6264093830872e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.080633358773101,
+        "fk_position_error": 1.6264093830872e-05
+      },
+      {
+        "group_index": 429,
+        "success": true,
+        "position_error": 1.4373895396659686e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.934446143759978,
+        "fk_position_error": 1.4373895396659686e-05
+      },
+      {
+        "group_index": 430,
+        "success": true,
+        "position_error": 1.893242188442671e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.29945928755699147,
+        "fk_position_error": 1.893242188442671e-05
+      },
+      {
+        "group_index": 431,
+        "success": true,
+        "position_error": 1.9609153931589468e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.0953582577753438,
+        "fk_position_error": 1.9609153931589468e-05
+      },
+      {
+        "group_index": 432,
+        "success": true,
+        "position_error": 2.0080972356497987e-05,
+        "rotation_error": 0.00033077149952336635,
+        "qpose_l2_to_teacher": 0.2122525678253653,
+        "fk_position_error": 2.0080972356497987e-05
+      },
+      {
+        "group_index": 433,
+        "success": true,
+        "position_error": 1.0809002978666023e-05,
+        "rotation_error": 0.00021891279978277265,
+        "qpose_l2_to_teacher": 0.18132681466857484,
+        "fk_position_error": 1.0809002978666023e-05
+      },
+      {
+        "group_index": 434,
+        "success": true,
+        "position_error": 1.0658664409345873e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.21441107391839967,
+        "fk_position_error": 1.0658664409345873e-05
+      },
+      {
+        "group_index": 435,
+        "success": true,
+        "position_error": 1.4913554756551273e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.12928351490983467,
+        "fk_position_error": 1.4913554756551273e-05
+      },
+      {
+        "group_index": 436,
+        "success": true,
+        "position_error": 2.059826315020769e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.9272799194278112,
+        "fk_position_error": 2.059826315020769e-05
+      },
+      {
+        "group_index": 437,
+        "success": true,
+        "position_error": 1.197406649628314e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.098906515005485,
+        "fk_position_error": 1.197406649628314e-05
+      },
+      {
+        "group_index": 438,
+        "success": true,
+        "position_error": 2.3576533525134197e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.007652170178127134,
+        "fk_position_error": 2.3576533525134197e-05
+      },
+      {
+        "group_index": 439,
+        "success": true,
+        "position_error": 1.0972759983014301e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0607451081184571,
+        "fk_position_error": 1.0972759983014301e-05
+      },
+      {
+        "group_index": 440,
+        "success": true,
+        "position_error": 1.015555384362734e-05,
+        "rotation_error": 0.0004310704309616122,
+        "qpose_l2_to_teacher": 0.9069787028098169,
+        "fk_position_error": 1.015555384362734e-05
+      },
+      {
+        "group_index": 441,
+        "success": true,
+        "position_error": 2.5609599280127677e-05,
+        "rotation_error": 0.00015245217018400645,
+        "qpose_l2_to_teacher": 7.324122058311376,
+        "fk_position_error": 2.5609599280127677e-05
+      },
+      {
+        "group_index": 442,
+        "success": true,
+        "position_error": 1.6537654352161605e-05,
+        "rotation_error": 0.00037961496002256927,
+        "qpose_l2_to_teacher": 0.23916602467357997,
+        "fk_position_error": 1.6537654352161605e-05
+      },
+      {
+        "group_index": 443,
+        "success": true,
+        "position_error": 1.4737295102094157e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.15340319684377474,
+        "fk_position_error": 1.4737295102094157e-05
+      },
+      {
+        "group_index": 444,
+        "success": true,
+        "position_error": 3.463048722060249e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.451183814428202,
+        "fk_position_error": 3.463048722060249e-05
+      },
+      {
+        "group_index": 445,
+        "success": true,
+        "position_error": 2.428626588873249e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.023111646221998,
+        "fk_position_error": 2.428626588873249e-05
+      },
+      {
+        "group_index": 446,
+        "success": true,
+        "position_error": 1.558561703277571e-05,
+        "rotation_error": 0.0002740751187758173,
+        "qpose_l2_to_teacher": 1.7682342359749244,
+        "fk_position_error": 1.558561703277571e-05
+      },
+      {
+        "group_index": 447,
+        "success": true,
+        "position_error": 1.4378933072761949e-05,
+        "rotation_error": 0.00019504864374199522,
+        "qpose_l2_to_teacher": 1.999943905750677,
+        "fk_position_error": 1.4378933072761949e-05
+      },
+      {
+        "group_index": 448,
+        "success": true,
+        "position_error": 1.1179049111306262e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.712121936747082,
+        "fk_position_error": 1.1179049111306262e-05
+      },
+      {
+        "group_index": 449,
+        "success": true,
+        "position_error": 2.028275788387697e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.996230487915876,
+        "fk_position_error": 2.028275788387697e-05
+      },
+      {
+        "group_index": 450,
+        "success": true,
+        "position_error": 2.083890005828104e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1573888813528914,
+        "fk_position_error": 2.083890005828104e-05
+      },
+      {
+        "group_index": 451,
+        "success": true,
+        "position_error": 2.0840860539122e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.055528270309857006,
+        "fk_position_error": 2.0840860539122e-05
+      },
+      {
+        "group_index": 452,
+        "success": true,
+        "position_error": 3.492538475233662e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.97154747241002,
+        "fk_position_error": 3.492538475233662e-05
+      },
+      {
+        "group_index": 453,
+        "success": true,
+        "position_error": 3.406917208607233e-05,
+        "rotation_error": 0.0005143934928045522,
+        "qpose_l2_to_teacher": 0.7705088634724443,
+        "fk_position_error": 3.406917208607233e-05
+      },
+      {
+        "group_index": 454,
+        "success": true,
+        "position_error": 1.8550605139765144e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.267296846365692,
+        "fk_position_error": 1.8550605139765144e-05
+      },
+      {
+        "group_index": 455,
+        "success": true,
+        "position_error": 1.5347595641132416e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.3189683217005808,
+        "fk_position_error": 1.5347595641132416e-05
+      },
+      {
+        "group_index": 456,
+        "success": true,
+        "position_error": 1.197186592895586e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.095111365462236,
+        "fk_position_error": 1.197186592895586e-05
+      },
+      {
+        "group_index": 457,
+        "success": true,
+        "position_error": 2.500706577058521e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.48355975762686926,
+        "fk_position_error": 2.500706577058521e-05
+      },
+      {
+        "group_index": 458,
+        "success": true,
+        "position_error": 2.450124332569144e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.044626470966129,
+        "fk_position_error": 2.450124332569144e-05
+      },
+      {
+        "group_index": 459,
+        "success": true,
+        "position_error": 2.418637973191359e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.04193819728556,
+        "fk_position_error": 2.418637973191359e-05
+      },
+      {
+        "group_index": 460,
+        "success": true,
+        "position_error": 4.145550227467035e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5219203543280934,
+        "fk_position_error": 4.145550227467035e-06
+      },
+      {
+        "group_index": 461,
+        "success": true,
+        "position_error": 3.3893857702188144e-06,
+        "rotation_error": 0.00024489400003588417,
+        "qpose_l2_to_teacher": 0.39787642108601645,
+        "fk_position_error": 3.3893857702188144e-06
+      },
+      {
+        "group_index": 462,
+        "success": true,
+        "position_error": 1.5394244071289937e-06,
+        "rotation_error": 0.00011795795914835295,
+        "qpose_l2_to_teacher": 0.020149776274581702,
+        "fk_position_error": 1.5394244071289937e-06
+      },
+      {
+        "group_index": 463,
+        "success": true,
+        "position_error": 1.824072548120744e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.676522748513847,
+        "fk_position_error": 1.824072548120744e-05
+      },
+      {
+        "group_index": 464,
+        "success": true,
+        "position_error": 2.2482454836285893e-05,
+        "rotation_error": 5.921238107998973e-05,
+        "qpose_l2_to_teacher": 0.227367941761519,
+        "fk_position_error": 2.2482454836285893e-05
+      },
+      {
+        "group_index": 465,
+        "success": true,
+        "position_error": 2.110118057118021e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.08989907102766174,
+        "fk_position_error": 2.110118057118021e-05
+      },
+      {
+        "group_index": 466,
+        "success": true,
+        "position_error": 3.357445914722324e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.24206849485256107,
+        "fk_position_error": 3.357445914722324e-05
+      },
+      {
+        "group_index": 467,
+        "success": true,
+        "position_error": 2.831416697147015e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.39630225130142754,
+        "fk_position_error": 2.831416697147015e-05
+      },
+      {
+        "group_index": 468,
+        "success": true,
+        "position_error": 2.7936797261125704e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.21216000842670618,
+        "fk_position_error": 2.7936797261125704e-05
+      },
+      {
+        "group_index": 469,
+        "success": true,
+        "position_error": 2.1169348169216406e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3291642099493434,
+        "fk_position_error": 2.1169348169216406e-05
+      },
+      {
+        "group_index": 470,
+        "success": true,
+        "position_error": 2.4192948444936715e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.5566838113779387,
+        "fk_position_error": 2.4192948444936715e-05
+      },
+      {
+        "group_index": 471,
+        "success": true,
+        "position_error": 1.817923497382242e-05,
+        "rotation_error": 0.00026670339492117115,
+        "qpose_l2_to_teacher": 0.5260190555985702,
+        "fk_position_error": 1.817923497382242e-05
+      },
+      {
+        "group_index": 472,
+        "success": true,
+        "position_error": 1.533149216282259e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4643411389282614,
+        "fk_position_error": 1.533149216282259e-05
+      },
+      {
+        "group_index": 473,
+        "success": true,
+        "position_error": 1.4909150576415686e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.259936130623749,
+        "fk_position_error": 1.4909150576415686e-05
+      },
+      {
+        "group_index": 474,
+        "success": true,
+        "position_error": 1.4364232777372602e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.27338542083093575,
+        "fk_position_error": 1.4364232777372602e-05
+      },
+      {
+        "group_index": 475,
+        "success": true,
+        "position_error": 1.7285269850415584e-05,
+        "rotation_error": 0.0001686709520541197,
+        "qpose_l2_to_teacher": 3.0894272019406284,
+        "fk_position_error": 1.7285269850415584e-05
+      },
+      {
+        "group_index": 476,
+        "success": true,
+        "position_error": 1.3928911689695876e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7048720781495437,
+        "fk_position_error": 1.3928911689695876e-05
+      },
+      {
+        "group_index": 477,
+        "success": true,
+        "position_error": 1.3469133097677681e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.140472829052113,
+        "fk_position_error": 1.3469133097677681e-05
+      },
+      {
+        "group_index": 478,
+        "success": true,
+        "position_error": 2.8727457106699085e-05,
+        "rotation_error": 0.00046283065659124753,
+        "qpose_l2_to_teacher": 0.1302901276914081,
+        "fk_position_error": 2.8727457106699085e-05
+      },
+      {
+        "group_index": 479,
+        "success": true,
+        "position_error": 2.680488249681099e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.04210034119684512,
+        "fk_position_error": 2.680488249681099e-05
+      },
+      {
+        "group_index": 480,
+        "success": true,
+        "position_error": 2.8627437616284216e-05,
+        "rotation_error": 0.0004051498614918609,
+        "qpose_l2_to_teacher": 0.006405425659940826,
+        "fk_position_error": 2.8627437616284216e-05
+      },
+      {
+        "group_index": 481,
+        "success": true,
+        "position_error": 2.7827864615861986e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.898481978889098,
+        "fk_position_error": 2.7827864615861986e-05
+      },
+      {
+        "group_index": 482,
+        "success": true,
+        "position_error": 2.9511619027113378e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.919283945674855,
+        "fk_position_error": 2.9511619027113378e-05
+      },
+      {
+        "group_index": 483,
+        "success": true,
+        "position_error": 2.9240911041881276e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.05927963791331,
+        "fk_position_error": 2.9240911041881276e-05
+      },
+      {
+        "group_index": 484,
+        "success": true,
+        "position_error": 1.7687220524293337e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.153977019673031,
+        "fk_position_error": 1.7687220524293337e-05
+      },
+      {
+        "group_index": 485,
+        "success": true,
+        "position_error": 1.627945290940986e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.226837858141141,
+        "fk_position_error": 1.627945290940986e-05
+      },
+      {
+        "group_index": 486,
+        "success": true,
+        "position_error": 9.362258076331745e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.11400118053790731,
+        "fk_position_error": 9.362258076331745e-06
+      },
+      {
+        "group_index": 487,
+        "success": true,
+        "position_error": 7.982734554943128e-06,
+        "rotation_error": 0.0005299138757812249,
+        "qpose_l2_to_teacher": 0.16159505755672113,
+        "fk_position_error": 7.982734554943128e-06
+      },
+      {
+        "group_index": 488,
+        "success": true,
+        "position_error": 1.6720087812338668e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.3574992827676358,
+        "fk_position_error": 1.6720087812338668e-05
+      },
+      {
+        "group_index": 489,
+        "success": true,
+        "position_error": 1.626527837618864e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.249880610336903,
+        "fk_position_error": 1.626527837618864e-05
+      },
+      {
+        "group_index": 490,
+        "success": true,
+        "position_error": 1.5918069643960157e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5398732140178846,
+        "fk_position_error": 1.5918069643960157e-05
+      },
+      {
+        "group_index": 491,
+        "success": true,
+        "position_error": 4.4586795307939666e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4195654042221599,
+        "fk_position_error": 4.4586795307939666e-05
+      },
+      {
+        "group_index": 492,
+        "success": true,
+        "position_error": 4.377408642501698e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.23818922317397112,
+        "fk_position_error": 4.377408642501698e-05
+      },
+      {
+        "group_index": 493,
+        "success": true,
+        "position_error": 1.4149726409018341e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.192068478741963,
+        "fk_position_error": 1.4149726409018341e-05
+      },
+      {
+        "group_index": 494,
+        "success": true,
+        "position_error": 9.74353718428408e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.629874999058051,
+        "fk_position_error": 9.74353718428408e-06
+      },
+      {
+        "group_index": 495,
+        "success": true,
+        "position_error": 9.650483135361435e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.5672126500703,
+        "fk_position_error": 9.650483135361435e-06
+      },
+      {
+        "group_index": 496,
+        "success": true,
+        "position_error": 9.990866059356491e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.737270306589884,
+        "fk_position_error": 9.990866059356491e-06
+      },
+      {
+        "group_index": 497,
+        "success": true,
+        "position_error": 2.148044610532943e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7970467062404492,
+        "fk_position_error": 2.148044610532943e-05
+      },
+      {
+        "group_index": 498,
+        "success": true,
+        "position_error": 1.9968874820026017e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7240748075897386,
+        "fk_position_error": 1.9968874820026017e-05
+      },
+      {
+        "group_index": 499,
+        "success": true,
+        "position_error": 3.7607535505596505e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.866363544972855,
+        "fk_position_error": 3.7607535505596505e-05
+      },
+      {
+        "group_index": 500,
+        "success": true,
+        "position_error": 1.9142525177514802e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.852811379359369,
+        "fk_position_error": 1.9142525177514802e-05
+      },
+      {
+        "group_index": 501,
+        "success": true,
+        "position_error": 2.0192481004956388e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.912900556860626,
+        "fk_position_error": 2.0192481004956388e-05
+      },
+      {
+        "group_index": 502,
+        "success": true,
+        "position_error": 1.81196159422665e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 6.695283088574639,
+        "fk_position_error": 1.81196159422665e-05
+      },
+      {
+        "group_index": 503,
+        "success": true,
+        "position_error": 2.493334293122788e-05,
+        "rotation_error": 0.0002094353306175737,
+        "qpose_l2_to_teacher": 0.5049676766972283,
+        "fk_position_error": 2.493334293122788e-05
+      },
+      {
+        "group_index": 504,
+        "success": true,
+        "position_error": 2.209564339503869e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8211006226975506,
+        "fk_position_error": 2.209564339503869e-05
+      },
+      {
+        "group_index": 505,
+        "success": true,
+        "position_error": 2.0104885945886548e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5666231637812655,
+        "fk_position_error": 2.0104885945886548e-05
+      },
+      {
+        "group_index": 506,
+        "success": true,
+        "position_error": 1.3758683066523787e-05,
+        "rotation_error": 0.0001259194675958561,
+        "qpose_l2_to_teacher": 0.23515617657047252,
+        "fk_position_error": 1.3758683066523787e-05
+      },
+      {
+        "group_index": 507,
+        "success": true,
+        "position_error": 1.4554552192223416e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 7.18468705657494,
+        "fk_position_error": 1.4554552192223416e-05
+      },
+      {
+        "group_index": 508,
+        "success": true,
+        "position_error": 6.978224475748378e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.16956959453410927,
+        "fk_position_error": 6.978224475748378e-06
+      },
+      {
+        "group_index": 509,
+        "success": true,
+        "position_error": 2.140235397056621e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7934046710258742,
+        "fk_position_error": 2.140235397056621e-05
+      },
+      {
+        "group_index": 510,
+        "success": true,
+        "position_error": 1.782873496047259e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7258484687455955,
+        "fk_position_error": 1.782873496047259e-05
+      },
+      {
+        "group_index": 511,
+        "success": true,
+        "position_error": 1.7677802099320228e-05,
+        "rotation_error": 0.00020607783288962233,
+        "qpose_l2_to_teacher": 1.2768088885376248,
+        "fk_position_error": 1.7677802099320228e-05
+      },
+      {
+        "group_index": 512,
+        "success": true,
+        "position_error": 1.495857645533531e-05,
+        "rotation_error": 0.0001746300237580954,
+        "qpose_l2_to_teacher": 1.50379569763299,
+        "fk_position_error": 1.495857645533531e-05
+      },
+      {
+        "group_index": 513,
+        "success": true,
+        "position_error": 1.3751963428448108e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.791710847954149,
+        "fk_position_error": 1.3751963428448108e-05
+      },
+      {
+        "group_index": 514,
+        "success": true,
+        "position_error": 3.150967035687134e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5047702385193491,
+        "fk_position_error": 3.150967035687134e-05
+      },
+      {
+        "group_index": 515,
+        "success": true,
+        "position_error": 2.8591301592740007e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7108553537044411,
+        "fk_position_error": 2.8591301592740007e-05
+      },
+      {
+        "group_index": 516,
+        "success": true,
+        "position_error": 3.0141616245665836e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.22891501256081365,
+        "fk_position_error": 3.0141616245665836e-05
+      },
+      {
+        "group_index": 517,
+        "success": true,
+        "position_error": 2.2936759467120176e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.4980371251060403,
+        "fk_position_error": 2.2936759467120176e-05
+      },
+      {
+        "group_index": 518,
+        "success": true,
+        "position_error": 1.9794844994393447e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.4583926602438964,
+        "fk_position_error": 1.9794844994393447e-05
+      },
+      {
+        "group_index": 519,
+        "success": true,
+        "position_error": 1.8526692069311464e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0586778992638242,
+        "fk_position_error": 1.8526692069311464e-05
+      },
+      {
+        "group_index": 520,
+        "success": true,
+        "position_error": 1.645911339714375e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.06310078820809,
+        "fk_position_error": 1.645911339714375e-05
+      },
+      {
+        "group_index": 521,
+        "success": true,
+        "position_error": 1.3374844397221301e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2254289878007697,
+        "fk_position_error": 1.3374844397221301e-05
+      },
+      {
+        "group_index": 522,
+        "success": true,
+        "position_error": 1.0088086170677045e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.42601307588976695,
+        "fk_position_error": 1.0088086170677045e-05
+      },
+      {
+        "group_index": 523,
+        "success": true,
+        "position_error": 2.7788305246006506e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.12011092297661767,
+        "fk_position_error": 2.7788305246006506e-05
+      },
+      {
+        "group_index": 524,
+        "success": true,
+        "position_error": 2.4490865149200013e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.082830277867986,
+        "fk_position_error": 2.4490865149200013e-05
+      },
+      {
+        "group_index": 525,
+        "success": true,
+        "position_error": 1.1070950942145223e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.814560523737438,
+        "fk_position_error": 1.1070950942145223e-05
+      },
+      {
+        "group_index": 526,
+        "success": true,
+        "position_error": 8.9815318169393e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.831012025281224,
+        "fk_position_error": 8.9815318169393e-06
+      },
+      {
+        "group_index": 527,
+        "success": true,
+        "position_error": 2.8412481862545052e-05,
+        "rotation_error": 0.0005227668635180813,
+        "qpose_l2_to_teacher": 0.3178551814349169,
+        "fk_position_error": 2.8412481862545052e-05
+      },
+      {
+        "group_index": 528,
+        "success": true,
+        "position_error": 2.7153351299519896e-05,
+        "rotation_error": 0.0004504688281912635,
+        "qpose_l2_to_teacher": 0.3790429332529637,
+        "fk_position_error": 2.7153351299519896e-05
+      },
+      {
+        "group_index": 529,
+        "success": true,
+        "position_error": 3.73371128026179e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2417882957559698,
+        "fk_position_error": 3.73371128026179e-05
+      },
+      {
+        "group_index": 530,
+        "success": true,
+        "position_error": 2.33823765346401e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0833390578835347,
+        "fk_position_error": 2.33823765346401e-05
+      },
+      {
+        "group_index": 531,
+        "success": true,
+        "position_error": 1.5903281944632883e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.5454812642213727,
+        "fk_position_error": 1.5903281944632883e-05
+      },
+      {
+        "group_index": 532,
+        "success": true,
+        "position_error": 1.9916610508390424e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3607423261068574,
+        "fk_position_error": 1.9916610508390424e-05
+      },
+      {
+        "group_index": 533,
+        "success": true,
+        "position_error": 1.923065751641271e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8239967090803786,
+        "fk_position_error": 1.923065751641271e-05
+      },
+      {
+        "group_index": 534,
+        "success": true,
+        "position_error": 3.449230918437912e-05,
+        "rotation_error": 0.0004606634503131855,
+        "qpose_l2_to_teacher": 0.13832781854640122,
+        "fk_position_error": 3.449230918437912e-05
+      },
+      {
+        "group_index": 535,
+        "success": true,
+        "position_error": 3.38681982786516e-05,
+        "rotation_error": 0.00021789320713418332,
+        "qpose_l2_to_teacher": 0.3343224101900261,
+        "fk_position_error": 3.38681982786516e-05
+      },
+      {
+        "group_index": 536,
+        "success": true,
+        "position_error": 2.924197072874361e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.07489964729639287,
+        "fk_position_error": 2.924197072874361e-05
+      },
+      {
+        "group_index": 537,
+        "success": true,
+        "position_error": 1.9930179204388417e-05,
+        "rotation_error": 0.0001814185100429668,
+        "qpose_l2_to_teacher": 5.170861700494247,
+        "fk_position_error": 1.9930179204388417e-05
+      },
+      {
+        "group_index": 538,
+        "success": true,
+        "position_error": 2.0787969103987555e-05,
+        "rotation_error": 0.0004242147024541442,
+        "qpose_l2_to_teacher": 5.307289289138088,
+        "fk_position_error": 2.0787969103987555e-05
+      },
+      {
+        "group_index": 539,
+        "success": true,
+        "position_error": 1.4609097236524103e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8136783552607787,
+        "fk_position_error": 1.4609097236524103e-05
+      },
+      {
+        "group_index": 540,
+        "success": true,
+        "position_error": 2.854144718576595e-05,
+        "rotation_error": 0.0002515660873181355,
+        "qpose_l2_to_teacher": 0.1630682598612883,
+        "fk_position_error": 2.854144718576595e-05
+      },
+      {
+        "group_index": 541,
+        "success": true,
+        "position_error": 1.8053979055873596e-05,
+        "rotation_error": 0.00039069966447818265,
+        "qpose_l2_to_teacher": 5.74279225581746,
+        "fk_position_error": 1.8053979055873596e-05
+      },
+      {
+        "group_index": 542,
+        "success": true,
+        "position_error": 1.747822368811844e-05,
+        "rotation_error": 0.00039586131391969776,
+        "qpose_l2_to_teacher": 5.700533201161807,
+        "fk_position_error": 1.747822368811844e-05
+      },
+      {
+        "group_index": 543,
+        "success": true,
+        "position_error": 1.9009262645372797e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7091959146722984,
+        "fk_position_error": 1.9009262645372797e-05
+      },
+      {
+        "group_index": 544,
+        "success": true,
+        "position_error": 1.22878214930937e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.670185606311226,
+        "fk_position_error": 1.22878214930937e-05
+      },
+      {
+        "group_index": 545,
+        "success": true,
+        "position_error": 1.2893905281640395e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5652718283110301,
+        "fk_position_error": 1.2893905281640395e-05
+      },
+      {
+        "group_index": 546,
+        "success": true,
+        "position_error": 1.2439506724273844e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.07849334182398,
+        "fk_position_error": 1.2439506724273844e-05
+      },
+      {
+        "group_index": 547,
+        "success": true,
+        "position_error": 1.0155564890807418e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0902736302887768,
+        "fk_position_error": 1.0155564890807418e-05
+      },
+      {
+        "group_index": 548,
+        "success": true,
+        "position_error": 9.815466163836348e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7188626598171555,
+        "fk_position_error": 9.815466163836348e-06
+      },
+      {
+        "group_index": 549,
+        "success": true,
+        "position_error": 3.1723116771376954e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.043108131039632,
+        "fk_position_error": 3.1723116771376954e-06
+      },
+      {
+        "group_index": 550,
+        "success": true,
+        "position_error": 1.9839889089812018e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.760215177123027,
+        "fk_position_error": 1.9839889089812018e-05
+      },
+      {
+        "group_index": 551,
+        "success": true,
+        "position_error": 2.1945318602338516e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0670674125148811,
+        "fk_position_error": 2.1945318602338516e-05
+      },
+      {
+        "group_index": 552,
+        "success": true,
+        "position_error": 2.306026333464805e-05,
+        "rotation_error": 0.00025679067177019553,
+        "qpose_l2_to_teacher": 3.4628775603702087,
+        "fk_position_error": 2.306026333464805e-05
+      },
+      {
+        "group_index": 553,
+        "success": true,
+        "position_error": 2.433420460164168e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.1192433514158076,
+        "fk_position_error": 2.433420460164168e-05
+      },
+      {
+        "group_index": 554,
+        "success": true,
+        "position_error": 2.4110302564765744e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.123050409973535,
+        "fk_position_error": 2.4110302564765744e-05
+      },
+      {
+        "group_index": 555,
+        "success": true,
+        "position_error": 2.2282115680262964e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6780142426260726,
+        "fk_position_error": 2.2282115680262964e-05
+      },
+      {
+        "group_index": 556,
+        "success": true,
+        "position_error": 2.268384062914657e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.4422042687231429,
+        "fk_position_error": 2.268384062914657e-05
+      },
+      {
+        "group_index": 557,
+        "success": true,
+        "position_error": 2.2191329853773403e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5940491356730325,
+        "fk_position_error": 2.2191329853773403e-05
+      },
+      {
+        "group_index": 558,
+        "success": true,
+        "position_error": 2.9050143436570233e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5337369245130692,
+        "fk_position_error": 2.9050143436570233e-05
+      },
+      {
+        "group_index": 559,
+        "success": true,
+        "position_error": 2.1820388618518253e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.757721293306209,
+        "fk_position_error": 2.1820388618518253e-05
+      },
+      {
+        "group_index": 560,
+        "success": true,
+        "position_error": 2.1555285559152465e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6581384844876504,
+        "fk_position_error": 2.1555285559152465e-05
+      },
+      {
+        "group_index": 561,
+        "success": true,
+        "position_error": 2.113108675290397e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2146574283191206,
+        "fk_position_error": 2.113108675290397e-05
+      },
+      {
+        "group_index": 562,
+        "success": true,
+        "position_error": 2.1008276860061206e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.23160048511259226,
+        "fk_position_error": 2.1008276860061206e-05
+      },
+      {
+        "group_index": 563,
+        "success": true,
+        "position_error": 2.0605111210797512e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.31710893597415774,
+        "fk_position_error": 2.0605111210797512e-05
+      },
+      {
+        "group_index": 564,
+        "success": true,
+        "position_error": 1.5754692980541343e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.10368106745539155,
+        "fk_position_error": 1.5754692980541343e-05
+      },
+      {
+        "group_index": 565,
+        "success": true,
+        "position_error": 1.312848986745859e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.24712993260609267,
+        "fk_position_error": 1.312848986745859e-05
+      },
+      {
+        "group_index": 566,
+        "success": true,
+        "position_error": 1.3637949702620292e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1706508194842733,
+        "fk_position_error": 1.3637949702620292e-05
+      },
+      {
+        "group_index": 567,
+        "success": true,
+        "position_error": 1.8180351210770568e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.20878861107362345,
+        "fk_position_error": 1.8180351210770568e-05
+      },
+      {
+        "group_index": 568,
+        "success": true,
+        "position_error": 1.8074101373298007e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.04734201928398829,
+        "fk_position_error": 1.8074101373298007e-05
+      },
+      {
+        "group_index": 569,
+        "success": true,
+        "position_error": 1.79880550034686e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.261785841731216,
+        "fk_position_error": 1.79880550034686e-05
+      },
+      {
+        "group_index": 570,
+        "success": true,
+        "position_error": 1.896263986657096e-05,
+        "rotation_error": 0.00032832116163623653,
+        "qpose_l2_to_teacher": 0.08087859829138982,
+        "fk_position_error": 1.896263986657096e-05
+      },
+      {
+        "group_index": 571,
+        "success": true,
+        "position_error": 1.0245206852780203e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2549069133652049,
+        "fk_position_error": 1.0245206852780203e-05
+      },
+      {
+        "group_index": 572,
+        "success": true,
+        "position_error": 1.1041720433276519e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.7228815843356815,
+        "fk_position_error": 1.1041720433276519e-05
+      },
+      {
+        "group_index": 573,
+        "success": true,
+        "position_error": 5.322703258921141e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 4.38747994626024,
+        "fk_position_error": 5.322703258921141e-06
+      },
+      {
+        "group_index": 574,
+        "success": true,
+        "position_error": 2.1966959783638245e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.127266664671325,
+        "fk_position_error": 2.1966959783638245e-06
+      },
+      {
+        "group_index": 575,
+        "success": true,
+        "position_error": 5.331775418732649e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.06298428499943079,
+        "fk_position_error": 5.331775418732649e-06
+      },
+      {
+        "group_index": 576,
+        "success": true,
+        "position_error": 4.2427675307945406e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5403170415127041,
+        "fk_position_error": 4.2427675307945406e-05
+      },
+      {
+        "group_index": 577,
+        "success": true,
+        "position_error": 4.101181023833194e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.509011142243206,
+        "fk_position_error": 4.101181023833194e-05
+      },
+      {
+        "group_index": 578,
+        "success": true,
+        "position_error": 4.037490199838108e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5239622695340092,
+        "fk_position_error": 4.037490199838108e-05
+      },
+      {
+        "group_index": 579,
+        "success": true,
+        "position_error": 2.4800695309484224e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2493797813375446,
+        "fk_position_error": 2.4800695309484224e-05
+      },
+      {
+        "group_index": 580,
+        "success": true,
+        "position_error": 2.5658678653494286e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 5.647083223220871,
+        "fk_position_error": 2.5658678653494286e-05
+      },
+      {
+        "group_index": 581,
+        "success": true,
+        "position_error": 2.3078786123399536e-05,
+        "rotation_error": 0.0003619793703870636,
+        "qpose_l2_to_teacher": 5.38146837636925,
+        "fk_position_error": 2.3078786123399536e-05
+      },
+      {
+        "group_index": 582,
+        "success": true,
+        "position_error": 1.557830700641363e-05,
+        "rotation_error": 0.0002885116632690451,
+        "qpose_l2_to_teacher": 0.26236527889238903,
+        "fk_position_error": 1.557830700641363e-05
+      },
+      {
+        "group_index": 583,
+        "success": true,
+        "position_error": 1.5263613477398204e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.035612534937943,
+        "fk_position_error": 1.5263613477398204e-05
+      },
+      {
+        "group_index": 584,
+        "success": true,
+        "position_error": 1.4898497661927471e-05,
+        "rotation_error": 0.0003670169526229027,
+        "qpose_l2_to_teacher": 0.5664614483758836,
+        "fk_position_error": 1.4898497661927471e-05
+      },
+      {
+        "group_index": 585,
+        "success": true,
+        "position_error": 1.2964885830605798e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5137015523320908,
+        "fk_position_error": 1.2964885830605798e-05
+      },
+      {
+        "group_index": 586,
+        "success": true,
+        "position_error": 1.1486700506124122e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3727914364368384,
+        "fk_position_error": 1.1486700506124122e-05
+      },
+      {
+        "group_index": 587,
+        "success": true,
+        "position_error": 1.102429153680242e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0270069513202023,
+        "fk_position_error": 1.102429153680242e-05
+      },
+      {
+        "group_index": 588,
+        "success": true,
+        "position_error": 5.127420312266594e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2774964260529999,
+        "fk_position_error": 5.127420312266594e-05
+      },
+      {
+        "group_index": 589,
+        "success": true,
+        "position_error": 5.0099299838131905e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2913474880140088,
+        "fk_position_error": 5.0099299838131905e-05
+      },
+      {
+        "group_index": 590,
+        "success": true,
+        "position_error": 4.708069956922803e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.19864238469862383,
+        "fk_position_error": 4.708069956922803e-05
+      },
+      {
+        "group_index": 591,
+        "success": true,
+        "position_error": 1.652409766758223e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.8195778825680087,
+        "fk_position_error": 1.652409766758223e-05
+      },
+      {
+        "group_index": 592,
+        "success": true,
+        "position_error": 1.6061772051912172e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 2.671574145328685,
+        "fk_position_error": 1.6061772051912172e-05
+      },
+      {
+        "group_index": 593,
+        "success": true,
+        "position_error": 1.49457456838269e-05,
+        "rotation_error": 0.0003830733304119445,
+        "qpose_l2_to_teacher": 2.293638218718837,
+        "fk_position_error": 1.49457456838269e-05
+      },
+      {
+        "group_index": 594,
+        "success": true,
+        "position_error": 1.970079031611207e-05,
+        "rotation_error": 0.00028280349363904797,
+        "qpose_l2_to_teacher": 0.1471555319510863,
+        "fk_position_error": 1.970079031611207e-05
+      },
+      {
+        "group_index": 595,
+        "success": true,
+        "position_error": 2.2243999980000982e-05,
+        "rotation_error": 0.00047420481417259543,
+        "qpose_l2_to_teacher": 0.20064171495437003,
+        "fk_position_error": 2.2243999980000982e-05
+      },
+      {
+        "group_index": 596,
+        "success": true,
+        "position_error": 2.0474634637208695e-05,
+        "rotation_error": 0.0003416167857234603,
+        "qpose_l2_to_teacher": 0.15675909926269593,
+        "fk_position_error": 2.0474634637208695e-05
+      },
+      {
+        "group_index": 597,
+        "success": true,
+        "position_error": 1.7680188242287138e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0039615847268295,
+        "fk_position_error": 1.7680188242287138e-05
+      },
+      {
+        "group_index": 598,
+        "success": true,
+        "position_error": 1.7219121649862007e-05,
+        "rotation_error": 0.00021839086985738475,
+        "qpose_l2_to_teacher": 1.426923472904879,
+        "fk_position_error": 1.7219121649862007e-05
+      },
+      {
+        "group_index": 599,
+        "success": true,
+        "position_error": 3.310201422592896e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8034851003942944,
+        "fk_position_error": 3.310201422592896e-06
+      },
+      {
+        "group_index": 600,
+        "success": true,
+        "position_error": 2.8862324494844277e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6402568453828674,
+        "fk_position_error": 2.8862324494844277e-06
+      },
+      {
+        "group_index": 601,
+        "success": true,
+        "position_error": 2.4446976924915643e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5332470465548245,
+        "fk_position_error": 2.4446976924915643e-06
+      },
+      {
+        "group_index": 602,
+        "success": true,
+        "position_error": 8.259760991333217e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6448691271849668,
+        "fk_position_error": 8.259760991333217e-06
+      },
+      {
+        "group_index": 603,
+        "success": true,
+        "position_error": 7.722310397454676e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8052263504244448,
+        "fk_position_error": 7.722310397454676e-06
+      },
+      {
+        "group_index": 604,
+        "success": true,
+        "position_error": 6.652600988338885e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.21145649960093532,
+        "fk_position_error": 6.652600988338885e-06
+      },
+      {
+        "group_index": 605,
+        "success": true,
+        "position_error": 1.4944685333617021e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.04032696675037394,
+        "fk_position_error": 1.4944685333617021e-05
+      },
+      {
+        "group_index": 606,
+        "success": true,
+        "position_error": 1.3604199071134455e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.3808205374456455,
+        "fk_position_error": 1.3604199071134455e-05
+      },
+      {
+        "group_index": 607,
+        "success": true,
+        "position_error": 1.31939011566043e-05,
+        "rotation_error": 0.0002589957832979248,
+        "qpose_l2_to_teacher": 0.21716641806474973,
+        "fk_position_error": 1.31939011566043e-05
+      },
+      {
+        "group_index": 608,
+        "success": true,
+        "position_error": 1.772509836090349e-05,
+        "rotation_error": 0.000147147985328311,
+        "qpose_l2_to_teacher": 0.05097278901897093,
+        "fk_position_error": 1.772509836090349e-05
+      },
+      {
+        "group_index": 609,
+        "success": true,
+        "position_error": 2.1817014434278078e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5433000833251999,
+        "fk_position_error": 2.1817014434278078e-05
+      },
+      {
+        "group_index": 610,
+        "success": true,
+        "position_error": 2.6996406195945034e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.003281694501717129,
+        "fk_position_error": 2.6996406195945034e-05
+      },
+      {
+        "group_index": 611,
+        "success": true,
+        "position_error": 4.966484373216735e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.17272104144849892,
+        "fk_position_error": 4.966484373216735e-05
+      },
+      {
+        "group_index": 612,
+        "success": true,
+        "position_error": 4.918181468585578e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.14322659106266333,
+        "fk_position_error": 4.918181468585578e-05
+      },
+      {
+        "group_index": 613,
+        "success": true,
+        "position_error": 4.471124143291896e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.058547228329593776,
+        "fk_position_error": 4.471124143291896e-05
+      },
+      {
+        "group_index": 614,
+        "success": true,
+        "position_error": 4.458923620459967e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.2014977162321386,
+        "fk_position_error": 4.458923620459967e-05
+      },
+      {
+        "group_index": 615,
+        "success": true,
+        "position_error": 5.438082330404777e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.1211640654259306,
+        "fk_position_error": 5.438082330404777e-05
+      },
+      {
+        "group_index": 616,
+        "success": true,
+        "position_error": 7.161458618644267e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.015341547183550134,
+        "fk_position_error": 7.161458618644267e-05
+      },
+      {
+        "group_index": 617,
+        "success": true,
+        "position_error": 3.2218185295196974e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.02662579244194948,
+        "fk_position_error": 3.2218185295196974e-05
+      },
+      {
+        "group_index": 618,
+        "success": true,
+        "position_error": 1.8168885276199325e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.005791524193177,
+        "fk_position_error": 1.8168885276199325e-05
+      },
+      {
+        "group_index": 619,
+        "success": true,
+        "position_error": 9.573042308383786e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 3.1882379859643977,
+        "fk_position_error": 9.573042308383786e-06
+      },
+      {
+        "group_index": 620,
+        "success": true,
+        "position_error": 1.5151852686489445e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.0637203597519675,
+        "fk_position_error": 1.5151852686489445e-05
+      },
+      {
+        "group_index": 621,
+        "success": true,
+        "position_error": 1.3411318461253783e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.8256747561052556,
+        "fk_position_error": 1.3411318461253783e-05
+      },
+      {
+        "group_index": 622,
+        "success": true,
+        "position_error": 1.3314377603426957e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.108201607103832,
+        "fk_position_error": 1.3314377603426957e-05
+      },
+      {
+        "group_index": 623,
+        "success": true,
+        "position_error": 1.8299359903279216e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7682620083007736,
+        "fk_position_error": 1.8299359903279216e-05
+      },
+      {
+        "group_index": 624,
+        "success": true,
+        "position_error": 1.8264647974627788e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.7358489820757046,
+        "fk_position_error": 1.8264647974627788e-05
+      },
+      {
+        "group_index": 625,
+        "success": true,
+        "position_error": 1.8352934971177167e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 1.8034729532008424,
+        "fk_position_error": 1.8352934971177167e-05
+      },
+      {
+        "group_index": 626,
+        "success": true,
+        "position_error": 9.572067866801474e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.04202021506996445,
+        "fk_position_error": 9.572067866801474e-06
+      },
+      {
+        "group_index": 627,
+        "success": true,
+        "position_error": 9.293120131089974e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.16039157229469567,
+        "fk_position_error": 9.293120131089974e-06
+      },
+      {
+        "group_index": 628,
+        "success": true,
+        "position_error": 8.048041918611299e-06,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.05869841418386735,
+        "fk_position_error": 8.048041918611299e-06
+      },
+      {
+        "group_index": 629,
+        "success": true,
+        "position_error": 1.0380763122827554e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.6971419330333035,
+        "fk_position_error": 1.0380763122827554e-05
+      },
+      {
+        "group_index": 630,
+        "success": true,
+        "position_error": 1.021096982713956e-05,
+        "rotation_error": 0.0,
+        "qpose_l2_to_teacher": 0.5087906838215689,
+        "fk_position_error": 1.021096982713956e-05
+      },
+      {
+        "group_index": 631,
+        "success": true,
+        "position_error": 1.0293933901333573e-05,
+        "rotation_error": 0.0002871679306483612,
+        "qpose_l2_to_teacher": 0.4420945663481224,
+        "fk_position_error": 1.0293933901333573e-05
+      }
+    ]
+  },
+  "checks": {
+    "finite_labels": true,
+    "one_pose_per_qpose": true,
+    "valid_rotation": true,
+    "no_outcome_read": true,
+    "full_group_count": true,
+    "full_split_counts": true
+  },
+  "decision": "analyze label-space transfer before authorizing learned SE3 route"
+}

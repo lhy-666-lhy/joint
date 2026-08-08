@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o196c_balanced_recovery_residual_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "fresh-world equal-exposure recovery residual stability comparison",
+  "world_reset_mode": "independent_world_per_arm",
+  "metrics": {
+    "baseline_mlp": {
+      "targets": 8,
+      "task_success": 2,
+      "progress": {
+        "mean": 0.2423193571251634,
+        "ci95": [
+          0.14289358220152942,
+          0.33675761668049775
+        ]
+      },
+      "progress_median": 0.2523295877335877,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.5463461538461538,
+        "ci95": [
+          0.22844711538461537,
+          0.8705769230769231
+        ]
+      },
+      "calls": {
+        "mean": 501.625,
+        "ci95": [
+          284.875,
+          650.0
+        ]
+      },
+      "per_target_progress": [
+        0.07712704963236801,
+        0.009748946917668522,
+        0.345848933674691,
+        0.30422860794297857,
+        0.41312612437242896,
+        0.20043056752419688,
+        0.183459767720451,
+        0.4045848592165242
+      ],
+      "per_target_contact": [
+        0.06615384615384616,
+        0.18153846153846154,
+        0.9492307692307692,
+        1.0,
+        1.0,
+        0.1123076923076923,
+        0.06153846153846154,
+        1.0
+      ],
+      "per_target_calls": [
+        650,
+        650,
+        650,
+        650,
+        41,
+        650,
+        650,
+        72
+      ],
+      "per_target_termination": [
+        "max_calls",
+        "max_calls",
+        "max_calls",
+        "max_calls",
+        "opening_stop",
+        "max_calls",
+        "max_calls",
+        "opening_stop"
+      ]
+    },
+    "random_seed1": {
+      "targets": 8,
+      "task_success": 5,
+      "progress": {
+        "mean": 0.31364852237852,
+        "ci95": [
+          0.22131884358976064,
+          0.38598461626812514
+        ]
+      },
+      "progress_median": 0.40108480476473984,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.6229193603977471,
+        "ci95": [
+          0.35229556856187294,
+          0.8766092348788006
+        ]
+      },
+      "calls": {
+        "mean": 393.0,
+        "ci95": [
+          198.74375,
+          564.25
+        ]
+      },
+      "per_target_progress": [
+        0.06609746539104237,
+        0.4010316620999264,
+        0.4011379474295532,
+        0.20877726715790904,
+        0.4129294908207952,
+        0.40241411132221455,
+        0.1999244125752886,
+        0.4168758222314303
+      ],
+      "per_target_contact": [
+        0.19538461538461538,
+        0.6048387096774194,
+        0.9885496183206107,
+        0.22153846153846155,
+        1.0,
+        1.0,
+        0.06,
+        0.9130434782608695
+      ],
+      "per_target_calls": [
+        650,
+        496,
+        524,
+        650,
+        38,
+        90,
+        650,
+        46
+      ],
+      "per_target_termination": [
+        "max_calls",
+        "opening_stop",
+        "opening_stop",
+        "max_calls",
+        "opening_stop",
+        "opening_stop",
+        "max_calls",
+        "opening_stop"
+      ]
+    },
+    "balanced_seed1": {
+      "targets": 8,
+      "task_success": 3,
+      "progress": {
+        "mean": 0.27638748892613396,
+        "ci95": [
+          0.17267097216609295,
+          0.3701223262537476
+        ]
+      },
+      "progress_median": 0.31257119049055554,
+      "positive_progress_count": 7,
+      "wrong_way_count": 1,
+      "contact_fraction": {
+        "mean": 0.5246153846153846,
+        "ci95": [
+          0.26345673076923076,
+          0.7923076923076924
+        ]
+      },
+      "calls": {
+        "mean": 428.25,
+        "ci95": [
+          207.75,
+          580.0
+        ]
+      },
+      "per_target_progress": [
+        -0.00014751256618160356,
+        0.17820061706962884,
+        0.38354823764048845,
+        0.18042412817380857,
+        0.40743259267522947,
+        0.4002666999069197,
+        0.24159414334062265,
+        0.41978100516855577
+      ],
+      "per_target_contact": [
+        0.1276923076923077,
+        0.2676923076923077,
+        0.5215384615384615,
+        0.20923076923076922,
+        1.0,
+        1.0,
+        0.07076923076923076,
+        1.0
+      ],
+      "per_target_calls": [
+        650,
+        650,
+        650,
+        650,
+        38,
+        90,
+        650,
+        48
+      ],
+      "per_target_termination": [
+        "max_calls",
+        "max_calls",
+        "max_calls",
+        "max_calls",
+        "opening_stop",
+        "opening_stop",
+        "max_calls",
+        "opening_stop"
+      ]
+    },
+    "balanced_seed2": {
+      "targets": 8,
+      "task_success": 3,
+      "progress": {
+        "mean": 0.2613387203970756,
+        "ci95": [
+          0.1629202983502462,
+          0.35379234385144487
+        ]
+      },
+      "progress_median": 0.27278509303666026,
+      "positive_progress_count": 8,
+      "wrong_way_count": 0,
+      "contact_fraction": {
+        "mean": 0.5376672240802676,
+        "ci95": [
+          0.27634615384615385,
+          0.7978380016722407
+        ]
+      },
+      "calls": {
+        "mean": 428.5,
+        "ci95": [
+          208.0,
+          580.5
+        ]
+      },
+      "per_target_progress": [
+        0.038105506982287485,
+        0.08235902584809128,
+        0.3079747009800183,
+        0.19975056529300184,
+        0.4072265486410011,
+        0.4006274477215438,
+        0.23759548509330228,
+        0.4170704826173588
+      ],
+      "per_target_contact": [
+        0.18307692307692308,
+        0.2076923076923077,
+        0.6261538461538462,
+        0.21846153846153846,
+        1.0,
+        1.0,
+        0.0876923076923077,
+        0.9782608695652174
+      ],
+      "per_target_calls": [
+        650,
+        650,
+        650,
+        650,
+        38,
+        94,
+        650,
+        46
+      ],
+      "per_target_termination": [
+        "max_calls",
+        "max_calls",
+        "max_calls",
+        "max_calls",
+        "opening_stop",
+        "opening_stop",
+        "max_calls",
+        "opening_stop"
+      ]
+    }
+  },
+  "pairwise": {
+    "random_seed1_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.07132916525335659,
+        "ci95": [
+          -0.014909673833537479,
+          0.18110584084100895
+        ]
+      },
+      "contact": {
+        "mean": 0.07657320655159323,
+        "ci95": [
+          -0.22722888795986623,
+          0.38842119539481057
+        ]
+      },
+      "task_success_delta": 3
+    },
+    "balanced_seed1_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.03406813180097059,
+        "ci95": [
+          -0.035073585509745674,
+          0.1081323437575298
+        ]
+      },
+      "contact": {
+        "mean": -0.02173076923076922,
+        "ci95": [
+          -0.32884615384615384,
+          0.3003990384615382
+        ]
+      },
+      "task_success_delta": 1
+    },
+    "balanced_seed2_minus_baseline_mlp": {
+      "progress": {
+        "mean": 0.01901936327191222,
+        "ci95": [
+          -0.035517814255937634,
+          0.08287961384640695
+        ]
+      },
+      "contact": {
+        "mean": -0.008678929765886273,
+        "ci95": [
+          -0.30137123745819394,
+          0.31093645484949833
+        ]
+      },
+      "task_success_delta": 1
+    },
+    "balanced_seed1_minus_random_seed1": {
+      "progress": {
+        "mean": -0.03726103345238599,
+        "ci95": [
+          -0.09568362881795098,
+          0.004368810839171949
+        ]
+      },
+      "contact": {
+        "mean": -0.09830397578236247,
+        "ci95": [
+          -0.23419556096452185,
+          0.014431438127090312
+        ]
+      },
+      "task_success_delta": -2
+    },
+    "balanced_seed2_minus_random_seed1": {
+      "progress": {
+        "mean": -0.05230980198144436,
+        "ci95": [
+          -0.13434052058941495,
+          0.0035830212306872376
+        ]
+      },
+      "contact": {
+        "mean": -0.0852521363174795,
+        "ci95": [
+          -0.21888933740083294,
+          0.019765886287625434
+        ]
+      },
+      "task_success_delta": -2
+    },
+    "balanced_seed2_minus_balanced_seed1": {
+      "progress": {
+        "mean": -0.015048768529058374,
+        "ci95": [
+          -0.04627797484137835,
+          0.01143670931970122
+        ]
+      },
+      "contact": {
+        "mean": 0.013051839464882958,
+        "ci95": [
+          -0.017166806020066875,
+          0.04670568561872912
+        ]
+      },
+      "task_success_delta": 0
+    }
+  },
+  "checks": {
+    "four_arms": true,
+    "eight_targets_each": true,
+    "same_target_order": true,
+    "fixed_budget_all_targets": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "correct_start_command_lineage": true,
+    "opening_angle_only_early_stop": true,
+    "independent_world_per_arm": true
+  },
+  "decision": "balanced residual screen complete; assess sampler stability",
+  "next_run_ids": [],
+  "jobs": [
+    {
+      "id": "A6-O193C",
+      "status": "passed"
+    }
+  ]
+}

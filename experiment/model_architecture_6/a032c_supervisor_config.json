@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "experiment_name": "a6_a032c_affordance_semantics_screen",
+  "root": ".",
+  "state_path": "results/a6_a032c_affordance_semantics_screen_v1/monitor_state.json",
+  "next_check_path": "results/a6_a032c_affordance_semantics_screen_v1/NEXT_CHECK.md",
+  "policy": {
+    "pre_first_unit_seconds": 3600,
+    "eta_gt_4h_seconds": 7200,
+    "eta_1h_to_4h_seconds": 3600,
+    "eta_lt_1h_seconds": 1200,
+    "max_sleep_seconds": 300,
+    "stale_multiplier": 2
+  },
+  "rounds": [
+    {
+      "id": "a032c_initial_full",
+      "depends_on": [],
+      "auto_launch": false,
+      "expected_unit_seconds": 6800,
+      "process_patterns": [
+        "run_a6_a032c_affordance_semantics_screen.py",
+        "--condition initial"
+      ],
+      "launch": {
+        "cmd": [
+          "conda", "run", "-n", "sapien", "python",
+          "run_a6_a032c_affordance_semantics_screen.py",
+          "--condition", "initial", "--steps", "7000",
+          "--batch-size", "48", "--gradient-accumulation", "2",
+          "--num-workers", "4", "--gpu", "0", "--resume"
+        ],
+        "log_path": "results/a6_a032c_affordance_semantics_screen_v1/initial/full/run.log"
+      },
+      "jobs": [
+        {
+          "id": "initial_seed20260806",
+          "summary_path": "results/a6_a032c_affordance_semantics_screen_v1/initial/full/summary.json",
+          "log_path": "results/a6_a032c_affordance_semantics_screen_v1/initial/full/run.log",
+          "artifact_paths": [
+            "results/a6_a032c_affordance_semantics_screen_v1/initial/full/progress.json",
+            "results/a6_a032c_affordance_semantics_screen_v1/initial/full/latest.pth"
+          ]
+        }
+      ],
+      "summarize": [],
+      "analyze": []
+    },
+    {
+      "id": "a032c_mix060_full",
+      "depends_on": [],
+      "auto_launch": false,
+      "expected_unit_seconds": 6800,
+      "process_patterns": [
+        "run_a6_a032c_affordance_semantics_screen.py",
+        "--condition mix060"
+      ],
+      "launch": {
+        "cmd": [
+          "conda", "run", "-n", "sapien", "python",
+          "run_a6_a032c_affordance_semantics_screen.py",
+          "--condition", "mix060", "--steps", "7000",
+          "--batch-size", "48", "--gradient-accumulation", "2",
+          "--num-workers", "4", "--gpu", "1", "--resume"
+        ],
+        "log_path": "results/a6_a032c_affordance_semantics_screen_v1/mix060/full/run.log"
+      },
+      "jobs": [
+        {
+          "id": "mix060_seed20260806",
+          "summary_path": "results/a6_a032c_affordance_semantics_screen_v1/mix060/full/summary.json",
+          "log_path": "results/a6_a032c_affordance_semantics_screen_v1/mix060/full/run.log",
+          "artifact_paths": [
+            "results/a6_a032c_affordance_semantics_screen_v1/mix060/full/progress.json",
+            "results/a6_a032c_affordance_semantics_screen_v1/mix060/full/latest.pth"
+          ]
+        }
+      ],
+      "summarize": [],
+      "analyze": []
+    }
+  ],
+  "final_analyze": []
+}

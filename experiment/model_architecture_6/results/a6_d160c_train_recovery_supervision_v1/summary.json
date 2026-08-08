@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_d160c_train_recovery_supervision_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "TRAIN-only live-state recovery supervision generation",
+  "checks": {
+    "target_count_16": true,
+    "rows_64": true,
+    "augmented_rows_1088": true,
+    "original_prefix_exact": true,
+    "sidecars_not_in_model_input": true,
+    "four_calls_each": true,
+    "train_only": true,
+    "state_context_shape": true,
+    "point_mask_shape": true,
+    "zero_contact": true,
+    "zero_affordance": true,
+    "finite": true,
+    "action_valid": true,
+    "delta_roundtrip": true,
+    "source_hashes_recorded": true,
+    "model_input_oracle_fields_empty": true,
+    "no_cal_or_heldout_read": true
+  },
+  "metrics": {
+    "wall_seconds": 10.986934916116297,
+    "state_deviation_l2_mean": 0.0325771040033942,
+    "state_deviation_l2_median": 0.025094621814787388,
+    "state_deviation_l2_max": 0.11341985315084457
+  },
+  "decision": "recovery rows valid; authorize additive recovery training",
+  "next_run_ids": [
+    "A6-O161C"
+  ]
+}

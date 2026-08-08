@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o162c_recovery_cal_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "scientific_scope": "A5_CAL exact-paired screen for TRAIN-only recovery supervision",
+  "metrics": {
+    "baseline_mae": {
+      "mean": 0.003559435772733975,
+      "ci95": [
+        0.003240022023946949,
+        0.0039017882133680357
+      ]
+    },
+    "recovery_mae": {
+      "mean": 0.004217538564548054,
+      "ci95": [
+        0.0038555770585552247,
+        0.004598431861602096
+      ]
+    },
+    "repeat_last_mae": {
+      "mean": 0.010915701950661319,
+      "ci95": [
+        0.010252818029466815,
+        0.01157920240585619
+      ]
+    },
+    "recovery_minus_baseline_target_paired_mae": {
+      "mean": 0.0006581027918140795,
+      "ci95": [
+        0.000381344585504004,
+        0.0009677677023656932
+      ]
+    },
+    "baseline_endpoint_mae": {
+      "mean": 0.007076133849464636,
+      "ci95": [
+        0.006432273361585236,
+        0.007762562283678238
+      ]
+    },
+    "recovery_endpoint_mae": {
+      "mean": 0.008261418147776567,
+      "ci95": [
+        0.007533957577312061,
+        0.00902897837031625
+      ]
+    },
+    "repeat_last_endpoint_mae": {
+      "mean": 0.021334379072170253,
+      "ci95": [
+        0.020039329055654857,
+        0.022639295237537695
+      ]
+    },
+    "recovery_minus_baseline_target_paired_endpoint_mae": {
+      "mean": 0.0011852842983119314,
+      "ci95": [
+        0.0006751520490570329,
+        0.0017149741902442526
+      ]
+    },
+    "per_target": {
+      "102418/link_0": {
+        "baseline_mae": 0.006124568797531538,
+        "recovery_mae": 0.007231382114696316,
+        "repeat_last_mae": 0.015544274072453845,
+        "baseline_endpoint_mae": 0.012342429559794255,
+        "recovery_endpoint_mae": 0.014511955159832723,
+        "repeat_last_endpoint_mae": 0.03078512842330383
+      },
+      "10751/link_1": {
+        "baseline_mae": 0.007007852309470763,
+        "recovery_mae": 0.007068695933412528,
+        "repeat_last_mae": 0.014215394970960915,
+        "baseline_endpoint_mae": 0.013524414254789008,
+        "recovery_endpoint_mae": 0.013818859002640238,
+        "repeat_last_endpoint_mae": 0.027624263893812895
+      },
+      "10751/link_2": {
+        "baseline_mae": 0.00279955727091874,
+        "recovery_mae": 0.004149323907768121,
+        "repeat_last_mae": 0.014514091693854425,
+        "baseline_endpoint_mae": 0.005563727256230777,
+        "recovery_endpoint_mae": 0.00824142127748928,
+        "repeat_last_endpoint_mae": 0.0282868327703909
+      },
+      "12252/link_0": {
+        "baseline_mae": 0.003925711743249849,
+        "recovery_mae": 0.004257684349795454,
+        "repeat_last_mae": 0.006400205237241607,
+        "baseline_endpoint_mae": 0.007934577993182756,
+        "recovery_endpoint_mae": 0.008618469679277041,
+        "repeat_last_endpoint_mae": 0.012651354262288805
+      },
+      "41003/link_2": {
+        "baseline_mae": 0.004723498281236971,
+        "recovery_mae": 0.0057127350664814,
+        "repeat_last_mae": 0.009591916135832435,
+        "baseline_endpoint_mae": 0.009514390872936929,
+        "recovery_endpoint_mae": 0.011741469214030076,
+        "repeat_last_endpoint_mae": 0.01878372023566044
+      },
+      "45146/link_1": {
+        "baseline_mae": 0.0043272285256534815,
+        "recovery_mae": 0.004709144617663696,
+        "repeat_last_mae": 0.011489164317026734,
+        "baseline_endpoint_mae": 0.008758297335589305,
+        "recovery_endpoint_mae": 0.009409217862412333,
+        "repeat_last_endpoint_mae": 0.02187749755103141
+      },
+      "45164/link_0": {
+        "baseline_mae": 0.0021223471721896203,
+        "recovery_mae": 0.0024738476568018086,
+        "repeat_last_mae": 0.013207808770744123,
+        "baseline_endpoint_mae": 0.00397381252150808,
+        "recovery_endpoint_mae": 0.004680435733462218,
+        "repeat_last_endpoint_mae": 0.02581725996503792
+      },
+      "45203/link_0": {
+        "baseline_mae": 0.001743341599649284,
+        "recovery_mae": 0.002602641844532627,
+        "repeat_last_mae": 0.011917432466134414,
+        "baseline_endpoint_mae": 0.0032889124922803603,
+        "recovery_endpoint_mae": 0.004757145502480853,
+        "repeat_last_endpoint_mae": 0.023189042681906358
+      },
+      "45212/link_0": {
+        "baseline_mae": 0.003833179816865595,
+        "recovery_mae": 0.004435167247720528,
+        "repeat_last_mae": 0.007291239035112085,
+        "baseline_endpoint_mae": 0.007202214143035235,
+        "recovery_endpoint_mae": 0.00857840776006924,
+        "repeat_last_endpoint_mae": 0.014259842446335824
+      },
+      "45247/link_1": {
+        "baseline_mae": 0.0023114943796826992,
+        "recovery_mae": 0.005930311177507974,
+        "repeat_last_mae": 0.0056865507358452305,
+        "baseline_endpoint_mae": 0.004579848788125673,
+        "recovery_endpoint_mae": 0.009861794314929284,
+        "repeat_last_endpoint_mae": 0.011123459858936258
+      },
+      "45332/link_1": {
+        "baseline_mae": 0.004469292715839401,
+        "recovery_mae": 0.004576291057674098,
+        "repeat_last_mae": 0.014452333148256002,
+        "baseline_endpoint_mae": 0.009316669410509348,
+        "recovery_endpoint_mae": 0.00879134402021009,
+        "repeat_last_endpoint_mae": 0.028853435121163784
+      },
+      "45504/link_1": {
+        "baseline_mae": 0.0018736411111603957,
+        "recovery_mae": 0.0027439861369202845,
+        "repeat_last_mae": 0.009684741951787146,
+        "baseline_endpoint_mae": 0.00384298385688453,
+        "recovery_endpoint_mae": 0.0051203662806074135,
+        "repeat_last_endpoint_mae": 0.018855007936508628
+      },
+      "45524/link_0": {
+        "baseline_mae": 0.0025303546244686004,
+        "recovery_mae": 0.0021247520235192496,
+        "repeat_last_mae": 0.009270152297176537,
+        "baseline_endpoint_mae": 0.00497903977156966,
+        "recovery_endpoint_mae": 0.004166281814832473,
+        "repeat_last_endpoint_mae": 0.018251466202855227
+      },
+      "45662/link_1": {
+        "baseline_mae": 0.0030336383206304163,
+        "recovery_mae": 0.003868404673994519,
+        "repeat_last_mae": 0.012207299212604994,
+        "baseline_endpoint_mae": 0.006176694791065529,
+        "recovery_endpoint_mae": 0.008014924809685908,
+        "repeat_last_endpoint_mae": 0.02411739944727742
+      },
+      "45853/link_0": {
+        "baseline_mae": 0.003984012866567355,
+        "recovery_mae": 0.0043819892380270176,
+        "repeat_last_mae": 0.011536183417774737,
+        "baseline_endpoint_mae": 0.007916585127532016,
+        "recovery_endpoint_mae": 0.008865053234330844,
+        "repeat_last_endpoint_mae": 0.02261801320128143
+      },
+      "46120/link_0": {
+        "baseline_mae": 0.002737452494329773,
+        "recovery_mae": 0.004392541144625284,
+        "repeat_last_mae": 0.00906382582616061,
+        "baseline_endpoint_mae": 0.005153590740519576,
+        "recovery_endpoint_mae": 0.008496995069435798,
+        "repeat_last_endpoint_mae": 0.01766667957417667
+      },
+      "46430/link_1": {
+        "baseline_mae": 0.003560506349458592,
+        "recovery_mae": 0.005350192754121963,
+        "repeat_last_mae": 0.008562371716834605,
+        "baseline_endpoint_mae": 0.006993926905124681,
+        "recovery_endpoint_mae": 0.009788816831132863,
+        "repeat_last_endpoint_mae": 0.016715943231247365
+      },
+      "46700/link_1": {
+        "baseline_mae": 0.004503276073592133,
+        "recovery_mae": 0.005274449978969642,
+        "repeat_last_mae": 0.009207233217239263,
+        "baseline_endpoint_mae": 0.009085889838388539,
+        "recovery_endpoint_mae": 0.010345349301132956,
+        "repeat_last_endpoint_mae": 0.01803442406344402
+      },
+      "46825/link_0": {
+        "baseline_mae": 0.002406712679658085,
+        "recovery_mae": 0.0028502368313638726,
+        "repeat_last_mae": 0.010196778405770601,
+        "baseline_endpoint_mae": 0.005029938984080218,
+        "recovery_endpoint_mae": 0.005959405587418587,
+        "repeat_last_endpoint_mae": 0.019978850096777023
+      },
+      "47180/link_1": {
+        "baseline_mae": 0.0016728389146010159,
+        "recovery_mae": 0.0029281999668455683,
+        "repeat_last_mae": 0.008788674902461935,
+        "baseline_endpoint_mae": 0.00329785434405494,
+        "recovery_endpoint_mae": 0.005784918706922326,
+        "repeat_last_endpoint_mae": 0.017342598825052846
+      },
+      "47577/link_0": {
+        "baseline_mae": 0.002910202707425924,
+        "recovery_mae": 0.003941151933759102,
+        "repeat_last_mae": 0.012926141046136763,
+        "baseline_endpoint_mae": 0.005950111913989531,
+        "recovery_endpoint_mae": 0.007787493997966521,
+        "repeat_last_endpoint_mae": 0.025307070593498793
+      },
+      "47595/link_1": {
+        "baseline_mae": 0.0016166238274308853,
+        "recovery_mae": 0.0021132534566277172,
+        "repeat_last_mae": 0.011360829914337955,
+        "baseline_endpoint_mae": 0.0033988548748311587,
+        "recovery_endpoint_mae": 0.004463829634914873,
+        "repeat_last_endpoint_mae": 0.022420407374738716
+      },
+      "47595/link_3": {
+        "baseline_mae": 0.006631406458836864,
+        "recovery_mae": 0.007109730426236638,
+        "repeat_last_mae": 0.017024078703798295,
+        "baseline_endpoint_mae": 0.01310342675242282,
+        "recovery_endpoint_mae": 0.014059469112908118,
+        "repeat_last_endpoint_mae": 0.03300799331100279
+      },
+      "47808/link_0": {
+        "baseline_mae": 0.003096683210969786,
+        "recovery_mae": 0.0032587572168267798,
+        "repeat_last_mae": 0.007865745740673447,
+        "baseline_endpoint_mae": 0.006376869669111329,
+        "recovery_endpoint_mae": 0.006795400138798868,
+        "repeat_last_endpoint_mae": 0.015106765348718909
+      },
+      "47808/link_1": {
+        "baseline_mae": 0.0067877704659622395,
+        "recovery_mae": 0.005389972862758441,
+        "repeat_last_mae": 0.01426413810622762,
+        "baseline_endpoint_mae": 0.013727197927437373,
+        "recovery_endpoint_mae": 0.011051046236389084,
+        "repeat_last_endpoint_mae": 0.027791554730356438
+      },
+      "47926/link_0": {
+        "baseline_mae": 0.0034230471756018233,
+        "recovery_mae": 0.003035924706637161,
+        "repeat_last_mae": 0.012655397127673496,
+        "baseline_endpoint_mae": 0.006770639138267143,
+        "recovery_endpoint_mae": 0.005376896722737001,
+        "repeat_last_endpoint_mae": 0.0245165831365739
+      },
+      "47926/link_2": {
+        "baseline_mae": 0.0028609257296920987,
+        "recovery_mae": 0.0030890290436218493,
+        "repeat_last_mae": 0.010631339211613522,
+        "baseline_endpoint_mae": 0.005546842805415508,
+        "recovery_endpoint_mae": 0.006050816264178138,
+        "repeat_last_endpoint_mae": 0.0205267600777006
+      },
+      "48467/link_1": {
+        "baseline_mae": 0.0018893232263508253,
+        "recovery_mae": 0.0032791022067613085,
+        "repeat_last_mae": 0.008729079014301533,
+        "baseline_endpoint_mae": 0.0037235812633298337,
+        "recovery_endpoint_mae": 0.0065702109395715524,
+        "repeat_last_endpoint_mae": 0.017146845089882845
+      },
+      "48623/link_1": {
+        "baseline_mae": 0.002259647281789512,
+        "recovery_mae": 0.003228027082514018,
+        "repeat_last_mae": 0.010061354143545032,
+        "baseline_endpoint_mae": 0.004571434558783949,
+        "recovery_endpoint_mae": 0.0061985873762751,
+        "repeat_last_endpoint_mae": 0.0197747559286654
+      },
+      "48623/link_3": {
+        "baseline_mae": 0.0025538915087963687,
+        "recovery_mae": 0.0027792683022198617,
+        "repeat_last_mae": 0.013995721755236445,
+        "baseline_endpoint_mae": 0.005304445034198579,
+        "recovery_endpoint_mae": 0.005414283171376155,
+        "repeat_last_endpoint_mae": 0.027208508975490986
+      },
+      "48855/link_2": {
+        "baseline_mae": 0.0029380479636529344,
+        "recovery_mae": 0.0036220431120455032,
+        "repeat_last_mae": 0.007024159118373063,
+        "baseline_endpoint_mae": 0.00567063515609334,
+        "recovery_endpoint_mae": 0.007464026557499892,
+        "repeat_last_endpoint_mae": 0.013751349864833173
+      },
+      "49188/link_1": {
+        "baseline_mae": 0.006928353952389443,
+        "recovery_mae": 0.009139117613813141,
+        "repeat_last_mae": 0.013715761961066164,
+        "baseline_endpoint_mae": 0.013599838046502555,
+        "recovery_endpoint_mae": 0.017588141960004577,
+        "repeat_last_endpoint_mae": 0.026593270144076087
+      },
+      "49188/link_3": {
+        "baseline_mae": 0.004078000165463891,
+        "recovery_mae": 0.003554487935616635,
+        "repeat_last_mae": 0.012139340775320306,
+        "baseline_endpoint_mae": 0.00819679369305959,
+        "recovery_endpoint_mae": 0.007371428539045155,
+        "repeat_last_endpoint_mae": 0.023604001646162942
+      },
+      "7167/link_0": {
+        "baseline_mae": 0.0018060363195218088,
+        "recovery_mae": 0.002601692978714709,
+        "repeat_last_mae": 0.009027917752973735,
+        "baseline_endpoint_mae": 0.0036837451311839686,
+        "recovery_endpoint_mae": 0.005088194362542708,
+        "repeat_last_endpoint_mae": 0.017728182720020413
+      },
+      "9277/link_2": {
+        "baseline_mae": 0.00510978600505041,
+        "recovery_mae": 0.004410313158587087,
+        "repeat_last_mae": 0.007800892370596557,
+        "baseline_endpoint_mae": 0.009564469779434148,
+        "recovery_endpoint_mae": 0.008317178995639551,
+        "repeat_last_endpoint_mae": 0.015386998795747786
+      }
+    }
+  },
+  "checks": {
+    "cal_rows_280": true,
+    "target_count_35": true,
+    "zero_contact": true,
+    "finite": true,
+    "valid_horizon": true,
+    "recovery_checkpoint": true,
+    "no_oracle_input": true
+  },
+  "claim_supported": "partial",
+  "decision": "CAL valid; run unchanged live8",
+  "next_run_ids": [
+    "A6-O163C"
+  ],
+  "jobs": [
+    {
+      "id": "A6-O162C",
+      "status": "passed"
+    }
+  ]
+}

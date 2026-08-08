@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r100_data_clean_contract_v1",
+  "revision_id": "20260806T-data-clean-70-251-349",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "counts": {
+    "parent_samples": 816,
+    "clean_samples": 813,
+    "excluded_samples": 3,
+    "clean_train_samples": 557,
+    "clean_cal_samples": 102,
+    "clean_mech_dev_samples": 80,
+    "clean_target_test_samples": 74
+  },
+  "checks": {
+    "all_exclusion_rows_valid": true,
+    "derived_primary_excludes_exact_ids": true,
+    "derived_actions_exclude_exact_ids": true,
+    "raw_data_retained": true,
+    "all_excluded_rows_have_positive_labels": true,
+    "excluded_samples_absent_from_clean_contract": true,
+    "clean_accepted_count_exact": true
+  },
+  "decision": "Use the clean contract and existing derived Zarr; do not run a recovery producer or physically delete raw collection data.",
+  "evidence": {
+    "exclusion_manifest": "exclusion_manifest.json",
+    "clean_accepted_samples": "clean_accepted_samples.jsonl",
+    "clean_split_contract": "split_contract.json"
+  },
+  "next_run_ids": [
+    "a6_a000_clean_membership_v1",
+    "a6_d020_clean_sample_normalizer_v1"
+  ]
+}

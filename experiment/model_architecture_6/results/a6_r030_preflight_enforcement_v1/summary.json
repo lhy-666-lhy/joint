@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_r030_preflight_enforcement_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "failure_class": null,
+  "claim_supported": "yes",
+  "checks": {
+    "regression_suite_passed": true,
+    "enforcement_enabled": true,
+    "active_contract_path_frozen": true,
+    "preflight_audit_path_frozen": true
+  },
+  "evidence": {
+    "audit": "audit.json"
+  },
+  "decision": "Every Architecture 6 launch is rejected unless its active contract and passed preflight audit match the iteration, resource mode and contract hash.",
+  "remaining_work": [],
+  "next_run_ids": [],
+  "event_id": "a6_r030_preflight_enforcement_v1_terminal"
+}

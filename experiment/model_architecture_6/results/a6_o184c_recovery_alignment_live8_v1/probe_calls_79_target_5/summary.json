@@ -1,0 +1,2679 @@
+{
+  "schema_version": 1,
+  "run_id": "a6_o184c_recovery_alignment_live8_v1",
+  "complete": true,
+  "terminal": true,
+  "status": "passed",
+  "scientific_scope": "corrected live8 baseline versus full-horizon recovery alignments",
+  "execute_prefix": 8,
+  "rows": [
+    {
+      "arm": "baseline_mlp",
+      "target": "45146/link_1",
+      "trajectory_relative_path": "data/single/45146/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00004_candidate_000004.npz",
+      "max_calls": 79,
+      "execute_prefix": 8,
+      "max_physics_steps": 632,
+      "calls": 79,
+      "physics_steps": 632,
+      "termination": "max_calls",
+      "final_progress": 0.20043056752419688,
+      "contact_fraction": 0.9240506329113924,
+      "gripper_contact_fraction": 0.9240506329113924,
+      "inference_seconds": 0.26693227607756853,
+      "observation_seconds": 5.251490659080446,
+      "execution_seconds": 0.21748734172433615,
+      "wall_seconds": 5.796242064796388,
+      "trace": [
+        {
+          "call": 1,
+          "progress": 4.582867078071716e-05,
+          "target_qpos": 0.16434712707996368,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 2,
+          "progress": 0.00038676893736299306,
+          "target_qpos": 0.16488267481327057,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 3,
+          "progress": 0.001035542026721976,
+          "target_qpos": 0.1659017652273178,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 4,
+          "progress": 0.0020700974705912933,
+          "target_qpos": 0.16752684116363525,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 5,
+          "progress": 0.003435670434274799,
+          "target_qpos": 0.16967187821865082,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 6,
+          "progress": 0.005059917832826571,
+          "target_qpos": 0.17222324013710022,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 7,
+          "progress": 0.006950134687532135,
+          "target_qpos": 0.17519238591194153,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 8,
+          "progress": 0.00902964264071802,
+          "target_qpos": 0.17845886945724487,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 9,
+          "progress": 0.011366117481527185,
+          "target_qpos": 0.18212899565696716,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 10,
+          "progress": 0.01384607372278312,
+          "target_qpos": 0.1860245019197464,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 11,
+          "progress": 0.016497894594246932,
+          "target_qpos": 0.19018997251987457,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 12,
+          "progress": 0.019275893720741653,
+          "target_qpos": 0.19455364346504211,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 13,
+          "progress": 0.022162891279708,
+          "target_qpos": 0.19908852875232697,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 14,
+          "progress": 0.02531975719437086,
+          "target_qpos": 0.2040473222732544,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 15,
+          "progress": 0.02854666100519891,
+          "target_qpos": 0.209116131067276,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 16,
+          "progress": 0.03182413667359931,
+          "target_qpos": 0.214264377951622,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 17,
+          "progress": 0.03518938975676559,
+          "target_qpos": 0.2195505052804947,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 18,
+          "progress": 0.03878095925450764,
+          "target_qpos": 0.225192129611969,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 19,
+          "progress": 0.042330447199034366,
+          "target_qpos": 0.2307676523923874,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 20,
+          "progress": 0.04598416193012034,
+          "target_qpos": 0.2365068942308426,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 21,
+          "progress": 0.04970334212530437,
+          "target_qpos": 0.24234896898269653,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 22,
+          "progress": 0.053500889252659695,
+          "target_qpos": 0.24831414222717285,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 23,
+          "progress": 0.05741026175181446,
+          "target_qpos": 0.25445497035980225,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 24,
+          "progress": 0.061389112451093,
+          "target_qpos": 0.2607049345970154,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 25,
+          "progress": 0.06548993894190507,
+          "target_qpos": 0.267146497964859,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 26,
+          "progress": 0.06957099583016962,
+          "target_qpos": 0.27355700731277466,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 27,
+          "progress": 0.07367586351612816,
+          "target_qpos": 0.28000491857528687,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 28,
+          "progress": 0.07777004954543196,
+          "target_qpos": 0.2864360511302948,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 29,
+          "progress": 0.08188421387750208,
+          "target_qpos": 0.292898565530777,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 30,
+          "progress": 0.08609629655769858,
+          "target_qpos": 0.29951488971710205,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 31,
+          "progress": 0.09018133772286811,
+          "target_qpos": 0.3059316575527191,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 32,
+          "progress": 0.09429083475913529,
+          "target_qpos": 0.3123868405818939,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 33,
+          "progress": 0.09833295957021415,
+          "target_qpos": 0.31873619556427,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 34,
+          "progress": 0.1023446141493436,
+          "target_qpos": 0.3250376880168915,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 35,
+          "progress": 0.10635053895882876,
+          "target_qpos": 0.33133018016815186,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 36,
+          "progress": 0.11031887875617705,
+          "target_qpos": 0.3375636339187622,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 37,
+          "progress": 0.11420546498598483,
+          "target_qpos": 0.343668669462204,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 38,
+          "progress": 0.11807023255655112,
+          "target_qpos": 0.3497394323348999,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 39,
+          "progress": 0.1217228089228071,
+          "target_qpos": 0.35547688603401184,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 40,
+          "progress": 0.1253189982844842,
+          "target_qpos": 0.36112576723098755,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 41,
+          "progress": 0.12884329990714738,
+          "target_qpos": 0.3666617274284363,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 42,
+          "progress": 0.13230546578284022,
+          "target_qpos": 0.3721000850200653,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 43,
+          "progress": 0.13569221498854614,
+          "target_qpos": 0.37741997838020325,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 44,
+          "progress": 0.13903219637248662,
+          "target_qpos": 0.3826664090156555,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 45,
+          "progress": 0.14231260333032425,
+          "target_qpos": 0.3878192603588104,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 46,
+          "progress": 0.14552825630208258,
+          "target_qpos": 0.39287039637565613,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 47,
+          "progress": 0.14853223033370405,
+          "target_qpos": 0.3975890278816223,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 48,
+          "progress": 0.1516431537411032,
+          "target_qpos": 0.40247565507888794,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 49,
+          "progress": 0.154630868128403,
+          "target_qpos": 0.40716874599456787,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 50,
+          "progress": 0.1575517794729295,
+          "target_qpos": 0.4117569029331207,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 51,
+          "progress": 0.16040302288986055,
+          "target_qpos": 0.41623562574386597,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 52,
+          "progress": 0.16316716242455012,
+          "target_qpos": 0.4205775260925293,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 53,
+          "progress": 0.16583184681859284,
+          "target_qpos": 0.42476320266723633,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 54,
+          "progress": 0.1683952357155135,
+          "target_qpos": 0.42878976464271545,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 55,
+          "progress": 0.17087339903216223,
+          "target_qpos": 0.43268245458602905,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 56,
+          "progress": 0.173300070313001,
+          "target_qpos": 0.43649426102638245,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 57,
+          "progress": 0.1756457089906916,
+          "target_qpos": 0.440178781747818,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 58,
+          "progress": 0.17798244944996108,
+          "target_qpos": 0.4438493251800537,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 59,
+          "progress": 0.18022927806040848,
+          "target_qpos": 0.44737863540649414,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 60,
+          "progress": 0.1823447393694749,
+          "target_qpos": 0.45070159435272217,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 61,
+          "progress": 0.18440711493196943,
+          "target_qpos": 0.4539411664009094,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 62,
+          "progress": 0.18642351952807948,
+          "target_qpos": 0.4571085274219513,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 63,
+          "progress": 0.18842768670226712,
+          "target_qpos": 0.4602566659450531,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 64,
+          "progress": 0.19037004066618626,
+          "target_qpos": 0.4633077085018158,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 65,
+          "progress": 0.1922495758642371,
+          "target_qpos": 0.46626007556915283,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 66,
+          "progress": 0.19409864083033848,
+          "target_qpos": 0.46916458010673523,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 67,
+          "progress": 0.19591342204231,
+          "target_qpos": 0.47201523184776306,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 68,
+          "progress": 0.19773002463800948,
+          "target_qpos": 0.4748687446117401,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 69,
+          "progress": 0.1993084054202862,
+          "target_qpos": 0.47734805941581726,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 70,
+          "progress": 0.19981213185755717,
+          "target_qpos": 0.47813931107521057,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 71,
+          "progress": 0.20018982233540097,
+          "target_qpos": 0.4787325859069824,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 72,
+          "progress": 0.2004058080891446,
+          "target_qpos": 0.47907185554504395,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 73,
+          "progress": 0.2004281769580539,
+          "target_qpos": 0.47910699248313904,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 74,
+          "progress": 0.2004281769580539,
+          "target_qpos": 0.47910699248313904,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 75,
+          "progress": 0.20043056752419688,
+          "target_qpos": 0.4791107475757599,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 76,
+          "progress": 0.20043056752419688,
+          "target_qpos": 0.4791107475757599,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 77,
+          "progress": 0.20043056752419688,
+          "target_qpos": 0.4791107475757599,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 78,
+          "progress": 0.20043056752419688,
+          "target_qpos": 0.4791107475757599,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 79,
+          "progress": 0.20043056752419688,
+          "target_qpos": 0.4791107475757599,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 728,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "time_aligned",
+      "target": "45146/link_1",
+      "trajectory_relative_path": "data/single/45146/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00004_candidate_000004.npz",
+      "max_calls": 79,
+      "execute_prefix": 8,
+      "max_physics_steps": 632,
+      "calls": 79,
+      "physics_steps": 632,
+      "termination": "max_calls",
+      "final_progress": 0.19461819053874632,
+      "contact_fraction": 0.5949367088607594,
+      "gripper_contact_fraction": 0.5949367088607594,
+      "inference_seconds": 0.07687363121658564,
+      "observation_seconds": 4.373725704848766,
+      "execution_seconds": 0.1974894367158413,
+      "wall_seconds": 4.692828414961696,
+      "trace": [
+        {
+          "call": 1,
+          "progress": 3.3600735231898194e-05,
+          "target_qpos": 0.16432791948318481,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 2,
+          "progress": 0.000720860042218157,
+          "target_qpos": 0.1654074639081955,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 3,
+          "progress": 0.0021238472633140306,
+          "target_qpos": 0.1676112711429596,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 4,
+          "progress": 0.004199427857836446,
+          "target_qpos": 0.1708715856075287,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 5,
+          "progress": 0.00697292095687912,
+          "target_qpos": 0.17522817850112915,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 6,
+          "progress": 0.010377039712616004,
+          "target_qpos": 0.18057535588741302,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 7,
+          "progress": 0.014359400370120352,
+          "target_qpos": 0.18683083355426788,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 8,
+          "progress": 0.018849585578283642,
+          "target_qpos": 0.1938840001821518,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 9,
+          "progress": 0.023872667822486423,
+          "target_qpos": 0.2017742395401001,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 10,
+          "progress": 0.029205015331876985,
+          "target_qpos": 0.21015027165412903,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 11,
+          "progress": 0.034861047394301875,
+          "target_qpos": 0.21903474628925323,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 12,
+          "progress": 0.040698790942714065,
+          "target_qpos": 0.2282046526670456,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 13,
+          "progress": 0.0465745843355687,
+          "target_qpos": 0.23743432760238647,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 14,
+          "progress": 0.05274134377896901,
+          "target_qpos": 0.24712105095386505,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 15,
+          "progress": 0.058931629428855804,
+          "target_qpos": 0.25684472918510437,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 16,
+          "progress": 0.06509282037096274,
+          "target_qpos": 0.26652270555496216,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 17,
+          "progress": 0.07142901593293362,
+          "target_qpos": 0.27647557854652405,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 18,
+          "progress": 0.07779255122357144,
+          "target_qpos": 0.2864713966846466,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 19,
+          "progress": 0.08394055610639765,
+          "target_qpos": 0.29612866044044495,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 20,
+          "progress": 0.09017412807894484,
+          "target_qpos": 0.3059203326702118,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 21,
+          "progress": 0.09625176304253044,
+          "target_qpos": 0.31546705961227417,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 22,
+          "progress": 0.10232104999736279,
+          "target_qpos": 0.32500067353248596,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 23,
+          "progress": 0.108135096584564,
+          "target_qpos": 0.3341333568096161,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 24,
+          "progress": 0.11390470899790124,
+          "target_qpos": 0.34319624304771423,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 25,
+          "progress": 0.11931655231791949,
+          "target_qpos": 0.3516971468925476,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 26,
+          "progress": 0.12448911135067367,
+          "target_qpos": 0.35982218384742737,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 27,
+          "progress": 0.12941388630543316,
+          "target_qpos": 0.36755800247192383,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 28,
+          "progress": 0.13442026304575583,
+          "target_qpos": 0.37542200088500977,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 29,
+          "progress": 0.1391453688093349,
+          "target_qpos": 0.3828441798686981,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 30,
+          "progress": 0.14391077268789565,
+          "target_qpos": 0.39032965898513794,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 31,
+          "progress": 0.14845766743733965,
+          "target_qpos": 0.39747190475463867,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 32,
+          "progress": 0.15291618713048202,
+          "target_qpos": 0.4044753313064575,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 33,
+          "progress": 0.15726339371599846,
+          "target_qpos": 0.41130390763282776,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 34,
+          "progress": 0.16134177544691256,
+          "target_qpos": 0.41771021485328674,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 35,
+          "progress": 0.16518952446327048,
+          "target_qpos": 0.4237542450428009,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 36,
+          "progress": 0.16893766655700418,
+          "target_qpos": 0.42964181303977966,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 37,
+          "progress": 0.17261187185503,
+          "target_qpos": 0.4354132413864136,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 38,
+          "progress": 0.17606889611624071,
+          "target_qpos": 0.44084352254867554,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 39,
+          "progress": 0.1793469504534297,
+          "target_qpos": 0.44599267840385437,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 40,
+          "progress": 0.18248511872575995,
+          "target_qpos": 0.4509221017360687,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 41,
+          "progress": 0.18522835029307202,
+          "target_qpos": 0.4552311599254608,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 42,
+          "progress": 0.18684644103516826,
+          "target_qpos": 0.4577728509902954,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 43,
+          "progress": 0.1883384199268487,
+          "target_qpos": 0.460116446018219,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 44,
+          "progress": 0.18978816548333644,
+          "target_qpos": 0.46239370107650757,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 45,
+          "progress": 0.19122352969747194,
+          "target_qpos": 0.46464836597442627,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 46,
+          "progress": 0.19209612428515432,
+          "target_qpos": 0.46601903438568115,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 47,
+          "progress": 0.1928637236900172,
+          "target_qpos": 0.46722477674484253,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 48,
+          "progress": 0.19425068842613094,
+          "target_qpos": 0.4694034159183502,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 1
+        },
+        {
+          "call": 49,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 50,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 51,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 52,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 53,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 54,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 55,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 56,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 57,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 58,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 59,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 60,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 61,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 62,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 63,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 64,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 65,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 66,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 67,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 68,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 69,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 70,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 71,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 72,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 73,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 74,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 75,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 76,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 77,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 78,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        },
+        {
+          "call": 79,
+          "progress": 0.19461819053874632,
+          "target_qpos": 0.4699806869029999,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 728,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "progress_aligned",
+      "target": "45146/link_1",
+      "trajectory_relative_path": "data/single/45146/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00004_candidate_000004.npz",
+      "max_calls": 79,
+      "execute_prefix": 8,
+      "max_physics_steps": 632,
+      "calls": 79,
+      "physics_steps": 632,
+      "termination": "max_calls",
+      "final_progress": 0.026551799963496433,
+      "contact_fraction": 0.9873417721518988,
+      "gripper_contact_fraction": 0.9873417721518988,
+      "inference_seconds": 0.0766528993844986,
+      "observation_seconds": 4.125103871338069,
+      "execution_seconds": 0.2052662493661046,
+      "wall_seconds": 4.462683432735503,
+      "trace": [
+        {
+          "call": 1,
+          "progress": 0.00023485415080070685,
+          "target_qpos": 0.1646440476179123,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 2,
+          "progress": 0.0009402988359460704,
+          "target_qpos": 0.16575215756893158,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 3,
+          "progress": 0.0019570293838524467,
+          "target_qpos": 0.16734923422336578,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 4,
+          "progress": 0.0030731202086698626,
+          "target_qpos": 0.16910238564014435,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 5,
+          "progress": 0.004133516534179973,
+          "target_qpos": 0.17076805233955383,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 6,
+          "progress": 0.005071348912994397,
+          "target_qpos": 0.1722411960363388,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 7,
+          "progress": 0.0060622101201392295,
+          "target_qpos": 0.1737976372241974,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 8,
+          "progress": 0.007017658694697762,
+          "target_qpos": 0.17529845237731934,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 9,
+          "progress": 0.00795955124140582,
+          "target_qpos": 0.17677797377109528,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 10,
+          "progress": 0.00895148440876556,
+          "target_qpos": 0.17833609879016876,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 11,
+          "progress": 0.009918933245906914,
+          "target_qpos": 0.17985576391220093,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 12,
+          "progress": 0.010878147910778001,
+          "target_qpos": 0.18136249482631683,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 13,
+          "progress": 0.011713147999949911,
+          "target_qpos": 0.1826741099357605,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 14,
+          "progress": 0.012632643218627898,
+          "target_qpos": 0.18411844968795776,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 15,
+          "progress": 0.013547034768318093,
+          "target_qpos": 0.18555477261543274,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 16,
+          "progress": 0.014326046280601619,
+          "target_qpos": 0.18677844107151031,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 17,
+          "progress": 0.015046640704359444,
+          "target_qpos": 0.18791034817695618,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 18,
+          "progress": 0.01580463041278247,
+          "target_qpos": 0.18910099565982819,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 19,
+          "progress": 0.01652101288666933,
+          "target_qpos": 0.19022628664970398,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 20,
+          "progress": 0.01737100144610279,
+          "target_qpos": 0.19156144559383392,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 21,
+          "progress": 0.018168426009511417,
+          "target_qpos": 0.19281403720378876,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 22,
+          "progress": 0.018849092286857314,
+          "target_qpos": 0.19388322532176971,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 23,
+          "progress": 0.01956640442535533,
+          "target_qpos": 0.1950099766254425,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 24,
+          "progress": 0.020183900941010312,
+          "target_qpos": 0.19597993791103363,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 25,
+          "progress": 0.020779151910612557,
+          "target_qpos": 0.19691495597362518,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 26,
+          "progress": 0.021559880456514652,
+          "target_qpos": 0.19814132153987885,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 27,
+          "progress": 0.022171353124944268,
+          "target_qpos": 0.19910182058811188,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 28,
+          "progress": 0.022768397019153747,
+          "target_qpos": 0.20003965497016907,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 29,
+          "progress": 0.023285489756803533,
+          "target_qpos": 0.2008519023656845,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 2
+        },
+        {
+          "call": 30,
+          "progress": 0.023835661479138136,
+          "target_qpos": 0.2017161101102829,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 31,
+          "progress": 0.024390196933321038,
+          "target_qpos": 0.20258717238903046,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 32,
+          "progress": 0.024757850827913767,
+          "target_qpos": 0.20316468179225922,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 33,
+          "progress": 0.025008224685896686,
+          "target_qpos": 0.20355796813964844,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 34,
+          "progress": 0.025300490369623264,
+          "target_qpos": 0.2040170580148697,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 35,
+          "progress": 0.025604576074834587,
+          "target_qpos": 0.20449471473693848,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 36,
+          "progress": 0.025840815236178448,
+          "target_qpos": 0.20486579835414886,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 37,
+          "progress": 0.02618467730582437,
+          "target_qpos": 0.20540593564510345,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 38,
+          "progress": 0.026593767680228766,
+          "target_qpos": 0.20604853332042694,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 39,
+          "progress": 0.026980735831437008,
+          "target_qpos": 0.20665638148784637,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 40,
+          "progress": 0.02734012709463872,
+          "target_qpos": 0.2072209119796753,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 41,
+          "progress": 0.02754785021699131,
+          "target_qpos": 0.20754720270633698,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 42,
+          "progress": 0.027650056405977327,
+          "target_qpos": 0.2077077478170395,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 43,
+          "progress": 0.027733308820543996,
+          "target_qpos": 0.2078385204076767,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 44,
+          "progress": 0.02789526967673095,
+          "target_qpos": 0.20809292793273926,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 45,
+          "progress": 0.028051633572503783,
+          "target_qpos": 0.20833854377269745,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 46,
+          "progress": 0.028262411307150185,
+          "target_qpos": 0.20866963267326355,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 47,
+          "progress": 0.028485976673386815,
+          "target_qpos": 0.20902080833911896,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 48,
+          "progress": 0.028719123276942534,
+          "target_qpos": 0.20938703417778015,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 49,
+          "progress": 0.02885950263322758,
+          "target_qpos": 0.2096075415611267,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 50,
+          "progress": 0.029017972503935896,
+          "target_qpos": 0.20985646545886993,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 51,
+          "progress": 0.029632395434549905,
+          "target_qpos": 0.21082159876823425,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 52,
+          "progress": 0.029770289360956135,
+          "target_qpos": 0.21103820204734802,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 53,
+          "progress": 0.02986337914492864,
+          "target_qpos": 0.21118442714214325,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 54,
+          "progress": 0.02998723323843165,
+          "target_qpos": 0.21137897670269012,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 55,
+          "progress": 0.03009285452190764,
+          "target_qpos": 0.21154488623142242,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 56,
+          "progress": 0.03016161175763909,
+          "target_qpos": 0.21165288984775543,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 57,
+          "progress": 0.03021970630946296,
+          "target_qpos": 0.21174414455890656,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 58,
+          "progress": 0.03026824808308849,
+          "target_qpos": 0.21182039380073547,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 59,
+          "progress": 0.03030005589371315,
+          "target_qpos": 0.21187035739421844,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 60,
+          "progress": 0.03032771815908193,
+          "target_qpos": 0.2119138091802597,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 61,
+          "progress": 0.03035602549785437,
+          "target_qpos": 0.21195827424526215,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 62,
+          "progress": 0.03037666784677154,
+          "target_qpos": 0.21199069917201996,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 63,
+          "progress": 0.030393582050870487,
+          "target_qpos": 0.2120172679424286,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 64,
+          "progress": 0.03039906517480161,
+          "target_qpos": 0.21202588081359863,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 65,
+          "progress": 0.030381259251585836,
+          "target_qpos": 0.21199791133403778,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 66,
+          "progress": 0.030329530056436335,
+          "target_qpos": 0.21191665530204773,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 67,
+          "progress": 0.030250783669321712,
+          "target_qpos": 0.2117929607629776,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 68,
+          "progress": 0.030157836180952954,
+          "target_qpos": 0.21164695918560028,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 69,
+          "progress": 0.03001332076578561,
+          "target_qpos": 0.2114199548959732,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 70,
+          "progress": 0.029873586482904228,
+          "target_qpos": 0.21120046079158783,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 71,
+          "progress": 0.029735398478916913,
+          "target_qpos": 0.21098339557647705,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 72,
+          "progress": 0.029562623156845044,
+          "target_qpos": 0.2107120007276535,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 73,
+          "progress": 0.029360487508532995,
+          "target_qpos": 0.210394486784935,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 74,
+          "progress": 0.02908339053616604,
+          "target_qpos": 0.2099592238664627,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 75,
+          "progress": 0.02876698203167007,
+          "target_qpos": 0.2094622105360031,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 3
+        },
+        {
+          "call": 76,
+          "progress": 0.028484060425922997,
+          "target_qpos": 0.2090177983045578,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 77,
+          "progress": 0.028090489758700807,
+          "target_qpos": 0.20839957892894745,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 78,
+          "progress": 0.027189179918181924,
+          "target_qpos": 0.2069838047027588,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 1
+        },
+        {
+          "call": 79,
+          "progress": 0.026551799963496433,
+          "target_qpos": 0.20598261058330536,
+          "target_contact": false,
+          "gripper_contact": false,
+          "contact_points": 0
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 728,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    },
+    {
+      "arm": "repeat_last",
+      "target": "45146/link_1",
+      "trajectory_relative_path": "data/single/45146/link_1/repeat_1/base_0000/trajectory/base_0000_cluster_00004_candidate_000004.npz",
+      "max_calls": 79,
+      "execute_prefix": 8,
+      "max_physics_steps": 632,
+      "calls": 79,
+      "physics_steps": 632,
+      "termination": "max_calls",
+      "final_progress": 0.0028496497061690647,
+      "contact_fraction": 1.0,
+      "gripper_contact_fraction": 1.0,
+      "inference_seconds": 0.0,
+      "observation_seconds": 2.6104113524779677,
+      "execution_seconds": 0.19997677393257618,
+      "wall_seconds": 2.8412632383406162,
+      "trace": [
+        {
+          "call": 1,
+          "progress": 4.358988661506838e-05,
+          "target_qpos": 0.16434361040592194,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 2,
+          "progress": 0.00029096605054567515,
+          "target_qpos": 0.1647321879863739,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 3,
+          "progress": 0.0005207165323585895,
+          "target_qpos": 0.1650930792093277,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 4,
+          "progress": 0.000720935933206823,
+          "target_qpos": 0.16540758311748505,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 5,
+          "progress": 0.0008943183831880211,
+          "target_qpos": 0.165679931640625,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 6,
+          "progress": 0.001039924731317441,
+          "target_qpos": 0.16590864956378937,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 7,
+          "progress": 0.0011674215922764222,
+          "target_qpos": 0.16610892117023468,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 5
+        },
+        {
+          "call": 8,
+          "progress": 0.0012787062407816165,
+          "target_qpos": 0.1662837266921997,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 9,
+          "progress": 0.001362783969850028,
+          "target_qpos": 0.16641579568386078,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 10,
+          "progress": 0.0014587196658975114,
+          "target_qpos": 0.16656649112701416,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 11,
+          "progress": 0.001540729365524773,
+          "target_qpos": 0.16669531166553497,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 12,
+          "progress": 0.0016144290018931008,
+          "target_qpos": 0.16681107878684998,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 13,
+          "progress": 0.0016802549481873248,
+          "target_qpos": 0.16691447794437408,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 14,
+          "progress": 0.0017393645419846026,
+          "target_qpos": 0.16700732707977295,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 15,
+          "progress": 0.0017929910118507574,
+          "target_qpos": 0.16709156334400177,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 16,
+          "progress": 0.0018417604584422844,
+          "target_qpos": 0.16716817021369934,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 17,
+          "progress": 0.0018866310054910925,
+          "target_qpos": 0.16723865270614624,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 18,
+          "progress": 0.001927754434974514,
+          "target_qpos": 0.16730324923992157,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 19,
+          "progress": 0.0019659845205150417,
+          "target_qpos": 0.16736330091953278,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 20,
+          "progress": 0.002001131534641011,
+          "target_qpos": 0.16741850972175598,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 21,
+          "progress": 0.0020338120916353333,
+          "target_qpos": 0.1674698442220688,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 22,
+          "progress": 0.0020646902376488365,
+          "target_qpos": 0.16751834750175476,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 23,
+          "progress": 0.00209382289092302,
+          "target_qpos": 0.16756410896778107,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 24,
+          "progress": 0.0021215325881597156,
+          "target_qpos": 0.1676076352596283,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 25,
+          "progress": 0.0021480090568305873,
+          "target_qpos": 0.16764922440052032,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 26,
+          "progress": 0.0021733945925393847,
+          "target_qpos": 0.16768909990787506,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 27,
+          "progress": 0.00219982362934234,
+          "target_qpos": 0.16773061454296112,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 4
+        },
+        {
+          "call": 28,
+          "progress": 0.002227770485918617,
+          "target_qpos": 0.1677745133638382,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 29,
+          "progress": 0.002256210633921223,
+          "target_qpos": 0.16781918704509735,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 30,
+          "progress": 0.002283436526105172,
+          "target_qpos": 0.1678619533777237,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 31,
+          "progress": 0.0023086892525838038,
+          "target_qpos": 0.16790162026882172,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 32,
+          "progress": 0.002332234431817449,
+          "target_qpos": 0.16793860495090485,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 33,
+          "progress": 0.0023541859002891067,
+          "target_qpos": 0.1679730862379074,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 34,
+          "progress": 0.0023746195489874433,
+          "target_qpos": 0.16800518333911896,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 35,
+          "progress": 0.0023934879460445427,
+          "target_qpos": 0.16803482174873352,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 36,
+          "progress": 0.0024111610600301516,
+          "target_qpos": 0.16806258261203766,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 37,
+          "progress": 0.00242804680500835,
+          "target_qpos": 0.1680891066789627,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 38,
+          "progress": 0.0024440882627376386,
+          "target_qpos": 0.1681143045425415,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 39,
+          "progress": 0.0024592759468444335,
+          "target_qpos": 0.16813816130161285,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 40,
+          "progress": 0.002473619343702319,
+          "target_qpos": 0.16816069185733795,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 7
+        },
+        {
+          "call": 41,
+          "progress": 0.0024872228034207105,
+          "target_qpos": 0.16818206012248993,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 42,
+          "progress": 0.00250020964885619,
+          "target_qpos": 0.1682024598121643,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 43,
+          "progress": 0.002512589366382341,
+          "target_qpos": 0.16822190582752228,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 44,
+          "progress": 0.0025244663061085794,
+          "target_qpos": 0.16824056208133698,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 45,
+          "progress": 0.0025360301955065704,
+          "target_qpos": 0.16825872659683228,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 46,
+          "progress": 0.002547318980070647,
+          "target_qpos": 0.16827645897865295,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 47,
+          "progress": 0.0025583800916687254,
+          "target_qpos": 0.16829383373260498,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 48,
+          "progress": 0.002569204043927222,
+          "target_qpos": 0.16831083595752716,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 49,
+          "progress": 0.0025798667278348034,
+          "target_qpos": 0.16832758486270905,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 50,
+          "progress": 0.0025903301978971367,
+          "target_qpos": 0.16834402084350586,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 51,
+          "progress": 0.0026006418859821374,
+          "target_qpos": 0.16836021840572357,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 52,
+          "progress": 0.0026107638465954733,
+          "target_qpos": 0.1683761179447174,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 53,
+          "progress": 0.0026207529979786434,
+          "target_qpos": 0.16839180886745453,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 54,
+          "progress": 0.0026305619082637316,
+          "target_qpos": 0.16840721666812897,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 55,
+          "progress": 0.0026401621183299883,
+          "target_qpos": 0.16842229664325714,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 56,
+          "progress": 0.002649648491913246,
+          "target_qpos": 0.168437197804451,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 57,
+          "progress": 0.002659002056266338,
+          "target_qpos": 0.16845189034938812,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 58,
+          "progress": 0.002668289216004347,
+          "target_qpos": 0.1684664785861969,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 59,
+          "progress": 0.0026774815120065238,
+          "target_qpos": 0.16848091781139374,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 60,
+          "progress": 0.002686588430646451,
+          "target_qpos": 0.16849522292613983,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 61,
+          "progress": 0.0026956384310448784,
+          "target_qpos": 0.16850943863391876,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 62,
+          "progress": 0.002704650485948973,
+          "target_qpos": 0.16852359473705292,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 63,
+          "progress": 0.002713624595358735,
+          "target_qpos": 0.1685376912355423,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 64,
+          "progress": 0.0027225607592741632,
+          "target_qpos": 0.1685517281293869,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 65,
+          "progress": 0.0027314400049480926,
+          "target_qpos": 0.16856567561626434,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 66,
+          "progress": 0.002739750068207026,
+          "target_qpos": 0.16857872903347015,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 6
+        },
+        {
+          "call": 67,
+          "progress": 0.002745859292794644,
+          "target_qpos": 0.168588325381279,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 68,
+          "progress": 0.00275344839166125,
+          "target_qpos": 0.16860024631023407,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 69,
+          "progress": 0.0027615402683277687,
+          "target_qpos": 0.16861295700073242,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 70,
+          "progress": 0.002769926222575368,
+          "target_qpos": 0.16862612962722778,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 71,
+          "progress": 0.0027784639588003,
+          "target_qpos": 0.16863954067230225,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 72,
+          "progress": 0.0027871629633761472,
+          "target_qpos": 0.168653205037117,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 73,
+          "progress": 0.0027960137499293265,
+          "target_qpos": 0.16866710782051086,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 74,
+          "progress": 0.0028050068320862546,
+          "target_qpos": 0.16868123412132263,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 75,
+          "progress": 0.0028139809414960163,
+          "target_qpos": 0.168695330619812,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 76,
+          "progress": 0.002822926591785028,
+          "target_qpos": 0.1687093824148178,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 77,
+          "progress": 0.0028318437829532904,
+          "target_qpos": 0.16872338950634003,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 78,
+          "progress": 0.0028407420013743857,
+          "target_qpos": 0.16873736679553986,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        },
+        {
+          "call": 79,
+          "progress": 0.0028496497061690647,
+          "target_qpos": 0.16875135898590088,
+          "target_contact": true,
+          "gripper_contact": true,
+          "contact_points": 8
+        }
+      ],
+      "model_input_features": [],
+      "model_input_oracle_fields": [],
+      "evaluator_only_object_qpos": true,
+      "operation_start_index": 728,
+      "operation_start_command_source": "logged_operation_start_joint_command_qpos",
+      "operation_start_command_finger": [
+        0.0,
+        0.0
+      ],
+      "start_command_vs_logged_max_abs": 0.0,
+      "start_command_vs_raw_max_abs": 0.0,
+      "start_command_vs_repaired_max_abs": 0.0
+    }
+  ],
+  "checks": {
+    "all_configured_arms": true,
+    "finite": true,
+    "zero_model_oracle_fields": true,
+    "calls_bounded": true,
+    "prefix_exact": true,
+    "physics_budget_recorded": true,
+    "start_command_source_valid": true,
+    "start_command_finger_zero": true,
+    "start_command_matches_repaired": true
+  },
+  "decision": "live adapter valid; expand exact-paired bounded screen"
+}

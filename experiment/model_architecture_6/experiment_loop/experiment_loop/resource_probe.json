@@ -1,0 +1,101 @@
+{
+  "gpus": [
+    {
+      "index": 0,
+      "total_mib": 49140,
+      "used_mib": 16
+    },
+    {
+      "index": 1,
+      "total_mib": 49140,
+      "used_mib": 15
+    },
+    {
+      "index": 2,
+      "total_mib": 49140,
+      "used_mib": 15
+    },
+    {
+      "index": 3,
+      "total_mib": 49140,
+      "used_mib": 15
+    },
+    {
+      "index": 4,
+      "total_mib": 49140,
+      "used_mib": 15
+    },
+    {
+      "index": 5,
+      "total_mib": 49140,
+      "used_mib": 15
+    },
+    {
+      "index": 6,
+      "total_mib": 49140,
+      "used_mib": 15
+    },
+    {
+      "index": 7,
+      "total_mib": 49140,
+      "used_mib": 15
+    }
+  ],
+  "cpu_count": 128,
+  "cpu_used_percent": 26.200000000000003,
+  "target_memory_fraction": 0.8,
+  "target_cpu_fraction": 0.8,
+  "current_workers_per_gpu": 1,
+  "recommended_workers_per_gpu": 8,
+  "per_gpu": [
+    {
+      "gpu": 0,
+      "memory_cap": 2457,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 1,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 2,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 3,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 4,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 5,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 6,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    },
+    {
+      "gpu": 7,
+      "memory_cap": 2620,
+      "cpu_cap": 8,
+      "recommended_workers": 8
+    }
+  ],
+  "policy": "bounded_by_memory_cpu_and_configured_max"
+}
