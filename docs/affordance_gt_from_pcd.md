@@ -6,7 +6,7 @@
 核心算法：`joint_train/affordance/heatmap.py`、`joint_train/affordance/fps.py`  
 （当前工作树中该包位于 `data/joint_door.zarr/joint_train/affordance/`）。
 
----
+--- 
 
 ## 1. 一句话结论
 
