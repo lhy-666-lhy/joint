@@ -1,0 +1,15 @@
+# Stage-1 Point-M2AE affordance finetune (dual head)
+zarr: data/joint_door.zarr
+ckpts: ckpts/pre-train.pth
+out_dir: runs/stage1_dual
+batch_size: 32
+epoch: 100
+warmup_epoch: 10
+learning_rate: 4.0e-4
+iou_gt_thresh: 0.3
+# Head-cls: CE + Dice on binary label @ 0.3
+ce_weight: 1.0
+dice_weight: 1.0
+# Head-val (ReLU): MSE on GT-positive points only
+mse_weight: 10.0
+# Val score = prob * value; best by IoU@0.3

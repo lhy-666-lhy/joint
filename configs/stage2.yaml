@@ -1,0 +1,21 @@
+# Stage-2 diffusion action training (DP3-style head) — tiny subset debug
+zarr: data/joint_door.zarr
+stage1_ckpt: runs/stage1_dual/best.pth
+out_dir: runs/stage2_tiny100
+affordance_source: infer   # infer | gt
+unfreeze_stage1: false
+stage1_lr: 1.0e-5
+lr: 1.0e-4
+weight_decay: 1.0e-6
+batch_size: 64
+num_epochs: 1000
+warmup_steps: 500
+horizon: 16
+n_obs_steps: 2
+n_action_steps: 8
+checkpoint_every: 100
+val_every: 10
+max_val_episodes: 2   # quick val: first 2 real-val episodes only
+max_train_objects: 10
+traj_per_object: 10   # 10 objs × ≤10 traj ≈ 100 episodes
+use_ema: true
