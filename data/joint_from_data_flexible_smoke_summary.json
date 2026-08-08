@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "purpose": "stage2_primary_plus_optional_stage1_multiview_augmentation",
+  "source_zarr": "/inspire/hdd/global_user/liditao-253108110078/articu_sapien/jointTrain_new/data/joint_from_data_cam.zarr",
+  "data_root": "/inspire/hdd/global_user/liditao-253108110078/datasets/partnet-mobility/articu_dataset/collected_data_offline_fixed_base",
+  "n_source_replays_requested": 1,
+  "n_source_replays_accepted": 1,
+  "n_primary_replays": 816,
+  "n_stage1_aug_views": 2,
+  "n_points": 4096,
+  "stage1_aug_train_views": 0,
+  "stage1_aug_val_views": 2,
+  "views_per_replay_requested": 2,
+  "camera": {
+    "fov_deg": 55.0,
+    "elevation_deg": [
+      12.0,
+      55.0
+    ],
+    "target_side_half_angle_deg": 60.0,
+    "framing_margin": 1.35,
+    "min_target_pixels": 400,
+    "image_border_px": 3
+  },
+  "failures": []
+}
